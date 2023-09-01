@@ -11,6 +11,11 @@ install:
 	pip install --upgrade pip; \
 	pip install -r scripts/requirements.txt
 
+py:
+	source ${VENV_DIR}/bin/activate; \
+	python -m black .; \
+	python -m ruff .
+
 get_com:
 	source ${VENV_DIR}/bin/activate; \
-	python scripts/download_from_lesswrong.com.py
+	python scripts/download_from_lesswrong.com.py > log.txt 2>&1
