@@ -1,24 +1,22 @@
-import sys
 import json
 import logging as log
-import lib.lesswrong as lw
 from pathlib import Path
+from time import sleep
+
+import lib.lesswrong as lw
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.INFO)
 
-ROOT = Path("/tmp/lesswrong.com/")
+ROOT = Path("lesswrong.com/")
 COLLECTION_SLUG = "rationality"
 
-###
-def format_dirname(i: int, dirname: str) -> str:
 
+def format_dirname(i: int, dirname: str) -> str:
     # for dirname like "Abc/Bcd"
-    dirname = dirname.replace("/", "|")
+    dirname = dirname.replace("/", "|").replace(" ", "_")
 
     # numerated directory name
-    dirname = f"{i:02}_{dirname}"
-
-    return dirname
+    return f"{i:02}_{dirname}"
 
 
 def get_intro(sequence: dict) -> dict:
@@ -38,7 +36,6 @@ def get_intro(sequence: dict) -> dict:
 
 
 def write_collection(path: Path, collection: dict) -> dict:
-
     posts_for_download = {}
 
     for book_i, book in enumerate(collection["books"]):
@@ -55,7 +52,6 @@ def write_collection(path: Path, collection: dict) -> dict:
                 sequence["chapters"][0]["posts"].insert(0, intro_post)
 
             for chapter in sequence["chapters"]:
-
                 for post in chapter["posts"]:
                     post_dirname = format_dirname(post_i, post["title"])
                     post_p = path / book_dirname / sequence_dirname / post_dirname
@@ -76,8 +72,7 @@ def write_collection(path: Path, collection: dict) -> dict:
     return posts_for_download
 
 
-def write_post(path: Path, post: dict):
-
+def write_post(path: Path, post: dict) -> None:
     metadata = {
         "id": post["_id"],
         "modified_at": post["modifiedAt"] or post["postedAt"],
@@ -101,15 +96,9 @@ def write_post(path: Path, post: dict):
     p.write_text(post["contents"]["html"])
 
 
-def main():
+def main() -> None:
     log.info("Download collection '%s'", COLLECTION_SLUG)
     collection = lw.download_collection(COLLECTION_SLUG)
-
-    if "error" in collection:
-        log.critical(
-            "Collection '%s' not downloaded: %s", COLLECTION_SLUG, collection["error"]
-        )
-        sys.exit("Collection download error")
 
     collection = collection["data"]
     base_p = ROOT / collection["title"]
@@ -117,18 +106,14 @@ def main():
     log.info("Create directory tree at '%s'", base_p.absolute())
     posts_for_download = write_collection(base_p, collection)
 
-    for (id, path) in posts_for_download.items():
-        log.info("Download post _id=%s", id)
-        post = lw.download_post(id)
+    for post_id, path in posts_for_download.items():
+        log.info("Download post _id=%s", post_id)
+        post = lw.download_post(post_id)
 
-        if "error" in post:
-            log.error("Post _id='%s' not downloaded: %s", id, post["error"])
-            continue
-
-        log.info("Create data files for a post[%s] at '%s'", id, path.absolute())
+        log.info("Create data files for a post[%s] at '%s'", post_id, path.absolute())
         write_post(path, post["data"])
+        sleep(1)
 
 
-###
 if __name__ == "__main__":
     main()
