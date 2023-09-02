@@ -13,7 +13,7 @@ COLLECTION_SLUG = "rationality"
 
 def format_dirname(i: int, dirname: str) -> str:
     # for dirname like "Abc/Bcd"
-    dirname = dirname.replace("/", "|").replace(" ", "_")
+    dirname = dirname.replace("/", "|").strip().replace(" ", "_")
 
     # numerated directory name
     return f"{i:02}_{dirname}"
@@ -113,6 +113,8 @@ def main() -> None:
         log.info("Create data files for a post[%s] at '%s'", post_id, path.absolute())
         write_post(path, post["data"])
         sleep(1)
+
+    log.info("All done")
 
 
 if __name__ == "__main__":

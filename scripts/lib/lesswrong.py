@@ -35,7 +35,8 @@ def download_collection(slug: str) -> dict:
     if "errors" in collection:
         error = (
             "Invalid API request: "
-            + collection["errors"][0]["message"] + " / "
+            + collection["errors"][0]["message"]
+            + " / "
             + collection["errors"][0]["extensions"]["code"]
         )
         raise RuntimeError(error)
@@ -59,7 +60,8 @@ def download_post(post_id: str) -> dict:
     if "errors" in post:
         error = (
             "Invalid API request: "
-            + post["errors"][0]["message"] + " / "
+            + post["errors"][0]["message"]
+            + " / "
             + post["errors"][0]["extensions"]["code"]
         )
         raise RuntimeError(error)
