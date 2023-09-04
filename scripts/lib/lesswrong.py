@@ -13,16 +13,91 @@ API_HEADERS = {
 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
 }
 
-API_COLLECTION_QUERY = '{collection (input: {selector:{slug:"C_SLUG"}}) \
-{result {_id title createdAt contents {html user {displayName}} user {displayName} \
-version books {_id title contents {html user {displayName}} createdAt sequences \
-{_id title user {displayName} contents {editedAt html user {displayName}} \
-chapters {posts {title _id}}}}}}}'
+API_COLLECTION_QUERY = '''
+{
+  collection(input: {selector: {slug: "C_SLUG"}}) {
+    result {
+      _id
+      title
+      createdAt
+      contents {
+        html
+        user {
+          displayName
+        }
+      }
+      user {
+        displayName
+      }
+      version
+      books {
+        _id
+        title
+        contents {
+          html
+          user {
+            displayName
+          }
+        }
+        createdAt
+        sequences {
+          _id
+          title
+          user {
+            displayName
+          }
+          contents {
+            editedAt
+            html
+            user {
+              displayName
+            }
+          }
+          chapters {
+            posts {
+              title
+              _id
+            }
+          }
+        }
+      }
+    }
+  }
+}
+'''
 
-API_POST_QUERY = '{post(input:{selector:{_id:"POST_ID"}}) \
-{result{_id title author user{displayName}modifiedAt postedAt pageUrl \
-contents{html} tags{name} organizers{displayName} coauthors{displayName} \
-reviewedByUser{displayName}}}}'
+API_POST_QUERY = '''
+{
+  post(input: {selector: {_id: "POST_ID"}}) {
+    result {
+      _id
+      title
+      author
+      user {
+        displayName
+      }
+      modifiedAt
+      postedAt
+      pageUrl
+      contents {
+        html
+      }
+      tags {
+        name
+      }
+      organizers {
+        displayName
+      }
+      coauthors {
+        displayName
+      }
+      reviewedByUser {
+        displayName
+      }
+    }
+  }
+}
+'''
 
 REQUEST_TIMEOUT = 10
 
