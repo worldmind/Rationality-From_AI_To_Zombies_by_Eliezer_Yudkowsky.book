@@ -1,6 +1,8 @@
 import requests
 
-API_URL = "https://www.lesswrong.com/graphql"
+SITE_URL = "https://www.lesswrong.com"
+
+API_URL = f"{SITE_URL}/graphql"
 
 API_HEADERS = {
     "Accept": "application/json",
@@ -12,20 +14,29 @@ AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
 }
 
 API_COLLECTION_QUERY = '{collection (input: {selector:{slug:"C_SLUG"}}) \
-{result {title version books {title sequences {_id title user {displayName} \
-contents {editedAt html} chapters {posts {title _id}}}}}}}'
+{result {_id title createdAt contents {html user {displayName}} user {displayName} \
+version books {_id title contents {html user {displayName}} createdAt sequences \
+{_id title user {displayName} contents {editedAt html user {displayName}} \
+chapters {posts {title _id}}}}}}}'
 
 API_POST_QUERY = '{post(input:{selector:{_id:"POST_ID"}}) \
 {result{_id title author user{displayName}modifiedAt postedAt pageUrl \
 contents{html} tags{name} organizers{displayName} coauthors{displayName} \
 reviewedByUser{displayName}}}}'
 
+REQUEST_TIMEOUT = 10
+
 
 def download_collection(slug: str) -> dict:
     payload = {"query": None, "variables": None, "operationName": None}
     payload["query"] = API_COLLECTION_QUERY.replace("C_SLUG", slug)
 
-    response = requests.post(url=API_URL, json=payload, headers=API_HEADERS)
+    response = requests.post(
+        url=API_URL,
+        json=payload,
+        headers=API_HEADERS,
+        timeout=REQUEST_TIMEOUT,
+    )
     collection = response.json()
 
     if collection is None or not isinstance(collection, dict):
@@ -41,16 +52,19 @@ def download_collection(slug: str) -> dict:
         )
         raise RuntimeError(error)
 
-    collection["data"] = collection["data"]["collection"]["result"]
-
-    return collection
+    return collection["data"]["collection"]["result"]
 
 
 def download_post(post_id: str) -> dict:
     payload = {"query": None, "variables": None, "operationName": None}
     payload["query"] = API_POST_QUERY.replace("POST_ID", post_id)
 
-    response = requests.post(url=API_URL, json=payload, headers=API_HEADERS)
+    response = requests.post(
+        url=API_URL,
+        json=payload,
+        headers=API_HEADERS,
+        timeout=REQUEST_TIMEOUT,
+    )
     post = response.json()
 
     if post is None or not isinstance(post, dict):
@@ -66,6 +80,4 @@ def download_post(post_id: str) -> dict:
         )
         raise RuntimeError(error)
 
-    post["data"] = post["data"]["post"]["result"]
-
-    return post
+    return post["data"]["post"]["result"]
