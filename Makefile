@@ -10,6 +10,8 @@ install:
 	source ${VENV_DIR}/bin/activate; \
 	pip install --upgrade pip; \
 	pip install -r scripts/requirements.txt
+	sudo apt-get install herold docbook-xsl fop libxml2-utils pre-commit
+	pre-commit install
 
 py:
 	source ${VENV_DIR}/bin/activate; \
