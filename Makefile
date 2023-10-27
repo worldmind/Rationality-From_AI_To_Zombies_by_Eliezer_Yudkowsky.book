@@ -14,9 +14,7 @@ install:
 	pre-commit install
 
 py:
-	source ${VENV_DIR}/bin/activate; \
-	python -m black .; \
-	python -m ruff .
+	pre-commit run --all-files
 
 get_com:
 	source ${VENV_DIR}/bin/activate; \
