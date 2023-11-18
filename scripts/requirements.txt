@@ -1,3 +1,5 @@
 requests
 black
 ruff
+pathlib
+urllib3
