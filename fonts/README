@@ -1,0 +1,36 @@
+###
+To add a new font:
+
+1) Copy font files to the directory
+
+    fonts/
+
+2) Match the file name with the font family name in the
+
+    scripts/utils/fop_cfg.py
+    (FONTS_INFO)
+
+3) Run
+
+    make fop_cfg
+
+Alternatively
+
+1) Copy the font files to the directory
+
+    fonts/
+
+2) Edit manually
+
+    config/fop.xml
+
+Details can be read here:
+
+https://xmlgraphics.apache.org/fop/2.6/fonts.html
+
+###
+To find information about the fonts used in PDF file, use pdffonts
+utility from the poppler-utils package
+
+$ sudo apt-get install poppler-utils
+$ pdffonts myfile.pdf
