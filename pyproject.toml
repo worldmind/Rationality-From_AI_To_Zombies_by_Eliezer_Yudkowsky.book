@@ -1,7 +1,15 @@
-[tool.black]
+[tool.ruff]
+target-version = "py311"
 line-length = 120
 
-[tool.ruff]
-line-length = 120
+[tool.ruff.lint]
 select = ["ALL"]
-ignore = ["D", "C408", "T201"]
+ignore = [
+    "D",  # Docstrings
+    "C408",  # "Unnecessary {obj_type} call (rewrite as a literal)", dict() is more readable in many case
+    "T201",  # "print found" is not an issue for scripts
+    "INP001",  # File {filename} is part of an implicit namespace package. Add an __init__.py.
+    # Ignored because of "warning: The following rules may cause conflicts when used with the formatter"
+    "COM812",  # Trailing comma missing
+    "ISC001",  # Implicitly concatenated string literals on one line
+]
