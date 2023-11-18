@@ -13,7 +13,7 @@ API_HEADERS = {
 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
 }
 
-API_COLLECTION_QUERY = '''
+API_COLLECTION_QUERY = """
 {
   collection(input: {selector: {slug: "C_SLUG"}}) {
     result {
@@ -64,9 +64,9 @@ API_COLLECTION_QUERY = '''
     }
   }
 }
-'''
+"""
 
-API_POST_QUERY = '''
+API_POST_QUERY = """
 {
   post(input: {selector: {_id: "POST_ID"}}) {
     result {
@@ -97,7 +97,7 @@ API_POST_QUERY = '''
     }
   }
 }
-'''
+"""
 
 REQUEST_TIMEOUT = 10
 
@@ -147,12 +147,7 @@ def download_post(post_id: str) -> dict:
         raise RuntimeError(error)
 
     if "errors" in post:
-        error = (
-            "Invalid API request: "
-            + post["errors"][0]["message"]
-            + " / "
-            + post["errors"][0]["extensions"]["code"]
-        )
+        error = "Invalid API request: " + post["errors"][0]["message"] + " / " + post["errors"][0]["extensions"]["code"]
         raise RuntimeError(error)
 
     return post["data"]["post"]["result"]

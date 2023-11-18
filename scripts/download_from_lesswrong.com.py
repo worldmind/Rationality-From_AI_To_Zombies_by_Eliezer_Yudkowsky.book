@@ -99,9 +99,7 @@ def post_data(post: dict) -> dict:
 
     data["organizers"] = [o["displayName"] for o in post["organizers"]]
     data["coauthors"] = [c["displayName"] for c in post["coauthors"]]
-    data["reviewer"] = (
-        post["reviewedByUser"]["displayName"] if post.get("reviewedByUser") else None
-    )
+    data["reviewer"] = post["reviewedByUser"]["displayName"] if post.get("reviewedByUser") else None
 
     data["tags"] = [t["name"] for t in post["tags"]]
 
