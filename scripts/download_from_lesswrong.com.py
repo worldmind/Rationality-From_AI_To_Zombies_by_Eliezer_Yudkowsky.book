@@ -3,12 +3,15 @@ import logging as log
 from pathlib import Path
 from time import sleep
 
+import lib.html_normalizer as html_norm
+import lib.image_localizer as image_loc
 import lib.lesswrong as lw
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.INFO)
 
 ROOT = Path("lesswrong.com/")
 COLLECTION_SLUG = "rationality"
+IMG_DIR = ROOT / "book.english/img/"
 
 
 def format_dirname(i: int, dirname: str) -> str:
@@ -160,10 +163,19 @@ def write_data(path: Path, data: dict) -> None:
 
     if content:
         p = path / "content.html"
+
+        log.info("Replace relative urls with absolute for post _id=%s", data["id"])
+        content = html_norm.abs_urls(content, data["url"])
+
+        log.info("Download images for post _id=%s", data["id"])
+        content = image_loc.localize(content, path, IMG_DIR)
+
         p.write_text(content)
 
 
 def main() -> None:
+    IMG_DIR.mkdir(parents=True, exist_ok=True)
+
     log.info("Download collection '%s'", COLLECTION_SLUG)
     collection = lw.download_collection(COLLECTION_SLUG)
 

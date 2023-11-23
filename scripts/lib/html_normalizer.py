@@ -54,6 +54,14 @@ POTENTIAL_FOOTNOTES_RE = [
     )
 ]
 
+IMG_RE = {
+    "block": re.compile(r"""(?P<block>(?P<wrap><figure [^>]+?>)?<img (?P<attrs>[^>]+?)>)"""),
+    "size_attr": re.compile(r"""(width|height)=["'](\d+)["']"""),
+    "size_style": re.compile(r"""(width|height):\s*?([\d\.]+(?:px|%))"""),
+}
+
+IMG_DIR = "img"
+
 
 def remove_tags(html: str) -> str:
     for regex in FOR_REMOVING:
@@ -123,11 +131,64 @@ def flag_potential_footnotes(
     return html
 
 
-def normalize(html: str, url: str) -> str:
+def get_image_size(desc: re.Match) -> dict:
+    for attrs in desc["attrs"], desc["wrap"]:
+        if not attrs:
+            continue
+
+        for size_re in IMG_RE["size_attr"], IMG_RE["size_style"]:
+            sizes = dict(size_re.findall(attrs))
+
+            if not len(sizes):
+                continue
+
+            for k in sizes:
+                if sizes[k][-1].isnumeric():
+                    sizes[k] = f"{sizes[k]}px"
+
+            return sizes
+
+    return {}
+
+
+def fix_image_size(html: str) -> str:
+    img_sizes = []
+
+    for block in IMG_RE["block"].finditer(html):
+        size = get_image_size(block)
+
+        if len(size):
+            img_sizes.append(
+                [
+                    block["block"],
+                    " ".join(f'{k}="{v}"' for k, v in size.items()),
+                ]
+            )
+
+    for img in img_sizes:
+        block = IMG_RE["size_attr"].sub("", img[0]).replace("<img ", f"<img {img[1]} ")
+        html = html.replace(img[0], block)
+
+    return html
+
+
+def fix_image_src(
+    html: str,
+    src_re: Pattern[str] = re.compile(r"""(href|src)=["'](\.[^'"]+?/([^'"/]+?))['"]"""),
+) -> str:
+    return src_re.sub(
+        lambda x: x[0].replace(x[2], f"{IMG_DIR}/{x[3]}"),
+        html,
+    )
+
+
+def normalize(html: str) -> str:
     html = remove_tags(html)
     html = replace_blocks(html)
 
-    html = abs_urls(html, url)
+    html = fix_image_size(html)
+    html = fix_image_src(html)
+
     html = xml_urls(html)
     html = flag_potential_footnotes(html)
     return translate_symbols(html)
