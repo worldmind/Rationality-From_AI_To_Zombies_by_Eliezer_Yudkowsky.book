@@ -3,6 +3,9 @@
 
 <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/fo/docbook.xsl"/>
 
+<xsl:param name="paper.type">A4</xsl:param>
+<xsl:param name="page.orientation">portrait</xsl:param>
+
 <xsl:param name="section.autolabel">1</xsl:param>
 <xsl:param name="section.label.includes.component.label">1</xsl:param>
 <xsl:param name="keep.relative.image.uris">1</xsl:param>
