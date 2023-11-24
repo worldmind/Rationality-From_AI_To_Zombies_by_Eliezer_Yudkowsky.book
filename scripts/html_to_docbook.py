@@ -7,7 +7,6 @@ from pathlib import Path
 import lib.bibliography as bglib
 import lib.docbook_template as dbtemplate
 import lib.html_normalizer as html_norm
-import lib.image_localizer as image_loc
 from lib import footnote, herold
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.DEBUG)
@@ -78,16 +77,13 @@ def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
         content = content_p.read_text()
 
         log.debug("normalize html: %s", item_dir)
-        content = html_norm.normalize(content, meta["url"])
+        content = html_norm.normalize(content)
 
         log.debug("make markup for footnotes: %s", item_dir)
         content = footnote.make(content)
 
         log.debug("make markup for bibliography: %s", item_dir)
         content = bglib.make(content)
-
-        log.debug("localize images: %s", item_dir)
-        content = image_loc.localize(content)
 
         log.debug("convert html to docbook markup: %s", item_dir)
         content = herold.convert(content)

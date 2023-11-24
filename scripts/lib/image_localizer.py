@@ -1,13 +1,11 @@
 import hashlib
+import os
 import re
 from mimetypes import guess_extension
 from pathlib import Path
 from warnings import warn
 
 import requests
-
-BOOK_DIR = Path("lesswrong.com/book.english")
-IMAGES_DIR = Path("img")
 
 REQUEST_TIMEOUT = 10
 
@@ -21,7 +19,7 @@ iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HA\
 wCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
 
 
-def download_image(url: str) -> Path:
+def download_image(url: str, img_dir: Path, html_dir: Path) -> Path:
     response = requests.get(url=url, timeout=REQUEST_TIMEOUT, allow_redirects=True, headers=HEADERS)
 
     if not response.ok:
@@ -30,18 +28,18 @@ def download_image(url: str) -> Path:
 
     img_ext = guess_extension(response.headers["content-type"])
     img_name = hashlib.md5(url.encode("UTF-8")).hexdigest()
-    img_p = BOOK_DIR / IMAGES_DIR / f"{img_name}{img_ext}"
+    img_p = img_dir / f"{img_name}{img_ext}"
 
     img_p.write_bytes(response.content)
 
-    return img_p.relative_to(BOOK_DIR)
+    return Path(os.path.relpath(img_p.as_posix(), html_dir.as_posix()))
 
 
-def localize(html_content: str) -> str:
+def localize(html_content: str, html_dir: Path, img_dir: Path) -> str:
     downloaded = []
 
     for src in re.findall(r"""<img.+?src=['"]([^'"]+?)['"].*?>""", html_content):
-        file_p = download_image(src)
+        file_p = download_image(src, img_dir, html_dir)
         downloaded.append([src, file_p])
 
     for img in downloaded:
