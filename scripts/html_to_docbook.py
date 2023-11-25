@@ -108,6 +108,7 @@ def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
 def main() -> None:
     for book_dir in filter(lambda x: x.is_dir(), sorted(BASE_P.iterdir())):
         make_item(book_dir, 0, dict())
+    log.debug("All done!")
 
 
 if __name__ == "__main__":

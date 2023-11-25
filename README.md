@@ -6,3 +6,6 @@ After that, copy all translations from [https://lesswrong.ru/w](https://lesswron
 Original book released in 2015 was under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license - [https://www.readthesequences.com/About](https://www.readthesequences.com/About)
 
 Updates from 2018 will be under a bit more fresh CC license.
+
+
+Code for converting is released under GPLv3.
