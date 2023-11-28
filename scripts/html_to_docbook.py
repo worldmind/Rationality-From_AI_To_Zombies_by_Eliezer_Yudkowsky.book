@@ -14,7 +14,10 @@ log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.DEBUG)
 BASE_P = Path("lesswrong.com/Rationality: A-Z")
 
 BOOK_PATH = Path("lesswrong.com/book.english")
+CHUNK_PATH = BOOK_PATH / "dbk"
 BOOK_EXT = ".dbk"
+
+CACHE_FN = {}
 
 
 def collect_persons(book_info: dict, meta: dict) -> None:
@@ -48,14 +51,22 @@ def get_reviewers(book_info: dict) -> list:
     return list(filter(lambda x: not book_info["user"].get(x), book_info["reviewer"]))
 
 
-def title_to_filename(title: str) -> str:
+def gen_filename(title: str) -> str:
     title = re.sub(r"[^\w\d\s]", "", title)
     title = re.sub(r"^\s+|\s+$", "", title)
-    return re.sub(r"\s+", "_", title)
+    title = re.sub(r"\s+", "_", title)
+
+    if CACHE_FN.get(title):
+        title = f"{title}_{CACHE_FN[title]}"
+
+    CACHE_FN[title] = CACHE_FN.get(title, 0) + 1
+
+    return title
 
 
 def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
     log.info("make_item: %s", item_dir)
+
     meta_p = item_dir / "metadata"
     meta = meta_p.read_text()
     meta = json.loads(meta)
@@ -64,9 +75,10 @@ def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
     set_publication_date(book_info, meta)
 
     child_items = []
+    parent_p = CHUNK_PATH if level else BOOK_PATH
+
     for subdir in filter(lambda x: x.is_dir(), sorted(item_dir.iterdir())):
         child_p = make_item(subdir, level + 1, book_info)
-        parent_p = item_dir if level else BOOK_PATH
         child_p = Path(os.path.relpath(child_p.as_posix(), parent_p.as_posix()))
         child_items.append(child_p)
 
@@ -88,7 +100,8 @@ def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
         log.debug("convert html to docbook markup: %s", item_dir)
         content = herold.convert(content)
 
-    book_p = item_dir / f"content{BOOK_EXT}"
+    book_fn = f'{gen_filename(meta["title"])}{BOOK_EXT}'
+    book_p = CHUNK_PATH / book_fn
 
     if level == 0:
         authors = get_authors(book_info)
@@ -96,7 +109,7 @@ def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
         meta["coauthors"] = authors
         meta["reviewers"] = get_reviewers(book_info)
         meta["modified_at"] = book_info["modified_at"]
-        book_p = BOOK_PATH / f'{title_to_filename(meta["title"])}{BOOK_EXT}'
+        book_p = BOOK_PATH / book_fn
 
     log.debug("wrap docbook fragment: %s", item_dir)
     content = dbtemplate.wrap(level, meta, content, child_items)
@@ -106,8 +119,12 @@ def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
 
 
 def main() -> None:
+    CHUNK_PATH.mkdir(parents=True, exist_ok=True)
+    CACHE_FN.clear()
+
     for book_dir in filter(lambda x: x.is_dir(), sorted(BASE_P.iterdir())):
         make_item(book_dir, 0, dict())
+
     log.debug("All done!")
 
 
