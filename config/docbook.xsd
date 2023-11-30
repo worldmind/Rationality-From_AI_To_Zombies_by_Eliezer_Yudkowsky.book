@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified"
+	targetNamespace="http://docbook.org/ns/docbook"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:docbook="http://docbook.org/ns/docbook">
+
+	<xs:redefine schemaLocation="/usr/share/xml/docbook/schema/xsd/5.0/docbook.xsd">
+		<xs:attributeGroup name="db.common.attributes">
+			<xs:attributeGroup ref="docbook:db.common.attributes"/>
+			<xs:attribute name="doc_status"/>
+		</xs:attributeGroup>
+	</xs:redefine>
+
+</xs:schema>

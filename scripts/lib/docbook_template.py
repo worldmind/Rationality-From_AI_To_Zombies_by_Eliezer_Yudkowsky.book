@@ -7,7 +7,7 @@ TEMPLATES = dict(
 <book xml:id="book_{ITEM_ID}"
       xmlns="http://docbook.org/ns/docbook"
       version="5.0"
-      status="final;draft"
+      doc_status="final;draft"
       xml:lang="en"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -34,7 +34,7 @@ TEMPLATES = dict(
 </personname>
 """,
     coauthor='<othercredit role="coauthor">{COAUTHOR_DESC}</othercredit>',
-    reviewer='<othercredit role="reviewer" status="draft">{REVIEWER_DESC}</othercredit>',
+    reviewer='<othercredit role="reviewer" doc_status="draft">{REVIEWER_DESC}</othercredit>',
     incl_item='<xi:include href="{ITEM_PATH}"/>',
     chapter="""<chapter xml:id="chapter_{ITEM_ID}"
       xmlns="http://docbook.org/ns/docbook"
@@ -48,7 +48,7 @@ TEMPLATES = dict(
     <bibliosource class="uri">
       <link xlink:href="{ITEM_URL}"></link>
     </bibliosource>
-    <pubdate status="draft">{PUBLICATION_DATE}</pubdate>
+    <pubdate doc_status="draft">{PUBLICATION_DATE}</pubdate>
   </info>
   {ITEM_TAG_LIST}
   {ITEM_CONTENT}
@@ -67,7 +67,7 @@ TEMPLATES = dict(
     <bibliosource class="uri">
       <link xlink:href="{ITEM_URL}"></link>
     </bibliosource>
-    <pubdate status="draft">{PUBLICATION_DATE}</pubdate>
+    <pubdate doc_status="draft">{PUBLICATION_DATE}</pubdate>
   </info>
   {ITEM_TAG_LIST}
   {ITEM_CONTENT}

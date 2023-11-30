@@ -10,7 +10,7 @@ BOOK_DIR=lesswrong.com/book.english
 BOOK_EXT=.dbk
 LOG_FILE=log.txt
 XSL_DIR=xsl
-DOCBOOK_XSD=/usr/share/xml/docbook/schema/xsd/5.0/docbook.xsd
+DOCBOOK_XSD=config/docbook.xsd
 FOP_CFG=config/fop.xml
 
 DBK_FILES=$(wildcard $(BOOK_DIR)/*$(BOOK_EXT))
