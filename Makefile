@@ -1,20 +1,19 @@
 SHELL=/bin/bash
 
+CONFIG_DIR=config
+COMMON_VARS=$(CONFIG_DIR)/common.conf
+
+include $(COMMON_VARS)
+
 VENV_DIR=.venv
 
-FINAL_MODE=final
-DRAFT_MODE=draft
-
 DOC_MODE=$(FINAL_MODE)
-BOOK_DIR=lesswrong.com/book.english
-BOOK_EXT=.dbk
-LOG_FILE=log.txt
-XSL_DIR=xsl
-DOCBOOK_XSD=config/docbook.xsd
-FOP_CFG=config/fop.xml
+
+PROFILING_XSL=$(CONFIG_DIR)/profile-$(DOC_MODE).xsl
+FO_XSL=$(CONFIG_DIR)/fo-$(DOC_MODE).xsl
 
 DBK_FILES=$(wildcard $(BOOK_DIR)/*$(BOOK_EXT))
-PDF_FILES=$(subst $(BOOK_EXT),.pdf,$(DBK_FILES))
+PDF_FILES=$(subst $(BOOK_EXT),$(PDF_EXT),$(DBK_FILES))
 
 #.ONESHELL:
 
@@ -37,7 +36,7 @@ py:
 
 get_com:
 	source ${VENV_DIR}/bin/activate; \
-	python scripts/download_from_lesswrong.com.py > $(LOG_FILE) 2>&1
+	CONFIG_FILE=$(COMMON_VARS) python scripts/download_from_lesswrong.com.py > $(LOG_FILE) 2>&1
 
 book:
 	source ${VENV_DIR}/bin/activate; \
@@ -49,11 +48,11 @@ validate:
 pdf: $(PDF_FILES)
 
 %.pdf: %.fo
-	fop -c $(FOP_CFG) -pdf $@ -fo $< >> $(LOG_FILE) 2>&1
+	fop -c $(FOP_CONF) -pdf $@ -fo $< >> $(LOG_FILE) 2>&1
 
 %.fo: %$(BOOK_EXT)
-	xsltproc --xinclude $(XSL_DIR)/profile-$(DOC_MODE).xsl $< | \
-	xsltproc -o $@ --xinclude $(XSL_DIR)/fo-$(DOC_MODE).xsl - >> $(LOG_FILE) 2>&1
+	xsltproc --xinclude $(PROFILING_XSL) $< | \
+	xsltproc -o $@ --xinclude $(FO_XSL) - >> $(LOG_FILE) 2>&1
 
 check_links:
 	source ${VENV_DIR}/bin/activate; \
