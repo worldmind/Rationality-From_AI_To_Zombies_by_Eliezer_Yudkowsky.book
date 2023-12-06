@@ -13,7 +13,7 @@ PROFILING_XSL=$(CONFIG_DIR)/profile-$(DOC_MODE).xsl
 FO_XSL=$(CONFIG_DIR)/fo-$(DOC_MODE).xsl
 
 DBK_FILES=$(wildcard $(BOOK_DIR)/*$(BOOK_EXT))
-PDF_FILES=$(subst $(BOOK_EXT),$(PDF_EXT),$(DBK_FILES))
+PDF_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(PDF_DIR)/%.pdf,$(DBK_FILES))
 
 #.ONESHELL:
 
@@ -50,7 +50,7 @@ pdf: $(PDF_FILES)
 %.pdf: %.fo
 	fop -c $(FOP_CONF) -pdf $@ -fo $< >> $(LOG_FILE) 2>&1
 
-%.fo: %$(BOOK_EXT)
+$(PDF_DIR)/%.fo: $(BOOK_DIR)/%$(BOOK_EXT)
 	xsltproc --xinclude $(PROFILING_XSL) $< | \
 	xsltproc -o $@ --xinclude $(FO_XSL) - >> $(LOG_FILE) 2>&1
 
