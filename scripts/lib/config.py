@@ -9,12 +9,24 @@ VARS_RE = re.compile(r"""^\s*?(?P<name>[\w_\d]+?)=(?P<value>.+?)$""")
 
 
 class Config:
+    _instance = None
+
+    def __new__(cls: Self) -> Self:
+        if Config._instance:
+            return Config._instance
+
+        Config._instance = super().__new__(cls)
+        return Config._instance
+
     def __init__(self: Self) -> None:
-        self.file = os.environ["CONFIG_FILE"]
+        if hasattr(self, "data"):
+            return
+
+        file_p = Path(os.environ["CONFIG_FILE"])
         self.data = {}
 
         def load() -> None:
-            with Path(self.file).open() as f:
+            with file_p.open() as f:
                 while line := f.readline():
                     if m := VARS_RE.search(line):
                         self.data[m["name"]] = m["value"]

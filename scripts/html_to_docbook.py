@@ -8,16 +8,14 @@ import lib.bibliography as bglib
 import lib.docbook_template as dbtemplate
 import lib.html_normalizer as html_norm
 from lib import footnote, herold
+from lib.config import Config
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.DEBUG)
+conf = Config()
 
-BASE_P = Path("lesswrong.com/Rationality: A-Z")
-
-BOOK_PATH = Path("lesswrong.com/book.english")
-CHUNK_PATH = BOOK_PATH / "dbk"
-BOOK_EXT = ".dbk"
-
-CACHE_FN = {}
+HTML_PATH = Path(conf.get("HTML_SRC_DIR"))
+BOOK_PATH = Path(conf.get("BOOK_DIR"))
+BOOK_EXT = conf.get("BOOK_EXT")
 
 
 def collect_persons(book_info: dict, meta: dict) -> None:
@@ -51,57 +49,63 @@ def get_reviewers(book_info: dict) -> list:
     return list(filter(lambda x: not book_info["user"].get(x), book_info["reviewer"]))
 
 
-def gen_filename(title: str) -> str:
+def gen_filename(i: int, title: str) -> str:
     title = re.sub(r"[^\w\d\s]", "", title)
     title = re.sub(r"^\s+|\s+$", "", title)
     title = re.sub(r"\s+", "_", title)
 
-    if CACHE_FN.get(title):
-        title = f"{title}_{CACHE_FN[title]}"
-
-    CACHE_FN[title] = CACHE_FN.get(title, 0) + 1
-
-    return title
+    return f"{i:02}_{title}"
 
 
-def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
-    log.info("make_item: %s", item_dir)
+def prepare_content(html_dir: Path) -> str:
+    content_p = html_dir / "content.html"
 
-    meta_p = item_dir / "metadata"
+    if not content_p.exists():
+        return ""
+
+    content = content_p.read_text()
+
+    log.debug("normalize html: %s", html_dir)
+    content = html_norm.normalize(content)
+
+    log.debug("make markup for footnotes: %s", html_dir)
+    content = footnote.make(content)
+
+    log.debug("make markup for bibliography: %s", html_dir)
+    content = bglib.make(content)
+
+    log.debug("convert html to docbook markup: %s", html_dir)
+    return herold.convert(content)
+
+
+def make_item(
+    html_dir: Path,
+    book_dir: Path,
+    level: int,
+    item_num: int,
+    book_info: dict,
+) -> Path:
+    log.info("make_item: %s", html_dir)
+
+    meta_p = html_dir / "metadata"
     meta = meta_p.read_text()
     meta = json.loads(meta)
 
     collect_persons(book_info, meta)
     set_publication_date(book_info, meta)
 
+    book_dn = gen_filename(item_num, meta["title"])
     child_items = []
-    parent_p = CHUNK_PATH if level else BOOK_PATH
+    html_subdirs = [d for d in sorted(html_dir.iterdir()) if d.is_dir()]
 
-    for subdir in filter(lambda x: x.is_dir(), sorted(item_dir.iterdir())):
-        child_p = make_item(subdir, level + 1, book_info)
-        child_p = Path(os.path.relpath(child_p.as_posix(), parent_p.as_posix()))
-        child_items.append(child_p)
+    if len(html_subdirs):
+        book_subdir = book_dir / book_dn
+        book_subdir.mkdir(parents=True, exist_ok=True)
 
-    content_p = item_dir / "content.html"
-    content = ""
-
-    if content_p.exists():
-        content = content_p.read_text()
-
-        log.debug("normalize html: %s", item_dir)
-        content = html_norm.normalize(content)
-
-        log.debug("make markup for footnotes: %s", item_dir)
-        content = footnote.make(content)
-
-        log.debug("make markup for bibliography: %s", item_dir)
-        content = bglib.make(content)
-
-        log.debug("convert html to docbook markup: %s", item_dir)
-        content = herold.convert(content)
-
-    book_fn = f'{gen_filename(meta["title"])}{BOOK_EXT}'
-    book_p = CHUNK_PATH / book_fn
+        for i, html_subdir in enumerate(html_subdirs, 1):
+            child_p = make_item(html_subdir, book_subdir, level + 1, i, book_info)
+            child_p = Path(os.path.relpath(child_p.as_posix(), book_dir.as_posix()))
+            child_items.append(child_p)
 
     if level == 0:
         authors = get_authors(book_info)
@@ -109,21 +113,21 @@ def make_item(item_dir: Path, level: int, book_info: dict) -> Path:
         meta["coauthors"] = authors
         meta["reviewers"] = get_reviewers(book_info)
         meta["modified_at"] = book_info["modified_at"]
-        book_p = BOOK_PATH / book_fn
 
-    log.debug("wrap docbook fragment: %s", item_dir)
+    content = prepare_content(html_dir)
+
+    log.debug("wrap docbook fragment: %s", html_dir)
     content = dbtemplate.wrap(level, meta, content, child_items)
 
+    book_p = book_dir / f"{book_dn}{BOOK_EXT}"
     book_p.write_text(content)
+
     return book_p
 
 
 def main() -> None:
-    CHUNK_PATH.mkdir(parents=True, exist_ok=True)
-    CACHE_FN.clear()
-
-    for book_dir in filter(lambda x: x.is_dir(), sorted(BASE_P.iterdir())):
-        make_item(book_dir, 0, dict())
+    for i, html_dir in enumerate(filter(lambda x: x.is_dir(), sorted(HTML_PATH.iterdir())), 1):
+        make_item(html_dir, BOOK_PATH, 0, i, dict())
 
     log.debug("All done!")
 

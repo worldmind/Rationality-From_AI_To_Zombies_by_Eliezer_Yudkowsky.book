@@ -40,7 +40,7 @@ get_com:
 
 book:
 	source ${VENV_DIR}/bin/activate; \
-	python scripts/html_to_docbook.py > $(LOG_FILE) 2>&1
+	CONFIG_FILE=$(COMMON_VARS) python scripts/html_to_docbook.py > $(LOG_FILE) 2>&1
 
 validate:
 	xmllint --noout --xinclude --noent --schema $(DOCBOOK_XSD) $(DBK_FILES) >> $(LOG_FILE) 2>&1
@@ -60,4 +60,4 @@ check_links:
 
 fop_cfg:
 	source ${VENV_DIR}/bin/activate; \
-	python -u scripts/utils/fop_cfg.py 2>>$(LOG_FILE)
+	CONFIG_FILE=$(COMMON_VARS) python -u scripts/utils/fop_cfg.py 2>>$(LOG_FILE)

@@ -1,6 +1,10 @@
+import os
 import re
 import urllib.parse as url_parser
+from pathlib import Path
 from re import Pattern
+
+from lib.config import Config
 
 FOR_REMOVING = [
     "</?html>",
@@ -60,7 +64,10 @@ IMG_RE = {
     "size_style": re.compile(r"""(width|height):\s*?([\d\.]+(?:px|%))"""),
 }
 
-IMG_DIR = "img"
+IMG_DIRNAME = os.path.relpath(
+    Path(Config().get("IMAGES_DIR")).as_posix(),
+    Path(Config().get("BOOK_DIR")).as_posix(),
+)
 
 
 def remove_tags(html: str) -> str:
@@ -177,7 +184,7 @@ def fix_image_src(
     src_re: Pattern[str] = re.compile(r"""(href|src)=["'](\.[^'"]+?/([^'"/]+?))['"]"""),
 ) -> str:
     return src_re.sub(
-        lambda x: x[0].replace(x[2], f"{IMG_DIR}/{x[3]}"),
+        lambda x: x[0].replace(x[2], f"{IMG_DIRNAME}/{x[3]}"),
         html,
     )
 
