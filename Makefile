@@ -38,6 +38,8 @@ get_com:
 	source ${VENV_DIR}/bin/activate; \
 	CONFIG_FILE=$(COMMON_VARS) python scripts/download_from_lesswrong.com.py > $(LOG_FILE) 2>&1
 
+valid_book: book validate
+
 book:
 	source ${VENV_DIR}/bin/activate; \
 	CONFIG_FILE=$(COMMON_VARS) python scripts/html_to_docbook.py > $(LOG_FILE) 2>&1

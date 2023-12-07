@@ -32,7 +32,7 @@ FOOTNOTES_RE = [
             r"""<p>\[(\d+)\]\s+?(.+?)</p>""",
         ],
         [
-            r"""<span class="mjx-char MJXc-TeX-main-R"[^>]+?>(\d+)</span>""",
+            r"""<span class="mjpage">.+?>(\d+)</span></span></span></span></span>""",
             r"""<p class="mjx-desc">(\d+)\s+?(.+?)</p>""",
         ],
     )

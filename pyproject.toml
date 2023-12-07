@@ -1,6 +1,7 @@
 [tool.ruff]
 target-version = "py311"
 line-length = 120
+allowed-confusables = ["×"]
 
 [tool.ruff.lint]
 select = ["ALL"]

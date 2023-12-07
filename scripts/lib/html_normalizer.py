@@ -40,6 +40,18 @@ FOR_REPLACING = [
         " (2002). “Inside the Planning Fallacy.”",
     ],
     [chr(0x2715), chr(0x00D7)],
+    ["<span>&#x2014;Robert M. Pirsig,</span>", "<p>&#x2014;Robert M. Pirsig,</p>"],
+    [
+        "<em><em>Zen and the Art of Motorcycle Maintenance</em></em>",
+        "<p><em>Zen and the Art of Motorcycle Maintenance</em></p>",
+    ],
+    [
+        "P(A|X) = [P(X|A) × P(A)] / [P(X|A) × P(A) + P(X|¬A) × P(¬A)\n]",
+        "<p>P(A|X) = [P(X|A) × P(A)] / [P(X|A) × P(A) + P(X|¬A) × P(¬A)]</p>",
+    ],
+    ["<sup>1</sup></p><p>[C]onsciousness", "<sup>1</sup><br/>[C]onsciousness"],
+    ["<sup>2</sup></p><p>Modern biologists", "<sup>2</sup><br/>Modern biologists"],
+    ["<sup>3</sup></p><p>—Lord Kelvin</p>", "<sup>3</sup><br/>—Lord Kelvin</p>"],
 ]
 
 SUPERSCRIPT_DIGITS = [0x2070, 0xB9, 0xB2, 0xB3, *list(range(0x2074, 0x207A))]  # 0-9
