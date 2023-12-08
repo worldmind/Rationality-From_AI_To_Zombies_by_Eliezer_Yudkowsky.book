@@ -11,9 +11,11 @@ DOC_MODE=$(FINAL_MODE)
 
 PROFILING_XSL=$(CONFIG_DIR)/profile-$(DOC_MODE).xsl
 FO_XSL=$(CONFIG_DIR)/fo-$(DOC_MODE).xsl
+HTML_XSL=$(CONFIG_DIR)/html.xsl
 
 DBK_FILES=$(wildcard $(BOOK_DIR)/*$(BOOK_EXT))
 PDF_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(PDF_DIR)/%.pdf,$(DBK_FILES))
+HTML_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(HTML_DIR)/%.html,$(DBK_FILES))
 
 #.ONESHELL:
 
@@ -55,6 +57,12 @@ pdf: $(PDF_FILES)
 $(PDF_DIR)/%.fo: $(BOOK_DIR)/%$(BOOK_EXT)
 	xsltproc --xinclude $(PROFILING_XSL) $< | \
 	xsltproc -o $@ --xinclude $(FO_XSL) - >> $(LOG_FILE) 2>&1
+
+html: $(HTML_FILES)
+
+$(HTML_DIR)/%.html: $(BOOK_DIR)/%$(BOOK_EXT)
+	xsltproc --xinclude $(PROFILING_XSL) $< | \
+	xsltproc -o $@ --xinclude $(HTML_XSL) - >> $(LOG_FILE) 2>&1
 
 check_links:
 	source ${VENV_DIR}/bin/activate; \
