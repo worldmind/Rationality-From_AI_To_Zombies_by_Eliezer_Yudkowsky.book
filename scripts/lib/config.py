@@ -1,3 +1,7 @@
+# Variables in the config file are declared
+# in makefile format. Don't use standard
+# configparser here.
+
 import os
 import re
 from pathlib import Path

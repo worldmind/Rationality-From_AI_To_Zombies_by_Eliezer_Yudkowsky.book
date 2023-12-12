@@ -104,6 +104,7 @@ def make_item(
 
         for i, html_subdir in enumerate(html_subdirs, 1):
             child_p = make_item(html_subdir, book_subdir, level + 1, i, book_info)
+            # don't use pathlib "relative_to", return value is different in some cases
             child_p = Path(os.path.relpath(child_p.as_posix(), book_dir.as_posix()))
             child_items.append(child_p)
 
