@@ -118,14 +118,6 @@ def xml_urls(html: str) -> str:
     return re.sub(r"""<a.+?href=["'][^'"]+?['"]""", url_escape, html)
 
 
-def anchors(html: str) -> str:
-    return re.sub(
-        r"""<a.+?(id=["'][^'"]+?['"]).*?>""",
-        lambda x: f"{x[0]}<span {x[1]}/>",
-        html,
-    )
-
-
 def translate_symbols(html: str) -> str:
     return SUPERSCRIPT_RE.sub(
         lambda x: f"""<sup>{x[0].translate(SUPERSCRIPT_DICT)}</sup>""",

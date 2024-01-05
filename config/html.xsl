@@ -9,5 +9,6 @@
 <xsl:param name="disable-output-escaping">no</xsl:param>
 <xsl:param name="ulink.show">0</xsl:param>
 <xsl:param name="bibliography.numbered">1</xsl:param>
+<xsl:param name="current.docid" select="/*/@xml:id"/>
 
 </xsl:stylesheet>

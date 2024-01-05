@@ -1,4 +1,3 @@
-import json
 import logging as log
 import os
 import re
@@ -7,8 +6,9 @@ from pathlib import Path
 import lib.bibliography as bglib
 import lib.docbook_template as dbtemplate
 import lib.html_normalizer as html_norm
-from lib import footnote, herold
+from lib import footnote, herold, lw_links
 from lib.config import Config
+from lib.htmlbook import HTMLBook
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.DEBUG)
 conf = Config()
@@ -18,23 +18,23 @@ BOOK_PATH = Path(conf.get("BOOK_DIR"))
 BOOK_EXT = conf.get("BOOK_EXT")
 
 
-def collect_persons(book_info: dict, meta: dict) -> None:
+def collect_persons(book_info: dict, item: HTMLBook) -> None:
     book_info.setdefault("user", {})
     book_info.setdefault("reviewer", {})
 
-    if meta.get("user"):
-        book_info["user"][meta["user"]] = book_info["user"].setdefault(meta["user"], 0) + 1
+    if item.user:
+        book_info["user"][item.user] = book_info["user"].setdefault(item.user, 0) + 1
 
-    if meta.get("reviewer"):
-        book_info["reviewer"][meta["reviewer"]] = 1
+    if item.reviewer:
+        book_info["reviewer"][item.reviewer] = 1
 
 
-def set_publication_date(book_info: dict, meta: dict) -> None:
-    if meta["modified_at"] is None:
+def set_publication_date(book_info: dict, item: dict) -> None:
+    if item.modified_at is None:
         return
 
-    if book_info.get("modified_at") is None or book_info["modified_at"] < meta["modified_at"]:
-        book_info["modified_at"] = meta["modified_at"]
+    if book_info.get("modified_at") is None or book_info["modified_at"] < item.modified_at:
+        book_info["modified_at"] = item.modified_at
 
 
 def get_authors(book_info: dict) -> list:
@@ -57,25 +57,27 @@ def gen_filename(i: int, title: str) -> str:
     return f"{i:02}_{title}"
 
 
-def prepare_content(html_dir: Path) -> str:
-    content_p = html_dir / "content.html"
+def prepare_content(level: int, item: HTMLBook, child_items: list[Path]) -> None:
+    content = item.get_content()
 
-    if not content_p.exists():
-        return ""
+    if content:
+        log.debug("normalize html: %s", item.path)
+        content = html_norm.normalize(content)
 
-    content = content_p.read_text()
+        log.debug("make markup for footnotes: %s", item.path)
+        content = footnote.make(content)
 
-    log.debug("normalize html: %s", html_dir)
-    content = html_norm.normalize(content)
+        log.debug("make markup for bibliography: %s", item.path)
+        content = bglib.make(content)
 
-    log.debug("make markup for footnotes: %s", html_dir)
-    content = footnote.make(content)
+        log.debug("make markup for crosslinks: %s", item.path)
+        content = lw_links.set_crosslinks(content)
 
-    log.debug("make markup for bibliography: %s", html_dir)
-    content = bglib.make(content)
+        log.debug("convert html to docbook markup: %s", item.path)
+        content = herold.convert(content)
 
-    log.debug("convert html to docbook markup: %s", html_dir)
-    return herold.convert(content)
+    log.debug("wrap docbook fragment: %s", item.path)
+    return dbtemplate.wrap(level, item, content, child_items)
 
 
 def make_item(
@@ -86,15 +88,12 @@ def make_item(
     book_info: dict,
 ) -> Path:
     log.info("make_item: %s", html_dir)
+    item = HTMLBook(html_dir)
 
-    meta_p = html_dir / "metadata"
-    meta = meta_p.read_text()
-    meta = json.loads(meta)
+    collect_persons(book_info, item)
+    set_publication_date(book_info, item)
 
-    collect_persons(book_info, meta)
-    set_publication_date(book_info, meta)
-
-    book_dn = gen_filename(item_num, meta["title"])
+    book_dn = gen_filename(item_num, item.title)
     child_items = []
     html_subdirs = [d for d in sorted(html_dir.iterdir()) if d.is_dir()]
 
@@ -110,16 +109,12 @@ def make_item(
 
     if level == 0:
         authors = get_authors(book_info)
-        meta["author"] = authors.pop(0)
-        meta["coauthors"] = authors
-        meta["reviewers"] = get_reviewers(book_info)
-        meta["modified_at"] = book_info["modified_at"]
+        item.author = authors.pop(0)
+        item.coauthors = authors
+        item.reviewers = get_reviewers(book_info)
+        item.modified_at = book_info["modified_at"]
 
-    content = prepare_content(html_dir)
-
-    log.debug("wrap docbook fragment: %s", html_dir)
-    content = dbtemplate.wrap(level, meta, content, child_items)
-
+    content = prepare_content(level, item, child_items)
     book_p = book_dir / f"{book_dn}{BOOK_EXT}"
     book_p.write_text(content)
 

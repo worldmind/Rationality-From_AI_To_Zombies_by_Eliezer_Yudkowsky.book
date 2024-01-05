@@ -2,9 +2,11 @@ import urllib.parse as parser
 from datetime import datetime
 from pathlib import Path
 
+from lib.htmlbook import HTMLBook
+
 TEMPLATES = dict(
     book="""<?xml version="1.0" encoding="UTF-8"?>
-<book xml:id="book_{ITEM_ID}"
+<book xml:id="{ITEM_ID}"
       xmlns="http://docbook.org/ns/docbook"
       version="5.0"
       doc_status="final;draft"
@@ -36,7 +38,7 @@ TEMPLATES = dict(
     coauthor='<othercredit role="coauthor">{COAUTHOR_DESC}</othercredit>',
     reviewer='<othercredit role="reviewer" doc_status="draft">{REVIEWER_DESC}</othercredit>',
     incl_item='<xi:include href="{ITEM_PATH}"/>',
-    chapter="""<chapter xml:id="chapter_{ITEM_ID}"
+    chapter="""<chapter xml:id="{ITEM_ID}"
       xmlns="http://docbook.org/ns/docbook"
       version="5.0"
       xml:lang="en"
@@ -55,7 +57,7 @@ TEMPLATES = dict(
   {INCLUDE_ITEMS}
 </chapter>
 """,
-    section="""<section xml:id="section_{ITEM_ID}"
+    section="""<section xml:id="{ITEM_ID}"
       xmlns="http://docbook.org/ns/docbook"
       version="5.0"
       xml:lang="en"
@@ -113,56 +115,56 @@ def xml_escape(text: str) -> str:
     return text.replace("&", "&amp;")
 
 
-def wrap_book(meta: dict, content: str, child_items: list[Path]) -> str:
-    book = dict(
-        ITEM_ID=meta["id"],
-        ITEM_TITLE=xml_escape(meta["title"]),
-        ITEM_URL=meta["url"],
-        PUBLICATION_DATE=get_date(meta["modified_at"]),
-        AUTHOR_DESC=get_person(meta["author"]),
-        ITEM_CONTENT=content,
+def wrap_book(item: HTMLBook, xml_content: str, child_items: list[Path]) -> str:
+    data = dict(
+        ITEM_ID=item.xml_id,
+        ITEM_TITLE=xml_escape(item.title),
+        ITEM_URL=item.url,
+        PUBLICATION_DATE=get_date(item.modified_at),
+        AUTHOR_DESC=get_person(item.author),
+        ITEM_CONTENT=xml_content,
     )
 
-    coauthors = [TEMPLATES["coauthor"].format(COAUTHOR_DESC=get_person(a)) for a in meta["coauthors"]]
-    book["COAUTHORS"] = "\n".join(coauthors)
+    coauthors = [TEMPLATES["coauthor"].format(COAUTHOR_DESC=get_person(a)) for a in item.coauthors]
+    data["COAUTHORS"] = "\n".join(coauthors)
 
-    reviewers = [TEMPLATES["reviewer"].format(REVIEWER_DESC=get_person(r)) for r in meta["reviewers"]]
-    book["REVIEWERS"] = "\n".join(reviewers)
+    reviewers = [TEMPLATES["reviewer"].format(REVIEWER_DESC=get_person(r)) for r in item.reviewers]
+    data["REVIEWERS"] = "\n".join(reviewers)
 
-    child_items_xml = [TEMPLATES["incl_item"].format(ITEM_PATH=path_escape(str(item_p))) for item_p in child_items]
-    book["INCLUDE_ITEMS"] = "\n".join(child_items_xml)
+    child_items_xml = [TEMPLATES["incl_item"].format(ITEM_PATH=path_escape(str(child_p))) for child_p in child_items]
+    data["INCLUDE_ITEMS"] = "\n".join(child_items_xml)
 
-    return TEMPLATES["book"].format(**book)
+    return TEMPLATES["book"].format(**data)
 
 
 def wrap_part(
     part_type: str,
-    meta: dict,
-    content: str,
+    item: HTMLBook,
+    xml_content: str,
     child_items: list,
 ) -> str:
-    part = dict(
-        ITEM_ID=meta["id"],
-        ITEM_TITLE=xml_escape(meta["title"]),
-        ITEM_URL=meta["url"],
-        PUBLICATION_DATE=get_date(meta["modified_at"]),
-        ITEM_CONTENT=content,
+    data = dict(
+        ITEM_ID=item.xml_id,
+        ITEM_TITLE=xml_escape(item.title),
+        ITEM_URL=item.url,
+        PUBLICATION_DATE=get_date(item.modified_at),
+        ITEM_CONTENT=xml_content,
     )
 
-    child_items_xml = [TEMPLATES["incl_item"].format(ITEM_PATH=path_escape(str(item_p))) for item_p in child_items]
-    part["INCLUDE_ITEMS"] = "\n".join(child_items_xml)
+    child_items_xml = [TEMPLATES["incl_item"].format(ITEM_PATH=path_escape(str(child_p))) for child_p in child_items]
+    data["INCLUDE_ITEMS"] = "\n".join(child_items_xml)
 
-    tags_xml = [TEMPLATES["item_tag"].format(TAG_NAME=xml_escape(tag)) for tag in meta["tags"]]
-    part["ITEM_TAG_LIST"] = "\n".join(tags_xml)
+    tags_xml = [TEMPLATES["item_tag"].format(TAG_NAME=xml_escape(tag)) for tag in item.tags]
+    data["ITEM_TAG_LIST"] = "\n".join(tags_xml)
 
-    return TEMPLATES[part_type].format(**part)
+    return TEMPLATES[part_type].format(**data)
 
 
-def wrap(level: int, meta: dict, content: str, child_items: list[Path]) -> str:
+def wrap(level: int, item: HTMLBook, xml_content: str, child_items: list[Path]) -> str:
     part_type = level_to_part_type(level)
 
     return (
-        wrap_book(meta, content, child_items)
+        wrap_book(item, xml_content, child_items)
         if part_type == "book"
-        else wrap_part(part_type, meta, content, child_items)
+        else wrap_part(part_type, item, xml_content, child_items)
     )
