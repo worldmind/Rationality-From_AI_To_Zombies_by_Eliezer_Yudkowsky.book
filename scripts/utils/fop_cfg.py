@@ -1,8 +1,14 @@
-import pathlib
 import re
+import sys
+from pathlib import Path
 
-CFG_FILE = pathlib.Path("config/fop.xml")
-FONTS_DIR = pathlib.Path("fonts/")
+sys.path.append("scripts/")
+
+from lib.config import Config
+
+conf = Config()
+CFG_FILE = Path(conf.get("FOP_CONF"))
+FONTS_DIR = Path(conf.get("FONTS_DIR"))
 
 TEMPLATE_CFG = {
     "base": """<?xml version="1.0"?>

@@ -1,6 +1,10 @@
+import os
 import re
 import urllib.parse as url_parser
+from pathlib import Path
 from re import Pattern
+
+from lib.config import Config
 
 FOR_REMOVING = [
     "</?html>",
@@ -36,6 +40,18 @@ FOR_REPLACING = [
         " (2002). “Inside the Planning Fallacy.”",
     ],
     [chr(0x2715), chr(0x00D7)],
+    ["<span>&#x2014;Robert M. Pirsig,</span>", "<p>&#x2014;Robert M. Pirsig,</p>"],
+    [
+        "<em><em>Zen and the Art of Motorcycle Maintenance</em></em>",
+        "<p><em>Zen and the Art of Motorcycle Maintenance</em></p>",
+    ],
+    [
+        "P(A|X) = [P(X|A) × P(A)] / [P(X|A) × P(A) + P(X|¬A) × P(¬A)\n]",
+        "<p>P(A|X) = [P(X|A) × P(A)] / [P(X|A) × P(A) + P(X|¬A) × P(¬A)]</p>",
+    ],
+    ["<sup>1</sup></p><p>[C]onsciousness", "<sup>1</sup><br/>[C]onsciousness"],
+    ["<sup>2</sup></p><p>Modern biologists", "<sup>2</sup><br/>Modern biologists"],
+    ["<sup>3</sup></p><p>—Lord Kelvin</p>", "<sup>3</sup><br/>—Lord Kelvin</p>"],
 ]
 
 SUPERSCRIPT_DIGITS = [0x2070, 0xB9, 0xB2, 0xB3, *list(range(0x2074, 0x207A))]  # 0-9
@@ -60,7 +76,11 @@ IMG_RE = {
     "size_style": re.compile(r"""(width|height):\s*?([\d\.]+(?:px|%))"""),
 }
 
-IMG_DIR = "img"
+# don't use pathlib "relative_to", return value is different in some cases
+IMG_DIRNAME = os.path.relpath(
+    Path(Config().get("IMAGES_DIR")).as_posix(),
+    Path(Config().get("BOOK_DIR")).as_posix(),
+)
 
 
 def remove_tags(html: str) -> str:
@@ -96,14 +116,6 @@ def url_escape(m: re.Match) -> str:
 
 def xml_urls(html: str) -> str:
     return re.sub(r"""<a.+?href=["'][^'"]+?['"]""", url_escape, html)
-
-
-def anchors(html: str) -> str:
-    return re.sub(
-        r"""<a.+?(id=["'][^'"]+?['"]).*?>""",
-        lambda x: f"{x[0]}<span {x[1]}/>",
-        html,
-    )
 
 
 def translate_symbols(html: str) -> str:
@@ -177,7 +189,7 @@ def fix_image_src(
     src_re: Pattern[str] = re.compile(r"""(href|src)=["'](\.[^'"]+?/([^'"/]+?))['"]"""),
 ) -> str:
     return src_re.sub(
-        lambda x: x[0].replace(x[2], f"{IMG_DIR}/{x[3]}"),
+        lambda x: x[0].replace(x[2], f"{IMG_DIRNAME}/{x[3]}"),
         html,
     )
 

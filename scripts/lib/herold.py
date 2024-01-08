@@ -1,6 +1,10 @@
 import subprocess
 import tempfile
 
+from lib.config import Config
+
+CONFIG_FN = Config().get("HEROLD_CONF")
+
 
 def convert(html: str) -> str:
     with tempfile.NamedTemporaryFile(
@@ -8,7 +12,7 @@ def convert(html: str) -> str:
         encoding="UTF-8",
     ) as tmp_file:
         result = subprocess.run(
-            ["herold", "-o", tmp_file.name, "-p", "config/herold.conf"],
+            ["herold", "-o", tmp_file.name, "-p", CONFIG_FN],
             capture_output=True,
             input=html,
             text=True,

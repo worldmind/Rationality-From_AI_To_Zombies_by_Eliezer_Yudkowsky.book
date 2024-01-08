@@ -6,12 +6,14 @@ from time import sleep
 import lib.html_normalizer as html_norm
 import lib.image_localizer as image_loc
 import lib.lesswrong as lw
+from lib.config import Config
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.INFO)
+conf = Config()
 
-ROOT = Path("lesswrong.com/")
+ROOT = Path(conf.get("HTML_DIR"))
+IMG_DIR = Path(conf.get("IMAGES_DIR"))
 COLLECTION_SLUG = "rationality"
-IMG_DIR = ROOT / "book.english/img/"
 
 
 def format_dirname(i: int, dirname: str) -> str:
