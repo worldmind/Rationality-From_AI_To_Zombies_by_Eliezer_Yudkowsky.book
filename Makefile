@@ -87,7 +87,7 @@ $(HTML_DIR)/%.db: $(BOOK_DIR)/%$(BOOK_EXT)
 	xsltproc -xinclude $(PROFILING_XSL) $< | \
 	xsltproc --stringparam targets.filename "$@" \
 		--stringparam collect.xref.targets "only" \
-		-xinclude $(FO_XSL) - >> $(LOG_FILE) 2>&1
+		-xinclude $(HTML_XSL) - >> $(LOG_FILE) 2>&1
 
 $(HTML_DIR)/%.html: $(BOOK_DIR)/%$(BOOK_EXT)
 	xsltproc --xinclude $(PROFILING_XSL) $< | \
