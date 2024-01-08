@@ -38,6 +38,9 @@ class HTMLBook:
         ]:
             setattr(self, k, info.get(k))
 
+    # The book content are the largest part of an object; we only
+    # load it when used. To obtain only book metadata, you don't
+    # need to download the book content.
     def get_content(self: Self) -> str:
         if self._content is None:
             if self._content_p.exists():
