@@ -1,7 +1,5 @@
-import os
 import re
 import urllib.parse as url_parser
-from pathlib import Path
 from re import Pattern
 
 from lib.config import Config
@@ -76,11 +74,7 @@ IMG_RE = {
     "size_style": re.compile(r"""(width|height):\s*?([\d\.]+(?:px|%))"""),
 }
 
-# don't use pathlib "relative_to", return value is different in some cases
-IMG_DIRNAME = os.path.relpath(
-    Path(Config().get("IMAGES_DIR")).as_posix(),
-    Path(Config().get("BOOK_DIR")).as_posix(),
-)
+IMG_DIRNAME = Config().get("BOOK_IMAGES_PATH")
 
 
 def remove_tags(html: str) -> str:

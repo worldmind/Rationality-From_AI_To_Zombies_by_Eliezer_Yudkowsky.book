@@ -13,7 +13,7 @@ from lib.htmlbook import HTMLBook
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.DEBUG)
 conf = Config()
 
-HTML_PATH = Path(conf.get("HTML_SRC_DIR"))
+HTML_PATH = Path(conf.get("SRC_HTML_DIR"))
 BOOK_PATH = Path(conf.get("BOOK_DIR"))
 BOOK_EXT = conf.get("BOOK_EXT")
 

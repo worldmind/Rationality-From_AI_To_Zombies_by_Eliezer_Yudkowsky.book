@@ -12,7 +12,7 @@ def read_lw_links() -> dict:
 
 
 def collect_crosslinks() -> dict:
-    html_dir = Path(Config().get("HTML_SRC_DIR"))
+    html_dir = Path(Config().get("SRC_HTML_DIR"))
 
     links = {}
     for book_dir in filter(lambda x: x.is_dir(), html_dir.iterdir()):

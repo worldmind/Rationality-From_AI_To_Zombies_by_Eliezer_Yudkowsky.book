@@ -13,12 +13,13 @@ PROFILING_XSL=$(CONFIG_DIR)/profile-$(DOC_MODE).xsl
 FO_XSL=$(CONFIG_DIR)/fo-$(DOC_MODE).xsl
 HTML_XSL=$(CONFIG_DIR)/html.xsl
 CROSSLINKS_DB=olinkdb.xml
-CLDB_XSL=$(CONFIG_DIR)/olinkdb.xsl
+CLDB_XSL_PDF=$(CONFIG_DIR)/pdf-olinkdb.xsl
+CLDB_XSL_HTML=$(CONFIG_DIR)/html-olinkdb.xsl
 
 DBK_FILES=$(wildcard $(BOOK_DIR)/*$(BOOK_EXT))
 PDF_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(PDF_DIR)/%.pdf,$(DBK_FILES))
 CLDB_CHUNKS=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),%.db,$(DBK_FILES))
-HTML_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(HTML_DIR)/%.html,$(DBK_FILES))
+HTML_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(HTML_DIR)/%/index.html,$(DBK_FILES))
 
 #.ONESHELL:
 
@@ -46,56 +47,77 @@ get_com:
 valid_book: book validate
 
 book:
-	source ${VENV_DIR}/bin/activate; \
+	@echo "Converting HTML to DOCBOOK: $(SRC_HTML_DIR)/ => $(BOOK_DIR)/"
+	@source ${VENV_DIR}/bin/activate; \
 	CONFIG_FILE=$(COMMON_VARS) python scripts/html_to_docbook.py > $(LOG_FILE) 2>&1
 
 validate:
-	xmllint --noout --xinclude --noent --schema $(DOCBOOK_XSD) $(DBK_FILES) >> $(LOG_FILE) 2>&1
+	@DBK_FILES=$$(echo $(BOOK_DIR)/*$(BOOK_EXT)); \
+	echo "Validating: $$DBK_FILES"; \
+	xmllint --noout --xinclude --noent --schema $(DOCBOOK_XSD) $$DBK_FILES >> $(LOG_FILE) 2>&1
 
-pdf: $(PDF_DIR)/$(CROSSLINKS_DB) $(PDF_FILES) pdf_clean
+pdf: pdf_crosslinks pdf_images $(PDF_FILES) pdf_clean
 
-$(PDF_DIR)/$(CROSSLINKS_DB): $(addprefix $(PDF_DIR)/,$(CLDB_CHUNKS))
-	xsltproc --stringparam dbk_files "$(DBK_FILES)" \
-		--stringparam target_ext ".pdf" \
-		-o $@ $(CLDB_XSL) $(word 1, $(DBK_FILES)) >> $(LOG_FILE) 2>&1
+pdf_crosslinks: $(addprefix $(PDF_DIR)/,$(CLDB_CHUNKS) $(CROSSLINKS_DB))
+
+$(PDF_DIR)/$(CROSSLINKS_DB):
+	@echo "Creating crosslinks database: $@"
+	@xsltproc --stringparam dbk_files "$(DBK_FILES)" \
+		-o $@ $(CLDB_XSL_PDF) $(word 1, $(DBK_FILES)) >> $(LOG_FILE) 2>&1
 
 $(PDF_DIR)/%.db: $(BOOK_DIR)/%$(BOOK_EXT)
-	xsltproc -xinclude $(PROFILING_XSL) $< | \
+	@echo "Creating crosslinks database chunk: $@"
+	@xsltproc -xinclude $(PROFILING_XSL) $< | \
 	xsltproc --stringparam targets.filename "$@" \
 		--stringparam collect.xref.targets "only" \
 		-xinclude $(FO_XSL) - >> $(LOG_FILE) 2>&1
 
+pdf_images:
+	@echo "Creating images symlink: $(PDF_DIR)/$(BOOK_IMAGES_PATH)"; \
+	ln -sfn ../$(SRC_IMAGES_DIR) $(PDF_DIR)/$(BOOK_IMAGES_PATH)
+
 %.pdf: %.fo
-	fop -c $(FOP_CONF) -pdf $@ -fo $< >> $(LOG_FILE) 2>&1
+	@echo "Converting: $< => $@"
+	@fop -c $(FOP_CONF) -pdf $@ -fo $< >> $(LOG_FILE) 2>&1
 
 $(PDF_DIR)/%.fo: $(BOOK_DIR)/%$(BOOK_EXT)
-	xsltproc -xinclude $(PROFILING_XSL) $< | \
+	@echo "Converting: $< => $@"
+	@xsltproc -xinclude $(PROFILING_XSL) $< | \
 	xsltproc --stringparam target.database.document "$(PDF_DIR)/$(CROSSLINKS_DB)" \
 		-o $@ --xinclude $(FO_XSL) - >> $(LOG_FILE) 2>&1
 
 pdf_clean:
-	@rm $(PDF_DIR)/*.db $(PDF_DIR)/$(CROSSLINKS_DB)
+	@echo "Deleting temporary files:"
+	rm $(PDF_DIR)/*.db $(PDF_DIR)/$(CROSSLINKS_DB)
 
-html: $(HTML_DIR)/$(CROSSLINKS_DB) $(HTML_FILES) html_clean
+html: html_crosslinks $(HTML_FILES) html_clean
 
-$(HTML_DIR)/$(CROSSLINKS_DB): $(addprefix $(HTML_DIR)/,$(CLDB_CHUNKS))
-	xsltproc --stringparam dbk_files "$(DBK_FILES)" \
-		--stringparam target_ext ".html" \
-		-o $@ $(CLDB_XSL) $(word 1, $(DBK_FILES)) >> $(LOG_FILE) 2>&1
+html_crosslinks: $(addprefix $(HTML_DIR)/,$(CLDB_CHUNKS) $(CROSSLINKS_DB))
+
+$(HTML_DIR)/$(CROSSLINKS_DB):
+	@echo "Creating crosslinks database: $@"
+	@xsltproc --stringparam dbk_files "$(DBK_FILES)" \
+		-o $@ $(CLDB_XSL_HTML) $(word 1, $(DBK_FILES)) >> $(LOG_FILE) 2>&1
 
 $(HTML_DIR)/%.db: $(BOOK_DIR)/%$(BOOK_EXT)
-	xsltproc -xinclude $(PROFILING_XSL) $< | \
+	@echo "Creating crosslinks database chunk: $@"
+	@xsltproc -xinclude $(PROFILING_XSL) $< | \
 	xsltproc --stringparam targets.filename "$@" \
 		--stringparam collect.xref.targets "only" \
 		-xinclude $(HTML_XSL) - >> $(LOG_FILE) 2>&1
 
-$(HTML_DIR)/%.html: $(BOOK_DIR)/%$(BOOK_EXT)
-	xsltproc --xinclude $(PROFILING_XSL) $< | \
+$(HTML_DIR)/%/index.html: $(BOOK_DIR)/%$(BOOK_EXT)
+	@echo "Converting: $< => $(HTML_DIR)/$*/"
+	@xsltproc --xinclude $(PROFILING_XSL) $< | \
 	xsltproc --stringparam target.database.document $(HTML_DIR)/$(CROSSLINKS_DB) \
-		-o $@ --xinclude $(HTML_XSL) - >> $(LOG_FILE) 2>&1
+		--stringparam base.dir "$(HTML_DIR)/$*/" \
+		--xinclude $(HTML_XSL) - >> $(LOG_FILE) 2>&1
+	@echo "Creating images symlink: $(HTML_DIR)/$*/$(BOOK_IMAGES_PATH)"; \
+	ln -sfn ../../$(SRC_IMAGES_DIR) $(HTML_DIR)/$*/$(BOOK_IMAGES_PATH)
 
 html_clean:
-	@rm $(HTML_DIR)/*.db $(HTML_DIR)/$(CROSSLINKS_DB)
+	@echo "Deleting temporary files:"
+	rm $(HTML_DIR)/*.db $(HTML_DIR)/$(CROSSLINKS_DB)
 
 check_links:
 	source ${VENV_DIR}/bin/activate; \
