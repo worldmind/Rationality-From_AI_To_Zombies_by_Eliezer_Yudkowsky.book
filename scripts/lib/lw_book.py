@@ -6,10 +6,10 @@ import json
 from pathlib import Path
 from typing import TypeVar
 
-Self = TypeVar("Self", bound="HTMLBook")
+Self = TypeVar("Self", bound="LWBook")
 
 
-class HTMLBook:
+class LWBook:
     info_fn = "metadata"
     content_fn = "content.html"
 

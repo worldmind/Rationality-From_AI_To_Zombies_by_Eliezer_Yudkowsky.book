@@ -16,4 +16,9 @@
 <xsl:param name="chunk.first.sections">1</xsl:param>
 <xsl:param name="use.id.as.filename">0</xsl:param>
 
+<xsl:template name="user.footer.navigation">
+  <HR/>
+  <DIV class="user_footer"><A href="../index.html">Rationality: A-Z</A></DIV>
+</xsl:template>
+
 </xsl:stylesheet>

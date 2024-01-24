@@ -8,7 +8,7 @@ import lib.docbook_template as dbtemplate
 import lib.html_normalizer as html_norm
 from lib import footnote, herold, lw_links
 from lib.config import Config
-from lib.htmlbook import HTMLBook
+from lib.lw_book import LWBook
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.DEBUG)
 conf = Config()
@@ -18,7 +18,7 @@ BOOK_PATH = Path(conf.get("BOOK_DIR"))
 BOOK_EXT = conf.get("BOOK_EXT")
 
 
-def collect_persons(book_info: dict, item: HTMLBook) -> None:
+def collect_persons(book_info: dict, item: LWBook) -> None:
     book_info.setdefault("user", {})
     book_info.setdefault("reviewer", {})
 
@@ -57,7 +57,7 @@ def gen_filename(i: int, title: str) -> str:
     return f"{i:02}_{title}"
 
 
-def prepare_content(level: int, item: HTMLBook, child_items: list[Path]) -> None:
+def prepare_content(level: int, item: LWBook, child_items: list[Path]) -> None:
     content = item.get_content()
 
     if content:
@@ -88,7 +88,7 @@ def make_item(
     book_info: dict,
 ) -> Path:
     log.info("make_item: %s", html_dir)
-    item = HTMLBook(html_dir)
+    item = LWBook(html_dir)
 
     collect_persons(book_info, item)
     set_publication_date(book_info, item)

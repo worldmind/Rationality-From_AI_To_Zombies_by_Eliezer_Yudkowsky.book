@@ -1,0 +1,20 @@
+body {
+    max-width: 800px;
+    margin: 7vh auto;
+}
+p {
+    text-indent: 2em;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 130%;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 90%;
+    }
+}
+
+.user_footer {
+    text-align: center;
+}

@@ -2,7 +2,7 @@ import urllib.parse as parser
 from datetime import datetime
 from pathlib import Path
 
-from lib.htmlbook import HTMLBook
+from lib.lw_book import LWBook
 
 TEMPLATES = dict(
     book="""<?xml version="1.0" encoding="UTF-8"?>
@@ -115,7 +115,7 @@ def xml_escape(text: str) -> str:
     return text.replace("&", "&amp;")
 
 
-def wrap_book(item: HTMLBook, xml_content: str, child_items: list[Path]) -> str:
+def wrap_book(item: LWBook, xml_content: str, child_items: list[Path]) -> str:
     data = dict(
         ITEM_ID=item.xml_id,
         ITEM_TITLE=xml_escape(item.title),
@@ -139,7 +139,7 @@ def wrap_book(item: HTMLBook, xml_content: str, child_items: list[Path]) -> str:
 
 def wrap_part(
     part_type: str,
-    item: HTMLBook,
+    item: LWBook,
     xml_content: str,
     child_items: list,
 ) -> str:
@@ -160,7 +160,7 @@ def wrap_part(
     return TEMPLATES[part_type].format(**data)
 
 
-def wrap(level: int, item: HTMLBook, xml_content: str, child_items: list[Path]) -> str:
+def wrap(level: int, item: LWBook, xml_content: str, child_items: list[Path]) -> str:
     part_type = level_to_part_type(level)
 
     return (

@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 
 from lib.config import Config
-from lib.htmlbook import HTMLBook
+from lib.lw_book import LWBook
 
 
 def read_lw_links() -> dict:
@@ -16,14 +16,14 @@ def collect_crosslinks() -> dict:
 
     links = {}
     for book_dir in filter(lambda x: x.is_dir(), html_dir.iterdir()):
-        book = HTMLBook(book_dir)
+        book = LWBook(book_dir)
         links[book.url] = {
             "book_id": book.xml_id,
             "part_id": book.xml_id,
         }
 
-        for part_dir in book_dir.glob(f"**/{HTMLBook.info_fn}"):
-            part = HTMLBook(part_dir.parent)
+        for part_dir in book_dir.glob(f"**/{LWBook.info_fn}"):
+            part = LWBook(part_dir.parent)
             links[part.url] = {
                 "book_id": book.xml_id,
                 "part_id": part.xml_id,
