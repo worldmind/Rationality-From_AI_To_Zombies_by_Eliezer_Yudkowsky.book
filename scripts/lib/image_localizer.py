@@ -32,6 +32,7 @@ def download_image(url: str, img_dir: Path, html_dir: Path) -> Path:
 
     img_p.write_bytes(response.content)
 
+    # don't use pathlib "relative_to", return value is different in some cases
     return Path(os.path.relpath(img_p.as_posix(), html_dir.as_posix()))
 
 

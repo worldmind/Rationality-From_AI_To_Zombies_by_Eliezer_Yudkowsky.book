@@ -3,6 +3,7 @@
 
 <xsl:import href="/usr/share/xml/docbook/stylesheet/nwalsh/profiling/profile.xsl"/>
 
-<xsl:param name="profile.status">final</xsl:param>
+<xsl:param name="profile.attribute">doc_status</xsl:param>
+<xsl:param name="profile.value">draft</xsl:param>
 
 </xsl:stylesheet>

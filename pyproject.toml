@@ -1,6 +1,7 @@
 [tool.ruff]
 target-version = "py311"
 line-length = 120
+allowed-confusables = ["×"]
 
 [tool.ruff.lint]
 select = ["ALL"]
@@ -15,4 +16,5 @@ ignore = [
     "ISC001",  # Implicitly concatenated string literals on one line
     "S603", # `subprocess` call: check for execution of untrusted input
     "S607", # Starting a process with a partial executable path
+    "E402", # Module level import not at top of file
 ]

@@ -6,12 +6,14 @@ from time import sleep
 import lib.html_normalizer as html_norm
 import lib.image_localizer as image_loc
 import lib.lesswrong as lw
+from lib.config import Config
 
 log.basicConfig(format="%(asctime)s %(levelname)s %(message)s", level=log.INFO)
+conf = Config()
 
-ROOT = Path("lesswrong.com/")
+ROOT = Path(conf.get("SRC_HTML_DIR"))
+IMG_DIR = Path(conf.get("SRC_IMAGES_DIR"))
 COLLECTION_SLUG = "rationality"
-IMG_DIR = ROOT / "book.english/img/"
 
 
 def format_dirname(i: int, dirname: str) -> str:
@@ -179,10 +181,8 @@ def main() -> None:
     log.info("Download collection '%s'", COLLECTION_SLUG)
     collection = lw.download_collection(COLLECTION_SLUG)
 
-    base_p = ROOT / collection["title"]
-
-    log.info("Create directory tree at '%s'", base_p.absolute())
-    posts_for_download = write_collection(base_p, collection)
+    log.info("Create directory tree at '%s'", ROOT.absolute())
+    posts_for_download = write_collection(ROOT, collection)
 
     for post_id, path in posts_for_download.items():
         log.info("Download post _id=%s", post_id)
