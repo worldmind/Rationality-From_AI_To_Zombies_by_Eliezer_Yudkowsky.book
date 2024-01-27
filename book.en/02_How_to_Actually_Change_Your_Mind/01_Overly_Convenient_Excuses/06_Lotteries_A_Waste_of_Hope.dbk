@@ -1,0 +1,33 @@
+<section xml:id="item_vYsuM8cpuRgZS5rYB"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Lotteries: A Waste of Hope</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/vYsuM8cpuRgZS5rYB/lotteries-a-waste-of-hope"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-04-01</pubdate>
+  </info>
+  <indexterm><primary>Probability &amp; Statistics</primary></indexterm>
+<indexterm><primary>Superstimuli</primary></indexterm>
+<indexterm><primary>Hope</primary></indexterm>
+  <para>The classic criticism of the lottery is that the people who play are the ones who can least afford to lose; that the lottery is a sink of money, draining wealth from those who most need it. Some lottery advocates, and even some commentors on <emphasis>Overcoming Bias</emphasis>, have tried to defend lottery-ticket buying as a <emphasis>rational purchase of fantasy</emphasis>—paying a dollar for a day’s worth of pleasant anticipation, imagining yourself as a millionaire. </para>
+<para>But consider exactly what this implies. It would mean that you’re occupying your valuable brain with a fantasy whose real probability is nearly zero—a tiny line of likelihood which you, yourself, can do nothing to realize. The lottery balls will decide your future. The fantasy is of wealth that arrives without effort—without conscientiousness, learning, charisma, or even patience.<footnote xml:id="fn_a6d5f0ac6f49c10cf94e442aad437da4">
+    <para>See <anchor xml:id="cite.0.Bronson.2007"/>Po Bronson, “How Not to Talk to Your Kids,” <emphasis>New York</emphasis>, 2007, <link xl:href="http://nymag.com/news/features/27840">http://nymag.com/news/features/27840</link>.</para>
+  </footnote>
+<anchor xml:id="x9-10001f1"/></para>
+<para>Which makes the lottery another kind of sink: a sink of emotional energy. It encourages people to invest their dreams, their hopes for a better future, into an infinitesimal probability. If not for the lottery, maybe they would fantasize about going to technical school, or opening their own business, or getting a promotion at work—things they might be able to actually <emphasis>do</emphasis>, hopes that would make them want to become stronger. Their dreaming brains might, in the 20th visualization of the pleasant fantasy, notice a way to really do it. Isn’t that what dreams and brains are <emphasis>for</emphasis>? But how can such reality-limited fare compete with the artificially sweetened prospect of instant wealth—not after herding a dot-com startup through to IPO, but on Tuesday?</para>
+<para>Seriously, why can’t we just say that buying lottery tickets is stupid? Human beings <emphasis>are</emphasis> stupid, from time to time—it shouldn’t be so surprising a hypothesis.</para>
+<para>Unsurprisingly, the human brain doesn’t do 64-bit floating-point arithmetic, and it can’t devalue the emotional force of a pleasant anticipation by a factor of 0.00000001 without dropping the line of reasoning entirely. Unsurprisingly, many people don’t realize that a numerical calculation of expected utility ought to <emphasis>override</emphasis> or <emphasis>replace</emphasis> their imprecise financial instincts, and instead treat the calculation as merely one <emphasis>argument</emphasis> to be balanced against their pleasant anticipations—an emotionally weak argument, since it’s made up of mere squiggles on paper, instead of visions of fabulous wealth.</para>
+<para>This seems sufficient to explain the popularity of lotteries. Why do so many arguers feel impelled to defend this classic form of self-destruction?<footnote xml:id="fn_f18bef6d7dfdd99d958bee6800582bb5">
+    <para>See “Debiasing as Non-Self-Destruction.” <link xl:href="https://www.lesswrong.com/posts/XZWMeeqKmfMSPTLha/debiasing-as-non-self-destruction">http://lesswrong.com/lw/hf/debiasing_as_nonselfdestruction</link>.</para>
+  </footnote>
+<anchor xml:id="x9-10002f2"/></para>
+<para>The process of overcoming bias requires (1) first noticing the bias, (2) analyzing the bias in detail, (3) deciding that the bias is bad, (4) figuring out a workaround, and then (5) implementing it. It’s unfortunate how many people get through steps 1 and 2 and then bog down in step 3, which by rights should be the easiest of the five. Biases are lemons, not lemonade, and we shouldn’t try to make lemonade out of them—just burn those lemons <emphasis>down</emphasis>.</para>
+
+  
+</section>

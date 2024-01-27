@@ -1,0 +1,32 @@
+<chapter xml:id="item_MH2b8NfWv22dBtrs8"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Simple Math of Evolution</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/MH2b8NfWv22dBtrs8"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>The first sequence of <emphasis>The Machine in the Ghost</emphasis> aims to communicate the dissonance and divergence between our hereditary history, our present-day biology, and our ultimate aspirations. This will require digging deeper than is common in introductions to evolution for non-biologists, which often restrict their attention to surface-level features of natural selection.</para>
+
+  <xi:include href="01_The_Simple_Math_of_Evolution/01_Minds_An_Introduction.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/02_The_Power_of_Intelligence.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/03_An_Alien_God.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/04_The_Wonder_of_Evolution.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/05_Evolutions_Are_Stupid_But_Work_Anyway.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/06_No_Evolutions_for_Corporations_or_Nanodevices.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/07_Evolving_to_Extinction.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/08_The_Tragedy_of_Group_Selectionism.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/09_Fake_Optimization_Criteria.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/10_AdaptationExecuters_not_FitnessMaximizers.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/11_Evolutionary_Psychology.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/12_An_Especially_Elegant_Evpsych_Experiment.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/13_Superstimuli_and_the_Collapse_of_Western_Civilization.dbk"/>
+<xi:include href="01_The_Simple_Math_of_Evolution/14_Thou_Art_Godshatter.dbk"/>
+</chapter>

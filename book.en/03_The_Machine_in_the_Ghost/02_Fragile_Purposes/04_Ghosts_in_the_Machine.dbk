@@ -1,0 +1,60 @@
+<section xml:id="item_cnYHFNBF3kZEyx24v"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Ghosts in the Machine</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/cnYHFNBF3kZEyx24v/ghosts-in-the-machine"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-06-18</pubdate>
+  </info>
+  <indexterm><primary>Homunculus Fallacy</primary></indexterm>
+<indexterm><primary>Causality</primary></indexterm>
+<indexterm><primary>AI</primary></indexterm>
+  <para>People hear about Friendly AI and say - this is one of the top three initial reactions:</para>
+<para>&quot;Oh, you can try to tell the AI to be Friendly, but if the AI can modify its own source code, it&apos;ll just remove any constraints you try to place on it.&quot;</para>
+<para>And where does <emphasis>that</emphasis> decision come from?</para>
+<para>Does it enter from outside causality, rather than being an effect of a lawful chain of causes which started with the source code as originally written?  Is the AI the <link xl:href="https://www.lesswrong.com/posts/EsMhFZuycZorZNRF5/the-ultimate-source">Author* source</link> of its own free will?</para>
+<para>A Friendly AI is not a selfish AI constrained by a special extra conscience module that overrides the AI&apos;s natural impulses and tells it what to do.  You just build the conscience, and that <emphasis>is</emphasis> the AI.  If you have a program that computes which decision the AI should make, you&apos;re <emphasis>done</emphasis>.  <link xl:href="https://www.lesswrong.com/posts/FqJGfSrXphrcwpiZe/causality-and-moral-responsibility">The buck stops immediately</link>.</para>
+<para>At this point, I shall take a moment to quote some case studies from the Computer Stupidities site and Programming subtopic.  (I am not linking to this, because it is a fearsome time-trap; you can Google if you dare.)</para>
+<blockquote>
+  <para> I tutored college students who were taking a computer programming course. A few of them didn&apos;t understand that computers are not sentient.  More than one person used comments in their Pascal programs to put detailed explanations such as, &quot;Now I need you to put these letters on the screen.&quot;  I asked one of them what the deal was with those comments. The reply:  &quot;How else is the computer going to understand what I want it to do?&quot;  Apparently they would assume that since they couldn&apos;t make sense of Pascal, neither could the computer.</para>
+  <para>While in college, I used to tutor in the school&apos;s math lab.  A student came in because his BASIC program would not run. He was taking a beginner course, and his assignment was to write a program that would calculate the recipe for oatmeal cookies, depending upon the number of people you&apos;re baking for.  I looked at his program, and it went something like this:</para>
+  <para>10   Preheat oven to 350</para>
+  <para> 20   Combine all ingredients in a large mixing bowl</para>
+  <para> 30   Mix until smooth</para>
+  <para>An introductory programming student once asked me to look at his program and figure out why it was always churning out zeroes as the result of a simple computation.  I looked at the program, and it was pretty obvious:</para>
+  <para>begin</para>
+  <para>     read(&quot;Number of Apples&quot;, apples)</para>
+  <para>     read(&quot;Number of Carrots&quot;, carrots)</para>
+  <para>     read(&quot;Price for 1 Apple&quot;, a_price)</para>
+  <para>     read(&quot;Price for 1 Carrot&quot;, c_price)</para>
+  <para>     write(&quot;Total for Apples&quot;, a_total)</para>
+  <para>     write(&quot;Total for Carrots&quot;, c_total)</para>
+  <para>     write(&quot;Total&quot;, total)</para>
+  <para>     total = a_total + c_total</para>
+  <para>     a_total = apples * a_price</para>
+  <para>     c_total = carrots * c_price</para>
+  <para> end</para>
+  <para>Me:&quot;Well, your program can&apos;t print correct results before they&apos;re computed.&quot;</para>
+  <para>Him:&quot;Huh?  It&apos;s logical what the right solution is, and the computer should reorder the instructions the right way.&quot;</para>
+</blockquote>
+<para>There&apos;s an instinctive way of imagining the scenario of &quot;programming an AI&quot;.  It maps onto a similar-seeming human endeavor:  Telling a human being what to do.  Like the &quot;program&quot; is giving instructions to a little ghost that sits inside the machine, which will look over your instructions and decide whether it likes them or not.</para>
+<para>There is no ghost who looks over the instructions and decides how to follow them.  The program <emphasis>is</emphasis> the AI.</para>
+<para>That doesn&apos;t mean the ghost does anything you wish for, like a <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4ARaTpNX62uaL86j6">genie</olink>.  It doesn&apos;t mean the ghost does everything you want the way you want it, like a slave of exceeding docility.  It means your instruction <emphasis>is</emphasis> the only ghost that&apos;s there, at least at boot time.</para>
+<para>AI is much harder than people instinctively imagined, exactly because you can&apos;t just <emphasis>tell </emphasis>the ghost what to do.  You have to build the ghost from scratch, and everything that seems obvious to you, the ghost will not see unless you know how to make the ghost see it.  You can&apos;t just <emphasis>tell</emphasis> the ghost to see it.  You have to create that-which-sees from scratch.</para>
+<para>If you don&apos;t know how to build something that seems to have some strange ineffable elements like, say, &quot;decision-making&quot;, then you can&apos;t just shrug your shoulders and let the ghost&apos;s free will do the job. You&apos;re left forlorn and ghostless.</para>
+<para>There&apos;s more to building a chess-playing program than building a really fast processor - so the AI will be really smart - and then typing at the command prompt &quot;Make whatever chess moves <emphasis>you</emphasis> think are best.&quot;  You might think that, since the programmers themselves are not very good chess-players, any advice they tried to give the electronic superbrain would just slow the ghost down.  But there is no ghost.  You see the problem.</para>
+<para>And there isn&apos;t a simple spell you can perform to - poof! - summon a complete ghost into the machine.  You can&apos;t say, &quot;I summoned the ghost, and it appeared; that&apos;s cause and effect for you.&quot;  (It doesn&apos;t work if you use the notion of &quot;<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_8QzZKw9WHRxjR4948">emergence</olink>&quot; or &quot;<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_kpRSCH7ALLcb6ucWM">complexity</olink>&quot; as a substitute for &quot;summon&quot;, either.)  You can&apos;t give an instruction to the CPU, &quot;Be a good chessplayer!&quot;  You have to see inside the mystery of chess-playing thoughts, and structure the whole ghost from scratch.</para>
+<para>No matter how common-sensical, no matter how logical, no matter how &quot;obvious&quot; or &quot;right&quot; or &quot;self-evident&quot; or &quot;intelligent&quot; something seems to you, it will not happen inside the ghost.  <emphasis>Unless</emphasis> it happens at the end of a chain of cause and effect that began with the instructions that <emphasis>you</emphasis> had to decide on, plus any causal dependencies on sensory data that you built into the starting instructions.</para>
+<para>This doesn&apos;t mean you <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_YhgjmCxcQXixStWMC">program in every decision explicitly</olink>. Deep Blue was a far superior chessplayer than its programmers.  Deep Blue made better chess moves than anything its makers could have explicitly programmed - but not because the programmers shrugged and left it up to the ghost.  Deep Blue moved better than its programmers... at the end of a chain of cause and effect that began in the programmers&apos; code and proceeded lawfully from there.  Nothing happened <emphasis>just</emphasis> because it was so obviously a good move that Deep Blue&apos;s ghostly free will took over, without the code and its lawful consequences being involved.</para>
+<para>If you try to wash your hands of constraining the AI, you aren&apos;t left with a free ghost like an emancipated slave.  You are left with a heap of sand that no one has purified into silicon, shaped into a CPU and programmed to think.</para>
+<para>Go ahead, try telling a computer chip &quot;Do whatever you want!&quot;  See what happens?  Nothing.  Because you haven&apos;t constrained it to understand freedom.</para>
+<para>All it takes is one single step that is <emphasis>so obvious, so logical, so self-evident</emphasis> that your mind just skips right over it, and you&apos;ve left the path of the AI programmer.  It takes an effort like the one I showed in <link xl:href="https://www.lesswrong.com/posts/HnS6c5Xm9p9sbm4a8/grasping-slippery-things">Grasping Slippery Things</link> to prevent your mind from doing this.</para>
+
+  
+</section>

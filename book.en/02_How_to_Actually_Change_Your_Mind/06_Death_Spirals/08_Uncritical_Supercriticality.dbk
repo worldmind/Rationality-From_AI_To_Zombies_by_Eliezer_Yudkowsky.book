@@ -1,0 +1,63 @@
+<section xml:id="item_NCefvet6X3Sd4wrPc"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Uncritical Supercriticality</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/NCefvet6X3Sd4wrPc/uncritical-supercriticality"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-12-04</pubdate>
+  </info>
+  <indexterm><primary>Groupthink</primary></indexterm>
+<indexterm><primary>Affective Death Spiral</primary></indexterm>
+  <para>Every now and then, you see people arguing over whether atheism is a “religion.” As I touch on elsewhere, in “Purpose and Pragmatism,” arguing over the meaning of a word nearly always means that you’ve lost track of the original question.<footnote xml:id="fn_3c03f5c58c0a010608ff66c537a5d533">
+    <para>Link: <link xl:href="https://www.lesswrong.com/posts/AZfBrZfBu8Aa2FK9D/purpose-and-pragmatism">http://lesswrong.com/lw/lf/purpose_and_pragmatism/</link>.</para>
+  </footnote>
+<anchor xml:id="x64-65001f1"/> How might this argument arise to begin with? </para>
+<para>An atheist is holding forth, blaming “religion” for the Inquisition, the Crusades, and various conflicts with or within Islam. The religious one may reply, “But atheism is also a religion, because you also have beliefs about God; you believe God doesn’t exist.” Then the atheist answers, “If atheism is a religion, then not collecting stamps is a hobby,” and the argument begins.</para>
+<para>Or the one may reply, “But horrors just as great were inflicted by Stalin, who was an atheist, and who suppressed churches in the name of atheism; therefore you are wrong to blame the violence on religion.” Now the atheist may be tempted to reply, “<link xl:href="https://en.wikipedia.org/wiki/No_true_Scotsman">No true Scotsman</link>,” saying, “Stalin’s religion was Communism.” The religious one answers “If Communism is a religion, then <emphasis>Star Wars</emphasis> fandom is a government,” and the argument begins.</para>
+<para>Should a “religious” person be defined as someone who has a definite opinion about the existence of at least one God, e.g., assigning a probability lower than 10% or higher than 90% to the existence of Zeus? Or should a “religious” person be defined as someone who has a positive opinion (say, a probability higher than 90%) on the existence of at least one God? In the former case, Stalin was “religious”; in the latter case, Stalin was “not religious.”</para>
+<para>But this is exactly the wrong way to look at the problem. What you really want to know—what the argument was originally about—is why, at certain points in human history, large groups of people were slaughtered and tortured, ostensibly in the name of an idea. Redefining a word won’t change the facts of history one way or the other.</para>
+<para>Communism was a complex catastrophe, and there may be no single <emphasis>why</emphasis>, no single critical link in the chain of causality. But if I had to suggest an ur-mistake, it would be . . . well, I’ll let God say it for me:</para>
+<blockquote>
+  <para> If your brother, the son of your father or of your mother, or your son or daughter, or the spouse whom you embrace, or your most intimate friend, tries to secretly seduce you, saying, “Let us go and serve other gods,” unknown to you or your ancestors before you, gods of the peoples surrounding you, whether near you or far away, anywhere throughout the world, you must not consent, <emphasis role="bold">you must not listen to him</emphasis>; you must show him no pity, you must not spare him or conceal his guilt. No, <emphasis role="bold">you must kill him</emphasis>, your hand must strike the first blow in putting him to death and the hands of the rest of the people following. You must stone him to death, since he has tried to divert you from Yahweh your God.</para>
+  <para>—Deuteronomy 13:7–11, emphasis added</para>
+</blockquote>
+<para>This was likewise the rule which Stalin set for Communism, and Hitler for Nazism: if your brother tries to tell you why Marx is wrong, if your son tries to tell you the Jews are not planning world conquest, then do not debate him or set forth your own evidence; do not perform replicable experiments or examine history; but turn him in at once to the secret police.</para>
+<para>I suggested that one key to resisting an affective death spiral is the principle of “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_Yq6aA4M3JKWaQepPJ">burdensome details</olink>”—just <emphasis>remembering</emphasis> to question the specific details of each additional nice claim about the Great Idea.<footnote xml:id="fn_d9adc122d057205f3b40be6e7d1f2ec0">
+    <para>It’s not trivial advice. People often don’t remember to do this when they’re listening to a futurist sketching amazingly detailed projections about the wonders of tomorrow, let alone when they’re thinking about their favorite idea ever.</para>
+  </footnote>
+<anchor xml:id="x64-65002f2"/> This wouldn’t get rid of the halo effect, but it would hopefully reduce the resonance to below criticality, so that one nice-sounding claim triggers less than 1.0 additional nice-sounding claims, on average.</para>
+<para>The diametric opposite of this advice, which sends the halo effect <emphasis>super</emphasis>critical, is when it feels wrong to argue against <emphasis>any</emphasis> positive claim about the Great Idea.</para>
+<para>Politics is the mind-killer. Arguments are soldiers. Once you know which side you’re on, you must support all favorable claims, and argue against all unfavorable claims. Otherwise it’s like giving aid and comfort to the enemy, or stabbing your friends in the back.</para>
+<para>If . . .</para>
+<itemizedlist>
+  <listitem>
+    <para> . . . you feel that contradicting someone else who makes a flawed nice claim in favor of evolution would be giving aid and comfort to the creationists;</para>
+  </listitem>
+  <listitem>
+    <para> . . . you feel like you get spiritual credit for each nice thing you say about God, and arguing about it would interfere with your relationship with God;</para>
+  </listitem>
+  <listitem>
+    <para> . . . you have the distinct sense that the other people in the room will dislike you for “not supporting our troops” if you argue against the latest war;</para>
+  </listitem>
+  <listitem>
+    <para> . . . saying anything against Communism gets you stoned to death shot;</para>
+  </listitem>
+</itemizedlist>
+<para>. . . then the affective death spiral has gone supercritical. It is now a Super Happy Death Spiral.</para>
+<para>When it comes to our original question—“What makes the slaughter?”—the key category to pay attention to isn’t religion as such. The best distinction I’ve heard between “supernatural” and “naturalistic” worldviews is that a supernatural worldview asserts the existence of ontologically basic mental substances, like spirits, while a naturalistic worldview reduces mental phenomena to nonmental parts. Focusing on this as the source of the problem buys into religious exceptionalism. Supernaturalist claims are worth distinguishing, because they always turn out to be wrong for fairly fundamental reasons.<footnote xml:id="fn_bc1ace4dab0c9e4c4074f992df5ac9fc">
+    <para>See, for example, “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_6i3zToomS86oj9bS6">Mysterious Answers to Mysterious Questions</olink>” in <emphasis>Map and Territory</emphasis>.</para>
+  </footnote>
+<anchor xml:id="x64-65003f3"/> But it’s still just one kind of mistake.</para>
+<para>An affective death spiral can nucleate around supernatural beliefs—particularly monotheisms whose pinnacle is a Super Happy Agent, defined primarily by agreeing with any nice statement about it—and particularly meme complexes grown sophisticated enough to assert supernatural punishments for disbelief. But the death spiral can also start around a political innovation, a charismatic leader, belief in racial destiny, or an economic hypothesis. The lesson of history is that affective death spirals are dangerous whether or not they happen to involve supernaturalism. Religion isn’t special enough, as a class of mistake, to be the key problem.</para>
+<para>Sam Harris came closer when he put the accusing finger on <emphasis>faith.</emphasis> If you don’t place an appropriate burden of proof on each and every additional nice claim, the affective resonance gets started <emphasis>very</emphasis> easily. Look at the poor New Agers. Christianity developed defenses against criticism, arguing for the wonders of faith; New Agers culturally inherit the cached thought that faith is positive, but lack Christianity’s exclusionary scripture to keep out competing memes. New Agers end up in happy death spirals around stars, trees, magnets, diets, spells, unicorns . . .</para>
+<para>But the affective death spiral turns much deadlier after criticism becomes a sin, or a gaffe, or a crime. There are things in this world that are worth praising greatly, and you can’t <emphasis>flatly</emphasis> say that praise beyond a certain point is forbidden. But there is <emphasis>never</emphasis> an Idea so true that it’s wrong to criticize any argument that supports it. Never. Never ever never for ever. <emphasis>That</emphasis> is flat. The vast majority of possible beliefs in a nontrivial answer space are false, and likewise, the vast majority of possible <emphasis>supporting arguments</emphasis> for a true belief are also false, and not even the happiest idea can change that.</para>
+<para>And it is triple ultra forbidden to respond to criticism with violence. There are a very few injunctions in the human art of rationality that have no ifs, ands, buts, or escape clauses. This is one of them. Bad argument gets counterargument. Does not get bullet. Never. Never ever never for ever.</para>
+
+  
+</section>

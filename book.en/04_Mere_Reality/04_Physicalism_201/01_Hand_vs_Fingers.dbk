@@ -1,0 +1,42 @@
+<section xml:id="item_KmghfjH6RgXvoKruJ"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Hand vs. Fingers</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/KmghfjH6RgXvoKruJ/hand-vs-fingers"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-03-30</pubdate>
+  </info>
+  <indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Reductionism</primary></indexterm>
+  <para>Back to our original topic:  <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_tPqQdLCuxanjhoaNs">Reductionism</olink>, which (in case you&apos;ve forgotten) is part of a sequence on the <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_ZTRiSNmeGQK8AkdN2">Mind Projection Fallacy</olink>.  There can be emotional problems in accepting reductionism, if you think that things have to be fundamental to be fun.  But this position commits us to never <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_x4dG4GhpZH2hgz59x">taking joy</olink> in anything more complicated than a quark, and so I prefer to reject it.</para>
+<para>To review, the reductionist thesis is that we use multi-level models for computational reasons, but physical reality has only a single level.  If this doesn&apos;t sound familiar, please reread &quot;<olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_tPqQdLCuxanjhoaNs">Reductionism</olink>&quot;.</para>
+<para>Today I&apos;d like to pose the following conundrum:  When you pick up a cup of water, is it your <emphasis>hand</emphasis> that picks it up?</para>
+<para>Most people, of course, go with the naive popular answer:  &quot;Yes.&quot;</para>
+<para>Recently, however, scientists have made a stunning discovery:  It&apos;s not your <emphasis>hand</emphasis> that holds the cup, it&apos;s actually your fingers, thumb, and palm.</para>
+<para>Yes, I know!  I was shocked too.  But it seems that after scientists measured the forces exerted on the cup by each of your fingers, your thumb, and your palm, they found there was no force left over—so the force exerted by your <emphasis>hand</emphasis> must be zero.</para>
+<para>The theme here is that, if you can <emphasis>see how</emphasis> (not just <emphasis>know that</emphasis>) a higher level reduces to a lower one, they will not seem like separate things within your map; you will be able to <emphasis>see</emphasis> how silly it is to think that your fingers could be in one place, and your hand somewhere else; you will be able to <emphasis>see</emphasis> how silly it is to argue about whether it is your hand picks up the cup, or your fingers.</para>
+<para>The operative word is &quot;see&quot;, as in concrete visualization.  Imagining your hand causes you to imagine the fingers and thumb and palm; conversely, imagining fingers and thumb and palm causes you to identify a hand in the mental picture.  Thus the high level <emphasis>of your map</emphasis> and the low level <emphasis>of your map</emphasis> will be tightly bound together <emphasis>in your mind</emphasis>.</para>
+<para>In reality, of course, the levels are bound together even tighter than that—bound together by the tightest possible binding: physical identity.  You can <emphasis>see</emphasis> this:  You can <emphasis>see</emphasis> that saying (1) &quot;hand&quot; or (2) &quot;fingers and thumb and palm&quot;, does not refer to different <emphasis>things,</emphasis> but different <emphasis>points of view</emphasis>.</para>
+<para>But suppose you lack the knowledge to so tightly bind together the levels of your map.  For example, you could have a &quot;hand scanner&quot; that showed a &quot;hand&quot; as a dot on a map (like an old-fashioned radar display), and similar scanners for fingers/thumbs/palms; then you would see a cluster of dots around the hand, but you would be able to <emphasis>imagine</emphasis> the hand-dot moving off from the others.  So, even though the physical reality of the hand (that is, the thing the dot corresponds to) was identical with / strictly composed of the physical realities of the fingers and thumb and palm, you would not be able to see this fact; even if someone told you, or you guessed from the correspondence of the dots, you would only <emphasis>know</emphasis> the fact of reduction, not <emphasis>see</emphasis> it.  You would still be able to <emphasis>imagine</emphasis> the hand dot moving around independently, even though, if the physical makeup of the sensors were held constant, it would be physically impossible for this to actually happen.</para>
+<para>Or, at a still lower level of binding, people might just tell you &quot;There&apos;s a hand over there, and some fingers over there&quot;—in which case you would know little more than a Good-Old-Fashioned AI representing the situation using suggestively named LISP tokens.  There wouldn&apos;t be anything <emphasis>obviously</emphasis> contradictory about asserting:</para>
+<blockquote>
+  <para> <literal>|—Inside(Room,Hand) |—~Inside(Room,Fingers)</literal></para>
+</blockquote>
+<para>because you would not possess the <emphasis>knowledge</emphasis></para>
+<blockquote>
+  <para> <literal>|—Inside(x, Hand)—&gt; Inside(x,Fingers)</literal></para>
+</blockquote>
+<para>None of this says that a hand can actually detach its existence from your fingers and crawl, ghostlike, across the room; it just says that a Good-Old-Fashioned AI with a propositional representation may not <emphasis>know</emphasis> any better.  The map is not the territory.</para>
+<para>In particular, you shouldn&apos;t draw too many conclusions from how it seems <emphasis>conceptually possible,</emphasis> in the mind of some specific conceiver, to separate the hand from its constituent elements of fingers, thumb, and palm.  Conceptual possibility is not the same as logical possibility or physical possibility.</para>
+<para>It is <emphasis>conceptually</emphasis> possible <emphasis>to you</emphasis> that 235757 is prime, because you don&apos;t know any better.  But it isn&apos;t <emphasis>logically</emphasis> possible that 235757 is prime; if you were logically omniscient, 235757 would be obviously composite (and you would know the factors).  That that&apos;s why we have the notion of impossible possible worlds, so that we can put probability distributions on propositions that may or may not be <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_BwtBhqvTPGG2n2GuJ"><emphasis>in fact</emphasis></olink> logically impossible.</para>
+<para>And you can imagine philosophers who criticize &quot;eliminative fingerists&quot; who contradict the direct facts of experience—we can <emphasis>feel</emphasis> our hand holding the cup, after all—by suggesting that &quot;hands&quot;<emphasis>don&apos;t really exist,</emphasis> in which case, obviously, the cup would fall down.  And philosophers who suggest &quot;appendigital bridging laws&quot; to explain how a particular configuration of fingers, evokes a hand into existence—with the note, of course, that while our world contains those particular appendigital bridging laws, the laws could have been conceivably different, and so are not in any sense <emphasis>necessary facts,</emphasis> etc.</para>
+<para>All of these are cases of Mind Projection Fallacy, and what I call &quot;naive philosophical realism&quot;—the confusion of philosophical intuitions for direct, veridical information about reality.  Your inability to imagine something is just a computational fact about what your brain can or can&apos;t imagine.  Another brain might work differently.</para>
+
+  
+</section>

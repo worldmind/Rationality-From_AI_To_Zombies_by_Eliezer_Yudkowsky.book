@@ -1,0 +1,67 @@
+<section xml:id="item_fLRPeXihRaiRo5dyX"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Magnitude of His Own Folly</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/fLRPeXihRaiRo5dyX/the-magnitude-of-his-own-folly"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-09-30</pubdate>
+  </info>
+  <indexterm><primary>Heroic Responsibility</primary></indexterm>
+<indexterm><primary>AI Risk</primary></indexterm>
+<indexterm><primary>Growth Stories</primary></indexterm>
+  <para>In the years before I met that <link xl:href="https://www.lesswrong.com/posts/9HGR5qatMGoz4GhKj/above-average-ai-scientists">would-be creator of Artificial General Intelligence (with a funded project) who happened to be a creationist</link>, I would still try to argue with individual AGI wannabes.</para>
+<para>In those days, I sort-of-succeeded in convincing one such fellow that, yes, you had to take Friendly AI into account, and no, you couldn&apos;t just find the right fitness metric for an evolutionary algorithm.  (Previously he had been very impressed with evolutionary algorithms.)</para>
+<para>And the one said:  <emphasis>Oh, woe!  Oh, alas!  What a fool I&apos;ve been!  Through my carelessness, I almost destroyed the world!  What a villain I once was!</emphasis></para>
+<para>Now, <emphasis>there&apos;s</emphasis> a trap I knew I better than to fall into—</para>
+<para>—at the point where, in late 2002, I looked back to Eliezer<subscript>1997</subscript>&apos;s AI proposals and realized what they really would have done, insofar as they were coherent enough to talk about what they &quot;really would have done&quot;.</para>
+<para>When I finally saw the magnitude of my own folly, everything fell into place at once.  The dam against realization cracked; and the unspoken doubts that had been accumulating behind it, crashed through all together.  There wasn&apos;t a prolonged period, or even a single moment that I remember, of wondering how I could have been so stupid.  I already knew how.</para>
+<para>And I also knew, all at once, in the same moment of realization, that to say, <emphasis>I almost destroyed the world!,</emphasis> would have been too prideful.</para>
+<para>It would have been too confirming of ego, too confirming of my own importance in the scheme of things, at a time when—I understood in the same moment of realization—my ego ought to be taking a major punch to the stomach.  I had been so much less than I needed to be; I had to take that punch in the stomach, not avert it.</para>
+<para>And by the same token, I didn&apos;t fall into the conjugate trap of saying:  <emphasis>Oh, well, it&apos;s not as if I had code and was about to run it; I didn&apos;t </emphasis>really<emphasis> come close to destroying the world.  </emphasis>For that, too, would have minimized the force of the punch.  <emphasis>It wasn&apos;t really loaded?</emphasis>  I had proposed and intended to build the gun, and load the gun, and put the gun to my head and pull the trigger; and that was a bit too much <link xl:href="https://www.lesswrong.com/posts/XZWMeeqKmfMSPTLha/debiasing-as-non-self-destruction">self-destructiveness</link>.</para>
+<para>I didn&apos;t make a grand emotional drama out of it.  That would have wasted the force of the punch, averted it into mere tears.</para>
+<para>I knew, in the same moment, what I had been carefully not-doing for the last six years.  I hadn&apos;t been updating.</para>
+<para>And I knew I had to finally update.  To actually <emphasis>change</emphasis> what I planned to do, to change what I was doing now, to do something different instead.</para>
+<para>I knew I had to stop.</para>
+<para>Halt, melt, and catch fire.</para>
+<para>Say, &quot;I&apos;m not ready.&quot;  Say, &quot;I don&apos;t know how to do this yet.&quot;</para>
+<para>These are terribly difficult words to say, in the field of AGI.  Both the lay audience and your fellow AGI researchers are interested in code, projects with programmers in play.  Failing that, they may give you some credit for saying, &quot;I&apos;m ready to write code, just give me the funding.&quot;</para>
+<para>Say, &quot;I&apos;m not ready to write code,&quot; and your status drops like a depleted uranium balloon.</para>
+<para>What distinguishes you, then, from six billion other people who don&apos;t know how to create Artificial General Intelligence?  If you don&apos;t have neat code (that does something other than be humanly intelligent, obviously; but at least it&apos;s code), or at minimum your own startup that&apos;s going to write code as soon as it gets funding—then who are you and what are you doing at our conference?</para>
+<para>Maybe later I&apos;ll post on where this attitude comes from—the excluded middle between &quot;I know how to build AGI!&quot; and &quot;I&apos;m working on narrow AI because I don&apos;t know how to build AGI&quot;, the nonexistence of a concept for &quot;I am trying to get from an incomplete map of FAI to a complete map of FAI&quot;.</para>
+<para>But this attitude does exist, and so the loss of status associated with saying &quot;I&apos;m not ready to write code&quot; is very great.  (If the one doubts this, let them name any other who simultaneously says &quot;I intend to build an Artificial General Intelligence&quot;, &quot;Right now I can&apos;t build an AGI because I don&apos;t know X&quot;, and &quot;I am currently trying to figure out X&quot;.)</para>
+<para>(And never mind AGIfolk who&apos;ve already raised venture capital, promising returns in five years.) </para>
+<para>So there&apos;s a huge reluctance to say &quot;Stop&quot;.  You can&apos;t just say, &quot;Oh, I&apos;ll swap back to figure-out-X mode&quot; because that mode doesn&apos;t exist.</para>
+<para>Was there more to that reluctance than just loss of status, in my case?  Eliezer<subscript>2001</subscript> might also have flinched away from slowing his perceived forward momentum into the Singularity, which was so right and so necessary...</para>
+<para>But mostly, I think I flinched away from not being able to say, &quot;I&apos;m ready to start coding.&quot;  Not just for fear of others&apos; reactions, but because I&apos;d been inculcated with the same attitude myself.</para>
+<para>Above all, Eliezer<subscript>2001</subscript> didn&apos;t say &quot;Stop&quot;—even <emphasis>after</emphasis> noticing the problem of Friendly AI—because I did not realize, on a gut level, that Nature was allowed to kill me.</para>
+<para>&quot;Teenagers think they&apos;re immortal&quot;, the proverb goes.  Obviously this isn&apos;t true in the literal sense that if you ask them, &quot;Are you indestructible?&quot; they will reply &quot;Yes, go ahead and try shooting me.&quot;  But perhaps wearing seat belts isn&apos;t deeply emotionally compelling for them, because the thought of their own death isn&apos;t quite <emphasis>real</emphasis>—they don&apos;t really believe it&apos;s allowed to happen.  It can happen in <emphasis>principle</emphasis> but it can&apos;t <emphasis>actually</emphasis> happen.</para>
+<para>Personally, I always wore my seat belt.  As an individual, I understood that I could die.</para>
+<para>But, having been <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_uNWRXtdwL33ELgWjD">raised in technophilia</olink> to treasure that one most precious thing, far more important than my own life, I once thought that the Future was indestructible.</para>
+<para>Even when I acknowledged that nanotech could wipe out humanity, I still believed the Singularity was invulnerable.  That if humanity survived, the Singularity would happen, and it would be too smart to be corrupted or lost.</para>
+<para>Even after <emphasis>that,</emphasis> when I acknowledged Friendly AI as a consideration, I didn&apos;t emotionally believe in the possibility of failure, any more than that teenager who doesn&apos;t wear their seat belt <emphasis>really</emphasis> believes that an automobile accident is <emphasis>really</emphasis> allowed to kill or cripple them.</para>
+<para>It wasn&apos;t until my <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_75LZMCCePG4Pwj3dB">insight into optimization</olink> let me look back and see Eliezer<subscript>1997</subscript> in plain light, that I realized that Nature was allowed to kill me.</para>
+<para>&quot;The thought you cannot think controls you more than thoughts you speak aloud.&quot;  But we flinch away from only those fears that are real to us.</para>
+<para>AGI researchers take very seriously the prospect of <emphasis>someone else solving the problem first</emphasis>.  They can imagine seeing the headlines in the paper saying that their own work has been upstaged.  They know that Nature is allowed to do that to them.  The ones who have started companies know that they are allowed to run out of venture capital.  That possibility is <emphasis>real</emphasis> to them, very real; it has a power of emotional compulsion over them.</para>
+<para>I don&apos;t think that &quot;Oops&quot; followed by the thud of six billion bodies falling, <emphasis>at their own hands,</emphasis> is real to them on quite the same level.</para>
+<para>It is unsafe to say what other people are thinking.  But it seems rather likely that when the one reacts to the prospect of Friendly AI by saying, &quot;If you delay development to work on safety, other projects that don&apos;t care <emphasis>at all</emphasis> about Friendly AI will beat you to the punch,&quot; the prospect of they themselves making a mistake followed by six billion thuds, is not really real to them; but the possibility of others beating them to the punch is deeply scary.</para>
+<para>I, too, used to say things like that, before I understood that Nature was allowed to kill me.</para>
+<para>In that moment of realization, my childhood technophilia finally broke.</para>
+<para>I finally understood that even if you <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_wustx45CPL5rZenuo">diligently followed the rules of science</olink> and were a nice person, Nature could still kill you.  I finally understood that even if you were the best project out of all available candidates, Nature could still kill you.</para>
+<para>I understood that I was not being graded on a curve.  My gaze shook free of rivals, and I saw the sheer blank wall.</para>
+<para>I looked back and I saw the careful arguments I had constructed, for why the wisest choice was to continue forward at full speed, just as I had planned to do before.  And I understood then that even if you constructed an argument showing that something was the best course of action, Nature was still allowed to say &quot;So what?&quot; and kill you.</para>
+<para>I looked back and saw that I had claimed to take into account the risk of a fundamental mistake, that I had argued reasons to tolerate the risk of proceeding in the absence of full knowledge.</para>
+<para>And I saw that the risk I wanted to tolerate would have killed me.  And I saw that this possibility had never been <emphasis>really</emphasis> real to me.  And I saw that even if you had wise and excellent arguments for taking a risk, the risk was still allowed to go ahead and kill you.  <emphasis>Actually</emphasis> kill you.</para>
+<para>For it is only the action that matters, and not the reasons for doing anything.  If you build the gun and load the gun and put the gun to your head and pull the trigger, even with the cleverest of arguments for carrying out every step—then, bang.</para>
+<para>I saw that only my own ignorance of the rules had enabled me to argue for going ahead without complete knowledge of the rules; for if you do not know the rules, you cannot model the penalty of ignorance.</para>
+<para>I saw that others, still ignorant of the rules, were saying &quot;I will go ahead and do X&quot;; and that to the extent that X was a coherent proposal at all, I knew that would result in a bang; but they said, &quot;I do not know it cannot work&quot;.   I would try to explain to them the smallness of the target in the search space, and they would say &quot;How can you be so sure I won&apos;t win the lottery?&quot;, wielding their own ignorance as a bludgeon.</para>
+<para>And so I realized that the only thing I <emphasis>could</emphasis> have done to save myself, in my previous state of ignorance, was to say:  &quot;I will not proceed until I know positively that the ground is safe.&quot;  And there are many clever arguments for why you should step on a piece of ground that you don&apos;t know to contain a landmine; but they all sound much less clever, after you look to the place that you proposed and intended to step, and see the bang.</para>
+<para>I understood that you could do <emphasis>everything that you were supposed to do</emphasis>, and Nature was still allowed to kill you.  That was when my last <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_wustx45CPL5rZenuo">trust</olink> broke.  And that was when my training as a rationalist began.</para>
+
+  
+</section>

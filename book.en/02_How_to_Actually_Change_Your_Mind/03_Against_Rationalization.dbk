@@ -1,0 +1,32 @@
+<chapter xml:id="item_GSqFqc646rsRd2oyz"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Against Rationalization</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/GSqFqc646rsRd2oyz"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>The last sequence focused in on how feeling tribal often distorts our ability to reason. Now we&apos;ll explore one particular cognitive mechanism that causes this: much of our reasoning process is really rationalization—story-telling that makes our current beliefs feel more coherent and justified, without necessarily improving their accuracy.</para>
+
+  <xi:include href="03_Against_Rationalization/01_Knowing_About_Biases_Can_Hurt_People.dbk"/>
+<xi:include href="03_Against_Rationalization/02_Update_Yourself_Incrementally.dbk"/>
+<xi:include href="03_Against_Rationalization/03_One_Argument_Against_An_Army.dbk"/>
+<xi:include href="03_Against_Rationalization/04_The_Bottom_Line.dbk"/>
+<xi:include href="03_Against_Rationalization/05_What_Evidence_Filtered_Evidence.dbk"/>
+<xi:include href="03_Against_Rationalization/06_Rationalization.dbk"/>
+<xi:include href="03_Against_Rationalization/07_A_Rational_Argument.dbk"/>
+<xi:include href="03_Against_Rationalization/08_Avoiding_Your_Beliefs_Real_Weak_Points.dbk"/>
+<xi:include href="03_Against_Rationalization/09_Motivated_Stopping_and_Motivated_Continuation.dbk"/>
+<xi:include href="03_Against_Rationalization/10_Fake_Justification.dbk"/>
+<xi:include href="03_Against_Rationalization/11_Is_That_Your_True_Rejection.dbk"/>
+<xi:include href="03_Against_Rationalization/12_Entangled_Truths_Contagious_Lies.dbk"/>
+<xi:include href="03_Against_Rationalization/13_Of_Lies_and_Black_Swan_Blowups.dbk"/>
+<xi:include href="03_Against_Rationalization/14_Dark_Side_Epistemology.dbk"/>
+</chapter>

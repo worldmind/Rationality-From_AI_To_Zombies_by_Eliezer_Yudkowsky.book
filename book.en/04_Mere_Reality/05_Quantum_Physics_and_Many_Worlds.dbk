@@ -1,0 +1,33 @@
+<chapter xml:id="item_Kqs6GR7F5xziuSyGZ"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Quantum Physics and Many Worlds</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/Kqs6GR7F5xziuSyGZ"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-09-09</pubdate>
+  </info>
+  
+  <para>Quantum mechanics is our best mathematical model of the universe to date, powerfully confirmed by a century of tests. However, interpreting what the experimental results <emphasis>mean</emphasis> - how and when the Schrödinger equation and Born&apos;s rule interact - is a topic of much contention, with the main disagreement being between the Everett and the Copenhagen interpretations.</para>
+<para>Yudkowsky uses this scientific controversy as a proving ground for some central ideas from previous sequences: map-territory distinctions, mysterious answers, Bayesianism, and Occam’s Razor.</para>
+
+  <xi:include href="05_Quantum_Physics_and_Many_Worlds/01_Quantum_Explanations.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/02_Configurations_and_Amplitude.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/03_Joint_Configurations.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/04_Distinct_Configurations.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/05_Collapse_Postulates.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/06_Decoherence_is_Simple.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/07_Decoherence_is_Falsifiable_and_Testable.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/08_Privileging_the_Hypothesis.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/09_Living_in_Many_Worlds.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/10_Quantum_NonRealism.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/11_If_ManyWorlds_Had_Come_First.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/12_Where_Philosophy_Meets_Science.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/13_Thou_Art_Physics.dbk"/>
+<xi:include href="05_Quantum_Physics_and_Many_Worlds/14_Many_Worlds_One_Best_Guess.dbk"/>
+</chapter>

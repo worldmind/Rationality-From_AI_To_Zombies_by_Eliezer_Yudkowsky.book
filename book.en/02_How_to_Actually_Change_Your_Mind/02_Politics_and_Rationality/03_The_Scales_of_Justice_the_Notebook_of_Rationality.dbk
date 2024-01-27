@@ -1,0 +1,30 @@
+<section xml:id="item_XYCEB9roxEBfgjfxs"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Scales of Justice, the Notebook of Rationality</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/XYCEB9roxEBfgjfxs/the-scales-of-justice-the-notebook-of-rationality"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-03-13</pubdate>
+  </info>
+  <indexterm><primary>Affect Heuristic</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+  <para>Lady Justice is widely depicted as carrying scales. A set of scales has the property that whatever pulls one side down pushes the other side up. This makes things very convenient and easy to track. It’s also usually a gross distortion. </para>
+<para>In human discourse there is a natural tendency to treat discussion as a form of combat, an extension of war, a sport; and in sports you only need to keep track of how many points have been scored by each team. There are only two sides, and every point scored against one side is a point in favor of the other. Everyone in the audience keeps a mental running count of how many points each speaker scores against the other. At the end of the debate, the speaker who has scored more points is, obviously, the winner; so everything that speaker says must be true, and everything the loser says must be wrong.</para>
+<para>“The Affect Heuristic in Judgments of Risks and Benefits” studied whether subjects mixed up their judgments of the possible benefits of a technology (e.g., nuclear power), and the possible risks of that technology, into a single overall good or bad feeling about the technology.<footnote xml:id="fn_08e1df4b9d3956f4fcbf42d77dbdeba1">
+    <para><anchor xml:id="cite.0.Finucane.2000"/>Melissa L. Finucane et al., “The Affect Heuristic in Judgments of Risks and Benefits,” <emphasis>Journal of Behavioral Decision Making</emphasis> 13, no. 1 (2000): 1–17.</para>
+  </footnote>
+<anchor xml:id="x21-22001f1"/> Suppose that I first tell you that a particular kind of nuclear reactor generates less nuclear waste than competing reactor designs. But then I tell you that the reactor is more unstable than competing designs, with a greater danger of melting down if a sufficient number of things go wrong simultaneously.</para>
+<para>If the reactor is more likely to melt down, this seems like a “point against” the reactor, or a “point against” someone who argues for building the reactor. And if the reactor produces less waste, this is a “point for” the reactor, or a “point for” building it. So are these two facts opposed to each other? No. In the real world, no. These two facts may be cited by different sides of the same debate, but they are logically distinct; the facts don’t know whose side they’re on.</para>
+<para>If it’s a physical fact about a reactor design that it’s passively safe (won’t go supercritical even if the surrounding coolant systems and so on break down), this doesn’t imply that the reactor will necessarily generate less waste, or produce electricity at a lower cost. All these things would be good, but they are not the same good thing. The amount of waste produced by the reactor arises from the properties of that reactor. Other physical properties of the reactor make the nuclear reaction more unstable. Even if some of the same design properties are involved, you have to separately consider the probability of meltdown, and the expected annual waste generated. These are two different physical questions with two different factual answers.</para>
+<para>But studies such as the above show that people tend to judge technologies—and many other problems—by an overall good or bad feeling. If you tell people a reactor design produces less waste, they rate its probability of meltdown as lower. This means getting the <emphasis>wrong answer</emphasis> to physical questions with definite factual answers, because you have mixed up logically distinct questions—treated facts like human soldiers on different sides of a war, thinking that any soldier on one side can be used to fight any soldier on the other side.</para>
+<para>A set of scales is not wholly inappropriate for Lady Justice if she is investigating a strictly factual question of guilt or innocence. Either John Smith killed John Doe, or not. We are taught (by E. T. Jaynes) that all Bayesian evidence consists of probability flows <emphasis>between</emphasis> hypotheses; there is no such thing as evidence that “supports” or “contradicts” a single hypothesis, except insofar as other hypotheses do worse or better. So long as Lady Justice is investigating a <emphasis>single</emphasis>, strictly <emphasis>factual</emphasis> question with a <emphasis>binary</emphasis> answer space, a set of scales would be an appropriate tool. If Justitia must consider any more complex issue, she should relinquish her scales or relinquish her sword.</para>
+<para>Not all arguments reduce to mere up or down. Lady Rationality carries a notebook, wherein she writes down all the facts that aren’t on anyone’s side.</para>
+
+  
+</section>

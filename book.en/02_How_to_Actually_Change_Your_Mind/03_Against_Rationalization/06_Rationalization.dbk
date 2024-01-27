@@ -1,0 +1,39 @@
+<section xml:id="item_SFZoEBpLo9frSJGkc"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Rationalization</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/SFZoEBpLo9frSJGkc/rationalization"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-03-20</pubdate>
+  </info>
+  <indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Rationalization</primary></indexterm>
+  <para>In “The Bottom Line,” I presented the dilemma of two boxes, only one of which contains a diamond, with various signs and portents as evidence. I dichotomized the curious inquirer and the clever arguer. The curious inquirer writes down all the signs and portents, and processes them, and finally writes down, “<emphasis role="italic">Therefore,</emphasis> I estimate an 85% probability that box B contains the diamond.” The clever arguer works for the highest bidder, and begins by writing, “<emphasis role="italic">Therefore,</emphasis> box B contains the diamond,” and then selects favorable signs and portents to list on the lines above.</para>
+<para>The first procedure is rationality. The second procedure is generally known as “rationalization.”</para>
+<para>“Rationalization.” What a curious term. I would call it a <emphasis role="italic">wrong word.</emphasis> You cannot “rationalize” what is not already rational. It is as if “lying” were called “truthization.”</para>
+<para>On a purely computational level, there is a rather large difference between:</para>
+<orderedlist>
+  <listitem>
+    <para> Starting from evidence, and then crunching probability flows, in order to output a probable conclusion. (Writing down all the signs and portents, and then flowing forward to a probability on the bottom line which depends on those signs and portents.) </para>
+  </listitem>
+  <listitem>
+    <para> Starting from a conclusion, and then crunching probability flows, in order to output evidence apparently favoring that conclusion. (Writing down the bottom line, and then flowing backward to select signs and portents for presentation on the lines above.)</para>
+  </listitem>
+</orderedlist>
+<para>What fool devised such confusingly similar words, “rationality” and “rationalization,” to describe such extraordinarily different mental processes? I would prefer terms that made the algorithmic difference obvious, like “rationality” versus “giant sucking cognitive black hole.”</para>
+<para>Not every change is an improvement, but every improvement is necessarily a change. You cannot obtain more truth for a fixed proposition by arguing it; you can make more people believe it, but you cannot make it more <emphasis role="italic">true</emphasis>. To improve our beliefs, we must necessarily change our beliefs. Rationality is the operation that we use to obtain more accuracy for our beliefs by changing them. Rationalization operates to fix beliefs in place; it would be better named “anti-rationality,” both for its pragmatic results and for its reversed algorithm.</para>
+<para>“Rationality” is the <emphasis role="italic">forward</emphasis> flow that gathers evidence, weighs it, and outputs a conclusion. The curious inquirer used a forward-flow algorithm: <emphasis role="italic">first</emphasis> gathering the evidence, writing down a list of all visible signs and portents, which they then processed <emphasis role="italic">forward</emphasis> to obtain a previously unknown probability for the box containing the diamond. During the entire time that the rationality-process was running forward, the curious inquirer did not yet know their destination, which was why they were <emphasis role="italic">curious.</emphasis> In the Way of Bayes, the prior probability equals the expected posterior probability: If you know your destination, you are already there.</para>
+<para>“Rationalization” is a <emphasis role="italic">backward</emphasis> flow from conclusion to selected evidence. First you write down the bottom line, which is known and fixed; the purpose of your processing is to find out which arguments you should write down on the lines above. This, not the bottom line, is the variable unknown to the running process.</para>
+<para>I fear that Traditional Rationality does not properly sensitize its users to the difference between forward flow and backward flow. In Traditional Rationality, there is nothing wrong with the scientist who arrives at a pet hypothesis and then sets out to find an experiment that proves it. A Traditional Rationalist would look at this approvingly, and say, “This pride is the engine that drives Science forward.” Well, it <emphasis role="italic">is</emphasis> the engine that drives Science forward. It is easier to find a prosecutor and defender biased in opposite directions, than to find a single unbiased human.</para>
+<para>But just because everyone does something, doesn’t make it okay. It would be better yet if the scientist, arriving at a pet hypothesis, set out to <emphasis role="italic">test</emphasis> that hypothesis for the sake of <emphasis role="italic">curiosity</emphasis>—creating experiments that would drive their own beliefs in an unknown direction.</para>
+<para>If you genuinely don’t know where you are going, you will probably feel quite curious about it. Curiosity is the first virtue, without which your questioning will be purposeless and your skills without direction.</para>
+<para>Feel the flow of the Force, and make sure it isn’t flowing backwards.</para>
+
+  
+</section>

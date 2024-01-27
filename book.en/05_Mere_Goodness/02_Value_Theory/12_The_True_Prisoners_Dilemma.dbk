@@ -1,0 +1,100 @@
+<section xml:id="item_HFyWNBnDNEDsDNLrZ"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The True Prisoner's Dilemma</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/HFyWNBnDNEDsDNLrZ/the-true-prisoner-s-dilemma"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2019-12-28</pubdate>
+  </info>
+  <indexterm><primary>Squiggle Maximizer (formerly "Paperclip maximizer")</primary></indexterm>
+<indexterm><primary>Game Theory</primary></indexterm>
+<indexterm><primary>Prisoner's Dilemma</primary></indexterm>
+  <para>It occurred to me one day that the standard visualization of the <link xl:href="http://en.wikipedia.org/wiki/Prisoner%27s_dilemma">Prisoner&apos;s Dilemma</link> is fake.</para>
+<para>The core of the Prisoner&apos;s Dilemma is this symmetric payoff matrix:</para>
+<informaltable frame="all">
+  <tgroup cols="3">
+    <colspec colname="c1" colwidth="33*"/>
+    <colspec colname="c2" colwidth="33*"/>
+    <colspec colname="c3" colwidth="33*"/>
+    <tbody>
+      <row>
+        <entry><para/></entry>
+        <entry><para>1: C</para></entry>
+        <entry><para>1:  D</para></entry>
+      </row>
+      <row>
+        <entry><para>2: C</para></entry>
+        <entry><para>(3, 3)</para></entry>
+        <entry><para>(5, 0)</para></entry>
+      </row>
+      <row>
+        <entry><para>2: D</para></entry>
+        <entry><para>(0, 5)</para></entry>
+        <entry><para>(2, 2)</para></entry>
+      </row>
+    </tbody>
+  </tgroup>
+</informaltable>
+<para>Player 1, and Player 2, can each choose C or D.  1 and 2&apos;s utility for the final outcome is given by the first and second number in the pair.  For reasons that will become apparent, &quot;C&quot; stands for &quot;cooperate&quot; and D stands for &quot;defect&quot;.</para>
+<para>Observe that a player in this game (regarding themselves as the first player) has this preference ordering over outcomes:  (D, C) &gt; (C, C) &gt; (D, D) &gt; (C, D).</para>
+<para>D, it would seem, dominates C:  If the other player chooses C, you prefer (D, C) to (C, C); and if the other player chooses D, you prefer (D, D) to (C, D).  So you wisely choose D, and as the payoff table is symmetric, the other player likewise chooses D.</para>
+<para>If only you&apos;d both been less wise!  You <emphasis>both</emphasis> prefer (C, C) to (D, D).  That is, you both prefer mutual cooperation to mutual defection.</para>
+<para>The Prisoner&apos;s Dilemma is one of the great foundational issues in decision theory, and enormous volumes of material have been written about it.  Which makes it an audacious assertion of mine, that the usual way of <emphasis>visualizing</emphasis> the Prisoner&apos;s Dilemma has a severe flaw, at least if you happen to be human.</para>
+<para>The classic visualization of the Prisoner&apos;s Dilemma is as follows: you are a criminal, and you and your confederate in crime have both been captured by the authorities.</para>
+<para>Independently, without communicating, and without being able to change your mind afterward, you have to decide whether to give testimony against your confederate (D) or remain silent (C).</para>
+<para>Both of you, right now, are facing one-year prison sentences; testifying (D) takes one year off your prison sentence, and adds two years to your confederate&apos;s sentence.</para>
+<para>Or maybe you and some stranger are, only once, and without knowing the other player&apos;s history, or finding out who the player was afterward, deciding whether to play C or D, for a payoff in dollars matching the standard chart.</para>
+<para>And, oh yes - in the classic visualization you&apos;re supposed to <emphasis>pretend that you&apos;re entirely selfish</emphasis>, that you don&apos;t care about your confederate criminal, or the player in the other room.</para>
+<para>It&apos;s this last specification that makes the classic visualization, in my view, fake.</para>
+<para>You <link xl:href="https://www.lesswrong.com/posts/fkM9XsNvXdYH6PPAx/hindsight-bias">can&apos;t avoid hindsight bias</link> by instructing a jury to pretend not to know the real outcome of a set of events.  And without a complicated effort backed up by considerable knowledge, a neurologically intact human being cannot pretend to be genuinely, truly selfish.</para>
+<para>We&apos;re born with a sense of fairness, honor, empathy, sympathy, and even altruism - the result of our ancestors <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_XPErvb8m9FapXCjhA">adapting</olink> to play the <emphasis>iterated</emphasis> Prisoner&apos;s Dilemma.  We don&apos;t really, truly, absolutely and entirely prefer (D, C) to (C, C), though we may entirely prefer (C, C) to (D, D) and (D, D) to (C, D).  The thought of our confederate spending three years in prison, does not entirely fail to move us.</para>
+<para>In that locked cell where we play a simple game under the supervision of economic psychologists, we are not entirely and absolutely unsympathetic for the stranger who might cooperate.  We aren&apos;t entirely happy to think what we might defect and the stranger cooperate, getting five dollars while the stranger gets nothing.</para>
+<para>We fixate instinctively on the (C, C) outcome and search for ways to argue that it should be the mutual decision:  &quot;How can we ensure mutual cooperation?&quot; is the instinctive thought.  Not &quot;How can I trick the other player into playing C while I play D for the maximum payoff?&quot;</para>
+<para>For someone with an impulse toward altruism, or honor, or fairness, the Prisoner&apos;s Dilemma doesn&apos;t <emphasis>really</emphasis> have the critical payoff matrix - whatever the <emphasis>financial</emphasis> payoff to individuals.  (C, C) &gt; (D, C), and the key question is whether the other player sees it the same way.</para>
+<para>And no, you can&apos;t instruct people being initially introduced to game theory to pretend they&apos;re completely selfish - any more than you can instruct human beings being introduced to <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_RcZeZt8cPk48xxiQ8">anthropomorphism</olink> to pretend they&apos;re expected paperclip maximizers.</para>
+<para>To construct the True Prisoner&apos;s Dilemma, the situation has to be something like this:</para>
+<para>Player 1:  Human beings, Friendly AI, or other humane intelligence.</para>
+<para>Player 2:  UnFriendly AI, or an alien that <olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_mMBTPTjRbsrqbSkZE">only cares about sorting pebbles</olink>.</para>
+<para>Let&apos;s suppose that four billion human beings - not the whole human species, but a significant part of it - are currently progressing through a fatal disease that can only be cured by substance S.</para>
+<para>However, substance S can only be produced by working with a paperclip maximizer from another dimension - substance S can also be used to produce paperclips.  The paperclip maximizer only cares about the number of paperclips in its own universe, not in ours, so we can&apos;t offer to produce or threaten to destroy paperclips here.  We have never interacted with the paperclip maximizer before, and will never interact with it again.</para>
+<para>Both humanity and the paperclip maximizer will get a single chance to seize some additional part of substance S for themselves, just before the dimensional nexus collapses; but the seizure process destroys some of substance S.</para>
+<para>The payoff matrix is as follows:</para>
+<informaltable frame="all">
+  <tgroup cols="3">
+    <colspec colname="c1" colwidth="33*"/>
+    <colspec colname="c2" colwidth="33*"/>
+    <colspec colname="c3" colwidth="33*"/>
+    <tbody>
+      <row>
+        <entry><para/></entry>
+        <entry><para>1: C</para></entry>
+        <entry><para>1:  D</para></entry>
+      </row>
+      <row>
+        <entry><para>2: C</para></entry>
+        <entry><para>(2 billion human lives saved, 2 paperclips gained)</para></entry>
+        <entry><para>(+3 billion lives, +0 paperclips)</para></entry>
+      </row>
+      <row>
+        <entry><para>2: D</para></entry>
+        <entry><para>(+0 lives, +3 paperclips)</para></entry>
+        <entry><para>(+1 billion lives, +1 paperclip)</para></entry>
+      </row>
+    </tbody>
+  </tgroup>
+</informaltable>
+<para>I&apos;ve chosen this payoff matrix to produce a sense of <emphasis>indignation</emphasis> at the thought that the paperclip maximizer wants to trade off billions of human lives against a couple of paperclips.  Clearly the paperclip maximizer <emphasis>should</emphasis> just let us have all of substance S; but a paperclip maximizer doesn&apos;t do what it <emphasis>should,</emphasis> it just maximizes paperclips.</para>
+<para>In this case, we <emphasis>really do</emphasis> prefer the outcome (D, C) to the outcome (C, C), leaving aside the actions that produced it.  We would vastly rather live in a universe where 3 billion humans were cured of their disease and no paperclips were produced, rather than sacrifice a billion human lives to produce 2 paperclips.  It doesn&apos;t seem <emphasis>right</emphasis> to cooperate, in a case like this.  It doesn&apos;t even seem <emphasis>fair</emphasis> - so great a sacrifice by us, for so little gain by the paperclip maximizer?  And let us specify that the paperclip-agent experiences no pain or pleasure - it just outputs actions that steer its universe to contain more paperclips.  The paperclip-agent will experience no pleasure at gaining paperclips, no hurt from losing paperclips, and no painful sense of betrayal if we betray it.</para>
+<para>What do you do then?  Do you cooperate when you really, definitely, truly and absolutely do want the highest reward you can get, and you don&apos;t care a tiny bit by comparison about what happens to the other player?  When it seems <emphasis>right</emphasis> to defect even if the other player cooperates?</para>
+<para>That&apos;s what the payoff matrix for the <emphasis>true</emphasis> Prisoner&apos;s Dilemma looks like - a situation where (D, C) seems <emphasis>righter</emphasis> than (C, C).</para>
+<para>But all the rest of the logic - everything about what happens if both agents think that way, and both agents defect - is the same.  For the paperclip maximizer cares as little about human deaths, or human pain, or a human sense of betrayal, as we care about paperclips.  Yet we both prefer (C, C) to (D, D).</para>
+<para>So if you&apos;ve ever prided yourself on cooperating in the Prisoner&apos;s Dilemma... or questioned the verdict of classical game theory that the &quot;<olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_6ddcsdA2c2XpNpE5x">rational</olink>&quot; choice is to defect... then what do you say to the True Prisoner&apos;s Dilemma above?</para>
+
+  
+</section>

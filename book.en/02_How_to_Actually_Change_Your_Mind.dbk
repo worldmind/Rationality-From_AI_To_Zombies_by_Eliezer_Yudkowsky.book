@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:id="item_coGq3LC5Yn4vZiu6k"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      doc_status="final;draft"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>How to Actually Change Your Mind</title>
+    <abstract><para>This truth thing seems pretty handy. Why, then, do we keep jumping to conclusions, digging our heels in, and recapitulating the same mistakes? Why are we so bad at acquiring accurate beliefs, and how can we do better? These seven sequences discuss motivated reasoning and confirmation bias, with a special focus on hard-to-spot species of self-deception and the trap of “using arguments as soldiers”.</para>
+</abstract>
+    <authorgroup>
+      <author><personname>
+<firstname>Eliezer</firstname><surname>Yudkowsky</surname>
+</personname>
+</author>
+      <othercredit role="coauthor"><personname>
+<firstname>Rob</firstname><surname>Bensinger</surname>
+</personname>
+</othercredit>
+      <othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>Raemon</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>habryka</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>mingyuan</firstname><surname></surname>
+</personname>
+</othercredit>
+    </authorgroup>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/rationality#coGq3LC5Yn4vZiu6k"></link>
+    </bibliosource>
+    <pubdate>2023-12-07</pubdate>
+  </info>
+  <xi:include href="02_How_to_Actually_Change_Your_Mind/01_Overly_Convenient_Excuses.dbk"/>
+<xi:include href="02_How_to_Actually_Change_Your_Mind/02_Politics_and_Rationality.dbk"/>
+<xi:include href="02_How_to_Actually_Change_Your_Mind/03_Against_Rationalization.dbk"/>
+<xi:include href="02_How_to_Actually_Change_Your_Mind/04_Against_Doublethink.dbk"/>
+<xi:include href="02_How_to_Actually_Change_Your_Mind/05_Seeing_with_Fresh_Eyes.dbk"/>
+<xi:include href="02_How_to_Actually_Change_Your_Mind/06_Death_Spirals.dbk"/>
+<xi:include href="02_How_to_Actually_Change_Your_Mind/07_Letting_Go.dbk"/>
+  <index/>
+</book>

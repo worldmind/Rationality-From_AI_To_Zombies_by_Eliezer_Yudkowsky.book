@@ -1,0 +1,148 @@
+<section xml:id="item_yLcuygFfMfrfK8KjF"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Mutual Information, and Density in Thingspace</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/yLcuygFfMfrfK8KjF/mutual-information-and-density-in-thingspace"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-23</pubdate>
+  </info>
+  <indexterm><primary>Information Theory</primary></indexterm>
+<indexterm><primary>Thingspace</primary></indexterm>
+  <para>Suppose you have a system X that can be in any of 8 states, which are all equally probable (relative to your current state of knowledge), and a system Y that can be in any of 4 states, all equally probable.</para>
+<para>The entropy of X, as defined yesterday, is 3 bits; we&apos;ll need to ask 3 yes-or-no questions to find out X&apos;s exact state.  The entropy of Y, as defined yesterday, is 2 bits; we have to ask 2 yes-or-no questions to find out Y&apos;s exact state.  This may seem obvious since 2<superscript>3</superscript> = 8 and 2<superscript>2</superscript> = 4, so 3 questions can distinguish 8 possibilities and 2 questions can distinguish 4 possibilities; but remember that if the possibilities were not all equally likely, we could use a more clever code to discover Y&apos;s state using e.g. 1.75 questions on average.  In this case, though, X&apos;s <emphasis>probability mass</emphasis> is <emphasis>evenly distributed</emphasis> over all its possible states, and likewise Y, so we can&apos;t use any clever codes.</para>
+<para>What is the entropy of the combined system (X,Y)?</para>
+<para>You might be tempted to answer, &quot;It takes 3 questions to find out X, and then 2 questions to find out Y, so it takes 5 questions total to find out the state of X and Y.&quot;</para>
+<para>But what if the two variables are entangled, so that learning the state of Y tells us something about the state of X?</para>
+<para>In particular, let&apos;s suppose that X and Y are either both odd, or both even.</para>
+<para>Now if we receive a 3-bit message (ask 3 questions) and learn that X is in state 5, we know that Y is in state 1 or state 3, but not state 2 or state 4.  So the single additional question &quot;Is Y in state 3?&quot;, answered &quot;No&quot;, tells us the entire state of (X,Y):  X=X<subscript>5</subscript>, Y=Y<subscript>1</subscript>.  And we learned this with a total of 4 questions.</para>
+<para>Conversely, if we learn that Y is in state 4 using two questions, it will take us only an additional two questions to learn whether X is in state 2, 4, 6, or 8.  Again, four questions to learn the state of the joint system.</para>
+<para>The <emphasis>mutual information</emphasis> of two variables is defined as the difference between the entropy of the joint system and the entropy of the independent systems:  I(X;Y) = H(X) + H(Y) - H(X,Y).</para>
+<para>Here there is one bit of mutual information between the two systems:  Learning X tells us one bit of information about Y (cuts down the space of possibilities from 4 to 2, a factor-of-2 decrease in the volume) and learning Y tells us one bit of information about X (cuts down the possibility space from 8 to 4).</para>
+<para>What about when probability mass is not evenly distributed?  Yesterday, for example, we discussed the case in which Y had the probabilities 1/2, 1/4, 1/8, 1/8 for its four states.  Let us take this to be our probability distribution over Y, considered independently - if we saw Y, without seeing anything else, this is what we&apos;d expect to see.   And suppose the variable Z has two states, 1 and 2, with probabilities 3/8 and 5/8 respectively.</para>
+<para>Then if and only if the joint distribution of Y and Z is as follows, there is zero mutual information between Y and Z:</para>
+<blockquote>
+  <para><informaltable frame="none">
+      <tgroup cols="4">
+        <colspec colname="c1" colwidth="25*"/>
+        <colspec colname="c2" colwidth="25*"/>
+        <colspec colname="c3" colwidth="25*"/>
+        <colspec colname="c4" colwidth="25*"/>
+        <tbody>
+          <row>
+            <entry><para>Z<subscript>1</subscript>Y<subscript>1</subscript>: 3/16</para></entry>
+            <entry><para>    Z<subscript>1</subscript>Y<subscript>2</subscript>: 3/32</para></entry>
+            <entry><para>    Z<subscript>1</subscript>Y<subscript>3</subscript>: 3/64</para></entry>
+            <entry><para>    Z<subscript>1</subscript>Y<subscript>3</subscript>: 3/64</para></entry>
+          </row>
+          <row>
+            <entry><para>Z<subscript>2</subscript>Y<subscript>1</subscript>: 5/16</para></entry>
+            <entry><para>    Z<subscript>2</subscript>Y<subscript>2</subscript>: 5/32</para></entry>
+            <entry><para>    Z<subscript>2</subscript>Y<subscript>3</subscript>: 5/64</para></entry>
+            <entry><para>    Z<subscript>2</subscript>Y<subscript>3</subscript>: 5/64</para></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+</para>
+</blockquote>
+<para>This distribution obeys the law:</para>
+<blockquote>
+  <para> p(Y,Z) = P(Y)P(Z)</para>
+</blockquote>
+<para>For example, P(Z<subscript>1</subscript>Y<subscript>2</subscript>) = P(Z<subscript>1</subscript>)P(Y<subscript>2</subscript>) = 3/8 * 1/4 = 3/32.</para>
+<para>And observe that we can recover the marginal (independent) probabilities of Y and Z just by looking at the joint distribution:</para>
+<blockquote>
+  <para> P(Y<subscript>1</subscript>) = total probability of all the different ways Y<subscript>1</subscript> can happen</para>
+  <para>= P(Z<subscript>1</subscript>Y<subscript>1</subscript>) + P(Z<subscript>2</subscript>Y<subscript>1</subscript>)</para>
+  <para>= 3/16 + 5/16</para>
+  <para>= 1/2.</para>
+</blockquote>
+<para>So, just by inspecting the joint distribution, we can determine whether the marginal variables Y and Z are independent; that is, whether the joint distribution factors into the product of the marginal distributions; whether, for all Y and Z, P(Y,Z) = P(Y)P(Z).</para>
+<para>This last is significant because, by <link xl:href="http://yudkowsky.net/bayes/bayes.html">Bayes&apos;s Rule</link>:</para>
+<blockquote>
+  <para> P(Y<subscript>i</subscript>,Z<subscript>j</subscript>) = P(Y<subscript>i</subscript>)P(Z<subscript>j</subscript>)</para>
+  <para>P(Y<subscript>i</subscript>,Z<subscript>j</subscript>)/P(Z<subscript>j</subscript>) = P(Y<subscript>i</subscript>)</para>
+  <para>P(Y<subscript>i</subscript>|Z<subscript>j</subscript>) = P(Y<subscript>i</subscript>)</para>
+</blockquote>
+<para>In English, &quot;After you learn Z<subscript>j</subscript>, your belief about Y<subscript>i</subscript> is just what it was before.&quot;</para>
+<para>So when the distribution factorizes - when P(Y,Z) = P(Y)P(Z) - this is <emphasis>equivalent</emphasis> to &quot;Learning about Y never tells us anything about Z or vice versa.&quot;</para>
+<para>From which you might suspect, correctly, that there is no mutual information between Y and Z.  Where there is no mutual information, there is no Bayesian evidence, and vice versa.</para>
+<para>Suppose that in the distribution YZ above, we treated each possible combination of Y and Z as a separate event—so that the distribution YZ would have a total of 8 possibilities, with the probabilities shown—and then we calculated the entropy of the distribution YZ the same way we would calculate the entropy of any distribution:</para>
+<blockquote>
+  <para> 3/16 log<subscript>2</subscript>(3/16) + 3/32 log<subscript>2</subscript>(3/32) + 3/64 log<subscript>2</subscript>(3/64) + ... + 5/64 log<subscript>2</subscript>(5/64)</para>
+</blockquote>
+<para>You would end up with the same total you would get if you separately calculated the entropy of Y plus the entropy of Z.  There is no mutual information between the two variables, so our uncertainty about the joint system is not any less than our uncertainty about the two systems considered separately.  (I am not showing the calculations, but you are welcome to do them; and I am not showing the proof that this is true in general, but you are welcome to Google on &quot;Shannon entropy&quot; and &quot;mutual information&quot;.)</para>
+<para>What if the joint distribution doesn&apos;t factorize?  For example:</para>
+<blockquote>
+  <para><informaltable frame="none">
+      <tgroup cols="4">
+        <colspec colname="c1" colwidth="25*"/>
+        <colspec colname="c2" colwidth="25*"/>
+        <colspec colname="c3" colwidth="25*"/>
+        <colspec colname="c4" colwidth="25*"/>
+        <tbody>
+          <row>
+            <entry><para>Z<subscript>1</subscript>Y<subscript>1</subscript>: 12/64</para></entry>
+            <entry><para>    Z<subscript>1</subscript>Y<subscript>2</subscript>: 8/64</para></entry>
+            <entry><para>    Z<subscript>1</subscript>Y<subscript>3</subscript>: 1/64</para></entry>
+            <entry><para>    Z<subscript>1</subscript>Y<subscript>4</subscript>: 3/64</para></entry>
+          </row>
+          <row>
+            <entry><para>Z<subscript>2</subscript>Y<subscript>1</subscript>: 20/64</para></entry>
+            <entry><para>    Z<subscript>2</subscript>Y<subscript>2</subscript>: 8/64</para></entry>
+            <entry><para>    Z<subscript>2</subscript>Y<subscript>3</subscript>: 7/64</para></entry>
+            <entry><para>    Z<subscript>2</subscript>Y<subscript>4</subscript>: 5/64</para></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+</para>
+</blockquote>
+<para>If you add up the joint probabilities to get marginal probabilities, you should find that P(Y<subscript>1</subscript>) = 1/2, P(Z<subscript>1</subscript>) = 3/8, and so on - the marginal probabilities are the same as before.</para>
+<para>But the joint probabilities do not always equal the product of the marginal probabilities.  For example, the probability P(Z<subscript>1</subscript>Y<subscript>2</subscript>) equals 8/64, where P(Z<subscript>1</subscript>)P(Y<subscript>2</subscript>) would equal 3/8 * 1/4 = 6/64.  That is, the probability of running into Z<subscript>1</subscript>Y<subscript>2</subscript> together, is greater than you&apos;d expect based on the probabilities of running into Z<subscript>1</subscript> or Y<subscript>2</subscript> separately.</para>
+<para>Which in turn implies:</para>
+<blockquote>
+  <para> P(Z<subscript>1</subscript>Y<subscript>2</subscript>) &gt; P(Z<subscript>1</subscript>)P(Y<subscript>2</subscript>)</para>
+  <para>P(Z<subscript>1</subscript>Y<subscript>2</subscript>)/P(Y<subscript>2</subscript>) &gt; P(Z<subscript>1</subscript>)</para>
+  <para>P(Z<subscript>1</subscript>|Y<subscript>2</subscript>) &gt; P(Z<subscript>1</subscript>)</para>
+</blockquote>
+<para>Since there&apos;s an &quot;unusually high&quot; probability for P(Z<subscript>1</subscript>Y<subscript>2</subscript>) - defined as a probability higher than the marginal probabilities would indicate by default - it follows that observing Y<subscript>2</subscript><subscript> </subscript> is evidence which increases the probability of <subscript> </subscript>Z<subscript>1</subscript>.  And by a symmetrical argument, observing Z<subscript>1</subscript><subscript> </subscript> must favor Y<subscript>2</subscript>.</para>
+<para>As there are at least some values of Y that tell us about Z (and vice versa) there must be mutual information between the two variables; and so you will find—I am confident, though I haven&apos;t actually checked—that calculating the entropy of YZ yields less total uncertainty than the sum of the independent entropies of Y and Z.  H(Y,Z) = H(Y) + H(Z) - I(Y;Z) with all quantities necessarily nonnegative.</para>
+<blockquote>
+  <para> (I digress here to remark that the symmetry of the expression for the mutual information shows that Y <emphasis>must </emphasis>tell us as much about Z, on average, as Z tells us about Y.  I leave it as an exercise to the reader to reconcile this with anything they were taught in logic class about how, if all ravens are black, being allowed to reason Raven(x)-&gt;Black(x) doesn&apos;t mean you&apos;re allowed to reason Black(x)-&gt;Raven(x).  How different seem the symmetrical probability flows of the Bayesian, from the sharp lurches of logic—even though the latter is just a degenerate case of the former.)</para>
+</blockquote>
+<para>&quot;But,&quot; you ask, &quot;what has all this to do with the proper use of words?&quot;</para>
+<para>In <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_i2dfY65JciebF3CAo">Empty Labels</olink> and then <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_GKfPL6LQFgB49FEnv">Replace the Symbol with the Substance</olink>, we saw the technique of replacing a word with its definition - the example being given:</para>
+<blockquote>
+  <para> All [mortal, ~feathers, bipedal] are mortal.</para>
+  <para>Socrates is a [mortal, ~feathers, bipedal].</para>
+  <para>Therefore, Socrates is mortal.</para>
+</blockquote>
+<para>Why, then, would you even want to have a word for &quot;human&quot;?  Why not just say &quot;Socrates is a mortal featherless biped&quot;?</para>
+<para>Because it&apos;s helpful to have shorter words for things that you encounter often.  If your code for describing single properties is already efficient, then there will not be an advantage to having a special word for a conjunction - like &quot;human&quot; for &quot;mortal featherless biped&quot; - unless things that are mortal <emphasis>and</emphasis> featherless <emphasis>and</emphasis> bipedal, are found <emphasis>more often</emphasis> than the marginal probabilities would lead you to expect.</para>
+<para>In efficient codes, word length corresponds to probability—so the code for Z<subscript>1</subscript>Y<subscript>2</subscript> will be just as long as the code for Z<subscript>1</subscript> plus the code for Y<subscript>2</subscript>, unless P(Z<subscript>1</subscript>Y<subscript>2</subscript>) &gt; P(Z<subscript>1</subscript>)P(Y<subscript>2</subscript>), in which case the code for the word can be shorter than the codes for its parts.</para>
+<para>And this in turn corresponds exactly to the case where we can infer some of the properties of the thing, from seeing its other properties.  It must be more likely than the default that featherless bipedal things will also be mortal.</para>
+<para>Of course the word &quot;human&quot; really describes many, many more properties - when you see a human-shaped entity that talks and wears clothes, you can infer whole hosts of biochemical and anatomical and cognitive facts about it.  To replace the word &quot;human&quot; with a description of everything we know about humans would require us to spend an inordinate amount of time talking.  But this is true <emphasis>only</emphasis> because a featherless talking biped is far more likely than default to be poisonable by hemlock, or have broad nails, or be overconfident.</para>
+<para>Having a word for a thing, rather than just listing its properties, is a more compact code precisely in those cases where we can infer some of those properties from the other properties.  (With the exception perhaps of very primitive words, like &quot;red&quot;, that we would use to send an entirely uncompressed description of our sensory experiences.  But by the time you encounter a bug, or even a rock, you&apos;re dealing with nonsimple property collections, far above the primitive level.)</para>
+<para>So having a word &quot;<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yuKaWPRTxZoov4z8K">wiggin</olink>&quot; for green-eyed black-haired people, is more useful than just saying &quot;green-eyed black-haired person&quot;, precisely when:</para>
+<orderedlist>
+  <listitem>
+    <para> Green-eyed people are more likely than average to be black-haired (and vice versa), meaning that we can probabilistically infer green eyes from black hair or vice versa; <emphasis>or</emphasis></para>
+  </listitem>
+  <listitem>
+    <para> Wiggins share other properties that can be inferred at greater-than-default probability.  In this case we have to separately observe the green eyes and black hair; but then, after observing both these properties independently, we can probabilistically infer other properties (like a taste for ketchup).</para>
+  </listitem>
+</orderedlist>
+<para>One may even consider the act of defining a word as a promise to this effect.  Telling someone, &quot;I define the word &apos;wiggin&apos; to mean a person with green eyes and black hair&quot;, by Gricean implication, asserts that the word &quot;wiggin&quot; will somehow help you make inferences / shorten your messages.</para>
+<para>If green-eyes and black hair have no greater than default probability to be found together, nor does any other property occur at greater than default probability along with them, then the word &quot;wiggin&quot; is a lie:  The word claims that certain people are worth distinguishing as a group, but they&apos;re not.</para>
+<para>In this case the word &quot;wiggin&quot; does not help describe reality more compactly—it is not defined by someone sending the shortest message—it has no role in the simplest explanation.  Equivalently, the word &quot;wiggin&quot; will be of no help to you in doing any Bayesian inference.  Even if you do not call the word a lie, it is surely an error.</para>
+<para>And the way to carve reality at its joints, is to draw your boundaries around concentrations of unusually high probability density in <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_WBw8dDkAWohFjWQSk">Thingspace</olink>.</para>
+
+  
+</section>

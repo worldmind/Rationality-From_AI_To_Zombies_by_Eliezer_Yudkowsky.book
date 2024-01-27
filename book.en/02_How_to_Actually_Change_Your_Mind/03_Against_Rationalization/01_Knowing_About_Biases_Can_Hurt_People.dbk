@@ -1,0 +1,57 @@
+<section xml:id="item_AdYdLP2sRqPMoe8fb"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Knowing About Biases Can Hurt People</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/AdYdLP2sRqPMoe8fb/knowing-about-biases-can-hurt-people"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2022-10-29</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Information Hazards</primary></indexterm>
+<indexterm><primary>Motivational Intro Posts</primary></indexterm>
+<indexterm><primary>Pitfalls of Rationality</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Rationalization</primary></indexterm>
+<indexterm><primary>Fallacies</primary></indexterm>
+<indexterm><primary>Valley of Bad Rationality</primary></indexterm>
+  <para>Once upon a time I tried to tell my mother about the problem of expert calibration, saying: “So when an expert says they’re 99% confident, it only happens about 70% of the time.” Then there was a pause as, suddenly, I realized I was talking to my mother, and I hastily added: “Of course, you’ve got to make sure to apply that skepticism evenhandedly, including to yourself, rather than just using it to argue against anything you disagree with—”</para>
+<para>And my mother said: “Are you kidding? This is great! I’m going to use it all the time!”</para>
+<para>Taber and Lodge’s “Motivated Skepticism in the Evaluation of Political Beliefs” describes the confirmation of six predictions:</para>
+<orderedlist>
+  <listitem>
+    <para> Prior attitude effect. Subjects who feel strongly about an issue—even when encouraged to be objective—will evaluate supportive arguments more favorably than contrary arguments.</para>
+  </listitem>
+  <listitem>
+    <para> Disconfirmation bias. Subjects will spend more time and cognitive resources denigrating contrary arguments than supportive arguments.</para>
+  </listitem>
+  <listitem>
+    <para> Confirmation bias. Subjects free to choose their information sources will seek out supportive rather than contrary sources.</para>
+  </listitem>
+  <listitem>
+    <para><emphasis role="bold">Attitude polarization. Exposing subjects to an apparently balanced set of pro and con arguments will exaggerate their initial polarization.</emphasis></para>
+  </listitem>
+  <listitem>
+    <para> Attitude strength effect. Subjects voicing stronger attitudes will be more prone to the above biases.</para>
+  </listitem>
+  <listitem>
+    <para><emphasis role="bold">Sophistication effect. Politically knowledgeable subjects, because they possess greater ammunition with which to counter-argue incongruent facts and arguments, will be more prone to the above biases.</emphasis></para>
+  </listitem>
+</orderedlist>
+<para>If you’re irrational to start with, having <emphasis role="italic">more</emphasis> knowledge can <emphasis role="italic">hurt</emphasis> you. For a true Bayesian, information would never have negative expected utility. But humans aren’t perfect Bayes-wielders; if we’re not careful, we can cut ourselves.</para>
+<para>I’ve <emphasis role="italic">seen</emphasis> people severely messed up by their own knowledge of biases. They have more ammunition with which to argue against anything they don’t like. And that problem—too much ready ammunition—is one of the primary ways that people with high mental agility end up stupid, in Stanovich’s “dysrationalia” sense of stupidity.</para>
+<para>You can think of people who fit this description, right? People with high g-factor who end up being <emphasis role="italic">less</emphasis> effective because they are too sophisticated as arguers? Do you think you’d be helping them—making them more effective rationalists—if you just told them about a list of classic biases?</para>
+<para>I recall someone who learned about the calibration/overconfidence problem. Soon after he said: “Well, you can’t trust experts; they’re wrong so often—as experiments have shown. So therefore, when I predict the future, I prefer to assume that things will continue historically as they have—” and went off into this whole complex, error-prone, highly questionable extrapolation. Somehow, when it came to trusting his own preferred conclusions, all those biases and fallacies seemed much less <emphasis role="italic">salient</emphasis>—leapt much less readily to mind—than when he needed to counter-argue someone else.</para>
+<para>I told the one about the problem of disconfirmation bias and sophisticated argument, and lo and behold, the next time I said something he didn’t like, he accused me of being a sophisticated arguer. He didn’t try to point out any particular sophisticated argument, any particular flaw—just shook his head and sighed sadly over how I was apparently using my own intelligence to defeat itself. He had acquired yet another Fully General Counterargument.</para>
+<para>Even the notion of a “sophisticated arguer” can be deadly, if it leaps all too readily to mind when you encounter a seemingly intelligent person who says something you don’t like.</para>
+<para>I endeavor to learn from my mistakes. The last time I gave a talk on heuristics and biases, I started out by introducing the general concept by way of the conjunction fallacy and representativeness heuristic. And then I moved on to confirmation bias, disconfirmation bias, sophisticated argument, motivated skepticism, and other attitude effects. I spent the next thirty minutes <emphasis role="italic">hammering</emphasis> on that theme, reintroducing it from as many different perspectives as I could.</para>
+<para>I wanted to get my audience interested in the subject. Well, a simple description of conjunction fallacy and representativeness would suffice for that. But suppose they did get interested. Then what? The literature on bias is mostly cognitive psychology for cognitive psychology’s sake. I had to give my audience their dire warnings during that one lecture, or they probably wouldn’t hear them at all.</para>
+<para>Whether I do it on paper, or in speech, I now try to never mention calibration and overconfidence unless I have first talked about disconfirmation bias, motivated skepticism, sophisticated arguers, and dysrationalia in the mentally agile. First, do no harm!</para>
+
+  
+</section>

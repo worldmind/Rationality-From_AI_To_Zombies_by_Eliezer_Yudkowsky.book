@@ -1,0 +1,49 @@
+<section xml:id="item_J4vdsSKB7LzAvaAMB"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>An Especially Elegant Evpsych Experiment</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/J4vdsSKB7LzAvaAMB/an-especially-elegant-evpsych-experiment"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-03-25</pubdate>
+  </info>
+  <indexterm><primary>Evolutionary Psychology</primary></indexterm>
+  <blockquote>
+  <para>In a 1989 Canadian study, adults were asked to imagine the death of children of various ages and estimate which deaths would create the greatest sense of loss in a parent. The results, plotted on a graph, show grief growing until just before adolescence and then beginning to drop. When this curve was compared with a curve showing changes in reproductive potential over the life cycle (a pattern calculated from Canadian demographic data), the correlation was fairly strong. But much stronger - nearly perfect, in fact - was the correlation between the grief curves of these modern Canadians and the reproductive-potential curve of a hunter-gatherer people, the !Kung of Africa. In other words, the pattern of changing grief was almost exactly what a Darwinian would predict, given demographic realities in the ancestral environment... The first correlation was .64, the second an extremely high .92.</para>
+</blockquote>
+<para>(Robert Wright, summarizing: &quot;Human Grief: Is Its Intensity Related to the Reproductive Value of the Deceased?&quot; Crawford, C. B., Salter, B. E., and Lang, K.L. <emphasis>Ethology and Sociobiology</emphasis> 10:297-307.)</para>
+<para>Disclaimer: I haven&apos;t read this paper because it (a) isn&apos;t online and (b) is not specifically relevant to my actual real job. But going on the given description, it seems like a reasonably awesome experiment. [Gated version <link xl:href="https://www.sciencedirect.com/science/article/abs/pii/016230958990006X">here</link>, thanks Benja Fallenstein. Odd, I thought I searched for that. Reading now... seems to check out on the basics. Correlations are as described, N=221.]</para>
+<para>The most obvious <emphasis>in</emphasis>elegance of this study, as described, is that it was conducted by asking human adults to imagine parental grief, rather than asking real parents with children of particular ages. (Presumably that would have cost more / allowed fewer subjects.) However, my understanding is that the results here squared well with the data from closer studies of parental grief that were looking for other correlations (i.e., a raw correlation between parental grief and child age).</para>
+<para>That said, consider some of this experiment&apos;s elegant aspects:</para>
+<itemizedlist>
+  <listitem>
+    <para> A correlation of .92(!) This may sound suspiciously high - could evolution really do such exact fine-tuning? - until you realize that this selection pressure was not only great enough to <emphasis>fine-tune</emphasis> parental grief, but, in fact, <emphasis>carve it out of existence from scratch in the first place.</emphasis></para>
+  </listitem>
+  <listitem>
+    <para> People who say that evolutionary psychology hasn&apos;t made any advance predictions are (ironically) mere victims of &quot;<link xl:href="http://www.overcomingbias.com/2007/10/no-one-knows-wh.html">no one knows what science doesn&apos;t know</link>&quot; syndrome. You wouldn&apos;t even <emphasis>think of this as an experiment to be performed</emphasis> if not for evolutionary psychology.</para>
+  </listitem>
+  <listitem>
+    <para> The experiment illustrates as beautifully and as cleanly as any I have ever seen, the distinction between a <emphasis>conscious or subconscious ulterior motive</emphasis> and an <emphasis><link xl:href="http://www.overcomingbias.com/2007/11/adaptation-exec.html">executing adaptation</link> with no realtime sensitivity to the original selection pressure that created it.</emphasis></para>
+  </listitem>
+</itemizedlist>
+<para>The parental grief is <emphasis>not even subconsciously</emphasis> about reproductive value - otherwise it would update for Canadian reproductive value instead of !Kung reproductive value. Grief is an adaptation that now simply exists, real in the mind and continuing under its own inertia.</para>
+<para>Parents do <emphasis>not</emphasis> care about children for the sake of their reproductive contribution. Parents care about children for their own sake; and the <emphasis>non-cognitive, evolutionary-historical</emphasis> reason <link xl:href="http://www.overcomingbias.com/2008/07/moral-miracle-o.html">why such minds exist in the universe in the first place</link>, is that children carry their parents&apos; genes.</para>
+<para>Indeed, evolution is the reason why there are any minds in the universe at all. So you can see why I&apos;d want to draw a sharp line through my <link xl:href="http://www.overcomingbias.com/2009/02/cynicism-in-evpsych-and-econ.html">cynicism about ulterior motives</link> at the <link xl:href="http://www.overcomingbias.com/2009/02/the-evolutionarycognitive-boundary.html">evolutionary-cognitive boundary</link>; otherwise, I might as well stand up in a supermarket checkout line and say, &quot;Hey! You&apos;re only correctly processing visual information while bagging my groceries in order to maximize your inclusive genetic fitness!&quot;</para>
+<para>• 0.92 is, I think, the highest correlation I&apos;ve ever seen in any ev-psych experiment, and indeed, one of the highest correlations I&apos;ve seen in any psychology experiment. (Albeit I&apos;ve seen e.g. a correlation of 0.98 reported for asking one group of subjects &quot;<link xl:href="http://www.overcomingbias.com/2007/09/burdensome-deta.html">How similar is A to B?</link>&quot; and another group &quot;What is the probability of A given B?&quot; on questions like &quot;How likely are you to draw 60 red balls and 40 white balls from this barrel of 800 red balls and 200 white balls?&quot; - in other words, these are simply processed as the same question.)</para>
+<para>Since we are all Bayesians here, we may take our priors into account and ask if at least <emphasis>some </emphasis>of this unexpectedly high correlation is due to luck. The evolutionary fine-tuning we can probably take for granted; this is a huge selection pressure we&apos;re talking about. The remaining sources of suspiciously low variance are, (a) whether a large group of adults could correctly envision, on average, relative degrees of parental grief (apparently they can). And, (b), whether the surviving !Kung are <emphasis>typical </emphasis>ancestral hunter-gatherers in this dimension, or whether variance <emphasis>between </emphasis>hunter-gatherer tribal types should have been too high to allow a correlation of .92.</para>
+<para>But even after taking into account any skeptical priors, correlation .92 and N=221 is pretty strong evidence, and our posteriors should be less skeptical on all these counts.</para>
+<para>• You might think it an inelegance of the experiment that it was performed <emphasis>prospectively</emphasis> on imagined grief, rather than retrospectively on real grief. But it is <emphasis>prospectively </emphasis> imagined grief that will actually operate to steer parental behavior <emphasis>away</emphasis> from losing the child! From an evolutionary standpoint, an actual dead child is a sunk cost; evolution &quot;wants&quot; the parent to learn from the pain, not do it again, adjust back to their <link xl:href="http://www.overcomingbias.com/2009/01/better-and-better.html">hedonic set point</link>, and go on raising other children.</para>
+<para>• Similarly, the graph that correlates to parental grief is for <emphasis>the future reproductive potential of a child that has survived to a given age,</emphasis> and not the <emphasis>sunk cost of raising the child which has survived to that age.</emphasis> (Might we get an even <emphasis>higher </emphasis>correlation if we tried to take into account the reproductive opportunity cost of raising a child of age X to independent maturity, while discarding all sunk costs to raise a child to age X?)</para>
+<para>Humans usually do notice sunk costs - this is presumably either an adaptation to prevent us from switching strategies too often (compensating for an overeager opportunity-noticer?) or an unfortunate spandrel of pain felt on wasting resources.</para>
+<para>Evolution, on the other hand - it&apos;s not that evolution &quot;doesn&apos;t care about sunk costs&quot;, but that evolution doesn&apos;t even remotely &quot;think&quot; that way; &quot;evolution&quot; is just a macrofact about the real historical reproductive consequences.</para>
+<para>So - of course - the parental grief adaptation is fine-tuned in a way that has nothing to do with past investment in a child, and everything to do with the future reproductive consequences of losing that child. Natural selection isn&apos;t crazy about sunk costs the way we are.</para>
+<para>But - of course - the parental grief adaptation goes on functioning as if the parent were living in a !Kung tribe rather than Canada. Most humans would notice the difference.</para>
+<para>Humans and natural selection are insane in <emphasis>different stable complicated ways</emphasis>.</para>
+
+  
+</section>

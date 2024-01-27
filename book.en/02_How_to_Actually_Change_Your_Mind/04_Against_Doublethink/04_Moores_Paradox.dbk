@@ -1,0 +1,40 @@
+<section xml:id="item_ERRk4thxxYNcScqR4"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Moore's Paradox</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/ERRk4thxxYNcScqR4/moore-s-paradox"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-01-31</pubdate>
+  </info>
+  <indexterm><primary>Paradoxes</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Needs Fixup</primary></indexterm>
+  <para>I think I understand Moore&apos;s Paradox a bit better now, after reading some of the comments on Less Wrong.  <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_rZX4WuufAPbN6wQTv">Jimrandomh</olink> suggests:</para>
+<blockquote>
+  <para> Many people cannot distinguish between levels of indirection. To them, &quot;I believe X&quot; and &quot;X&quot; are the same thing, and therefore, reasons why it is beneficial to believe X are also reasons why X is true.</para>
+</blockquote>
+<para>I don&apos;t think this is correct—relatively young children can understand the concept of having a false belief, which requires separate mental buckets for the map and the territory.  But it points in the direction of a similar idea:</para>
+<para>Many people may not consciously distinguish between <emphasis>believing </emphasis>something and <emphasis>endorsing</emphasis> it.</para>
+<para>After all—&quot;I believe in democracy&quot; means, colloquially, that you endorse the concept of democracy, not that you believe democracy exists.  The word &quot;belief&quot;, then, has more than one meaning.  We could be looking at a <link xl:href="http://www.overcomingbias.com/2008/02/compress-fallac.html">confused word</link> that causes confused thinking (or maybe it just reflects pre-existing confusion).</para>
+<para>So: in the <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_wP2ymm44kZZwaFPYh">original example</olink>, &quot;I believe people are nicer than they are&quot;, she came up with some reasons why it would be good to believe people are nice—health benefits and such—and since she now had some warm affect on &quot;believing people are nice&quot;, she introspected on this warm affect and concluded, &quot;I believe people are nice&quot;.  That is, she mistook the <emphasis>positive affect</emphasis> attached to the quoted belief, as signaling <emphasis>her belief in the proposition.</emphasis>  At the same time, the world itself seemed like people weren&apos;t so nice.  So she said, &quot;I believe people are nicer than they are.&quot;<emphasis/></para>
+<para>And that verges on being an honest mistake—sort of—since people are not taught explicitly how to know when they believe something.  As in the parable of <link xl:href="http://www.overcomingbias.com/2007/07/belief-in-belie.html">the dragon in the garage</link>; the one who says &quot;There is a dragon in my garage—but it&apos;s invisible&quot;, does not recognize his <emphasis>anticipation</emphasis> of seeing no dragon, as indicating that he possesses an (accurate) model with no dragon in it.</para>
+<para>It&apos;s not as if people are <emphasis>trained </emphasis>to recognize when they believe something.  It&apos;s not like they&apos;re ever taught in high school:  &quot;What it feels like to actually believe something—to have that statement in your belief pool—is that it just seems like the way the world <emphasis>is.</emphasis>  You should recognize this feeling, which is actual (unquoted) belief, and distinguish it from having good feelings about a belief that you recognize as a belief (which means that it&apos;s in quote marks).&quot;</para>
+<para>This goes a long way toward making this real-life case of Moore&apos;s Paradox <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_wP2ymm44kZZwaFPYh">seem less alien</olink>, and providing another mechanism whereby people can be <link xl:href="https://www.lesswrong.com/posts/P3uavjFmZD5RopJKk/simultaneously-right-and-wrong">simultaneously right and wrong</link>.</para>
+<para>Likewise <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_rZX4WuufAPbN6wQTv">Kurige</olink> who wrote:</para>
+<blockquote>
+  <para> I believe that there is a God—and that He has instilled a sense of right and wrong in us by which we are able to evaluate the world around us.  I also believe a sense of morality has been evolutionarily programmed into us—a sense of morality that is most likely a result of the formation of meta-political coalitions in Bonobo communities a very, very long time ago.  These two beliefs are not contradictory, but the complexity lies in reconciling the two.</para>
+</blockquote>
+<para>I suspect, Kurige, you have decided that you have <emphasis>reasons to endorse</emphasis> the quoted belief that God has instilled a sense of right and wrong in us.  And also that you have reasons to endorse the verdict of science.  They both seem like good communities to join, right?  There are benefits to both sets of beliefs?  You introspect and find that you feel good about both beliefs?</para>
+<para>But you did <emphasis>not </emphasis>say:</para>
+<para>&quot;God instilled a sense of right and wrong in us, and also a sense of morality has been evolutionarily programmed into us.  The two states of reality are not inconsistent, but the complexity lies in reconciling the two.&quot;</para>
+<para>If you&apos;re reading this, Kurige, you should very quickly say the above out loud, so you can notice that it seems at least slightly harder to swallow—notice the <emphasis>subjective difference</emphasis>—before you go to the trouble of rerationalizing.</para>
+<para>This is the subjective difference between having reasons to endorse two different beliefs, and your mental model of a single world, a single way-things-are.</para>
+
+  
+</section>

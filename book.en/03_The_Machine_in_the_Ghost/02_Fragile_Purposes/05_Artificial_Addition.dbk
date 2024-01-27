@@ -1,0 +1,89 @@
+<section xml:id="item_YhgjmCxcQXixStWMC"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Artificial Addition</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/YhgjmCxcQXixStWMC/artificial-addition"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-01-19</pubdate>
+  </info>
+  <indexterm><primary>Gears-Level</primary></indexterm>
+<indexterm><primary>Anticipated Experiences</primary></indexterm>
+<indexterm><primary>General Intelligence</primary></indexterm>
+<indexterm><primary>AI</primary></indexterm>
+  <para>Suppose that human beings had absolutely <emphasis>no idea</emphasis> how they performed arithmetic.  Imagine that human beings had <emphasis>evolved,</emphasis> rather than having <emphasis>learned,</emphasis> the ability to count sheep and add sheep.  People using this built-in ability have no idea how it worked, the way Aristotle had no idea how his visual cortex supported his ability to see things.  Peano Arithmetic as we know it has not been invented.  There are philosophers working to formalize numerical intuitions, but they employ notations such as</para>
+<blockquote>
+  <para> <literal>Plus-Of(Seven, Six) = Thirteen</literal></para>
+</blockquote>
+<para>to formalize the intuitively obvious fact that when you add &quot;seven&quot; plus &quot;six&quot;, of course you get &quot;thirteen&quot;.</para>
+<para>In this world, pocket calculators work by storing a giant lookup table of arithmetical facts, entered manually by a team of expert Artificial Arithmeticians, for starting values that range between zero and one hundred.  While these calculators may be helpful in a pragmatic sense, many philosophers argue that they&apos;re only <emphasis>simulating</emphasis> addition, rather than really <emphasis>adding.</emphasis>  No machine can really<emphasis> count</emphasis> - that&apos;s why humans have to count thirteen sheep before typing &quot;thirteen&quot; into the calculator.  Calculators can recite back stored facts, but they can never know what the statements mean - if you type in &quot;two hundred plus two hundred&quot; the calculator says &quot;Error: Outrange&quot;, when it&apos;s intuitively <emphasis>obvious,</emphasis> if you <emphasis>know</emphasis> what the words <emphasis>mean</emphasis>, that the answer is &quot;four hundred&quot;.</para>
+<para>Philosophers, of course, are not so naive as to be taken in by these intuitions.  Numbers are really a purely formal system - the label &quot;thirty-seven&quot; is meaningful, not because of any inherent property of the words themselves, but because the label <emphasis>refers to</emphasis> thirty-seven sheep in the external world.  A number is given this referential property by its <emphasis>semantic network</emphasis> of relations to other numbers.  That&apos;s why, in computer programs, the LISP token for &quot;thirty-seven&quot; doesn&apos;t need any <emphasis>internal</emphasis> structure - it&apos;s only meaningful because of reference and relation, not some computational property of &quot;thirty-seven&quot; itself.</para>
+<para>No one has ever developed an Artificial General Arithmetician, though of course there are plenty of domain-specific, narrow Artificial Arithmeticians that work on numbers between &quot;twenty&quot; and &quot;thirty&quot;, and so on.  And if you look at how slow progress has been on numbers in the range of &quot;two hundred&quot;, then it becomes clear that we&apos;re not going to get Artificial General Arithmetic any time soon.  The best experts in the field estimate it will be at least a hundred years before calculators can add as well as a human twelve-year-old.</para>
+<para>But not everyone agrees with this estimate, or with <link xl:href="http://www.overcomingbias.com/2007/10/outside-the-box.html">merely conventional</link> beliefs about Artificial Arithmetic.  It&apos;s common to hear statements such as the following:</para>
+<itemizedlist>
+  <listitem>
+    <para> &quot;It&apos;s a framing problem - what &apos;twenty-one plus&apos; equals depends on whether it&apos;s &apos;plus three&apos; or &apos;plus four&apos;.  If we can just get enough arithmetical facts stored to cover the common-sense truths that everyone knows, we&apos;ll start to see real addition in the network.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;But you&apos;ll never be able to program in that many arithmetical facts by hiring experts to enter them manually.  What we need is an Artificial Arithmetician that can <emphasis>learn</emphasis> the vast network of relations between numbers that humans acquire during their childhood by observing sets of apples.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;No, what we really need is an Artificial Arithmetician that can understand natural language, so that instead of having to be explicitly told that twenty-one plus sixteen equals thirty-seven, it can get the knowledge by exploring the Web.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;Frankly, it seems to me that you&apos;re just trying to convince yourselves that you can solve the problem.  None of you really know what arithmetic is, so you&apos;re floundering around with these generic sorts of arguments.  &apos;We need an AA that can learn X&apos;, &apos;We need an AA that can extract X from the Internet&apos;.  I mean, it sounds good, it sounds like you&apos;re making progress, and it&apos;s even good for public relations, because everyone thinks they understand the proposed solution - but it doesn&apos;t really get you any closer to <emphasis>general</emphasis> addition, as opposed to domain-specific addition.  Probably we will never know the fundamental nature of arithmetic.  The problem is just too hard for humans to solve.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;That&apos;s why we need to develop a general arithmetician the same way Nature did - evolution.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;Top-down approaches have clearly failed to produce arithmetic.  We need a bottom-up approach, some way to make arithmetic <emphasis>emerge.</emphasis>  We have to acknowledge the basic unpredictability of complex systems.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;You&apos;re all wrong.  Past efforts to create machine arithmetic were futile from the start, because they just didn&apos;t have enough computing power.  If you look at how many trillions of synapses there are in the human brain, it&apos;s clear that calculators don&apos;t have lookup tables anywhere near that large.  We need calculators as powerful as a human brain.  According to Moore&apos;s Law, this will occur in the year 2031 on April 27 between 4:00 and 4:30 in the morning.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;I believe that machine arithmetic will be developed when researchers scan each neuron of a complete human brain into a computer, so that we can simulate the biological circuitry that performs addition in humans.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;I don&apos;t think we have to wait to scan a whole brain.  Neural networks are just like the human brain, and you can train them to do things without knowing how they do them.  We&apos;ll create programs that will do arithmetic without we, our creators, ever understanding how they do arithmetic.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;But Gödel&apos;s Theorem shows that no formal system can ever capture the basic properties of arithmetic.  Classical physics is formalizable, so to add two and two, the brain must take advantage of quantum physics.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;Hey, if human arithmetic were simple enough that we could reproduce it in a computer, we wouldn&apos;t be able to count high enough to build computers.&quot;</para>
+  </listitem>
+  <listitem>
+    <para> &quot;Haven&apos;t you heard of John Searle&apos;s Chinese Calculator Experiment?  Even if you did have a huge set of rules that would let you add &apos;twenty-one&apos; and &apos;sixteen&apos;, just imagine translating all the words into Chinese, and you can see that there&apos;s no genuine addition going on.  There are no real <emphasis>numbers</emphasis> anywhere in the system, just labels that humans use for numbers...&quot;</para>
+  </listitem>
+</itemizedlist>
+<para>There is more than one moral to this parable, and I have told it with different morals in different contexts.  It illustrates the idea of levels of organization, for example - a CPU can add two large numbers because the numbers aren&apos;t black-box opaque objects, they&apos;re ordered structures of 32 bits.</para>
+<para>But for purposes of overcoming bias, let us draw two morals:</para>
+<itemizedlist>
+  <listitem>
+    <para> First, the danger of believing assertions you can&apos;t regenerate from your own knowledge.</para>
+  </listitem>
+  <listitem>
+    <para> Second, the danger of trying to dance around basic confusions.</para>
+  </listitem>
+</itemizedlist>
+<para>Lest anyone accuse me of <link xl:href="http://www.overcomingbias.com/2007/10/fictional-evide.html">generalizing from fictional evidence</link>, both lessons may be drawn from the real history of Artificial Intelligence as well.</para>
+<para>The first danger is the object-level problem that the AA devices ran into: they functioned as tape recorders playing back &quot;knowledge&quot; generated from outside the system, using a process they couldn&apos;t capture internally.  A human could tell the AA device that &quot;twenty-one plus sixteen equals thirty-seven&quot;, and the AA devices could record this sentence and play it back, or even pattern-match &quot;twenty-one plus sixteen&quot; to output &quot;thirty-seven!&quot;, but the AA devices couldn&apos;t generate such knowledge for themselves.</para>
+<para>Which is strongly reminiscent of believing a physicist who tells you &quot;<link xl:href="http://www.overcomingbias.com/2007/08/guessing-the-te.html">Light is waves</link>&quot;, recording the fascinating words and playing them back when someone asks &quot;What is light made of?&quot;, without being able to generate the knowledge for yourself.  More on this theme tomorrow.</para>
+<para>The second moral is the meta-level danger that consumed the Artificial Arithmetic researchers and opinionated bystanders - the danger of dancing around confusing gaps in your knowledge.  The tendency to do just about anything <emphasis>except</emphasis> grit your teeth and buckle down and fill in the damn gap.</para>
+<para>Whether you say, &quot;It is <link xl:href="http://www.overcomingbias.com/2007/08/say-not-complex.html">emergent</link>!&quot;, or whether you say, &quot;It is <link xl:href="http://www.overcomingbias.com/2007/08/mysterious-answ.html">unknowable</link>!&quot;, in neither case are you acknowledging that there is a basic insight required which is possessable, but unpossessed by you.</para>
+<para>How can you know when you&apos;ll have a new basic insight?  And there&apos;s no way to get one except by banging your head against the problem, learning everything you can about it, studying it from as many angles as possible, perhaps for years.  It&apos;s not a pursuit that academia is set up to permit, when you need to publish at least one paper per month.  It&apos;s certainly not something that venture capitalists will fund.  You want to either go ahead and build the system <emphasis>now,</emphasis> or give up and do something else instead.</para>
+<para>Look at the comments above: none are aimed at setting out on a quest for the missing insight which would <emphasis>make numbers no longer mysterious,</emphasis> make &quot;twenty-seven&quot; more than a black box.  None of the commenters realized that their difficulties arose from ignorance or confusion in their own minds, rather than an inherent property of arithmetic.  They were not trying to achieve a state where the confusing thing <link xl:href="http://www.overcomingbias.com/2007/08/failing-to-lear.html">ceased to be confusing</link>.</para>
+<para>If you read Judea Pearl&apos;s &quot;Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference&quot; then you will see that the basic insight behind graphical models is <emphasis>indispensable</emphasis> to problems that require it.  (It&apos;s not something that fits on a T-Shirt, I&apos;m afraid, so you&apos;ll have to go and read the book yourself.  I haven&apos;t seen any online popularizations of Bayesian networks that adequately convey the reasons behind the principles, or the importance of the math being exactly the way it is, but Pearl&apos;s book is wonderful.)  There were once dozens of &quot;non-monotonic logics&quot; awkwardly trying to capture intuitions such as &quot;If my burglar alarm goes off, there was probably a burglar, but if I then learn that there was a small earthquake near my home, there was probably not a burglar.&quot;  With the graphical-model insight in hand, you can give a mathematical explanation of exactly why first-order logic has the wrong properties for the job, and express the correct solution in a compact way that captures all the common-sense details in one elegant swoop.  Until you have that insight, you&apos;ll go on patching the logic here, patching it there, adding more and more hacks to force it into correspondence with everything that seems &quot;obviously true&quot;.</para>
+<para>You won&apos;t <emphasis>know</emphasis> the Artificial Arithmetic problem is unsolvable without its key.  If you don&apos;t know the rules, you don&apos;t know the rule that says you need to know the rules to do anything.  And so there will be all sorts of clever ideas that seem like they might work, like building an Artificial Arithmetician that can read natural language and download millions of arithmetical assertions from the Internet.</para>
+<para>And yet <emphasis>somehow</emphasis> the clever ideas never work.  Somehow it always turns out that you &quot;couldn&apos;t see any reason it wouldn&apos;t work&quot; because you were ignorant of the obstacles, not because no obstacles existed.  Like shooting blindfolded at a distant target - you can fire blind shot after blind shot, crying, &quot;You can&apos;t prove to me that I won&apos;t hit the center!&quot;  But until you take off the blindfold, you&apos;re not even in the aiming game.  When &quot;no one can prove to you&quot; that your precious idea <emphasis>isn&apos;t</emphasis> right, it means you don&apos;t have enough information to strike <link xl:href="http://www.overcomingbias.com/2007/09/einsteins-arrog.html">a small target in a vast answer space</link>.  <emphasis>Until you know your idea will work, it won&apos;t.</emphasis></para>
+<para>From the history of previous key insights in Artificial Intelligence, and the grand messes which were proposed prior to those insights, I derive an important real-life lesson:  <emphasis>When the basic problem is your ignorance, clever strategies for bypassing your ignorance lead to shooting yourself in the foot.</emphasis></para>
+
+  
+</section>

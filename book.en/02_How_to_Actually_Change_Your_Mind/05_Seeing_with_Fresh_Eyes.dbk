@@ -1,0 +1,29 @@
+<chapter xml:id="item_pmHZDpak4NeRLLLCw"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Seeing with Fresh Eyes</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/pmHZDpak4NeRLLLCw"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>On the challenge of recognizing evidence that doesn’t fit our expectations and assumptions.</para>
+
+  <xi:include href="05_Seeing_with_Fresh_Eyes/01_Anchoring_and_Adjustment.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/02_Priming_and_Contamination.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/03_Do_We_Believe_Everything_Were_Told.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/04_Cached_Thoughts.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/05_Original_Seeing.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/06_The_Virtue_of_Narrowness.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/07_Stranger_Than_History.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/08_The_Logical_Fallacy_of_Generalization_from_Fictional_Evidence.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/09_We_Change_Our_Minds_Less_Often_Than_We_Think.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/10_Hold_Off_On_Proposing_Solutions.dbk"/>
+<xi:include href="05_Seeing_with_Fresh_Eyes/11_The_Genetic_Fallacy.dbk"/>
+</chapter>

@@ -1,0 +1,47 @@
+<section xml:id="item_tnWRXkcDi5Tw9rzXw"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Design Space of Minds-In-General</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/tnWRXkcDi5Tw9rzXw/the-design-space-of-minds-in-general"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-06-25</pubdate>
+  </info>
+  <indexterm><primary>Carving / Clustering Reality</primary></indexterm>
+<indexterm><primary>Mind Space</primary></indexterm>
+  <para>People ask me, &quot;What will Artificial Intelligences be like?  What will they do?  Tell us your amazing story about the future.&quot;</para>
+<para>And lo, I say unto them, &quot;You have asked me a trick question.&quot;</para>
+<para>ATP synthase is a molecular machine - one of three known occasions when evolution has invented the freely rotating wheel - which is essentially the same in animal mitochondria, plant chloroplasts, and bacteria.  ATP synthase has not changed significantly since the rise of eukaryotic life two billion years ago.  It&apos;s is something we <emphasis>all</emphasis> have in common -  thanks to the way that evolution <link xl:href="https://www.lesswrong.com/posts/Cyj6wQLW6SeF6aGLy/the-psychological-unity-of-humankind">strongly conserves certain genes</link>; once many other genes depend on a gene, a mutation will tend to break all the dependencies.</para>
+<para>Any two AI designs might be less similar to each other than you are to a petunia.</para>
+<para>Asking what &quot;AIs&quot; will do is a trick question because it implies that all AIs form a <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_jMTbQj9XB5ah2maup">natural class</olink>. Humans do form a natural class because we all share the same brain architecture.  But when you say &quot;Artificial Intelligence&quot;, you are referring to a vastly larger <emphasis>space of possibilities</emphasis> than when you say &quot;human&quot;.  When people talk about &quot;AIs&quot; we are really talking about <emphasis>minds-in-general,</emphasis> or optimization processes in general.  Having a word for &quot;AI&quot; is like having a word for everything that isn&apos;t a duck.</para>
+<para>Imagine a map of mind design space... this is one of my standard diagrams...</para>
+<para><link xl:href="img/fb27527df0c30f1101d0da43d0abe7b0.png"><inlinemediaobject><imageobject role="html">
+        <imagedata contentdepth="536px" contentwidth="536px" fileref="./img/fb27527df0c30f1101d0da43d0abe7b0.png" format="PNG" scalefit="1"/>
+      </imageobject>
+<imageobject role="fo">
+        <imagedata contentdepth="100%" fileref="./img/fb27527df0c30f1101d0da43d0abe7b0.png" format="PNG" scalefit="1" width="100%"/>
+      </imageobject>
+</inlinemediaobject></link></para>
+<para>All humans, of course, fit into a tiny little dot - as a sexually reproducing species, <link xl:href="https://www.lesswrong.com/posts/Cyj6wQLW6SeF6aGLy/the-psychological-unity-of-humankind">we can&apos;t be too different from one another</link>. </para>
+<para>This tiny dot belongs to a wider ellipse, the space of transhuman mind designs - things that might be smarter than us, or much smarter than us, but which in some sense would still be people as we understand people.</para>
+<para>This transhuman ellipse is within a still wider volume, the space of posthuman minds, which is everything that a transhuman might grow up into.</para>
+<para>And then the rest of the sphere is the space of minds-in-general, including possible Artificial Intelligences so odd that they aren&apos;t even <emphasis>posthuman.</emphasis></para>
+<para>But wait - natural selection designs complex artifacts and selects among complex strategies.  So where is natural selection on this map?</para>
+<para>So this entire map really floats in a still vaster space, the space of optimization processes.  At the bottom of this vaster space, below even humans, is natural selection as it first began in some tidal pool: mutate, replicate, and sometimes die, no sex.</para>
+<para>Are there any powerful optimization processes, with strength comparable to a human civilization or even a self-improving AI, which we would not recognize as minds?  Arguably <link xl:href="http://www.hutter1.net/ai/">Marcus Hutter&apos;s AIXI</link> should go in this category: for a mind of infinite power, it&apos;s awfully stupid - poor thing can&apos;t even recognize itself in a mirror.  But that is a topic for another time.</para>
+<para>My primary moral is to <emphasis>resist the temptation to generalize over all of mind design space</emphasis></para>
+<para>If we focus on the bounded subspace of mind design space which contains all those minds whose makeup can be specified in a trillion bits or less, then every universal generalization that you make has two to the trillionth power chances to be falsified.</para>
+<para>Conversely, every <emphasis>existential</emphasis> generalization - &quot;there exists at least one mind such that X&quot; - has two to the trillionth power chances to be true.</para>
+<para>So you want to resist the temptation to say either that <emphasis>all</emphasis> minds do something, or that <emphasis>no</emphasis> minds do something.</para>
+<para>The main reason you could find yourself thinking that you know what a fully generic mind will (won&apos;t) do, is if you put yourself in that mind&apos;s shoes - imagine what you would do in that mind&apos;s place - and get back a generally wrong, anthropomorphic answer.  (Albeit that it is true in at least one case, since you are yourself an example.)  Or if you imagine a mind doing something, and then imagining the reasons <emphasis>you</emphasis> wouldn&apos;t do it - so that you imagine that a mind of that type can&apos;t exist, that the <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_cnYHFNBF3kZEyx24v">ghost in the machine</olink> will look over the corresponding source code and hand it back.</para>
+<para>Somewhere in mind design space is at least one mind with almost any kind of logically consistent property you care to imagine.</para>
+<para>And this is important because it emphasizes the importance of discussing <emphasis>what happens, lawfully, and why,</emphasis> as a causal result of a mind&apos;s particular constituent makeup; somewhere in mind design space is a mind that does it differently.</para>
+<para>Of course you could always say that anything which doesn&apos;t do it your way, is &quot;<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_cFzC996D7Jjds3vS9">by definition</olink>&quot; not a mind; after all, it&apos;s obviously stupid.  I&apos;ve seen people try that one too.</para>
+
+  
+</section>

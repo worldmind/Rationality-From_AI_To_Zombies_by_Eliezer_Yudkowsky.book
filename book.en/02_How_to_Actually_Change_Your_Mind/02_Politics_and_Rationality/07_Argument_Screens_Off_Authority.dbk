@@ -1,0 +1,99 @@
+<section xml:id="item_5yFRd3cjLpm3Nd6Di"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Argument Screens Off Authority</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/5yFRd3cjLpm3Nd6Di/argument-screens-off-authority"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-07</pubdate>
+  </info>
+  <indexterm><primary>Social Status</primary></indexterm>
+<indexterm><primary>Epistemology</primary></indexterm>
+  <para>Scenario 1: Barry is a famous geologist. Charles is a fourteen-year-old juvenile delinquent with a long arrest record and occasional psychotic episodes. Barry flatly asserts to Arthur some counterintuitive statement about rocks, and Arthur judges it 90% probable. Then Charles makes an equally counterintuitive flat assertion about rocks, and Arthur judges it 10% probable. Clearly, Arthur is taking the speaker’s <emphasis role="italic">authority</emphasis> into account in deciding whether to believe the speaker’s assertions.</para>
+<para>Scenario 2: David makes a counterintuitive statement about physics and gives Arthur a detailed explanation of the arguments, including references. Ernie makes an equally counterintuitive statement, but gives an unconvincing argument involving several leaps of faith. Both David and Ernie assert that this is the best explanation they can possibly give (to anyone, not just Arthur). Arthur assigns 90% probability to David’s statement after hearing his explanation, but assigns a 10% probability to Ernie’s statement.</para>
+<para>It might seem like these two scenarios are roughly symmetrical: both involve taking into account useful evidence, whether strong versus weak authority, or strong versus weak argument.</para>
+<para>But now suppose that Arthur asks Barry and Charles to make full technical cases, with references; and that Barry and Charles present equally good cases, and Arthur looks up the references and they check out. Then Arthur asks David and Ernie for their credentials, and it turns out that David and Ernie have roughly the same credentials—maybe they’re both clowns, maybe they’re both physicists.</para>
+<para>Assuming that Arthur is knowledgeable enough to understand all the technical arguments—otherwise they’re just impressive noises—it seems that Arthur should view David as having a great advantage in plausibility over Ernie, while Barry has at best a minor advantage over Charles.</para>
+<para>Indeed, if the technical arguments are good enough, Barry’s advantage over Charles may not be worth tracking. A good technical argument is one that <emphasis role="italic">eliminates</emphasis> reliance on the personal authority of the speaker.</para>
+<para>Similarly, if we really believe Ernie that the argument he gave is the best argument he <emphasis role="italic">could</emphasis> give, which includes all of the inferential steps that Ernie executed, and all of the support that Ernie took into account—citing any authorities that Ernie may have listened to himself—then we can pretty much ignore any information about Ernie’s credentials. Ernie can be a physicist or a clown, it shouldn’t matter. (Again, this assumes we have enough technical ability to process the argument. Otherwise, Ernie is simply uttering mystical syllables, and whether we “believe” these syllables depends a great deal on his authority.)</para>
+<para>So it seems there’s an asymmetry between argument and authority. If we know authority we are still interested in hearing the arguments; but if we know the arguments fully, we have very little left to learn from authority.</para>
+<para>Clearly (says the novice) authority and argument are fundamentally different kinds of evidence, a difference unaccountable in the boringly clean methods of Bayesian probability theory.<footnote xml:id="fn_25f8d240c0e28851d6b16673930882a6">
+    <para>See “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_6s3xABaXKPdFwA3FS">What Is Evidence?</olink>” in <emphasis role="italic">Map and Territory</emphasis>.</para>
+  </footnote>
+ For while the strength of the evidences—90% versus 10%—is just the same in both cases, they do not behave similarly when combined. How will we account for this?</para>
+<para>Here’s half a technical demonstration of how to represent this difference in probability theory. (The rest you can take on my personal authority, or look up in the references.)</para>
+<para>If P(H|E1) = 90% and P(H|E2) = 9%, what is the probability P(H|E1,E2)? If learning E1 is true leads us to assign 90% probability to H, and learning E2 is true leads us to assign 9% probability to H, then what probability should we assign to H if we learn both E1 and E2? This is simply not something you can calculate in probability theory from the information given. No, the missing information is not the prior probability of H. The events E1 and E2 may not be independent of each other.</para>
+<para>Suppose that H is “My sidewalk is slippery,” E1 is “My sprinkler is running,” and E2 is “It’s night.” The sidewalk is slippery starting from one minute after the sprinkler starts, until just after the sprinkler finishes, and the sprinkler runs for ten minutes. So if we know the sprinkler is on, the probability is 90% that the sidewalk is slippery. The sprinkler is on during 10% of the nighttime, so if we know that it’s night, the probability of the sidewalk being slippery is 9%. If we know that it’s night and the sprinkler is on—that is, if we know both facts—the probability of the sidewalk being slippery is 90%.</para>
+<para>We can represent this in a graphical model as follows:</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata fileref="./img/401e5b8d4e8b75ac9c073bc1442380df.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/401e5b8d4e8b75ac9c073bc1442380df.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>Whether or not it’s Night <emphasis role="italic">causes</emphasis> the Sprinkler to be on or off, and whether the Sprinkler is on <emphasis role="italic">causes</emphasis> the sidewalk to be Slippery or unSlippery.</para>
+<para>The direction of the arrows is meaningful. Say we had:</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata fileref="./img/befb844337e486a37c5753094e125853.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/befb844337e486a37c5753094e125853.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>This would mean that, if I <emphasis role="italic">didn’t</emphasis> know anything about the sprinkler, the probability of Nighttime and Slipperiness would be independent of each other. For example, suppose that I roll Die One and Die Two, and add up the showing numbers to get the Sum:</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata fileref="./img/3a06fea5f0584cf5fcdc8b6d5425b120.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/3a06fea5f0584cf5fcdc8b6d5425b120.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>If you don’t tell me the sum of the two numbers, and you tell me the first die showed 6, this doesn’t tell me anything about the result of the second die, yet. But if you now also tell me the sum is 7, I know the second die showed 1.</para>
+<para>Figuring out when various pieces of information are dependent or independent of each other, given various background knowledge, actually turns into a quite technical topic. The books to read are Judea Pearl’s <emphasis role="italic">Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference</emphasis> and <emphasis role="italic">Causality: Models, Reasoning, and Inference</emphasis>. (If you only have time to read one book, read the first one.)</para>
+<para>If you know how to read causal graphs, then you look at the dice-roll graph and immediately see:</para>
+<para><emphasis role="italic">P(Die 1,Die 2) = P(Die 1) × P(Die 2)</emphasis></para>
+<para><emphasis role="italic">P(Die 1,Die 2|Sum) ≠ P(Die 1)|Sum) × P(Die 2|Sum) .</emphasis></para>
+<para>If you look at the correct sidewalk diagram, you see facts like:</para>
+<para><emphasis role="italic">P(Slippery|Night) ≠ P(Slippery)</emphasis></para>
+<para><emphasis role="italic">P(Slippery|Sprinkler) ≠ P(Slippery)</emphasis></para>
+<para><emphasis role="italic">P(Slippery|Night,Sprinkler) = P(Slippery|Sprinkler) .</emphasis></para>
+<para>That is, the probability of the sidewalk being Slippery, given knowledge about the Sprinkler and the Night, is the same probability we would assign if we knew only about the Sprinkler. Knowledge of the Sprinkler has made knowledge of the Night irrelevant to inferences about Slipperiness.</para>
+<para>This is known as <emphasis role="italic">screening off</emphasis>, and the criterion that lets us read such conditional independences off causal graphs is known as <emphasis role="italic">D-separation</emphasis>.</para>
+<para>For the case of argument and authority, the causal diagram looks like this:</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata fileref="./img/14bc98de051f0516c8419ecce8dc5992.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/14bc98de051f0516c8419ecce8dc5992.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>If something is true, then it therefore tends to have arguments in favor of it, and the experts therefore observe these evidences and change their opinions. (In theory!)</para>
+<para>If we see that an expert believes something, we infer back to the existence of evidence-in-the-abstract (even though we don’t know what that evidence is exactly), and from the existence of this abstract evidence, we infer back to the truth of the proposition.</para>
+<para>But if we know the value of the Argument node, this D-separates the node “Truth” from the node “Expert Belief” by blocking all paths between them, according to certain technical criteria for “path blocking” that seem pretty obvious in this case. So even without checking the exact probability distribution, we can read off from the graph that:</para>
+<para><emphasis role="italic">P(truth|argument,expert) = P(truth|argument) .</emphasis></para>
+<para>This does not represent a contradiction of ordinary probability theory. It’s just a more compact way of expressing certain probabilistic facts. You could read the same equalities and inequalities off an unadorned probability distribution—but it would be harder to see it by eyeballing. Authority and argument don’t need two different kinds of probability, any more than sprinklers are made out of ontologically different stuff than sunlight.</para>
+<para>In practice you can never <emphasis role="italic">completely</emphasis> eliminate reliance on authority. Good authorities are more likely to know about any counterevidence that exists and should be taken into account; a lesser authority is less likely to know this, which makes their arguments less reliable. This is not a factor you can eliminate merely by hearing the evidence they <emphasis role="italic">did</emphasis> take into account.</para>
+<para>It’s also very hard to reduce arguments to <emphasis role="italic">pure</emphasis> math; and otherwise, judging the strength of an inferential step may rely on intuitions you can’t duplicate without the same thirty years of experience.</para>
+<para>There is an ineradicable legitimacy to assigning <emphasis role="italic">slightly</emphasis> higher probability to what E. T. Jaynes tells you about Bayesian probability, than you assign to Eliezer Yudkowsky making the exact same statement. Fifty additional years of experience should not count for literally <emphasis role="italic">zero</emphasis> influence.</para>
+<para>But this slight strength of authority is only <emphasis role="italic">ceteris paribus</emphasis>, and can easily be overwhelmed by stronger arguments. I have a minor erratum in one of Jaynes’s books—because algebra trumps authority.</para>
+
+  
+</section>

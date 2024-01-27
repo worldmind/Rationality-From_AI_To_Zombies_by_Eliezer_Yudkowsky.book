@@ -1,0 +1,58 @@
+<chapter xml:id="item_pvim9PZJ6qHRTMqD3"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Craft and the Community</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/pvim9PZJ6qHRTMqD3"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>Discusses rationality groups and group rationality, raising the questions:</para>
+<itemizedlist>
+  <listitem>
+    <para> Can rationality be learned and taught?</para>
+  </listitem>
+  <listitem>
+    <para> If so, how much improvement is possible?</para>
+  </listitem>
+</itemizedlist>
+<para>How can we be confident we&apos;re seeing a real effect in a rationality intervention, and picking out the right cause?</para>
+<itemizedlist>
+  <listitem>
+    <para> What community norms would make this process of bettering ourselves easier?</para>
+  </listitem>
+  <listitem>
+    <para> Can we effectively collaborate on large-scale problems without sacrificing our freedom of thought and conduct?</para>
+  </listitem>
+</itemizedlist>
+<para>Above all: What’s missing? What should be in the next generation of rationality primers—the ones that replace this text, improve on its style, test its prescriptions, supplement its content, and branch out in altogether new directions?</para>
+
+  <xi:include href="03_The_Craft_and_the_Community/01_Raising_the_Sanity_Waterline.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/02_A_Sense_That_More_Is_Possible.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/03_Epistemic_Viciousness.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/04_Schools_Proliferating_Without_Evidence.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/05_3_Levels_of_Rationality_Verification.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/06_Why_Our_Kind_Cant_Cooperate.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/07_Tolerate_Tolerance.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/08_Your_Price_for_Joining.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/09_Can_Humanism_Match_Religions_Output.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/10_Church_vs_Taskforce.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/11_Rationality_Common_Interest_of_Many_Causes.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/12_Helpless_Individuals.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/13_Money_The_Unit_of_Caring.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/14_Purchase_Fuzzies_and_Utilons_Separately.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/15_Bystander_Apathy.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/16_Collective_Apathy_and_the_Internet.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/17_Incremental_Progress_and_the_Valley.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/18_Bayesians_vs_Barbarians.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/19_Beware_of_OtherOptimizing.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/20_Practical_Advice_Backed_By_Deep_Theories.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/21_The_Sin_of_Underconfidence.dbk"/>
+<xi:include href="03_The_Craft_and_the_Community/22_Go_Forth_and_Create_the_Art.dbk"/>
+</chapter>

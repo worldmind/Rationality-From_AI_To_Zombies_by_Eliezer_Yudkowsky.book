@@ -1,0 +1,50 @@
+<section xml:id="item_Kow8xRzpfkoY7pa69"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Affect Heuristic</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/Kow8xRzpfkoY7pa69/the-affect-heuristic"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-11-27</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Affect Heuristic</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+  <para>The <emphasis>affect heuristic</emphasis> is when subjective impressions of goodness/badness act as a heuristic—a source of fast, perceptual judgments. Pleasant and unpleasant feelings are central to human reasoning, and the affect heuristic comes with lovely biases—some of my favorites. </para>
+<para>Let’s start with one of the relatively less crazy biases. You’re about to move to a new city, and you have to ship an antique grandfather clock. In the first case, the grandfather clock was a gift from your grandparents on your fifth birthday. In the second case, the clock was a gift from a remote relative and you have no special feelings for it. How much would you pay for an insurance policy that paid out $100 if the clock were lost in shipping? According to Hsee and Kunreuther, subjects stated willingness to pay more than twice as much in the first condition.<footnote xml:id="fn_d8f24c26ba7f8bbdeca5d92ca2cdabfb">
+    <para><anchor xml:id="cite.0.Hsee.2000"/>Christopher K. Hsee and Howard C. Kunreuther, “The Affection Effect in Insurance Decisions,” <emphasis>Journal of Risk and Uncertainty</emphasis> 20 (2 2000): 141–159.</para>
+  </footnote>
+<anchor xml:id="x57-58001f1"/> This may sound rational—why not pay more to protect the more valuable object?—until you realize that the insurance doesn’t  the clock, it just pays if the clock is lost, and pays exactly the same amount for either clock. (And yes, it was stated that the insurance was with an outside company, so it gives no special motive to the movers.)</para>
+<para>All right, but that doesn’t <emphasis>sound</emphasis> too insane. Maybe you could get away with claiming the subjects were insuring affective outcomes, not financial outcomes—purchase of consolation.</para>
+<para>Then how about this? Yamagishi showed that subjects judged a disease as more dangerous when it was described as killing 1,286 people out of every 10,000, versus a disease that was 24.14% likely to be fatal.<footnote xml:id="fn_af6730715b1edd8bc576649e12638753">
+    <para><anchor xml:id="cite.0.Yamagishi.1997"/>Kimihiko Yamagishi, “When a 12.86% Mortality Is More Dangerous than 24.14%: Implications for Risk Communication,” <emphasis>Applied Cognitive Psychology</emphasis> 11 (6 1997): 461–554.</para>
+  </footnote>
+<anchor xml:id="x57-58002f2"/> Apparently the mental image of a thousand dead bodies is much more alarming, compared to a single person who’s more likely to survive than not.</para>
+<para>But wait, it gets worse.</para>
+<para>Suppose an airport must decide whether to spend money to purchase some new equipment, while critics argue that the money should be spent on other aspects of airport safety. Slovic et al. presented two groups of subjects with the arguments for and against purchasing the equipment, with a response scale ranging from 0 (would not support at all) to 20 (very strong support).<footnote xml:id="fn_b67391a40a3a741eb0349f873952edd9">
+    <para><anchor xml:id="cite.0.Slovic.2002a"/>Paul Slovic et al., “Rational Actors or Rational Fools: Implications of the Affect Heuristic for Behavioral Economics,” <emphasis>Journal of Socio-Economics</emphasis> 31, no. 4 (2002): 329–342.</para>
+  </footnote>
+<anchor xml:id="x57-58003f3"/> One group saw the measure described as saving 150 lives. The other group saw the measure described as saving 98% of 150 lives. The hypothesis motivating the experiment was that saving 150 lives sounds vaguely good—is that a lot? a little?—while saving 98% of something is clearly very good because 98% is so close to the upper bound of the percentage scale. Lo and behold, saving 150 lives had mean support of 10.4, while saving 98% of 150 lives had mean support of 13.6.</para>
+<para>Or consider the report of Denes-Raj and Epstein: subjects who were offered an opportunity to win $1 each time they randomly drew a red jelly bean from a bowl often preferred to draw from a bowl with more red beans and a smaller proportion of red beans.<footnote xml:id="fn_8269c85c5a9dcf8d9a383080f34f36d8">
+    <para><anchor xml:id="cite.0.Denes-Raj.1994"/>Veronika Denes-Raj and Seymour Epstein, “Conflict between Intuitive and Rational Processing: When People Behave against Their Better Judgment,” <emphasis>Journal of Personality and Social Psychology</emphasis> 66 (5 1994): 819–829.</para>
+  </footnote>
+<anchor xml:id="x57-58004f4"/> E.g., 7 in 100 was preferred to 1 in 10.</para>
+<para>According to Denes-Raj and Epstein, these subjects reported afterward that even though they knew the probabilities were against them, they felt they had a better chance when there were more red beans. This may sound crazy to you, oh Statistically Sophisticated Reader, but if you think more carefully you’ll realize that it makes perfect sense. A 7% probability versus 10% probability may be bad news, but it’s more than made up for by the increased number of red beans. It’s a worse probability, yes, but you’re still more likely to <emphasis>win</emphasis>, you see. You should meditate upon this thought until you attain enlightenment as to how the rest of the planet thinks about probability.</para>
+<para>As I discussed in “The Scales of Justice, the Notebook of Rationality,” Finucane et al. found that for nuclear reactors, natural gas, and food preservatives, presenting information about high benefits made people perceive lower risks; presenting information about higher risks made people perceive lower benefits; and so on across the quadrants.<footnote xml:id="fn_847906d88bf2038913d41cc020882b6e">
+    <para>Finucane et al., <link xl:href="https://www.lesswrong.com/posts/Text/main-printch16.html#cite.0.Finucane.2000">“The Affect Heuristic in Judgments of Risks and Benefits</link>.”</para>
+  </footnote>
+<anchor xml:id="x57-58005f5"/> People conflate their judgments about particular good/bad aspects of something into an overall good or bad feeling about that thing.</para>
+<para>Finucane et al. also found that time pressure greatly <emphasis>increased</emphasis> the inverse relationship between perceived risk and perceived benefit, consistent with the general finding that time pressure, poor information, or distraction all increase the dominance of perceptual heuristics over analytic deliberation.</para>
+<para>Ganzach found the same effect in the realm of finance.<footnote xml:id="fn_dbfdce5e03315e737296094c4bca7fc7">
+    <para><anchor xml:id="cite.0.Ganzach.2000"/>Yoav Ganzach, “Judging Risk and Return of Financial Assets,” <emphasis>Organizational Behavior and Human Decision Processes</emphasis> 83, no. 2 (2000): 353–370.</para>
+  </footnote>
+<anchor xml:id="x57-58006f6"/> According to ordinary economic theory, return and risk should correlate —or to put it another way, people pay a premium price for safe investments, which lowers the return; stocks deliver higher returns than bonds, but have correspondingly greater risk. When judging  stocks, analysts’ judgments of risks and returns were positively correlated, as conventionally predicted. But when judging  stocks, analysts tended to judge the stocks as if they were generally good or generally bad—low risk and high returns, or high risk and low returns.</para>
+<para>For further reading I recommend Slovic’s fine summary article, “Rational Actors or Rational Fools: Implications of the Affect Heuristic for Behavioral Economics.”</para>
+
+  
+</section>
