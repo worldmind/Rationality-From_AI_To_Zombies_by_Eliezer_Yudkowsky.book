@@ -1,0 +1,57 @@
+<section xml:id="item_wzxneh7wxkdNYNbtB"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>When Science Can't Help</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/wzxneh7wxkdNYNbtB/when-science-can-t-help"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-05-15</pubdate>
+  </info>
+  <indexterm><primary>Practice &amp; Philosophy of Science</primary></indexterm>
+  <para><olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_DwtYPRuCxpXTrzG9m">Once upon a time, a younger Eliezer had a stupid theory</olink>.  Let&apos;s say that Eliezer<subscript>18</subscript>&apos;s stupid theory was that consciousness was caused by closed timelike curves hiding in quantum gravity.  This isn&apos;t the whole story, not even close, but it will do for a start.</para>
+<para>And there came a point where I looked back, and realized:</para>
+<orderedlist>
+  <listitem>
+    <para> I had carefully followed everything I&apos;d been told was Traditionally Rational, in the course of going astray.  For example, I&apos;d been careful to only believe in stupid theories that made novel experimental predictions, e.g., that neuronal microtubules would be found to support coherent quantum states.</para>
+  </listitem>
+  <listitem>
+    <para> Science would have been perfectly fine with my spending ten years trying to test my stupid theory, only to get a negative experimental result, so long as I then said, &quot;Oh, well, I guess my theory was wrong.&quot;</para>
+  </listitem>
+</orderedlist>
+<para>From Science&apos;s perspective, that is how things are <emphasis>supposed</emphasis> to work—happy fun for everyone.  You admitted your error!  Good for you!  Isn&apos;t that what Science is all about?</para>
+<para>But what if I didn&apos;t want to waste ten years?</para>
+<para>Well... Science didn&apos;t have much to say about <emphasis>that.</emphasis>  How could Science say which theory was right, in <emphasis>advance</emphasis> of the experimental test?  Science doesn&apos;t care where your theory comes from—it just says, &quot;Go test it.&quot;</para>
+<para>This is the great strength of Science, and also its great weakness.</para>
+<para><link xl:href="https://www.lesswrong.com/posts/5bJyRMZzwMov5u3hW/science-doesn-t-trust-your-rationality?commentId=Kf2xAFKtmw7QgKqZa">Gray Area asked</link>:</para>
+<blockquote>
+  <para> Eliezer, why are you concerned with untestable questions?</para>
+</blockquote>
+<para>Because questions that are <emphasis>easily immediately</emphasis> tested are hard for Science to get wrong.</para>
+<para>I mean, sure, when there&apos;s already definite unmistakable experimental evidence available, go with it.  Why on Earth wouldn&apos;t you?</para>
+<para>But sometimes a question will have very large, very definite experimental consequences in your future—but you can&apos;t easily test it experimentally <emphasis>right now</emphasis>—and yet there <emphasis>is</emphasis> a strong <emphasis>rational</emphasis> argument.</para>
+<para>Macroscopic quantum superpositions are readily testable:  It would just take nanotechnologic precision, very low temperatures, and a nice clear area of interstellar space.  Oh, sure, you can&apos;t do it <emphasis>right now</emphasis>, because it&apos;s <emphasis>too expensive</emphasis> or<emphasis> impossible for today&apos;s technology</emphasis> or something like that—but in theory, sure!  Why, maybe someday they&apos;ll run whole civilizations on macroscopically superposed quantum computers, way out in a well-swept volume of a Great Void.  (Asking what quantum non-realism says about the status of any observers inside these computers, helps to reveal the underspecification of quantum non-realism.)</para>
+<para>This doesn&apos;t seem immediately pragmatically relevant to your life, I&apos;m guessing, but it establishes the pattern:  Not everything with future consequences is <emphasis>cheap </emphasis>to test <emphasis>now</emphasis>.</para>
+<para>Evolutionary psychology is another example of a case where rationality has to take over from science.  While theories of evolutionary psychology form a connected whole, only some of those theories are readily testable experimentally.  But you still need the other parts of the theory, because they form a connected web that helps you to form the hypotheses that are actually testable—and then the helper hypotheses are supported in a Bayesian sense, but not supported experimentally.  Science would render a verdict of &quot;not proven&quot; on individual parts of a connected theoretical mesh that is experimentally productive as a whole.  We&apos;d need a new kind of verdict for that, something like &quot;indirectly supported&quot;.</para>
+<para>Or what about cryonics?</para>
+<para>Cryonics is an archetypal example of an extremely important issue (150,000 people die per day) that will have huge consequences in the foreseeable future, but doesn&apos;t offer definite unmistakable experimental evidence that we can get <emphasis>right now.</emphasis></para>
+<para>So do you say, &quot;I don&apos;t believe in cryonics because it hasn&apos;t been experimentally proven, and you shouldn&apos;t believe in things that haven&apos;t been experimentally proven?&quot;</para>
+<para>Well, from a Bayesian perspective, that&apos;s incorrect.  <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_mnS2WYLCGJP2kQkRn">Absence of evidence is evidence of absence</olink> only to the degree that we could reasonably expect the evidence to appear.  If someone is trumpeting that snake oil cures cancer, you can reasonably expect that, <emphasis>if the snake oil was actually curing cancer,</emphasis> some scientist would be performing a controlled study to verify it—that, at the least, doctors would be reporting case studies of amazing recoveries—and so the absence of this evidence is strong evidence of absence.  But &quot;gaps in the fossil record&quot; are not strong evidence against evolution; fossils form only rarely, and <emphasis>even if an intermediate species did in fact exist,</emphasis> you cannot expect with high probability that Nature will obligingly fossilize it and that the fossil will be discovered.</para>
+<para>Reviving a cryonically frozen mammal is just not something you&apos;d expect to be able to do with modern technology, <emphasis>even if future nanotechnologies could in fact perform a successful revival</emphasis>.  That&apos;s how I see Bayes seeing it.</para>
+<para>Oh, and as for the actual arguments <emphasis>for</emphasis> cryonics—I&apos;m not going to go into those at the moment.  But if you followed the <link xl:href="https://www.lesswrong.com/posts/RLScTpwc5W2gGGrL9/identity-isn-t-in-specific-atoms">physics and anti-Zombie sequences</link>, it should now seem a lot more plausible, that whatever preserves the pattern of synapses, preserves as much of &quot;you&quot; as is preserved from one night&apos;s sleep to morning&apos;s waking.</para>
+<para>Now, to be fair, someone who says, &quot;I don&apos;t believe in cryonics because it hasn&apos;t been proven experimentally&quot; is <emphasis>misapplying</emphasis> the rules of Science; this is not a case where science actually gives the <emphasis>wrong answer.</emphasis>  In the absence of a definite experimental test, the verdict of science here is &quot;Not proven&quot;.  Anyone who interprets that as a rejection is taking an extra step outside of science, not a misstep within science.</para>
+<para><link xl:href="http://en.wikiquote.org/wiki/John_McCarthy">John McCarthy&apos;s Wikiquotes page</link> has him saying, &quot;Your statements amount to saying that if AI is possible, it should be easy. Why is that?&quot;  The Wikiquotes page doesn&apos;t say what McCarthy was responding to, but I could venture a guess.</para>
+<para>The general mistake probably arises because there <emphasis>are</emphasis> cases where the absence of scientific proof is strong evidence—because an experiment would be readily performable, and so failure to perform it is itself suspicious.  (Though not as suspicious as I used to think—with all the strangely varied anecdotal evidence coming in from respected sources, why the <emphasis>hell</emphasis> isn&apos;t anyone testing <link xl:href="http://sethroberts.net/about/whatmakesfoodfattening.pdf">Seth Roberts&apos;s theory of appetite suppression</link>?)</para>
+<para>Another confusion factor may be that if you test Pharmaceutical X on 1000 subjects and find that 56% of the control group and 57% of the experimental group recover, some people will call that a verdict of &quot;Not proven&quot;.  I would call it an experimental verdict of &quot;Pharmaceutical X doesn&apos;t work well, if at all&quot;.  Just because this verdict is theoretically retractable in the face of new evidence, doesn&apos;t make it ambiguous.</para>
+<para>In any case, right now you&apos;ve got people dismissing cryonics out of hand as &quot;not scientific&quot;, like it was some kind of pharmaceutical you could easily administer to 1000 patients and see what happened.  &quot;Call me when cryonicists actually revive someone,&quot; they say; which, as Mike Li observes, is like saying &quot;I refuse to get into this ambulance; call me when it&apos;s actually at the hospital&quot;.  Maybe Martin Gardner warned them against believing in strange things without experimental evidence.  So they wait for the definite unmistakable verdict of Science, while their family and friends and 150,000 people per day are dying <emphasis>right now,</emphasis> and might or might not be savable—</para>
+<para>—a calculated bet you could only make <emphasis>rationally.</emphasis></para>
+<para>The drive of Science is to obtain a mountain of evidence so huge that not even fallible human scientists can misread it.  But even <emphasis>that</emphasis> sometimes goes wrong, when people become confused about which theory predicts what, or bake extremely-hard-to-test components into an early version of their theory.  And sometimes you just can&apos;t get clear experimental evidence at all.</para>
+<para>Either way, you have to try to do the thing that Science <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_5bJyRMZzwMov5u3hW">doesn&apos;t trust anyone to do</olink>—think rationally, and figure out the answer <emphasis>before </emphasis>you get clubbed over the head with it.</para>
+<para>(Oh, and sometimes a <emphasis>disconfirming</emphasis> experimental result looks like:  &quot;<link xl:href="http://www.global-catastrophic-risks.com/">Your entire species has just been wiped out!</link>  You are now scientifically required to relinquish your theory.  If you publicly recant, good for you!  Remember, it takes a strong mind to give up strongly held beliefs.  Feel free to try another hypothesis next time!&quot;)</para>
+
+  
+</section>

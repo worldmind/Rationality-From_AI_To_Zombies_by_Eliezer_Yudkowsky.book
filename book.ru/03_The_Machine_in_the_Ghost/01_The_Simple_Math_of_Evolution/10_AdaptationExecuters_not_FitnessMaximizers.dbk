@@ -1,0 +1,44 @@
+<section xml:id="item_XPErvb8m9FapXCjhA"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Adaptation-Executers, not Fitness-Maximizers</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/XPErvb8m9FapXCjhA/adaptation-executers-not-fitness-maximizers"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-11-11</pubdate>
+  </info>
+  <indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>General Intelligence</primary></indexterm>
+<indexterm><primary>Superstimuli</primary></indexterm>
+<indexterm><primary>Evolution</primary></indexterm>
+<indexterm><primary>Shard Theory</primary></indexterm>
+<indexterm><primary>Adaptation Executors</primary></indexterm>
+  <blockquote>
+  <para>&quot;Individual organisms are best thought of as adaptation-executers rather than as fitness-maximizers.&quot;</para>
+</blockquote>
+<blockquote>
+  <para> —John Tooby and Leda Cosmides, <emphasis>The Psychological Foundations of Culture.</emphasis></para>
+</blockquote>
+<para>Fifty thousand years ago, the taste buds of <emphasis>Homo sapiens</emphasis> directed their bearers to the scarcest, most critical food resources—sugar and fat. Calories, in a word. Today, the context of a taste bud&apos;s function has changed, but the taste buds themselves have not. Calories, far from being scarce (in First World countries), are actively harmful. Micronutrients that were reliably abundant in leaves and nuts are absent from bread, but our taste buds don&apos;t complain. A scoop of ice cream is a <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_Jq73GozjsuhdwMLEG">superstimulus</olink>, containing more sugar, fat, and salt than anything in the ancestral environment.</para>
+<para>No human being with the <emphasis>deliberate</emphasis> goal of maximizing their alleles&apos; inclusive genetic fitness, would ever eat a cookie unless they were starving. But individual organisms are best thought of as adaptation-executers, not fitness-maximizers.</para>
+<para>A toaster, though its designer intended it to make toast, does not bear within it the intelligence of the designer—it won&apos;t automatically redesign and reshape itself if you try to cram in an entire loaf of bread. A Phillips-head screwdriver won&apos;t reconform itself to a flat-head screw. We created these tools, but they exist independently of us, and they continue independently of us.</para>
+<para>The atoms of a screwdriver don&apos;t have tiny little XML tags inside describing their &quot;objective&quot; purpose. The designer had something in mind, yes, but that&apos;s not the same as what <emphasis>happens</emphasis> in the real world. If you forgot that the designer is a separate entity from the designed thing, you might think, &quot;The <emphasis>purpose</emphasis> of the screwdriver is to drive screws&quot;—as though this were an explicit property of the screwdriver itself, rather than a property of the designer&apos;s state of mind. You might be surprised that the screwdriver didn&apos;t reconfigure itself to the flat-head screw, since, after all, the screwdriver&apos;s <emphasis>purpose</emphasis> is to turn screws.</para>
+<para>The <emphasis>cause</emphasis> of the screwdriver&apos;s existence is the designer&apos;s mind, which imagined an imaginary screw, and imagined an imaginary handle turning. The <emphasis>actual</emphasis> operation of the screwdriver, its <emphasis>actual</emphasis> fit to an actual screw head, <emphasis>cannot</emphasis> be the objective cause of the screwdriver&apos;s existence: The future cannot cause the past. But the designer&apos;s brain, as an actually existent thing within the past, can indeed be the cause of the screwdriver.</para>
+<para>The <emphasis>consequence</emphasis> of the screwdriver&apos;s existence, may not correspond to the imaginary consequences in the designer&apos;s mind. The screwdriver blade could slip and cut the user&apos;s hand.</para>
+<para>And the <emphasis>meaning</emphasis> of the screwdriver—why, that&apos;s something that exists in the mind of a user, not in tiny little labels on screwdriver atoms. The designer may intend it to turn screws. A murderer may buy it to use as a weapon. And then accidentally drop it, to be picked up by a child, who uses it as a chisel.</para>
+<para>So the screwdriver&apos;s <emphasis>cause,</emphasis> and its <emphasis>shape,</emphasis> and its <emphasis>consequence,</emphasis> and its various <emphasis>meanings,</emphasis> are all different things; and only <emphasis>one</emphasis> of these things is found within the screwdriver itself.</para>
+<para>Where do taste buds come from? Not from an intelligent designer visualizing their consequences, but from a frozen history of ancestry: Adam liked sugar and ate an apple and reproduced, Barbara liked sugar and ate an apple and reproduced, Charlie liked sugar and ate an apple and reproduced, and <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_jAToJHtg39AMTAuJo">2763 generations later</olink>, the allele became fixed in the population. For convenience of thought, we sometimes compress this giant history and say: &quot;Evolution did it.&quot; But it&apos;s not a quick, local event like a human designer visualizing a screwdriver. This is the <emphasis>objective cause</emphasis> of a taste bud.</para>
+<para>What is the <emphasis>objective shape</emphasis> of a taste bud? Technically, it&apos;s a molecular sensor connected to reinforcement circuitry. This adds another level of indirection, because the taste bud isn&apos;t directly acquiring food. It&apos;s influencing the organism&apos;s mind, making the organism want to eat foods that are similar to the food just eaten.</para>
+<para>What is the <emphasis>objective consequence</emphasis> of a taste bud? In a modern First World human, it plays out in multiple chains of causality: from the desire to eat more chocolate, to the plan to eat more chocolate, to eating chocolate, to getting fat, to getting fewer dates, to reproducing less successfully. This consequence is directly <emphasis>opposite</emphasis> the key regularity in the long chain of ancestral successes which caused the taste bud&apos;s shape. But, since overeating has only recently become a problem, no significant evolution (compressed regularity of ancestry) has further influenced the taste bud&apos;s shape.</para>
+<para>What is the <emphasis>meaning</emphasis> of eating chocolate? That&apos;s between you and your moral philosophy. Personally, I think chocolate tastes good, but I wish it were less harmful; acceptable solutions would include redesigning the chocolate or redesigning my biochemistry. </para>
+<para>Smushing several of the concepts together, you could sort-of-say, &quot;Modern humans do today what would have propagated our genes in a hunter-gatherer society, whether or not it helps our genes in a modern society.&quot; But this still isn&apos;t quite right, because we&apos;re not <emphasis>actually</emphasis> asking ourselves which behaviors would maximize our ancestors&apos; inclusive fitness. And many of our activities today have no ancestral analogue. In the hunter-gatherer society there wasn&apos;t any such thing as chocolate.</para>
+<para>So it&apos;s better to view our taste buds as an <emphasis>adaptation</emphasis> fitted to ancestral conditions that included near-starvation and apples and roast rabbit, which modern humans <emphasis>execute</emphasis> in a new context that includes cheap chocolate and constant bombardment by advertisements.</para>
+<para>Therefore it is said: Individual organisms are best thought of as adaptation-executers, not fitness-maximizers.</para>
+
+  
+</section>

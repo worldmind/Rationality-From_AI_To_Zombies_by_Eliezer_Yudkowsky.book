@@ -1,0 +1,40 @@
+<section xml:id="item_uHYYA32CKgKT3FagE"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Hold Off On Proposing Solutions</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/uHYYA32CKgKT3FagE/hold-off-on-proposing-solutions"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-10-17</pubdate>
+  </info>
+  <indexterm><primary>Problem-solving (skills and techniques)</primary></indexterm>
+<indexterm><primary>Problem Formulation &amp; Conceptualization</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Practical</primary></indexterm>
+  <para>From Robyn Dawes’s <emphasis>Rational Choice in an Uncertain World</emphasis>.<footnote xml:id="fn_1844259a1bd1fccd13a189bf3b5b7212">
+    <para><anchor xml:id="cite.0.Dawes.1988"/>Robyn M. Dawes, <emphasis>Rational Choice in An Uncertain World</emphasis>, 1st ed., ed. Jerome Kagan (San Diego, CA: Harcourt Brace Jovanovich, 1988), 55–56.</para>
+  </footnote>
+<anchor xml:id="x54-55001f1"/> Bolding added.</para>
+<blockquote>
+  <para> Norman R. F. Maier noted that when a group faces a problem, the natural tendency of its members is to propose possible solutions as they begin to discuss the problem. Consequently, the group interaction focuses on the merits and problems of the proposed solutions, people become emotionally attached to the ones they have suggested, and superior solutions are not suggested. Maier enacted an edict to enhance group problem solving: <emphasis role="bold">“Do not propose solutions until the problem has been discussed as thoroughly as possible without suggesting any.”</emphasis> It is easy to show that this edict works in contexts where there are objectively defined good solutions to problems.</para>
+  <para>Maier devised the following “role playing” experiment to demonstrate his point. Three employees of differing ability work on an assembly line. They rotate among three jobs that require different levels of ability, because the most able—who is also the most dominant—is strongly motivated to avoid boredom. In contrast, the least able worker, aware that he does not perform the more difficult jobs as well as the other two, has agreed to rotation because of the dominance of his able co-worker. An “efficiency expert” notes that if the most able employee were given the most difficult task and the least able the least difficult, productivity could be improved by 20%, and the expert recommends that the employees stop rotating. The three employees and . . . a fourth person designated to play the role of foreman are asked to discuss the expert’s recommendation. Some role-playing groups are given Maier’s edict not to discuss solutions until having discussed the problem thoroughly, while others are not. Those who are not given the edict immediately begin to argue about the importance of productivity versus worker autonomy and the avoidance of boredom. Groups presented with the edict have a much higher probability of arriving at the solution that the two more able workers rotate, while the least able one sticks to the least demanding job—a solution that yields a 19% increase in productivity.</para>
+  <para>I have often used this edict with groups I have led—<emphasis role="bold">particularly when they face a very tough problem, which is when group members are most apt to propose solutions immediately</emphasis>. While I have no objective criterion on which to judge the quality of the problem solving of the groups, Maier’s edict appears to foster better solutions to problems.</para>
+</blockquote>
+<para>This is so true it’s not even funny. And it gets worse and worse the tougher the problem becomes. Take artificial intelligence, for example. A surprising number of people I meet seem to know exactly how to build an artificial general intelligence, without, say, knowing how to build an optical character recognizer or a collaborative filtering system (much easier problems). And as for building an AI with a positive impact on the world—a Friendly AI, loosely speaking—why, <emphasis>that</emphasis> problem is so incredibly difficult that an actual <emphasis>majority</emphasis> resolve the whole issue within fifteen seconds.<footnote xml:id="fn_f847a0183fdbd0334f8fbd42540e5b29">
+    <para>See Yudkowsky, <link xl:href="https://www.lesswrong.com/posts/Text/main-printch17.html#cite.0.Yudkowsky.2008">“Artificial Intelligence as a Positive and Negative Factor in Global Risk</link>.”</para>
+  </footnote>
+<anchor xml:id="x54-55002f2"/> me a </para>
+<para>This problem is by no means unique to AI. Physicists encounter plenty of nonphysicists with their own theories of physics, economists get to hear lots of amazing new theories of economics. If you’re an evolutionary biologist, anyone you meet can instantly solve any open problem in your field, usually by postulating group selection. Et cetera.</para>
+<para>Maier’s advice echoes the principle of the bottom line, that the effectiveness of our decisions is determined only by whatever evidence and processing we did in first arriving at our decisions—after you write the bottom line, it is too late to write more reasons above. If you make your decision very early on, it will, in fact, be based on very little thought, no matter how many amazing arguments you come up with afterward.</para>
+<para>And consider furthermore that we change our minds less often than we think: 24 people assigned an average 66% probability to the future choice thought more probable, but only 1 in 24 actually chose the option thought less probable. <emphasis role="bold">Once you can guess what your answer will be, you have probably already decided.</emphasis> If you can guess your answer half a second after hearing the question, then you have half a second in which to be intelligent. It’s not a lot of time.</para>
+<para>Traditional Rationality emphasizes <emphasis>falsification</emphasis>—the ability to <emphasis>relinquish</emphasis> an initial opinion when confronted by clear evidence against it. But once an idea gets into your head, it will probably require way too much evidence to get it out again. Worse, we don’t always have the luxury of overwhelming evidence.</para>
+<para>I suspect that a more powerful (and more difficult) method is to <emphasis>hold off on thinking of an answer</emphasis>. To suspend, draw out, that tiny moment when we can’t yet guess what our answer will be; thus giving our intelligence a longer time in which to act.</para>
+<para>Even half a minute would be an improvement over half a second.</para>
+
+  
+</section>

@@ -1,0 +1,95 @@
+<section xml:id="item_82eMd5KLiJ5Z6rTrr"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Superexponential Conceptspace, and Simple Words</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/82eMd5KLiJ5Z6rTrr/superexponential-conceptspace-and-simple-words"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-25</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+<indexterm><primary>Carving / Clustering Reality</primary></indexterm>
+<indexterm><primary>Thingspace</primary></indexterm>
+  <para><olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_WBw8dDkAWohFjWQSk">Thingspace</olink>, you might think, is a rather huge space.  Much larger than reality, for where reality only contains things that actually exist, Thingspace contains everything that <emphasis>could </emphasis>exist.</para>
+<para>Actually, the way I &quot;defined&quot; Thingspace to have dimensions for every possible attribute—including correlated attributes like density and volume and mass—Thingspace may be too poorly defined to have anything you could call a <emphasis>size.</emphasis>  But it&apos;s important to be able to visualize Thingspace <emphasis>anyway.  </emphasis>Surely, no one can <emphasis>really</emphasis> understand a flock of sparrows if all they see is a cloud of flapping cawing things, rather than a cluster of points in Thingspace.</para>
+<para>But as vast as Thingspace may be, it doesn&apos;t hold a candle to the size of Conceptspace.</para>
+<para>&quot;Concept&quot;, in machine learning, means a rule that includes or excludes examples.  If you see the data 2:+, 3:-, 14:+, 23:-, 8:+, 9:- then you might guess that the concept was &quot;even numbers&quot;.  There is a rather large literature (as one might expect) on how to learn concepts from data... given random examples, given chosen examples... given possible errors in classification... and most importantly, given different spaces of possible rules.</para>
+<para>Suppose, for example, that we want to learn the concept &quot;good days on which to play tennis&quot;.  The possible attributes of Days are:</para>
+<blockquote>
+  <para> <literal/></para>
+  <para><literal>Sky:      {Sunny, Cloudy, Rainy} AirTemp:  {Warm, Cold} Humidity: {Normal, High} Wind:     {Strong, Weak}</literal></para>
+</blockquote>
+<para>We&apos;re then presented with the following data, where + indicates a positive example of the concept, and - indicates a negative classification:</para>
+<blockquote>
+  <para> <literal/></para>
+  <para><literal>+   Sky: Sunny;  AirTemp: Warm;  Humidity: High;  Wind: Strong. -   Sky: Rainy;  AirTemp: Cold;  Humidity: High;  Wind: Strong. +   Sky: Sunny;  AirTemp: Warm;  Humidity: High;  Wind: Weak.</literal></para>
+</blockquote>
+<para>What should an algorithm infer from this?</para>
+<para>A machine learner might represent <emphasis>one</emphasis> concept that fits this data as follows:</para>
+<blockquote>
+  <para> <literal>Sky: ?;  AirTemp: Warm;  Humidity: High;  Wind: ?</literal></para>
+</blockquote>
+<para>In this format, to determine whether this concept accepts or rejects an example, we compare element-by-element:  ? accepts anything, but a specific value accepts only that specific value.</para>
+<para>So the concept above will accept only Days with AirTemp=Warm and Humidity=High, but the Sky and the Wind can take on any value.  This fits both the negative and the positive classifications in the data so far—though it isn&apos;t the <emphasis>only</emphasis> concept that does so.</para>
+<para>We can also simplify the above concept representation to {?, Warm, High, ?}.</para>
+<para>Without going into details, the classic algorithm would be:</para>
+<itemizedlist>
+  <listitem>
+    <para> Maintain the set of the most general hypotheses that fit the data—those that positively classify as many examples as possible, while still fitting the facts.</para>
+  </listitem>
+  <listitem>
+    <para> Maintain another set of the most specific hypotheses that fit the data—those that negatively classify as many examples as possible, while still fitting the facts.</para>
+  </listitem>
+  <listitem>
+    <para> Each time we see a new negative example, we strengthen all the most general hypotheses as little as possible, so that the new set is again as general as possible while fitting the facts.</para>
+  </listitem>
+  <listitem>
+    <para> Each time we see a new positive example, we relax all the most specific hypotheses as little as possible, so that the new set is again as specific as possible while fitting the facts.</para>
+  </listitem>
+  <listitem>
+    <para> We continue until we have only a single hypothesis left.  This will be the answer <emphasis>if</emphasis> the target concept was in our hypothesis space at all.</para>
+  </listitem>
+</itemizedlist>
+<para>In the case above, the set of most general hypotheses would be {?, Warm, ?, ?} and {Sunny, ?, ?, ?}, while the set of most specific hypotheses is the single member  {Sunny, Warm, High, ?}.</para>
+<para>Any other concept you can find that fits the data will be strictly more specific than one of the most general hypotheses, and strictly more general than the most specific hypothesis.</para>
+<para>(For more on this, I recommend Tom Mitchell&apos;s <emphasis>Machine Learning,</emphasis> from which this example was adapted.)</para>
+<para>Now you may notice that the format above <emphasis>cannot</emphasis> represent all possible concepts.  E.g. &quot;Play tennis when the sky is sunny <emphasis>or</emphasis> the air is warm&quot;.  That fits the data, but in the concept representation defined above, there&apos;s no quadruplet of values that describes the rule.</para>
+<para>Clearly our machine learner is not very general.  Why not allow it to represent <emphasis>all possible</emphasis> concepts, so that it can learn with the greatest possible flexibility?</para>
+<para>Days are composed of these four variables, one variable with 3 values and three variables with 2 values.  So there are 3*2*2*2 = 24 possible Days that we could encounter.</para>
+<para>The format given for representing Concepts allows us to require any of these values for a variable, or leave the variable open.  So there are 4*3*3*3 = 108 concepts in that representation.  For the most-general/most-specific algorithm to work, we need to start with the most specific hypothesis &quot;no example is ever positively classified&quot;.  If we add that, it makes a total of 109 concepts.</para>
+<para>Is it suspicious that there are more possible concepts than possible Days?  Surely not:  After all, a concept can be viewed as a <emphasis>collection</emphasis> of Days.  A concept can be viewed as the set of days that it classifies positively, or isomorphically, the set of days that it classifies negatively.</para>
+<para>So the space of <emphasis>all possible</emphasis> concepts that classify Days is the set of all possible sets of Days, whose size is 2<superscript>24</superscript> = 16,777,216.</para>
+<para>This complete space includes all the concepts we have discussed so far.  But it also includes concepts like &quot;Positively classify only the examples {Sunny, Warm, High, Strong} and {Sunny, Warm, High, Weak} and reject everything else&quot; or &quot;Negatively classify only the example {Rainy, Cold, High, Strong} and accept everything else.&quot;  It includes concepts with no compact representation, just a flat list of what is and isn&apos;t allowed.</para>
+<para>That&apos;s the problem with trying to build a &quot;fully general&quot; inductive learner:  They can&apos;t learn concepts until they&apos;ve seen every possible example in the instance space.</para>
+<para>If we add on more attributes to Days—like the Water temperature, or the Forecast for tomorrow—then the number of possible days will grow exponentially in the number of attributes.  But this isn&apos;t a problem with our restricted concept space, because you can narrow down a large space using a logarithmic number of examples.</para>
+<para>Let&apos;s say we add the Water: {Warm, Cold} attribute to days, which will make for 48 possible Days and 325 possible concepts.  Let&apos;s say that each Day we see is, usually, classified positive by around half of the currently-plausible concepts, and classified negative by the other half.  Then when we learn the actual classification of the example, it will cut the space of compatible concepts in half.  So it might only take 9 examples (2<superscript>9</superscript> = 512) to narrow 325 possible concepts down to one.</para>
+<para>Even if Days had forty binary attributes, it should still only take a manageable amount of data to narrow down the possible concepts to one.  64 examples, if each example is classified positive by half the remaining concepts.  <emphasis>Assuming,</emphasis> of course, that the <emphasis>actual</emphasis> rule is one we can represent at all!</para>
+<para>If you want to think of all the possibilities, well, good luck with that.  The space of <emphasis>all possible</emphasis> concepts grows <emphasis>super</emphasis>exponentially in the number of attributes.</para>
+<para>By the time you&apos;re talking about data with forty binary attributes, the number of possible examples is past a trillion—but the number of possible <emphasis>concepts</emphasis> is past two-to-the-trillionth-power.  To narrow down that <emphasis>super</emphasis>exponential concept space, you&apos;d have to see over a trillion examples before you could say what was In, and what was Out.  You&apos;d have to see every possible example, in fact.</para>
+<para>That&apos;s with forty binary attributes, mind you.  40 bits, or 5 bytes, to be classified simply &quot;Yes&quot; or &quot;No&quot;.  40 bits implies 2^40 possible examples, and 2^(2^40) possible concepts that classify those examples as positive or negative.</para>
+<para>So, here in the real world, where objects take more than 5 bytes to describe <emphasis>and</emphasis> a trillion examples are not available <emphasis>and</emphasis> there is noise in the training data, we only even <emphasis>think</emphasis> about <emphasis>highly regular</emphasis> concepts.  A human mind—or the whole observable universe—is not nearly large enough to consider all the other hypotheses.</para>
+<para>From this perspective, learning doesn&apos;t just <emphasis>rely on</emphasis><link xl:href="https://www.lesswrong.com/posts/H59YqogX94z5jb8xx/inductive-bias">inductive bias</link>, it is <emphasis>nearly all</emphasis> inductive bias—when you compare the number of concepts ruled out <emphasis>a priori,</emphasis> to those ruled out by mere evidence<emphasis>.</emphasis></para>
+<para>But what has this (you inquire) to do with the proper use of words?</para>
+<para>It&apos;s the whole reason that words have <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_HsznWM9A7NiuGsp28">intensions as well as extensions</olink>.</para>
+<para>In <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yLcuygFfMfrfK8KjF">yesterday&apos;s post</olink>, I concluded:</para>
+<blockquote>
+  <para> The way to carve reality at its joints, is to draw boundaries around concentrations of unusually high probability density.</para>
+</blockquote>
+<para>I deliberately left out a key qualification in that (slightly edited) statement, because I couldn&apos;t explain it until today.  A better statement would be:</para>
+<blockquote>
+  <para> The way to carve reality at its joints, is to draw <emphasis>simple</emphasis> boundaries around concentrations of unusually high probability density in Thingspace.</para>
+</blockquote>
+<para>Otherwise you would just gerrymander Thingspace.  You would create really odd noncontiguous boundaries that collected the observed examples, examples that couldn&apos;t be described in any <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_soQX8yXLbKy7cFvy8">shorter message</olink> than your observations themselves, and say:  &quot;This is what I&apos;ve seen before, and what I expect to see more of in the future.&quot;</para>
+<para>In the real world, nothing above the level of molecules repeats itself <emphasis>exactly.</emphasis>  Socrates is shaped a lot like all those other humans who were vulnerable to hemlock, but he isn&apos;t shaped <emphasis>exactly</emphasis> like them.  So your guess that Socrates is a &quot;human&quot; relies on drawing <emphasis>simple</emphasis> boundaries around the human cluster in Thingspace.  Rather than, &quot;Things shaped exactly like [5-megabyte shape specification 1] and with [lots of other characteristics], <emphasis>or</emphasis> exactly like [5-megabyte shape specification 2] and [lots of other characteristics]&quot;, ..., are human.&quot;</para>
+<para>If you don&apos;t draw <emphasis>simple</emphasis> boundaries around your experiences, you can&apos;t do inference with them.  So you try to <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_d5NyJ2Lf6N22AD9PB">describe &quot;art&quot;</olink> with intensional definitions like &quot;that which is intended to inspire any complex emotion for the sake of inspiring it&quot;, rather than just pointing at a long list of things that are, or aren&apos;t art. </para>
+<para>In fact, the above statement about &quot;how to carve reality at its joints&quot; is a bit chicken-and-eggish:  You can&apos;t assess the <emphasis>density</emphasis> of actual observations, until you&apos;ve already done at least a little carving.  And the probability distribution comes from drawing the boundaries, not the other way around—if you already <emphasis>had</emphasis> the probability distribution, you&apos;d have everything necessary for inference, so why would you bother drawing boundaries?</para>
+<para>And this suggests another—yes, yet another—reason to be suspicious of the claim that &quot;you can define a word any way you like&quot;.  When you consider the superexponential size of Conceptspace, it becomes clear that <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_MwQRucYo6BZZwjKE7">singling out one particular concept for consideration</olink> is an act of no small audacity—not just for us, but for any mind of bounded computing power.</para>
+<para>Presenting us with the word &quot;wiggin&quot;, defined as &quot;a black-haired green-eyed person&quot;, without some reason for raising <emphasis>this particular concept</emphasis> to the level of our deliberate attention, is rather like a detective saying:  &quot;Well, I haven&apos;t the slightest shred of support one way or the other for who could&apos;ve murdered those orphans... not even an intuition, mind you... but have we considered John Q. Wiffleheim of 1234 Norkle Rd as a suspect?&quot;</para>
+
+  
+</section>

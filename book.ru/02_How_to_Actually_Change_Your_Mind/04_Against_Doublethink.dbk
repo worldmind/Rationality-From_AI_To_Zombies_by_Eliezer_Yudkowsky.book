@@ -1,0 +1,23 @@
+<chapter xml:id="item_qqFS6Kw5fmPyzkLby"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Against Doublethink</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/qqFS6Kw5fmPyzkLby"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>This short sequence explores another cognitive pattern that hinders our ability to update on evidence: George Orwell&apos;s &apos;doublethink&apos; - the attempt to deceive oneself.</para>
+
+  <xi:include href="04_Against_Doublethink/01_Doublethink_Choosing_to_be_Biased.dbk"/>
+<xi:include href="04_Against_Doublethink/02_No_Really_Ive_Deceived_Myself.dbk"/>
+<xi:include href="04_Against_Doublethink/03_Belief_in_SelfDeception.dbk"/>
+<xi:include href="04_Against_Doublethink/04_Moores_Paradox.dbk"/>
+<xi:include href="04_Against_Doublethink/05_Dont_Believe_Youll_SelfDeceive.dbk"/>
+</chapter>

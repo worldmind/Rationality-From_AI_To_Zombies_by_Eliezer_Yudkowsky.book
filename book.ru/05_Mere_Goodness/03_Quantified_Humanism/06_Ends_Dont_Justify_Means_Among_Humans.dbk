@@ -1,0 +1,57 @@
+<section xml:id="item_K9ZaZXDnL3SEmYZqB"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Ends Don't Justify Means (Among Humans)</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/K9ZaZXDnL3SEmYZqB/ends-don-t-justify-means-among-humans"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-10-15</pubdate>
+  </info>
+  <indexterm><primary>Self-Deception</primary></indexterm>
+<indexterm><primary>Consequentialism</primary></indexterm>
+<indexterm><primary>Decision Theory</primary></indexterm>
+<indexterm><primary>Evolutionary Psychology</primary></indexterm>
+<indexterm><primary>Ethics &amp; Morality</primary></indexterm>
+<indexterm><primary>Deontology</primary></indexterm>
+  <blockquote>
+  <para> &quot;If the ends don&apos;t justify the means, what does?&quot;</para>
+  <para>        —variously attributed</para>
+  <para>&quot;I think of myself as running on hostile hardware.&quot;</para>
+  <para>        —Justin Corwin</para>
+</blockquote>
+<para>Yesterday I talked about how humans may have evolved a structure of political revolution, beginning by believing themselves morally superior to the corrupt current power structure, but ending by being corrupted by power themselves—not by any plan in their own minds, but by the echo of ancestors who did the same and thereby reproduced.</para>
+<para>This fits the template:</para>
+<blockquote>
+  <para> In some cases, human beings have evolved in such fashion as to think that they are doing X for prosocial reason Y, but when human beings actually do X, other adaptations execute to promote self-benefiting consequence Z.</para>
+</blockquote>
+<para>From this proposition, I now move on to my main point, a question <emphasis>considerably</emphasis> outside the realm of classical Bayesian decision theory:</para>
+<blockquote>
+  <para> &quot;What if I&apos;m running on corrupted hardware?&quot;</para>
+</blockquote>
+<para>In such a case as this, you might even find yourself uttering such seemingly paradoxical statements—sheer nonsense from the perspective of classical decision theory—as:</para>
+<blockquote>
+  <para> &quot;The ends don&apos;t justify the means.&quot;</para>
+</blockquote>
+<para>But if you are running on corrupted hardware, then the reflective observation that it <emphasis>seems</emphasis> like a righteous and altruistic act to seize power for yourself—this <emphasis>seeming</emphasis> may not be be much evidence for the proposition that seizing power is in fact the action that will most benefit the tribe.</para>
+<para>By the power of naive realism, the corrupted hardware that you run on, and the corrupted seemings that it computes, will seem like the fabric of the very world itself—simply the way-things-are.</para>
+<para>And so we have the bizarre-seeming rule:  &quot;For the good of the tribe, do not cheat to seize power <emphasis>even when it would provide a net benefit to the tribe.</emphasis>&quot;</para>
+<para>Indeed it may be wiser to phrase it this way:  If you just say, &quot;when it <emphasis>seems</emphasis> like it would provide a net benefit to the tribe&quot;, then you get people who say, &quot;But it doesn&apos;t just <emphasis>seem</emphasis> that way—it <emphasis>would</emphasis> provide a net benefit to the tribe if I were in charge.&quot;</para>
+<para>The notion of untrusted hardware seems like something wholly outside the realm of classical decision theory.  (What it does to reflective decision theory I can&apos;t yet say, but that would seem to be the appropriate level to handle it.)</para>
+<para>But on a human level, the patch seems straightforward.  Once you know about the warp, you create rules that describe the warped behavior and outlaw it.  A rule that says, &quot;For the good of the tribe, do not cheat to seize power even for the good of the tribe.&quot;  Or &quot;For the good of the tribe, do not murder even for the good of the tribe.&quot;</para>
+<para>And now the philosopher comes and presents their &quot;thought experiment&quot;—setting up a scenario in which, <emphasis>by stipulation,</emphasis> the <emphasis>only</emphasis> possible way to save five innocent lives is to murder one innocent person, and this murder is <emphasis>certain</emphasis> to save the five lives.  &quot;There&apos;s a train heading to run over five innocent people, who you can&apos;t possibly warn to jump out of the way, but you can push one innocent person into the path of the train, which will stop the train.  These are your only options; what do you do?&quot;</para>
+<para>An altruistic human, who has accepted certain deontological prohibits—which seem well justified by some historical statistics on the results of reasoning in certain ways on untrustworthy hardware—may experience some mental distress, on encountering this thought experiment.</para>
+<para>So here&apos;s a reply to that philosopher&apos;s scenario, which I have yet to hear any philosopher&apos;s victim give:</para>
+<para>&quot;You stipulate that the <emphasis>only possible</emphasis> way to save five innocent lives is to murder one innocent person, and this murder will <emphasis>definitely</emphasis> save the five lives, and that these facts are <emphasis>known</emphasis> to me with effective certainty.  But since I am running on corrupted hardware, I can&apos;t occupy the <emphasis>epistemic state </emphasis>you want me to imagine.  Therefore I reply that, in a society of Artificial Intelligences worthy of personhood and lacking any inbuilt tendency to be corrupted by power, it would be right for the AI to murder the one innocent person to save five, and moreover all its peers would agree.  However, I refuse to extend this reply to myself, because the epistemic state you ask me to imagine, can only exist among other kinds of people than human beings.&quot;</para>
+<para>Now, to me this seems like a dodge.  I think the universe is <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_sYgv4eYH82JEsTD34">sufficiently unkind</olink> that we can justly be forced to consider situations of this sort.  The sort of person who goes around proposing that sort of thought experiment, might well deserve that sort of answer.  But any human legal system does embody some answer to the question &quot;How many innocent people can we put in jail to get the guilty ones?&quot;, even if the number isn&apos;t written down.</para>
+<para>As a human, I try to abide by the deontological prohibitions that humans have made to live in peace with one another.  But I don&apos;t think that our deontological prohibitions are <emphasis>literally inherently nonconsequentially terminally right</emphasis>.  I endorse &quot;the end doesn&apos;t justify the means&quot; as a principle to guide humans running on corrupted hardware, but I wouldn&apos;t endorse it as a principle for a society of AIs that make well-calibrated estimates.  (If you have one AI in a society of humans, that does bring in other considerations, like whether the humans learn from your example.)</para>
+<para>And so I wouldn&apos;t say that a well-designed Friendly AI must necessarily refuse to push that one person off the ledge to stop the train.  Obviously, I would expect any decent superintelligence to come up with a superior third alternative.  But if those are the only two alternatives, and the FAI judges that it is wiser to push the one person off the ledge—even after taking into account knock-on effects on any humans who see it happen and spread the story, etc.—then I don&apos;t call it an alarm light, if an <emphasis>AI</emphasis> says that the right thing to do is sacrifice one to save five.  Again, <emphasis>I</emphasis> don&apos;t go around pushing people into the paths of trains myself, nor stealing from banks to fund my altruistic projects.  <emphasis>I</emphasis> happen to be a human.  But for a Friendly AI to be corrupted by power would be like it <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_Zkzzjg3h7hW5Z36hK">starting to bleed red blood</olink>.  The tendency to be corrupted by power is a specific biological adaptation, supported by specific cognitive circuits, built into us by our genes for a clear evolutionary reason.  It wouldn&apos;t spontaneously appear in the code of a Friendly AI any more than its transistors would start to bleed.</para>
+<para>I would even go further, and say that if you had minds with an inbuilt warp that made them <emphasis>overestimate</emphasis> the external harm of self-benefiting actions, then they would need a rule &quot;the ends do not prohibit the means&quot;—that you should do what benefits yourself even when it (seems to) harm the tribe.  By hypothesis, if their society did not have this rule, the minds in it would refuse to breathe for fear of using someone else&apos;s oxygen, and they&apos;d all die.  For them, an occasional overshoot in which one person seizes a personal benefit at the net expense of society, would seem just as cautiously virtuous—and indeed <emphasis>be</emphasis> just as cautiously virtuous—as when one of us humans, being cautious, passes up an opportunity to steal a loaf of bread that really would have been more of a benefit to them than a loss to the merchant (including knock-on effects).</para>
+<para>&quot;The end does not justify the means&quot; is just consequentialist reasoning at one meta-level up.  If a human starts thinking on the <emphasis>object</emphasis> level that the end justifies the means, this has awful consequences given our untrustworthy brains; therefore a human shouldn&apos;t think this way.  But it is all still ultimately consequentialism.  It&apos;s just <emphasis>reflective</emphasis> consequentialism, for beings who know that their moment-by-moment decisions are made by untrusted hardware.</para>
+
+  
+</section>

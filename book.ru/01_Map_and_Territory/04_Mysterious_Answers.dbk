@@ -1,0 +1,35 @@
+<chapter xml:id="item_5uZQHpecjn7955faL"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Mysterious Answers</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/5uZQHpecjn7955faL"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>This sequence asks whether science resolves the problems raised so far. Scientists base their models on repeatable experiments, not speculation or hearsay. And science has an excellent track record compared to anecdote, religion, and . . . pretty much everything else. Do we still need to worry about “fake” beliefs, confirmation bias, hindsight bias, and the like when we’re working with a community of people who want to explain phenomena, not just tell appealing stories?</para>
+
+  <xi:include href="04_Mysterious_Answers/01_Fake_Explanations.dbk"/>
+<xi:include href="04_Mysterious_Answers/02_Guessing_the_Teachers_Password.dbk"/>
+<xi:include href="04_Mysterious_Answers/03_Science_as_Attire.dbk"/>
+<xi:include href="04_Mysterious_Answers/04_Fake_Causality.dbk"/>
+<xi:include href="04_Mysterious_Answers/05_Semantic_Stopsigns.dbk"/>
+<xi:include href="04_Mysterious_Answers/06_Mysterious_Answers_to_Mysterious_Questions.dbk"/>
+<xi:include href="04_Mysterious_Answers/07_The_Futility_of_Emergence.dbk"/>
+<xi:include href="04_Mysterious_Answers/08_Say_Not_Complexity.dbk"/>
+<xi:include href="04_Mysterious_Answers/09_Positive_Bias_Look_Into_the_Dark.dbk"/>
+<xi:include href="04_Mysterious_Answers/10_Lawful_Uncertainty.dbk"/>
+<xi:include href="04_Mysterious_Answers/11_My_Wild_and_Reckless_Youth.dbk"/>
+<xi:include href="04_Mysterious_Answers/12_Failing_to_Learn_from_History.dbk"/>
+<xi:include href="04_Mysterious_Answers/13_Making_History_Available.dbk"/>
+<xi:include href="04_Mysterious_Answers/14_ExplainWorshipIgnore.dbk"/>
+<xi:include href="04_Mysterious_Answers/15_Science_as_CuriosityStopper.dbk"/>
+<xi:include href="04_Mysterious_Answers/16_Truly_Part_Of_You.dbk"/>
+<xi:include href="04_Mysterious_Answers/17_The_Simple_Truth.dbk"/>
+</chapter>

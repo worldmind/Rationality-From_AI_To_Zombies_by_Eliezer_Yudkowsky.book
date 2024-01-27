@@ -1,0 +1,56 @@
+<section xml:id="item_d5NyJ2Lf6N22AD9PB"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Where to Draw the Boundary?</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/d5NyJ2Lf6N22AD9PB/where-to-draw-the-boundary"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-21</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Carving / Clustering Reality</primary></indexterm>
+  <para>The one comes to you and <link xl:href="https://www.lesswrong.com/posts/y5MxoeacRKKM3KQth/fallacies-of-compression?commentId=GmWd9Tu8kbrpNjxr2">says</link>:</para>
+<blockquote>
+  <para> Long have I pondered the meaning of the word &quot;Art&quot;, and at last I&apos;ve found what seems to me a satisfactory definition: &quot;Art is that which is designed for the purpose of creating a reaction in an audience.&quot;</para>
+</blockquote>
+<para><emphasis>Just because there&apos;s a word &quot;art&quot; doesn&apos;t mean that it <emphasis role="bold">has a meaning,</emphasis> floating out there in the void, which you can <emphasis role="bold">discover</emphasis> by finding the right definition. </emphasis></para>
+<para>It <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_dMCFk2n2ur8n62hqB">feels that way</olink>, but it is not so.</para>
+<para>Wondering how to <emphasis>define a word</emphasis> means you&apos;re looking at the problem the wrong way—searching for the mysterious essence of what is, in fact, a <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_9ZooAqfh2TC9SBDvq">communication signal</olink>.</para>
+<para>Now, there <emphasis>is</emphasis> a real challenge which a rationalist may legitimately attack, but the challenge is not to find a satisfactory definition of a word.  The real challenge can be played as a single-player game, without speaking aloud.  The challenge is figuring out which things are similar to each other—which things are clustered together—and sometimes, which things have a common cause.</para>
+<para>If you define &quot;eluctromugnetism&quot; to include lightning, include compasses, exclude light, and include Mesmer&apos;s &quot;animal magnetism&quot; (what we now call hypnosis), then you will have some trouble asking &quot;How does electromugnetism work?&quot;  You have lumped together things which do not belong together, and excluded others that would be needed to complete a set.  (This example is historically plausible; Mesmer came before Faraday.)</para>
+<para>We could say that electromugnetism is a <emphasis>wrong word,</emphasis> a boundary in <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_WBw8dDkAWohFjWQSk">thingspace</olink> that loops around and swerves through the clusters, a cut that fails to carve reality along its natural joints.</para>
+<para>Figuring where to cut reality in order to carve along the joints—<emphasis>this</emphasis> is the problem worthy of a rationalist.  It is what people <emphasis>should</emphasis> be trying to do, when they set out in search of the floating essence of a word.</para>
+<para>And make no mistake: it is a <emphasis>scientific</emphasis> challenge to realize that you need a single word to describe <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_LaM5aTcXvXzwQSC2Q">breathing and fire</olink>.  So do not think to consult the dictionary editors, for that is not their job.</para>
+<para>What is &quot;art&quot;?  But there is no essence of the word, floating in the void.</para>
+<para>Perhaps you come to me with a long list of the things that you call &quot;art&quot; and &quot;not art&quot;:</para>
+<blockquote>
+  <para> The <emphasis>Little Fugue in G Minor:</emphasis>  Art.</para>
+  <para>A punch in the nose:  Not art.</para>
+  <para>Escher&apos;s <emphasis>Relativity:</emphasis>  Art.</para>
+  <para>A flower:  Not art.</para>
+  <para>The Python programming language:  Art.</para>
+  <para>A cross floating in urine:  Not art.</para>
+  <para>Jack Vance&apos;s <emphasis>Tschai</emphasis> novels:  Art.</para>
+  <para>Modern Art:  Not art.</para>
+</blockquote>
+<para>And you say to me:  &quot;It feels intuitive to me to draw this boundary, but I don&apos;t know why—can you find me an intension that matches this extension?  Can you give me a <emphasis>simple</emphasis> description of this boundary?&quot;</para>
+<para>So I reply:  &quot;I think it has to do with admiration of craftsmanship: work going in and wonder coming out.  What the included items have in common is the similar aesthetic emotions that they inspire, and the deliberate human effort that went into them with the intent of producing such an emotion.&quot;</para>
+<para>Is this helpful, or is it just <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_GKfPL6LQFgB49FEnv">cheating</olink> at <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_WBdvyyHLdxZSAMmoz">Taboo</olink>?  I would argue that the list of which human emotions are or are not <emphasis>aesthetic</emphasis> is far more compact than the list of everything that is or isn&apos;t art.  You might be able to see those emotions lighting up an fMRI scan—I say this by way of emphasizing that emotions are not ethereal.</para>
+<para>But of course my definition of art is not the real point.  The real point is that you could well dispute either <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_HsznWM9A7NiuGsp28">the intension or the extension</olink> of my definition.</para>
+<para>You could say, &quot;Aesthetic emotion is <emphasis>not</emphasis> what these things have in common; what they have in common is an intent to inspire <emphasis>any</emphasis> complex emotion for the sake of inspiring it.&quot;  That would be disputing my intension, my attempt to draw a curve through the data points.  You would say, &quot;Your equation may roughly fit those points, but it is not the true generating distribution.&quot;</para>
+<para>Or you could dispute my extension by saying, &quot;Some of these things do belong together—I can see what you&apos;re getting at—but the Python language shouldn&apos;t be on the list, and Modern Art should be.&quot;  (This would mark you as a gullible philistine, but you could argue it.)  Here, the presumption is that there is indeed an underlying curve that generates this apparent list of similar and dissimilar things—that there is a rhyme and reason, <emphasis>even though you haven&apos;t said yet where it comes from</emphasis>—but I have unwittingly lost the rhythm and included some data points from a different generator.</para>
+<para>Long before you <emphasis>know</emphasis> what it is that electricity and magnetism have in common, you might still suspect—based on surface appearances—that &quot;animal magnetism&quot; does not belong on the list.</para>
+<para>Once upon a time it was thought that the word &quot;fish&quot; included dolphins.  Now you could play the oh-so-clever arguer, and say, &quot;The list:  {Salmon, guppies, sharks, dolphins, trout} is just a list—you can&apos;t say that a list is <emphasis>wrong.</emphasis>  I can prove in set theory that this list exists.  So my definition of <emphasis>fish</emphasis>, which is simply this extensional list, cannot possibly be &apos;wrong&apos; as you claim.&quot;</para>
+<para>Or you could stop playing nitwit games and admit that dolphins don&apos;t belong on the fish list.</para>
+<para>You come up with a list of things that <emphasis>feel</emphasis> similar, and take a guess at why this is so.  But when you finally discover what they <emphasis>really</emphasis> have in common, it may turn out that your guess was wrong.  It may even turn out that your list was wrong.</para>
+<para>You cannot hide behind a comforting shield of correct-by-definition.  Both extensional definitions and intensional definitions can be wrong, can fail to carve reality at the joints.</para>
+<para>Categorizing is a guessing endeavor, in which you can make mistakes; so it&apos;s wise to be able to admit, from a theoretical standpoint, that your definition-guesses can be &quot;mistaken&quot;.</para>
+
+  
+</section>

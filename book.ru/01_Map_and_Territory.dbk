@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:id="item_PYQ2izdfDPTe5uJTG"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      doc_status="final;draft"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Map and Territory </title>
+    <abstract><para>What is a belief, and what makes some beliefs work better than others? These four sequences explain the Bayesian notions of rationality, belief, and evidence. A running theme: the things we call “explanations” or “theories” may not always function like maps for navigating the world. As a result, we risk mixing up our mental maps with the other objects in our toolbox.</para>
+</abstract>
+    <authorgroup>
+      <author><personname>
+<firstname>Eliezer</firstname><surname>Yudkowsky</surname>
+</personname>
+</author>
+      <othercredit role="coauthor"><personname>
+<firstname>Rob</firstname><surname>Bensinger</surname>
+</personname>
+</othercredit>
+      <othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>Raemon</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>habryka</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>mingyuan</firstname><surname></surname>
+</personname>
+</othercredit>
+    </authorgroup>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/rationality#PYQ2izdfDPTe5uJTG"></link>
+    </bibliosource>
+    <pubdate>2023-12-24</pubdate>
+  </info>
+  <xi:include href="01_Map_and_Territory/01_Predictably_Wrong.dbk"/>
+<xi:include href="01_Map_and_Territory/02_Fake_Beliefs.dbk"/>
+<xi:include href="01_Map_and_Territory/03_Noticing_Confusion.dbk"/>
+<xi:include href="01_Map_and_Territory/04_Mysterious_Answers.dbk"/>
+  <index/>
+</book>

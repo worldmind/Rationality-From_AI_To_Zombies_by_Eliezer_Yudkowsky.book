@@ -1,0 +1,63 @@
+<section xml:id="item_fg9fXrHpeaDD6pEPL"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Truly Part Of You</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-02</pubdate>
+  </info>
+  <indexterm><primary>Techniques</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Anticipated Experiences</primary></indexterm>
+<indexterm><primary>AI</primary></indexterm>
+  <para>A classic paper by Drew McDermott, “Artificial Intelligence Meets Natural Stupidity,” criticized AI programs that would try to represent notions like <emphasis role="italic">happiness is a state of mind</emphasis> using a semantic network:</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata fileref="./img/1c1bf08bb9a1f8e7d62f85ee190aa381.png" format="PNG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/1c1bf08bb9a1f8e7d62f85ee190aa381.png" format="PNG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>And of course there’s nothing <emphasis role="italic">inside</emphasis> the HAPPINESS node; it’s just a naked LISP token with a suggestive English name.</para>
+<para>So, McDermott says, “A good test for the disciplined programmer is to try using gensyms in key places and see if he still admires his system. For example, if STATE-OF-MIND is renamed G1073. . .” then we would have IS-A(HAPPINESS, G1073) “which looks much more dubious.”</para>
+<para>Or as I would slightly rephrase the idea: If you substituted randomized symbols for <emphasis role="italic">all</emphasis> the suggestive English names, you would be completely unable to figure out what G1071(G1072, G1073) meant. Was the AI program meant to represent hamburgers? Apples? Happiness? Who knows? <emphasis role="italic">If you delete the suggestive English names, they</emphasis><emphasis role="italic">don’t grow back.</emphasis></para>
+<para>Suppose a physicist tells you that “Light is waves,” and you <emphasis role="italic">believe</emphasis> the physicist. You now have a little network in your head that says:</para>
+<para> </para>
+<para>IS-A(LIGHT, WAVES)</para>
+<para> </para>
+<para>As McDermott says, “The whole problem is getting the hearer to notice what it has been told. Not ‘understand,’ but ‘notice.’ ” Suppose that instead the physicist told you, “Light is made of little curvy things.”<footnote xml:id="fn_bbfca907b6e37dfcd7e09f0d3c3e557b">
+    <para> Not true, by the way.</para>
+  </footnote>
+ Would you  any difference of anticipated experience?</para>
+<para>How can you realize that you shouldn’t trust your seeming knowledge that “light is waves”? One test you could apply is asking, “Could I <emphasis role="italic">regenerate</emphasis> his knowledge if it were somehow deleted from my mind?”</para>
+<para>This is similar in spirit to scrambling the names of suggestively named lisp tokens in your AI program, and seeing if someone else can figure out what they allegedly “refer” to. It’s also similar in spirit to observing that an <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_YhgjmCxcQXixStWMC">Artificial Arithmetician</olink> programmed to record and play back</para>
+<para> </para>
+<para>Plus-Of(Seven, Six) = Thirteen</para>
+<para> </para>
+<para>can’t regenerate the knowledge if you delete it from memory, until another human re-enters it in the database. Just as if you forgot that “light is waves,” you couldn’t get back the knowledge except the same way you got the knowledge to begin with—by asking a physicist. You couldn’t generate the knowledge for yourself, the way that physicists originally generated it.</para>
+<para>The same experiences that lead us to formulate a belief, connect that belief to other knowledge and sensory input and motor output. If you see a beaver chewing a log, then you know what this thing-that-chews-through-logs looks like, and you will be able to recognize it on future occasions whether it is called a “beaver” or not. But if you acquire your beliefs about beavers by someone else telling you facts about “beavers,” you may not be able to recognize a beaver when you see one.</para>
+<para>This is the terrible danger of trying to <emphasis role="italic">tell</emphasis> an artificial intelligence facts that it could not learn for itself. It is also the terrible danger of trying to <emphasis role="italic">tell</emphasis> someone about physics that they cannot verify for themselves. For what physicists mean by “wave” is not “little squiggly thing” but a purely mathematical concept.</para>
+<para>As Donald Davidson observes, if you believe that “beavers” live in deserts, are pure white in color, and weigh 300 pounds when adult, then you do not have any beliefs <emphasis role="italic">about</emphasis> beavers, true or false. Your belief about “beavers” is not right enough to be wrong.<footnote xml:id="fn_e548c322124833c4c539a369bc43265b">
+    <para> Richard Rorty, “Out of the Matrix: How the Late Philosopher Donald Davidson Showed That Reality Can’t Be an Illusion,” <emphasis role="italic">The Boston Globe</emphasis>, 2003, <link xl:href="http://archive.boston.com/news/globe/ideas/articles/2003/10/05/out_of_the_matrix/">http://archive.boston.com/news/globe/ideas/articles/2003/10/05/out_ of_ the_ matrix/</link>.</para>
+  </footnote>
+ If you don’t have enough experience to regenerate beliefs when they are deleted, then do you have enough experience to connect that belief to anything at all? Wittgenstein: “A wheel that can be turned though nothing else moves with it, is not part of the mechanism.”</para>
+<para>Almost as soon as I started reading about AI—even before I read McDermott—I realized it would be <emphasis role="italic">a really good idea</emphasis> to always ask myself: “How would I regenerate this knowledge if it were deleted from my mind?”</para>
+<para>The deeper the deletion, the stricter the test. If all proofs of the Pythagorean Theorem were deleted from my mind, could I re-prove it? I think so. If all knowledge of the Pythagorean Theorem were deleted from my mind, would I notice the Pythagorean Theorem to re-prove? That’s harder to boast, without putting it to the test; but if you handed me a right triangle with sides of length 3 and 4, and told me that the length of the hypotenuse was calculable, I think I would be able to calculate it, if I still knew all the rest of my math.</para>
+<para>What about the notion of <emphasis role="italic">mathematical proof</emphasis>? If no one had ever told it to me, would I be able to reinvent <emphasis role="italic">that</emphasis> on the basis of other beliefs I possess? There was a time when humanity did not have such a concept. Someone must have invented it. What was it that they noticed? Would I notice if I saw something equally novel and equally important? Would I be able to think that far outside the box?</para>
+<para>How much of your knowledge could you regenerate? From how deep a deletion? It’s not just a test to cast out insufficiently connected beliefs. It’s a way of absorbing <emphasis role="italic">a fountain of knowledge, not just one fact</emphasis>.</para>
+<para>A shepherd builds a counting system that works by throwing a pebble into a bucket whenever a sheep leaves the fold, and taking a pebble out whenever a sheep returns. If you, the apprentice, do not understand this system—if it is magic that works for no apparent reason—then you will not know what to do if you accidentally drop an extra pebble into the bucket. That which you cannot make yourself, you cannot <emphasis role="italic">remake</emphasis> when the situation calls for it. You cannot go back to the source, tweak one of the parameter settings, and regenerate the output, without the source. If “two plus four equals six” is a brute fact unto you, and then one of the elements changes to “five,” how are you to know that “two plus five equals seven” when you were simply <emphasis role="italic">told</emphasis> that “two plus four equals six”?</para>
+<para>If you see a small plant that drops a seed whenever a bird passes it, it will not occur to you that you can use this plant to partially automate the sheep-counter. Though you learned something that the original maker would use to improve on their invention, you can’t go back to the source and re-create it.</para>
+<para>When you contain the source of a thought, that thought can change along with you as you acquire new knowledge and new skills. When you contain the source of a thought, it becomes truly a part of you and grows along with you.</para>
+<para>Strive to make yourself the source of every thought worth thinking. If the thought originally came from outside, make sure it comes from inside as well. Continually ask yourself: “How would I regenerate the thought if it were deleted?” When you have an answer, imagine <emphasis role="italic">that</emphasis> knowledge being deleted as well. And when you find a fountain, see what else it can pour.</para>
+
+  
+</section>

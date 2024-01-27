@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:id="item_e6WsPsivzBifrWHeA"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      doc_status="final;draft"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Becoming Stronger</title>
+    <abstract><para>How can individuals and communities put all this into practice? These three sequences begin with an autobiographical account of Yudkowsky’s own biggest philosophical blunders, with advice on how he thinks others might do better. The book closes with recommendations for developing evidence-based applied rationality curricula, and for forming groups and institutions to support interested students, educators, researchers, and friends.</para>
+</abstract>
+    <authorgroup>
+      <author><personname>
+<firstname>Eliezer</firstname><surname>Yudkowsky</surname>
+</personname>
+</author>
+      <othercredit role="coauthor"><personname>
+<firstname>Rob</firstname><surname>Bensinger</surname>
+</personname>
+</othercredit>
+      <othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>Raemon</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>habryka</firstname><surname></surname>
+</personname>
+</othercredit>
+    </authorgroup>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/rationality#e6WsPsivzBifrWHeA"></link>
+    </bibliosource>
+    <pubdate>2023-07-24</pubdate>
+  </info>
+  <xi:include href="06_Becoming_Stronger/01_Yudkowskys_Coming_of_Age.dbk"/>
+<xi:include href="06_Becoming_Stronger/02_Challenging_the_Difficult.dbk"/>
+<xi:include href="06_Becoming_Stronger/03_The_Craft_and_the_Community.dbk"/>
+  <index/>
+</book>

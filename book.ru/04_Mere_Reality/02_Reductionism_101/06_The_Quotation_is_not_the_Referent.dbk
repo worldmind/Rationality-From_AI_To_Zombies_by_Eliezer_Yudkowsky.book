@@ -1,0 +1,47 @@
+<section xml:id="item_np3tP49caG4uFLRbS"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Quotation is not the Referent</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/np3tP49caG4uFLRbS/the-quotation-is-not-the-referent"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-03-13</pubdate>
+  </info>
+  <indexterm><primary>Logic &amp; Mathematics </primary></indexterm>
+<indexterm><primary>Distinctions</primary></indexterm>
+<indexterm><primary>References (Language)</primary></indexterm>
+<indexterm><primary>Map and Territory</primary></indexterm>
+  <para>In classical logic, the operational definition of identity is that whenever &apos;A=B&apos; is a theorem, you can substitute &apos;A&apos; for &apos;B&apos; in any theorem where B appears.  For example, if <literal>(2 + 2) = 4</literal> is a theorem, and <literal>((2 + 2) + 3) = 7</literal> is a theorem, then <literal>(4 + 3) = 7</literal> is a theorem.</para>
+<para>This leads to a problem which is usually phrased in the following terms:  The morning star and the evening star happen to be the same object, the planet Venus.  Suppose John knows that the morning star and evening star are the same object.  Mary, however, believes that the morning star is the god Lucifer, but the evening star is the god Venus.  John believes Mary believes that the morning star is Lucifer. Must John therefore (by substitution) believe that Mary believes that the evening star is Lucifer?</para>
+<para>Or here&apos;s an even simpler version of the problem.  2 + 2 = 4 is true; it is a theorem that <literal>(((2 + 2) = 4) = TRUE)</literal>.  Fermat&apos;s Last Theorem is also true.  So:  I believe 2 + 2 = 4 =&gt; I believe TRUE =&gt; I believe Fermat&apos;s Last Theorem.</para>
+<para>Yes, I know this seems <emphasis>obviously</emphasis> wrong.  But imagine someone writing a logical reasoning program using the principle &quot;equal terms can always be substituted&quot;, and this happening to them.  Now imagine them writing a paper about how to prevent it from happening.  Now imagine someone else disagreeing with their solution.  The argument is still going on.</para>
+<para>P&apos;rsnally, I would say that John is committing a type error, like trying to subtract 5 grams from 20 meters.  &quot;The morning star&quot; is not the same <emphasis>type</emphasis> as the morning star, let alone the same thing.  Beliefs are not planets.</para>
+<blockquote>
+  <para> morning star = evening star</para>
+  <para>&quot;morning star&quot; ≠ &quot;evening star&quot;</para>
+</blockquote>
+<para>The problem, in my view, stems from the failure to enforce the type distinction between beliefs and things.  The original error was writing an AI that stores its beliefs about Mary&apos;s beliefs about &quot;the morning star&quot; using the same representation as in its beliefs about the morning star.</para>
+<para>If Mary believes the &quot;morning star&quot; is Lucifer, that doesn&apos;t mean Mary believes the &quot;evening star&quot; is Lucifer, because &quot;morning star&quot; ≠ &quot;evening star&quot;.  The whole paradox stems from the failure to use quote marks in appropriate places.</para>
+<para>You may recall that this is not the first time I&apos;ve talked about enforcing type discipline—the last time was when I spoke about the error of <link xl:href="http://www.overcomingbias.com/2007/11/terminal-values.html">confusing expected utilities with utilities</link>. It is immensely helpful, when one is first learning physics, to learn to keep track of one&apos;s units—it may seem like a bother to keep writing down &apos;cm&apos; and &apos;kg&apos; and so on, until you notice that (a) your answer seems to be the wrong order of magnitude and (b) it is expressed in seconds per square gram.</para>
+<para>Similarly, beliefs are different things than planets.  If we&apos;re talking about human beliefs, at least, then:  Beliefs live in brains, planets live in space.  Beliefs weigh a few micrograms, planets weigh a lot more.  Planets are larger than beliefs... but you get the idea.</para>
+<para>Merely putting quote marks around &quot;morning star&quot; seems insufficient to prevent people from confusing it with the morning star, due to the visual similarity of the text.  So perhaps a better way to enforce type discipline would be with a visibly different encoding:</para>
+<blockquote>
+  <para> morning star = evening star13.15.18.14.9.14.7.0.19.20.1.18 ≠ 5.22.5.14.9.14.7.0.19.20.1.18</para>
+</blockquote>
+<para>Studying mathematical logic may also help you learn to distinguish the quote and the referent.  In mathematical logic, <literal>|- P</literal> (P is a theorem) and <literal>|- []&apos;P&apos;</literal> (it is provable that there exists an encoded proof of the encoded sentence P in some encoded proof system) are very distinct propositions.  If you drop a level of quotation in mathematical logic, it&apos;s like dropping a metric unit in physics—you can derive visibly ridiculous results, like &quot;The speed of light is 299,792,458 meters long.&quot;</para>
+<para>Alfred Tarski once tried to define the meaning of &apos;true&apos; using an infinite family of sentences:</para>
+<blockquote>
+  <para> (&quot;Snow is white&quot; is true) if and only (snow is white)</para>
+  <para> (&quot;Weasels are green&quot; is true) if and only if (weasels are green)</para>
+  <para>...</para>
+</blockquote>
+<para>When sentences like these start seeming meaningful, you&apos;ll know that you&apos;ve started to distinguish between encoded sentences and states of the outside world.</para>
+<para>Similarly, the notion of <link xl:href="http://yudkowsky.net/bayes/truth.html">truth</link> is quite different from the notion of <emphasis>reality.</emphasis>  Saying &quot;true&quot;<emphasis>compares</emphasis> a belief to reality.  Reality itself does not need to be compared to any beliefs in order to be real.  Remember this the next time someone claims that nothing is true.</para>
+
+  
+</section>

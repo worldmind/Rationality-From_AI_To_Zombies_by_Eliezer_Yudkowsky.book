@@ -1,0 +1,67 @@
+<section xml:id="item_9f5EXt8KNNxTAihtZ"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>A Rational Argument</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/9f5EXt8KNNxTAihtZ/a-rational-argument"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-10-02</pubdate>
+  </info>
+  <indexterm><primary>Politics</primary></indexterm>
+<indexterm><primary>Filtered Evidence</primary></indexterm>
+<indexterm><primary>Rationalization</primary></indexterm>
+  <para>You are, by occupation, a campaign manager, and you’ve just been hired by Mortimer Q. Snodgrass, the Green candidate for Mayor of Hadleyburg. As a campaign manager reading a book on rationality, one question lies foremost on your mind: “How can I construct an impeccable rational argument that Mortimer Q. Snodgrass is the best candidate for Mayor of Hadleyburg?” </para>
+<para>Sorry. It can’t be done.</para>
+<para>“What?” you cry. “But what if I use only valid support to construct my structure of reason? What if every fact I cite is true to the best of my knowledge, and relevant evidence under Bayes’s Rule?”<footnote xml:id="fn_2ac955ced4f0e020947a8c632bfe73ec">
+    <para>See “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_6s3xABaXKPdFwA3FS">What Is Evidence?</olink>” in <emphasis>Map and Territory</emphasis>.</para>
+  </footnote>
+<anchor xml:id="x36-37001f1"/></para>
+<para>Sorry. It still can’t be done. You defeated yourself the instant you specified your argument’s conclusion in advance.</para>
+<para>This year, the <emphasis>Hadleyburg Trumpet</emphasis> sent out a 16-item questionnaire to all mayoral candidates, with questions like “Can you paint with all the colors of the wind?” and “Did you inhale?” Alas, the <emphasis>Trumpet’s</emphasis> offices are destroyed by a meteorite before publication. It’s a pity, since your own candidate, Mortimer Q. Snodgrass, compares well to his opponents on 15 out of 16 questions. The only sticking point was Question 11, “Are you now, or have you ever been, a supervillain?”</para>
+<para>So you are tempted to publish the questionnaire as part of your own campaign literature . . . with the 11th question omitted, of course.</para>
+<para>Which crosses the line between <emphasis>rationality</emphasis> and <emphasis>rationalization.</emphasis> It is no longer possible for the voters to condition on the facts alone; they must condition on the additional fact of their presentation, and infer the existence of hidden evidence.</para>
+<para>Indeed, you crossed the line at the point where you considered whether the questionnaire was favorable or unfavorable to your candidate, before deciding whether to publish it. “What!” you cry. “A campaign should publish facts unfavorable to their candidate?” But put yourself in the shoes of a voter, still trying to select a candidate—why would you censor useful information? You wouldn’t, if you were genuinely curious. If you were flowing <emphasis>forward</emphasis> from the evidence to an unknown choice of candidate, rather than flowing <emphasis>backward</emphasis> from a fixed candidate to determine the arguments.</para>
+<para>A “logical” argument is one that follows from its premises. Thus the following argument is <emphasis>illogical</emphasis>:</para>
+<itemizedlist>
+  <listitem>
+    <para> All rectangles are quadrilaterals.</para>
+  </listitem>
+  <listitem>
+    <para> All squares are quadrilaterals.</para>
+  </listitem>
+  <listitem>
+    <para><emphasis>Therefore</emphasis> , all squares are rectangles.</para>
+  </listitem>
+</itemizedlist>
+<para>This syllogism is not rescued from illogic by the truth of its premises or even the truth of its conclusion. It is worth distinguishing logical deductions from illogical ones, and to refuse to excuse them even if their conclusions happen to be true. For one thing, the distinction may affect how we revise our beliefs in light of future evidence. For another, sloppiness is habit-forming.</para>
+<para>Above all, the syllogism fails to state the real explanation. Maybe all squares are rectangles, but, if so, it’s not <emphasis>because</emphasis> they are both quadrilaterals. You might call it a hypocritical syllogism—one with a disconnect between its stated reasons and real reasons.</para>
+<para>If you really want to present an honest, rational argument <emphasis>for your candidate</emphasis>, in a political campaign, there is only one way to do it:</para>
+<itemizedlist>
+  <listitem>
+    <para><emphasis>Before anyone hires you,</emphasis>  gather up all the evidence you can about the different candidates.</para>
+  </listitem>
+  <listitem>
+    <para> Make a checklist which you, yourself, will use to decide which candidate seems best.</para>
+  </listitem>
+  <listitem>
+    <para> Process the checklist.</para>
+  </listitem>
+  <listitem>
+    <para> Go to the winning candidate.</para>
+  </listitem>
+  <listitem>
+    <para> Offer to become their campaign manager.</para>
+  </listitem>
+  <listitem>
+    <para> When they ask for campaign literature, print out your checklist.</para>
+  </listitem>
+</itemizedlist>
+<para>Only in this way can you offer a <emphasis>rational</emphasis> chain of argument, one whose bottom line was written flowing <emphasis>forward</emphasis> from the lines above it. Whatever <emphasis>actually</emphasis> decides your bottom line is the only thing you can <emphasis>honestly</emphasis> write on the lines above.</para>
+
+  
+</section>

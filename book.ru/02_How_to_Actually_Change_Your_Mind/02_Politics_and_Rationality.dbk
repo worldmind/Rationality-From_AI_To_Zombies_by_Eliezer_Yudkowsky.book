@@ -1,0 +1,28 @@
+<chapter xml:id="item_3ELrPerFTSo75WnrH"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Politics and Rationality</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/3ELrPerFTSo75WnrH"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>Now we move into a murkier area. Mainstream national politics, as debated by TV pundits, is famous for its angry, unproductive discussions. On the face of it, there’s something surprising about that. Why do we take political disagreements so personally, even when the machinery and effects of national politics are so distant from us in space or in time? For that matter, why do we not become more careful and rigorous with the evidence when we’re dealing with issues we deem important?</para>
+
+  <xi:include href="02_Politics_and_Rationality/01_Politics_is_the_MindKiller.dbk"/>
+<xi:include href="02_Politics_and_Rationality/02_Policy_Debates_Should_Not_Appear_OneSided.dbk"/>
+<xi:include href="02_Politics_and_Rationality/03_The_Scales_of_Justice_the_Notebook_of_Rationality.dbk"/>
+<xi:include href="02_Politics_and_Rationality/04_Correspondence_Bias.dbk"/>
+<xi:include href="02_Politics_and_Rationality/05_Are_Your_Enemies_Innately_Evil.dbk"/>
+<xi:include href="02_Politics_and_Rationality/06_Reversed_Stupidity_Is_Not_Intelligence.dbk"/>
+<xi:include href="02_Politics_and_Rationality/07_Argument_Screens_Off_Authority.dbk"/>
+<xi:include href="02_Politics_and_Rationality/08_Hug_the_Query.dbk"/>
+<xi:include href="02_Politics_and_Rationality/09_Rationality_and_the_English_Language.dbk"/>
+<xi:include href="02_Politics_and_Rationality/10_Human_Evil_and_Muddled_Thinking.dbk"/>
+</chapter>

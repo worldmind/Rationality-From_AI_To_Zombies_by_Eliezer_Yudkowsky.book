@@ -1,0 +1,26 @@
+<chapter xml:id="item_7gRSERQZbqTuLX5re"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Fake Beliefs</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/7gRSERQZbqTuLX5re"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>An account of irrationality would be incomplete if it provided no theory about how rationality works—or if its “theory” only consisted of vague truisms, with no precise explanatory mechanism. This sequence asks why it’s useful to base one’s behavior on “rational” expectations, and what it feels like to do so.</para>
+
+  <xi:include href="02_Fake_Beliefs/01_Making_Beliefs_Pay_Rent_in_Anticipated_Experiences.dbk"/>
+<xi:include href="02_Fake_Beliefs/02_A_Fable_of_Science_and_Politics.dbk"/>
+<xi:include href="02_Fake_Beliefs/03_Belief_in_Belief.dbk"/>
+<xi:include href="02_Fake_Beliefs/04_Religions_Claim_to_be_NonDisprovable.dbk"/>
+<xi:include href="02_Fake_Beliefs/05_Professing_and_Cheering.dbk"/>
+<xi:include href="02_Fake_Beliefs/06_Belief_as_Attire.dbk"/>
+<xi:include href="02_Fake_Beliefs/07_Pretending_to_be_Wise.dbk"/>
+<xi:include href="02_Fake_Beliefs/08_Applause_Lights.dbk"/>
+</chapter>

@@ -1,0 +1,71 @@
+<section xml:id="item_f6ZLxEWaankRZ2Crv"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Probability is in the Mind</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/f6ZLxEWaankRZ2Crv/probability-is-in-the-mind"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-12-19</pubdate>
+  </info>
+  <indexterm><primary>Bayesianism</primary></indexterm>
+<indexterm><primary>Bayes' Theorem</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Mind Projection Fallacy</primary></indexterm>
+<indexterm><primary>Map and Territory</primary></indexterm>
+  <para><link xl:href="img/2f0d638ee6de765ac7d0b7467447e08e.jpg"><inlinemediaobject><imageobject role="html">
+        <imagedata contentdepth="134px" contentwidth="100px" fileref="./img/2f0d638ee6de765ac7d0b7467447e08e.jpg" format="JPG" scalefit="1"/>
+      </imageobject>
+<imageobject role="fo">
+        <imagedata contentdepth="100%" fileref="./img/2f0d638ee6de765ac7d0b7467447e08e.jpg" format="JPG" scalefit="1" width="100%"/>
+      </imageobject>
+</inlinemediaobject></link></para>
+<para>Yesterday I spoke of the Mind Projection Fallacy, giving the example of the alien monster who carries off a girl in a torn dress for intended ravishing—a mistake which I imputed to the artist&apos;s tendency to think that a woman&apos;s sexiness is a property of the woman herself, <literal>woman.sexiness</literal>, rather than something that exists in the mind of an observer, and probably wouldn&apos;t exist in an alien mind.</para>
+<para>The term &quot;Mind Projection Fallacy&quot; was coined by the late great Bayesian Master, E. T. Jaynes, as part of his long and hard-fought battle against the accursèd frequentists.  Jaynes was of the opinion that probabilities were in the mind, not in the environment—that probabilities express ignorance, states of partial information; and if I am ignorant of a phenomenon, that is a fact about my state of mind, not a fact about the phenomenon.</para>
+<para>I cannot do justice to this ancient war in a few words—but the classic example of the argument runs thus:</para>
+<para>You have a coin.</para>
+<para>The coin is biased.</para>
+<para>You don&apos;t know which way it&apos;s biased or how much it&apos;s biased.  Someone just told you, &quot;The coin is biased&quot; and that&apos;s all they said.</para>
+<para>This is all the information you have, and the only information you have.</para>
+<para>You draw the coin forth, flip it, and slap it down.</para>
+<para>Now—before you remove your hand and look at the result—are you willing to say that you assign a 0.5 probability to the coin having come up heads?</para>
+<para>The frequentist says, &quot;No.  Saying &apos;probability 0.5&apos; means that the coin has an inherent propensity to come up heads as often as tails, so that if we flipped the coin infinitely many times, the ratio of heads to tails would approach 1:1.  But we know that the coin is biased, so it can have any probability of coming up heads <emphasis>except</emphasis> 0.5.&quot;</para>
+<para>The Bayesian says, &quot;Uncertainty exists in the map, not in the territory.  In the real world, the coin has either come up heads, or come up tails.  Any talk of &apos;probability&apos; must refer to the <emphasis>information</emphasis> that I have about the coin—my state of partial ignorance and partial knowledge—not just the coin itself.  Furthermore, I have all sorts of theorems showing that if I don&apos;t treat my partial knowledge a <link xl:href="http://www.overcomingbias.com/2008/01/something-to-pr.html">certain way</link>, I&apos;ll make stupid bets.  If I&apos;ve got to plan, I&apos;ll plan for a 50/50 state of uncertainty, where I don&apos;t weigh outcomes conditional on heads any more heavily in my mind than outcomes conditional on tails.  You can call that number whatever you like, but it has to obey the probability laws on pain of stupidity.  So I don&apos;t have the slightest hesitation about calling my outcome-weighting a probability.&quot;</para>
+<para>I side with the Bayesians.  You may have noticed that about me.</para>
+<para>Even before a fair coin is tossed, the notion that it has an <emphasis>inherent</emphasis> 50% probability of coming up heads may be just plain wrong.  Maybe you&apos;re holding the coin in such a way that it&apos;s just about guaranteed to come up heads, or tails, given the force at which you flip it, and the air currents around you.  But, if you don&apos;t know which way the coin is biased on this one occasion, so what?</para>
+<para>I believe there was a lawsuit where someone alleged that the draft lottery was unfair, because the slips with names on them were not being mixed thoroughly enough; and the judge replied, &quot;To whom is it unfair?&quot;</para>
+<para>To make the coinflip experiment repeatable, as frequentists are wont to demand, we could build an automated coinflipper, and verify that the results were 50% heads and 50% tails.  But maybe a robot with extra-sensitive eyes and a good grasp of physics, watching the autoflipper prepare to flip, could predict the coin&apos;s fall in advance—not with certainty, but with 90% accuracy.  Then what would the <emphasis>real</emphasis> probability be?</para>
+<para>There is no &quot;real probability&quot;.  The robot has one state of partial information.  You have a different state of partial information.  The coin itself has no mind, and doesn&apos;t assign a probability to anything; it just flips into the air, rotates a few times, bounces off some air molecules, and lands either heads or tails.</para>
+<para>So that is the Bayesian view of things, and I would now like to point out a couple of classic brainteasers that derive their brain-<emphasis>teasing</emphasis> ability from the tendency to think of probabilities as inherent properties of objects.</para>
+<para>Let&apos;s take the old classic:  You meet a mathematician on the street, and she happens to mention that she has given birth to two children on two separate occasions.  You ask:  &quot;Is at least one of your children a boy?&quot;  The mathematician says, &quot;Yes, he is.&quot;</para>
+<para>What is the probability that she has two boys?  If you assume that the prior probability of a child being a boy is 1/2, then the probability that she has two boys, on the information given, is 1/3.  The prior probabilities were:  1/4 two boys, 1/2 one boy one girl, 1/4 two girls.  The mathematician&apos;s &quot;Yes&quot; response has probability ~1 in the first two cases, and probability ~0 in the third.  Renormalizing leaves us with a 1/3 probability of two boys, and a 2/3 probability of one boy one girl.</para>
+<para>But suppose that instead you had asked, &quot;Is your eldest child a boy?&quot; and the mathematician had answered &quot;Yes.&quot;  Then the probability of the mathematician having two boys would be 1/2.  Since the eldest child is a boy, and the younger child can be anything it pleases.</para>
+<para>Likewise if you&apos;d asked &quot;Is your youngest child a boy?&quot;  The probability of their being both boys would, again, be 1/2.</para>
+<para>Now, if at least one child is a boy, it must be either the oldest child who is a boy, or the youngest child who is a boy.  So how can the answer in the first case be different from the answer in the latter two?</para>
+<para>Or here&apos;s a very similar problem:  Let&apos;s say I have four cards, the ace of hearts, the ace of spades, the two of hearts, and the two of spades.  I draw two cards at random.  You ask me, &quot;Are you holding at least one ace?&quot; and I reply &quot;Yes.&quot;  What is the probability that I am holding a pair of aces?  It is 1/5.  There are six possible combinations of two cards, with equal prior probability, and you have just eliminated the possibility that I am holding a pair of twos.  Of the five remaining combinations, only one combination is a pair of aces.  So 1/5.</para>
+<para>Now suppose that instead you asked me, &quot;Are you holding the ace of spades?&quot;  If I reply &quot;Yes&quot;, the probability that the other card is the ace of hearts is 1/3.  (You know I&apos;m holding the ace of spades, and there are three possibilities for the other card, only one of which is the ace of hearts.)  Likewise, if you ask me &quot;Are you holding the ace of hearts?&quot; and I reply &quot;Yes&quot;, the probability I&apos;m holding a pair of aces is 1/3.</para>
+<para>But then how can it be that if you ask me, &quot;Are you holding at least one ace?&quot; and I say &quot;Yes&quot;, the probability I have a pair is 1/5?  Either I must be holding the ace of spades or the ace of hearts, as you know; and either way, the probability that I&apos;m holding a pair of aces is 1/3.</para>
+<para>How can this be?  Have I miscalculated one or more of these probabilities?</para>
+<para>If you want to figure it out for yourself, do so now, because I&apos;m about to reveal...</para>
+<para>That all stated calculations are correct.</para>
+<para>As for the paradox, there isn&apos;t one.  The <emphasis>appearance </emphasis>of paradox comes from thinking that the probabilities must be properties of the cards themselves.  The ace I&apos;m holding has to be either hearts or spades; but that doesn&apos;t mean that your <emphasis>knowledge about</emphasis> my cards must be the same as if you <emphasis>knew</emphasis> I was holding hearts, or <emphasis>knew</emphasis> I was holding spades.</para>
+<para>It may help to think of Bayes&apos;s Theorem:</para>
+<blockquote>
+  <para> P(H|E) = P(E|H)P(H) / P(E)</para>
+</blockquote>
+<para>That last term, where you divide by P(E), is the part where you throw out all the possibilities that have been eliminated, and renormalize your probabilities over what remains.</para>
+<para>Now let&apos;s say that you ask me, &quot;Are you holding at least one ace?&quot;  <emphasis>Before</emphasis> I answer, your probability that I say &quot;Yes&quot; should be 5/6.</para>
+<para>But if you ask me &quot;Are you holding the ace of spades?&quot;, your prior probability that I say &quot;Yes&quot; is just 1/2.</para>
+<para>So right away you can see that you&apos;re <emphasis>learning</emphasis> something very different in the two cases.  You&apos;re going to be eliminating some different possibilities, and renormalizing using a different P(E).  If you learn two different items of evidence, you shouldn&apos;t be surprised at ending up in two different states of partial information.</para>
+<para>Similarly, if I ask the mathematician, &quot;Is at least one of your two children a boy?&quot; I expect to hear &quot;Yes&quot; with probability 3/4, but if I ask &quot;Is your eldest child a boy?&quot; I expect to hear &quot;Yes&quot; with probability 1/2.  So it shouldn&apos;t be surprising that I end up in a different state of partial knowledge, depending on which of the two questions I ask.</para>
+<para>The only reason for seeing a &quot;paradox&quot; is thinking as though the probability of holding a pair of aces is <emphasis>a property of cards</emphasis> that have at least one ace, or a property <emphasis>of cards</emphasis> that happen to contain the ace of spades.  In which case, it would be paradoxical for card-sets containing at least one ace to have an inherent pair-probability of 1/5, while card-sets containing the ace of spades had an inherent pair-probability of 1/3, and card-sets containing the ace of hearts had an inherent pair-probability of 1/3.</para>
+<para>Similarly, if you think a 1/3 probability of being both boys is an <emphasis>inherent property</emphasis> of child-sets that include at least one boy, then that is not consistent with child-sets of which the eldest is male having an <emphasis>inherent</emphasis> probability of 1/2 of being both boys, and child-sets of which the youngest is male having an inherent 1/2 probability of being both boys.  It would be like saying, &quot;All green apples weigh a pound, and all red apples weigh a pound, and all apples that are green or red weigh half a pound.&quot;</para>
+<para>That&apos;s what happens when you start thinking as if probabilities are <emphasis>in</emphasis> things, rather than probabilities being states of partial information <emphasis>about </emphasis>things.</para>
+<para>Probabilities express uncertainty, and it is only agents who can be uncertain.  A blank map does not correspond to a blank territory.  Ignorance is in the mind.</para>
+
+  
+</section>

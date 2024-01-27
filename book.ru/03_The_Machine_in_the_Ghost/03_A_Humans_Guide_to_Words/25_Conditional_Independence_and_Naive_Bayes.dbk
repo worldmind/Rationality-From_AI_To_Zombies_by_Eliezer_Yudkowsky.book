@@ -1,0 +1,116 @@
+<section xml:id="item_gDWvLicHhcMfGmwaK"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Conditional Independence, and Naive Bayes</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/gDWvLicHhcMfGmwaK/conditional-independence-and-naive-bayes"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-03-01</pubdate>
+  </info>
+  <indexterm><primary>Information Theory</primary></indexterm>
+  <para>Previously I spoke of <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yLcuygFfMfrfK8KjF">mutual information</olink> between X and Y, I(X;Y), which is the difference between the <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_soQX8yXLbKy7cFvy8">entropy</olink>of the joint probability distribution, H(X,Y) and the entropies of the marginal distributions, H(X) + H(Y).</para>
+<para>I gave the example of a variable X, having eight states 1..8 which are all equally probable if we have not yet encountered any evidence; and a variable Y, with states 1..4, which are all equally probable if we have not yet encountered any evidence.  Then if we calculate the marginal entropies H(X) and H(Y), we will find that X has 3 bits of entropy, and Y has 2 bits.</para>
+<para>However, we also know that X and Y are both even or both odd; and this is all we know about the relation between them.  So for the joint distribution (X,Y) there are only 16 possible states, all equally probable, for a joint entropy of 4 bits.  This is a 1-bit entropy defect, compared to 5 bits of entropy if X and Y were independent.  This entropy defect is the mutual information - the information that X tells us about Y, or vice versa, so that we are not as uncertain about one after having learned the other.</para>
+<para>Suppose, however, that there exists a third variable Z.  Z has two states, &quot;even&quot; and &quot;odd&quot;, perfectly correlated to the evenness or oddness of (X,Y).  In fact, we&apos;ll suppose that Z is just the question &quot;Are X and Y even or odd?&quot;</para>
+<para>If we have no evidence about X and Y, then Z itself necessarily has 1 bit of entropy on the information given.  There is 1 bit of mutual information between Z and X, and 1 bit of mutual information between Z and Y.  And, as previously noted, 1 bit of mutual information between X and Y.  So how much entropy for the whole system (X,Y,Z)?  You might naively expect that</para>
+<blockquote>
+  <para> H(X,Y,Z) = H(X) + H(Y) + H(Z) - I(X;Z) - I(Z;Y) - I(X;Y)</para>
+</blockquote>
+<para>but this turns out not to be the case.</para>
+<para>The joint system (X,Y,Z) only has 16 possible states - since Z is just the question &quot;Are X &amp; Y even or odd?&quot; - so H(X,Y,Z) = 4 bits.</para>
+<para>But if you calculate the formula just given, you get</para>
+<blockquote>
+  <para> (3 + 2 + 1 - 1 - 1 - 1)bits = 3 bits = <link xl:href="http://www.youtube.com/watch?v=tRVUOGUmxJI">WRONG!</link></para>
+</blockquote>
+<para>Why?  Because if you have the mutual information between X and Z, and the mutual information between Z and Y, that may include some of the <emphasis>same</emphasis> mutual information that we&apos;ll calculate exists between X and Y.  In this case, for example, knowing that X is even tells us that Z is even, and knowing that Z is even tells us that Y is even, but this is the same information that X would tell us about Y.  We <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_RgkqLqkg8vLhsYpfh">double-counted</olink> some of our knowledge, and so came up with too little entropy.</para>
+<para>The correct formula is (I believe):</para>
+<blockquote>
+  <para> H(X,Y,Z) = H(X) + H(Y) + H(Z) - I(X;Z) - I(Z;Y) - I(X;Y | Z)</para>
+</blockquote>
+<para>Here the last term, I(X;Y | Z), means, &quot;the information that X tells us about Y, given that we already know Z&quot;.  In this case, X doesn&apos;t tell us anything about Y, given that we already know Z, so the term comes out as zero - and the equation gives the correct answer.  There, isn&apos;t that nice?</para>
+<para>&quot;No,&quot; you <link xl:href="http://yudkowsky.net/rational/technical/">correctly</link> reply, &quot;for you have not told me how to <emphasis>calculate</emphasis> I(X;Y|Z), only given me a verbal argument that it ought to be zero.&quot;</para>
+<para>We calculate I(X;Y|Z) just the way you would expect.  I(X;Y) = H(X) + H(Y) - H(X,Y), so:</para>
+<blockquote>
+  <para> I(X;Y|Z) = H(X|Z) + H(Y|Z) - H(X,Y|Z)</para>
+</blockquote>
+<para>And now, I suppose, you want to know how to calculate the conditional entropy?  Well, the <emphasis>original</emphasis> formula for the entropy is:</para>
+<blockquote>
+  <para> H(S) = Sum i: p(S<subscript>i</subscript>)*-log<subscript>2</subscript>(p(S<subscript>i</subscript>))</para>
+</blockquote>
+<para>If we then learned a new fact Z<subscript>0</subscript>, our remaining uncertainty about S would be:</para>
+<blockquote>
+  <para> H(S|Z<subscript>0</subscript>) = Sum i: p(S<subscript>i</subscript>|Z<subscript>0</subscript>)*-log<subscript>2</subscript>(p(S<subscript>i</subscript>|Z<subscript>0</subscript>))</para>
+</blockquote>
+<para>So if we&apos;re going to learn a new fact Z, but we don&apos;t know which Z yet, then, on average, we expect to be around this uncertain of S afterward:</para>
+<blockquote>
+  <para> H(S|Z) = Sum j: (p(Z<subscript>j</subscript>) * Sum i: p(S<subscript>i</subscript>|Z<subscript>j</subscript>)*-log<subscript>2</subscript>(p(S<subscript>i</subscript>|Z<subscript>j</subscript>)))</para>
+</blockquote>
+<para>And that&apos;s how one calculates conditional entropies; from which, in turn, we can get the conditional mutual information.</para>
+<para>There are <emphasis>all sorts</emphasis> of ancillary theorems here, like:</para>
+<blockquote>
+  <para> H(X|Y) = H(X,Y) - H(Y)</para>
+</blockquote>
+<para>and</para>
+<blockquote>
+  <para> if  I(X;Z) = 0  and  I(Y;X|Z) = 0  then  I(X;Y) = 0</para>
+</blockquote>
+<para>but I&apos;m not going to go into those.</para>
+<para>&quot;But,&quot; you ask, &quot;what does <emphasis>this</emphasis> have to do with the nature of words and their hidden Bayesian structure?&quot;</para>
+<para>I am just so <emphasis>unspeakably</emphasis> glad that you asked that question, because I was planning to tell you whether you liked it or not.  But first there are a couple more preliminaries.</para>
+<para>You will remember—yes, you <emphasis>will</emphasis> remember—that there is a duality between mutual information and Bayesian evidence.  Mutual information is positive if and only if the probability of at least some joint events P(x, y) does not equal the product of the probabilities of the separate events P(x)*P(y).  This, in turn, is exactly equivalent to the condition that Bayesian evidence exists between x and y:</para>
+<blockquote>
+  <para> I(X;Y) &gt; 0   =&gt;</para>
+  <para>P(x,y) != P(x)*P(y)</para>
+  <para> P(x,y) / P(y) != P(x)</para>
+  <para> P(x|y) != P(x)</para>
+</blockquote>
+<para>If you&apos;re conditioning on Z, you just adjust the whole derivation accordingly:</para>
+<blockquote>
+  <para> I(X;Y | Z) &gt; 0   =&gt;</para>
+  <para>P(x,y|z) != P(x|z)*P(y|z)</para>
+  <para>P(x,y|z) / P(y|z) != P(x|z)</para>
+  <para>(P(x,y,z) / P(z)) / (P(y, z) / P(z)) != P(x|z)</para>
+  <para>P(x,y,z) / P(y,z) != P(x|z)</para>
+  <para>P(x|y,z) != P(x|z)</para>
+</blockquote>
+<para>Which last line reads &quot;Even knowing Z, learning Y still changes our beliefs about X.&quot;</para>
+<para>Conversely, as in our original case of Z being &quot;even&quot; or &quot;odd&quot;, Z <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_5yFRd3cjLpm3Nd6Di">screens off</olink> X from Y - that is, if we know that Z is &quot;even&quot;, learning that Y is in state 4 tells us <emphasis>nothing more</emphasis> about whether X is 2, 4, 6, or 8.  Or if we know that Z is &quot;odd&quot;, then learning that X is 5 tells us nothing more about whether Y is 1 or 3.  Learning Z has rendered X and Y <emphasis>conditionally independent</emphasis>.</para>
+<para>Conditional independence is a hugely important concept in probability theory—to cite just one example, without conditional independence, the universe would have no structure.</para>
+<para>Today, though, I only intend to talk about one particular kind of conditional independence—the case of a central variable that screens off other variables surrounding it, like a central body with tentacles.</para>
+<para>Let there be five variables U, V, W, X, Y; and moreover, suppose that for every pair of these variables, one variable is evidence about the other.  If you select U and W, for example, then learning U=U<subscript>1</subscript> will tell you something you didn&apos;t know before about the probability W=W<subscript>1</subscript>.</para>
+<para>An unmanageable inferential mess?  Evidence gone wild?  Not necessarily.</para>
+<para>Maybe U is &quot;Speaks a language&quot;, V is &quot;Two arms and ten digits&quot;, W is &quot;Wears clothes&quot;, X is &quot;Poisonable by hemlock&quot;, and Y is &quot;Red blood&quot;.  Now if you encounter a thing-in-the-world, that might be an apple and might be a rock, and you learn that this thing speaks Chinese, you are liable to assess a much higher probability that it wears clothes; and if you learn that the thing is not poisonable by hemlock, you will assess a somewhat lower probability that it has red blood.</para>
+<para>Now some of these rules are stronger than others.  There is the case of Fred, who is missing a finger due to a volcano accident, and the case of Barney the Baby who doesn&apos;t speak yet, and the case of Irving the IRCBot who emits sentences but has no blood.  So if we learn that a certain thing is not wearing clothes, that doesn&apos;t screen off everything that its speech capability can tell us about its blood color.  If the thing doesn&apos;t wear clothes but <emphasis>does</emphasis> talk, maybe it&apos;s Nude Nellie.</para>
+<para>This makes the case more interesting than, say, five integer variables that are all odd or all even, but otherwise uncorrelated.  In that case, knowing <emphasis>any </emphasis>one of the variables would screen off everything that knowing a second variable could tell us about a third variable.</para>
+<para>But here, we have dependencies that don&apos;t go away as soon as we learn just one variable, as the case of Nude Nellie shows.  So is it an unmanageable inferential inconvenience?</para>
+<para>Fear not! for there may be some <emphasis>sixth </emphasis>variable Z, which, if we knew it, really <emphasis>would</emphasis> screen off every pair of variables from each other.  There may be some variable Z—even if we have to <emphasis>construct</emphasis> Z rather than observing it directly—such that:</para>
+<blockquote>
+  <para> p(u|v,w,x,y,z) = p(u|z)</para>
+  <para>p(v|u,w,x,y,z) = p(v|z)</para>
+  <para>p(w|u,v,x,y,z) = p(w|z)</para>
+  <para>    ...</para>
+</blockquote>
+<para>Perhaps, <emphasis>given that</emphasis> a thing is &quot;human&quot;, then the probabilities of it speaking, wearing clothes, and having the standard number of fingers, are all independent.  Fred may be missing a finger - but he is no more likely to be a nudist than the next person; Nude Nellie never wears clothes, but knowing this doesn&apos;t make it any less likely that she speaks; and Baby Barney doesn&apos;t talk yet, but is not missing any limbs.</para>
+<para>This is called the &quot;Naive Bayes&quot; method, because it usually isn&apos;t quite true, but <emphasis>pretending</emphasis> that it&apos;s true can simplify the living daylights out of your calculations.  We don&apos;t keep separate track of the influence of clothed-ness on speech capability given finger number.  We just use all the information we&apos;ve observed to keep track of the probability that this thingy is a human (or alternatively, something else, like a chimpanzee or robot) and then use our beliefs about the central class to predict anything we haven&apos;t seen yet, like vulnerability to hemlock.</para>
+<para>Any observations of U, V, W, X, and Y just act as evidence for the central class variable Z, and then we use the posterior distribution on Z to make any predictions that need making about unobserved variables in U, V, W, X, and Y.</para>
+<para>Sound familiar?  It should:</para>
+<para><link xl:href="img/1074a7dc19a2973b85aa5da8d2c3f90e.png"><inlinemediaobject><imageobject role="html">
+        <imagedata contentdepth="286px" contentwidth="302px" fileref="./img/1074a7dc19a2973b85aa5da8d2c3f90e.png" format="PNG" scalefit="1"/>
+      </imageobject>
+<imageobject role="fo">
+        <imagedata contentdepth="100%" fileref="./img/1074a7dc19a2973b85aa5da8d2c3f90e.png" format="PNG" scalefit="1" width="100%"/>
+      </imageobject>
+</inlinemediaobject></link></para>
+<para>As a matter of fact, if you use the right kind of neural network units, this &quot;neural network&quot; ends up <emphasis>exactly, mathematically</emphasis> equivalent to Naive Bayes.  The central unit just needs a logistic threshold—an S-curve response—and the weights of the inputs just need to match the logarithms of the likelihood ratios, etcetera.  In fact, it&apos;s a good guess that this is one of the reasons why logistic response often works so well in neural networks—it lets the algorithm sneak in a little Bayesian reasoning while the designers aren&apos;t looking.</para>
+<para>Just because someone is presenting you with an algorithm that they call a &quot;neural network&quot; with buzzwords like &quot;scruffy&quot; and &quot;emergent&quot; plastered all over it, disclaiming proudly that they have no idea how the learned network works—well, don&apos;t assume that their little AI algorithm <emphasis>really is</emphasis> Beyond the Realms of Logic.  For this paradigm of adhockery<emphasis> </emphasis>, if it works, will turn out to have <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_QrhAeKBkm2WsdRYao">Bayesian structure</olink>; it may even be exactly equivalent to an algorithm of the sort called &quot;Bayesian&quot;.</para>
+<para>Even if it doesn&apos;t <emphasis>look</emphasis> Bayesian, on the surface.</para>
+<para>And then you just <emphasis>know </emphasis>that the Bayesians are going to start explaining exactly how the algorithm works, what underlying assumptions it reflects, which <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yLcuygFfMfrfK8KjF">environmental regularities</olink> it exploits, where it works and where it fails, and even attaching understandable meanings to the learned network weights.</para>
+<para>Disappointing, isn&apos;t it?</para>
+
+  
+</section>

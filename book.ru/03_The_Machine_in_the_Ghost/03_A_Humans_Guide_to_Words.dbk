@@ -1,0 +1,47 @@
+<chapter xml:id="item_SGB7Y5WERh4skwtnb"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>A Human's Guide to Words</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/SGB7Y5WERh4skwtnb"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-09-12</pubdate>
+  </info>
+  
+  <para>This sequence discusses the basic relationship between cognition and concept formation. <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_FaJaCgqBKphrDzDSj">37 Ways That Words Can Be Wrong</olink> is a guide to the sequence.</para>
+
+  <xi:include href="03_A_Humans_Guide_to_Words/01_The_Parable_of_the_Dagger.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/02_The_Parable_of_Hemlock.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/03_Words_as_Hidden_Inferences.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/04_Extensions_and_Intensions.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/05_Similarity_Clusters.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/06_Typicality_and_Asymmetrical_Similarity.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/07_The_Cluster_Structure_of_Thingspace.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/08_Disguised_Queries.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/09_Neural_Categories.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/10_How_An_Algorithm_Feels_From_Inside.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/11_Disputing_Definitions.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/12_Feel_the_Meaning.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/13_The_Argument_from_Common_Usage.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/14_Empty_Labels.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/15_Taboo_Your_Words.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/16_Replace_the_Symbol_with_the_Substance.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/17_Fallacies_of_Compression.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/18_Categorizing_Has_Consequences.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/19_Sneaking_in_Connotations.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/20_Arguing_By_Definition.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/21_Where_to_Draw_the_Boundary.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/22_Entropy_and_Short_Codes.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/23_Mutual_Information_and_Density_in_Thingspace.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/24_Superexponential_Conceptspace_and_Simple_Words.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/25_Conditional_Independence_and_Naive_Bayes.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/26_Words_as_Mental_Paintbrush_Handles.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/27_Variable_Question_Fallacies.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/28_37_Ways_That_Words_Can_Be_Wrong.dbk"/>
+<xi:include href="03_A_Humans_Guide_to_Words/29_An_Intuitive_Explanation_of_Bayess_Theorem.dbk"/>
+</chapter>

@@ -1,0 +1,47 @@
+<section xml:id="item_hQxYBfu2LPc9Ydo6w"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Parable of the Dagger</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/hQxYBfu2LPc9Ydo6w/the-parable-of-the-dagger"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-06-19</pubdate>
+  </info>
+  <indexterm><primary>Parables &amp; Fables</primary></indexterm>
+<indexterm><primary>Philosophy of Language</primary></indexterm>
+  <para>Once upon a time, there was a court jester who dabbled in logic.</para>
+<para>The jester presented the king with two boxes.  Upon the first box was inscribed:</para>
+<blockquote>
+  <para> &quot;Either this box contains an angry frog, or the box with a false inscription contains an angry frog, but not both.&quot;</para>
+</blockquote>
+<para>On the second box was inscribed:</para>
+<blockquote>
+  <para> &quot;Either this box contains gold and the box with a false inscription contains an angry frog, or this box contains an angry frog and the box with a true inscription contains gold.&quot;</para>
+</blockquote>
+<para>And the jester said to the king:  &quot;One box contains an angry frog, the other box gold; and one, and only one, of the inscriptions is true.&quot;</para>
+<para>The king opened the wrong box, and was savaged by an angry frog.</para>
+<para>&quot;You see,&quot; the jester said, &quot;let us hypothesize that the first inscription is the true one.  Then suppose the first box contains gold.  Then the other box would have an angry frog, while the box with a true inscription would contain gold, which would make the second statement true as well.  Now hypothesize that the first inscription is false, and that the first box contains gold.  Then the second inscription would be—&quot;</para>
+<para>The king ordered the jester thrown in the dungeons.</para>
+<para>A day later, the jester was brought before the king in chains, and shown two boxes.</para>
+<para>&quot;One box contains a key,&quot; said the king, &quot;to unlock your chains; and if you find the key you are free.  But the other box contains a dagger for your heart, if you fail.&quot;</para>
+<para>And the first box was inscribed:</para>
+<blockquote>
+  <para> &quot;Either both inscriptions are true, or both inscriptions are false.&quot;</para>
+</blockquote>
+<para>And the second box was inscribed:</para>
+<blockquote>
+  <para> &quot;This box contains the key.&quot;</para>
+</blockquote>
+<para>The jester reasoned thusly:  &quot;Suppose the first inscription is true.  Then the second inscription must also be true.  Now suppose the first inscription is false.  Then again the second inscription must be true. So the second box must contain the key, if the first inscription is true, and also if the first inscription is false.  Therefore, the second box must logically contain the key.&quot;</para>
+<para>The jester opened the second box, and found a dagger.</para>
+<para>&quot;How?!&quot; cried the jester in horror, as he was dragged away.  &quot;It&apos;s logically impossible!&quot;</para>
+<para>&quot;It is entirely possible,&quot; replied the king.  &quot;I merely wrote those inscriptions on two boxes, and then I put the dagger in the second one.&quot;</para>
+<para><emphasis>(Adapted from Raymond Smullyan.)</emphasis></para>
+
+  
+</section>

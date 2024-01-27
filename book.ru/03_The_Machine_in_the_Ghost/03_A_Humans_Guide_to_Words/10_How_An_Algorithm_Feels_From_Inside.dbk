@@ -1,0 +1,57 @@
+<section xml:id="item_yA4gF5KrboK2m2Xu7"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>How An Algorithm Feels From Inside</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/yA4gF5KrboK2m2Xu7/how-an-algorithm-feels-from-inside"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-11</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Cognitive Reduction</primary></indexterm>
+  <para>&quot;If a tree falls in the forest, and no one hears it, does it make a sound?&quot;  I remember seeing an actual argument get started on this subject—a fully naive argument that went nowhere near Berkeleyan subjectivism.  Just:</para>
+<blockquote>
+  <para> &quot;It makes a sound, just like any other falling tree!&quot;</para>
+  <para>&quot;But how can there be a sound that no one hears?&quot;</para>
+</blockquote>
+<para>The standard rationalist view would be that the first person is speaking as if &quot;sound&quot; means acoustic vibrations in the air; the second person is speaking as if &quot;sound&quot; means an auditory experience in a brain.  If you ask &quot;Are there acoustic vibrations?&quot; or &quot;Are there auditory experiences?&quot;, the answer is at once obvious.  And so the argument is really about the definition of the word &quot;sound&quot;.</para>
+<para>I think the standard analysis is essentially correct.  So let&apos;s accept that as a premise, and ask:  Why do people get into such an argument?  What&apos;s the underlying psychology?</para>
+<para>A key idea of the heuristics and biases program is that mistakes are often more revealing of cognition than correct answers.  Getting into a heated dispute about whether, if a tree falls in a deserted forest, it makes a sound, is traditionally considered a mistake.</para>
+<para>So what kind of mind design corresponds to that error?</para>
+<para>In <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4FcxgdvdQP45D6Skg">Disguised Queries</olink> I introduced the blegg/rube classification task, in which Susan the Senior Sorter explains that your job is to sort objects coming off a conveyor belt, putting the blue eggs or &quot;bleggs&quot; into one bin, and the red cubes or &quot;rubes&quot; into the rube bin.  This, it turns out, is because bleggs contain small nuggets of vanadium ore, and rubes contain small shreds of palladium, both of which are useful industrially.</para>
+<para>Except that around 2% of blue egg-shaped objects contain palladium instead.  So if you find a blue egg-shaped thing that contains palladium, should you call it a &quot;rube&quot; instead?  You&apos;re going to put it in the rube bin—why not call it a &quot;rube&quot;?</para>
+<para>But when you switch off the light, nearly all bleggs glow faintly in the dark.  And blue egg-shaped objects that contain palladium are just as likely to glow in the dark as any other blue egg-shaped object.</para>
+<para>So if you find a blue egg-shaped object that contains palladium, and you ask &quot;Is it a blegg?&quot;, the answer depends on what you have to do with the answer:  If you ask &quot;Which bin does the object go in?&quot;, then you choose as if the object is a rube.  But if you ask &quot;If I turn off the light, will it glow?&quot;, you predict as if the object is a blegg.  In one case, the question &quot;Is it a blegg?&quot; stands in for the <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4FcxgdvdQP45D6Skg">disguised query</olink>, &quot;Which bin does it go in?&quot;.  In the other case, the question &quot;Is it a blegg?&quot; stands in for the <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4FcxgdvdQP45D6Skg">disguised query</olink>, &quot;Will it glow in the dark?&quot;</para>
+<para>Now suppose that you have an object that is blue and egg-shaped and contains palladium; and you have already observed that it is furred, flexible, opaque, and glows in the dark.</para>
+<para>This answers <emphasis>every</emphasis> query, observes every observable introduced.  There&apos;s nothing left for a disguised query to stand <emphasis>for.</emphasis></para>
+<para>So why might someone feel an impulse to go on arguing whether the object is <emphasis>really</emphasis> a blegg?</para>
+<para><link xl:href="img/ac31028555fcc14e227c3e9fdcf98ab6.png"><inlinemediaobject><imageobject role="html">
+        <imagedata contentdepth="284px" contentwidth="614px" fileref="./img/ac31028555fcc14e227c3e9fdcf98ab6.png" format="PNG" scalefit="1"/>
+      </imageobject>
+<imageobject role="fo">
+        <imagedata contentdepth="100%" fileref="./img/ac31028555fcc14e227c3e9fdcf98ab6.png" format="PNG" scalefit="1" width="100%"/>
+      </imageobject>
+</inlinemediaobject></link></para>
+<para>This diagram from <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yFDKvfN6D87Tf5J9f">Neural Categories</olink> shows two different neural networks that might be used to answer questions about bleggs and rubes.  Network 1 has a number of disadvantages—such as potentially oscillating/chaotic behavior, or requiring O(N<superscript>2</superscript>) connections—but Network 1&apos;s structure does have one major advantage over Network 2:  Every unit in the network corresponds to a testable query.  If you observe every observable, clamping every value, there are no units in the network left over.</para>
+<para>Network 2, however, is a far better candidate for being something vaguely like how the human brain works:  It&apos;s fast, cheap, scalable—and has an extra dangling unit in the center, whose activation can still vary, even after we&apos;ve observed every single one of the surrounding nodes.</para>
+<para>Which is to say that even after you know whether an object is blue or red, egg or cube, furred or smooth, bright or dark, and whether it contains vanadium or palladium, it <emphasis>feels</emphasis> like there&apos;s a leftover, unanswered question:  <emphasis>But is it really a blegg?</emphasis></para>
+<para>Usually, in our daily experience, acoustic vibrations and auditory experience go together.  But a tree falling in a deserted forest unbundles this common association.  And even after you know that the falling tree creates acoustic vibrations but not auditory experience, it <emphasis>feels</emphasis> like there&apos;s a leftover question:  <emphasis>Did it make a sound?</emphasis></para>
+<para>We know where Pluto is, and where it&apos;s going; we know Pluto&apos;s shape, and Pluto&apos;s mass—but is it a planet?</para>
+<para>Now remember:  When you look at Network 2, as I&apos;ve laid it out here, you&apos;re seeing the algorithm from the outside.  People don&apos;t think to themselves, &quot;Should the central unit fire, or not?&quot; any more than you think &quot;Should neuron #12,234,320,242 in my visual cortex fire, or not?&quot;</para>
+<para>It takes a deliberate effort to visualize your brain from the outside—and then you still don&apos;t see your actual brain; you imagine what you <emphasis>think</emphasis> is there, hopefully based on science, but regardless, you don&apos;t have any direct access to neural network structures from introspection.  That&apos;s why the ancient Greeks didn&apos;t invent computational neuroscience.</para>
+<para>When you look at Network 2, you are seeing from the <emphasis>outside; </emphasis>but the way that neural network structure feels from the <emphasis>inside,</emphasis> if you yourself<emphasis> are</emphasis> a brain running that algorithm, is that even after you know every characteristic of the object, you still find yourself wondering:  &quot;But is it a blegg, or not?&quot;</para>
+<para>This is a great gap to cross, and I&apos;ve seen it stop people in their tracks.  Because we don&apos;t instinctively see our intuitions as &quot;intuitions&quot;, we just see them as the world.  When you look at a green cup, you don&apos;t think of yourself as seeing a picture reconstructed in your visual cortex—although that <emphasis>is</emphasis> what you are seeing—you just see a green cup.  You think, &quot;Why, look, this cup is green,&quot; not, &quot;The picture in my visual cortex of this cup is green.&quot;</para>
+<para>And in the same way, when people argue over whether the falling tree makes a sound, or whether Pluto is a planet, they don&apos;t see themselves as arguing over whether a categorization should be active in their neural networks.  It seems like either the tree makes a sound, or not.</para>
+<para>We know where Pluto is, and where it&apos;s going; we know Pluto&apos;s shape, and Pluto&apos;s mass—but is it a planet?  And yes, there were people who said this was a fight over definitions—but even that is a Network 2 sort of perspective, because you&apos;re arguing about how the central unit ought to be wired up.  If you were a mind constructed along the lines of Network 1, you wouldn&apos;t say &quot;It depends on how you define &apos;planet&apos;,&quot; you would just say, &quot;Given that we know Pluto&apos;s orbit and shape and mass, there is no question left to ask.&quot;  Or, rather, that&apos;s how it would <emphasis>feel</emphasis>—it would <emphasis>feel</emphasis> like there was no question left—if you were a mind constructed along the lines of Network 1.</para>
+<para>Before you can question your intuitions, you have to realize that what your mind&apos;s eye is looking at <emphasis>is</emphasis> an intuition—some cognitive algorithm, as seen from the inside—rather than a direct perception of the Way Things Really Are.</para>
+<para>People <link xl:href="https://www.lesswrong.com/posts/knpAQ4F3gmguxy39z/allais-malaise">cling to their intuitions</link>, I think, not so much because they believe their cognitive algorithms are perfectly reliable, but because they can&apos;t see their intuitions <emphasis>as the way their cognitive algorithms happen to look from the inside.</emphasis></para>
+<para>And so everything you try to say about how the native cognitive algorithm goes astray, ends up being contrasted to their direct perception of the Way Things Really Are—and discarded as obviously wrong.</para>
+
+  
+</section>

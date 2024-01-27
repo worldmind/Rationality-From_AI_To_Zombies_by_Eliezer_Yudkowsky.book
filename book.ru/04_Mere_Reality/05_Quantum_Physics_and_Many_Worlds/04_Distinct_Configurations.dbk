@@ -1,0 +1,160 @@
+<section xml:id="item_KbeHkLNY5ETJ3TN3W"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Distinct Configurations</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/KbeHkLNY5ETJ3TN3W/distinct-configurations"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-11-06</pubdate>
+  </info>
+  <indexterm><primary>World Modeling</primary></indexterm>
+<indexterm><primary>Physics</primary></indexterm>
+<indexterm><primary>Quantum Mechanics</primary></indexterm>
+  <para>The experiment in the previous essay carried two key lessons: </para>
+<para>First, we saw that because amplitude flows can cancel out, and because our magic measure of squared modulus is not linear, the identity of configurations is nailed down—you can’t reorganize configurations the way you can regroup possible worlds. Which configurations are the same, and which are distinct, has experimental consequences; it is an observable fact. </para>
+<para>Second, we saw that configurations are about multiple particles. If there are two photons entering the apparatus, that doesn’t mean there are two initial configurations. Instead the initial configuration’s identity is “two photons coming in.” (Ideally, each configuration we talk about would include every particle in the experiment—including the particles making up the mirrors and detectors. And in the real universe, every configuration is about <emphasis>all</emphasis> the particles… <emphasis>everywhere</emphasis>.) </para>
+<para>What makes for distinct configurations is not distinct particles. Each configuration is about every particle. What makes configurations distinct is particles occupying different positions—at least one particle in a different state. </para>
+<para>To take one important demonstration… </para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata contentwidth="100%" fileref="./img/65f2d8a183d088824bc14d52a790a93b.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/65f2d8a183d088824bc14d52a790a93b.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>Figure 1 is the same experiment as <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_5vZD32EynD9n94dhr">Figure 2 in Configurations and Amplitude</olink>, with one important change: Between <emphasis>A</emphasis> and <emphasis>C</emphasis> has been placed a sensitive thingy, <emphasis>S</emphasis>. The key attribute of <emphasis>S</emphasis> is that if a photon goes past <emphasis>S</emphasis>, then <emphasis>S</emphasis> ends up in a slightly different state. </para>
+<para>Let’s say that the two possible states of <emphasis>S</emphasis> are <emphasis>Yes</emphasis> and <emphasis>No</emphasis>. The sensitive thingy <emphasis>S</emphasis> starts out in state <emphasis>No</emphasis>, and ends up in state <emphasis>Yes</emphasis> if a photon goes past. </para>
+<para>Then the initial configuration is: </para>
+<blockquote>
+  <para>“photon heading toward A<emphasis>;</emphasis> and S<emphasis/>in state <emphasis>No,</emphasis>” <inlineequation>
+      <mathphrase>(−1+0i)</mathphrase>
+    </inlineequation>
+</para>
+</blockquote>
+<para>Next, the action of the half-silvered mirror at <emphasis>A</emphasis>. In the <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_5vZD32EynD9n94dhr">previous version of this experiment</olink>, without the sensitive thingy, the two resultant configurations were “<emphasis>A</emphasis> to <emphasis>B</emphasis>” with amplitude −<emphasis>i</emphasis> and “<emphasis>A</emphasis> to <emphasis>C</emphasis>” with amplitude −1. Now, though, a new element has been introduced into the system, and all configurations are about all particles, and so every configuration mentions the new element. So the amplitude flows from the initial configuration are to: </para>
+<blockquote>
+  <para>“photon from A<emphasis/>to B<emphasis>;</emphasis> and S<emphasis/>in state N<emphasis>o,</emphasis>” <inlineequation>
+      <mathphrase>(0−i)</mathphrase>
+    </inlineequation>
+</para>
+</blockquote>
+<blockquote>
+  <para>“photon from A<emphasis/>to C<emphasis>;</emphasis> and S<emphasis/>in state Y<emphasis>es,</emphasis>” <inlineequation>
+      <mathphrase>(−1+0i)</mathphrase>
+    </inlineequation>
+</para>
+</blockquote>
+<para>Next, the action of the full mirrors at <emphasis>B</emphasis> and <emphasis>C</emphasis>: </para>
+<blockquote>
+  <para>“photon from B<emphasis/>to D<emphasis>;</emphasis> and S<emphasis/>in state <emphasis>No,</emphasis>” (1 + 0i<emphasis>)</emphasis> “photon from C<emphasis/>to D<emphasis>;</emphasis> and S<emphasis/>in state <emphasis>Yes,</emphasis>” (0 − i<emphasis>)</emphasis> . </para>
+</blockquote>
+<para>And then the action of the half-mirror at <emphasis>D</emphasis>, on the amplitude flowing from both of the above configurations: </para>
+<blockquote>
+  <para><emphasis role="bold">(1)</emphasis> “photon from D<emphasis/>to E<emphasis>;</emphasis> and S<emphasis/>in state <emphasis>No,</emphasis>” <inlineequation>
+      <mathphrase>(0+i)</mathphrase>
+    </inlineequation>
+</para>
+</blockquote>
+<blockquote>
+  <para><emphasis role="bold">(2)</emphasis> “photon from <emphasis>D</emphasis> to <emphasis>F</emphasis>; and <emphasis>S</emphasis> in state <emphasis>No</emphasis>,” <inlineequation>
+      <mathphrase>(1+0i)</mathphrase>
+    </inlineequation>
+</para>
+</blockquote>
+<blockquote>
+  <para><emphasis role="bold">(3)</emphasis> “photon from <emphasis>D</emphasis> to <emphasis>E</emphasis>; and <emphasis>S</emphasis> in state <emphasis>Yes</emphasis>,” <inlineequation>
+      <mathphrase>(0−i)</mathphrase>
+    </inlineequation>
+</para>
+</blockquote>
+<blockquote>
+  <para><emphasis role="bold">(4)</emphasis> “photon from <emphasis>D</emphasis> to <emphasis>F</emphasis>; and <emphasis>S</emphasis> in state <emphasis>Yes</emphasis>,” <inlineequation>
+      <mathphrase>(1+0i)</mathphrase>
+    </inlineequation>
+. </para>
+</blockquote>
+<para>When we did this experiment without the sensitive thingy, the amplitude flows (1) and (3) of <inlineequation>
+    <mathphrase>(0+i)</mathphrase>
+  </inlineequation>
+ and <inlineequation>
+    <mathphrase>(0−i)</mathphrase>
+  </inlineequation>
+ to the “<emphasis>D</emphasis> to <emphasis>E</emphasis>” configuration canceled each other out. We were left with no amplitude for a photon going to Detector 1 (way up at the experimental level, we never observe a photon striking Detector 1). </para>
+<para>But in this case, the two amplitude flows (1) and (3) are now to distinct configurations; at least one entity, <emphasis>S</emphasis>, is in a different state between (1) and (3). The amplitudes don’t cancel out. </para>
+<para>When we wave our magical squared-modulus-ratio detector over the four final configurations, we find that the squared moduli of all are equal: 25% probability each. Way up at the level of the real world, we find that the photon has an equal chance of striking Detector 1 and Detector 2. </para>
+<para>All the above is true, even if we, the researchers, don’t care about the state of <emphasis>S</emphasis>. Unlike possible worlds, configurations cannot be regrouped on a whim. The laws of <emphasis>physics</emphasis> say the two configurations are distinct; it’s not a question of how we can most conveniently parse up the world. </para>
+<para>All the above is true, even if we don’t bother to look at the state of <emphasis>S</emphasis>. The configurations (1) and (3) are distinct in physics, even if we don’t know the distinction. </para>
+<para>All the above is true, even if we don’t know <emphasis>S</emphasis> exists. The configurations (1) and (3) are distinct whether or not we have distinct <emphasis>mental representations</emphasis> for the two possibilities. </para>
+<para>All the above is true, even if we’re in space, and <emphasis>S</emphasis> transmits a new photon off toward the interstellar void in two distinct directions, depending on whether the photon of interest passed it or not. So that we couldn’t <emphasis>ever</emphasis> find out whether <emphasis>S</emphasis> had been in <emphasis>Yes</emphasis> or <emphasis>No</emphasis>. The state of <emphasis>S</emphasis> would be embodied in the photon transmitted off to nowhere. The lost photon can be an <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_3XMwPNMSbaPm2suGz">implied invisible</olink>, and the state of <emphasis>S</emphasis> pragmatically undetectable; but the configurations are still distinct. </para>
+<para>(The main reason it <emphasis>wouldn’t</emphasis> work, is if <emphasis>S</emphasis> were nudged, but <emphasis>S</emphasis> had an original spread in configuration space that was larger than the nudge. Then you couldn’t rely on the nudge to separate the amplitude distribution over configuration space into distinct lumps. In reality, all this takes place within a differentiable amplitude distribution over a continuous configuration space.) </para>
+<para>Configurations are not belief states. Their distinctness is an objective fact with experimental consequences. The configurations are distinct even if no one knows the state of <emphasis>S</emphasis>; distinct even if no intelligent entity can ever find out. The configurations are distinct so long as at least <emphasis>one particle</emphasis> in the universe <emphasis>anywhere</emphasis> is in a different position. This is experimentally demonstrable. </para>
+<para>Why am I emphasizing this? Because back in the dark ages when no one understood quantum physics… </para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata contentwidth="100%" fileref="./img/5b0f79c01a2fec2d3b321c8f31d04089.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/5b0f79c01a2fec2d3b321c8f31d04089.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>Okay, so imagine that you’ve got no clue what’s really going on, and you try the experiment in Figure 2, and no photons show up at Detector 1. Cool. </para>
+<para>You also discover that when you put a block between <emphasis>B</emphasis> and <emphasis>D</emphasis>, or a block between <emphasis>A</emphasis> and <emphasis>C</emphasis>, photons show up at Detector 1 and Detector 2 in equal proportions. But only one at a time—Detector 1 or Detector 2 goes off, not both simultaneously. </para>
+<para>So, yes, it <emphasis>does</emphasis> seem to you like you’re dealing with a particle—the photon is only in one place at one time, every time <emphasis>you</emphasis> see it. </para>
+<para>And yet there’s some kind of… <emphasis>mysterious phenomenon</emphasis>… that prevents the photon from showing up in Detector 1. And this mysterious phenomenon depends on the photon being <emphasis>able</emphasis> to go both ways. Even though the photon only shows up in one detector or the other, which shows, <emphasis>you would think</emphasis>, that the photon is only in one place at a time. </para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata contentwidth="100%" fileref="./img/a05427cb50406d962cddf9b7e48018b7.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/a05427cb50406d962cddf9b7e48018b7.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>Which makes the whole pattern of the experiments seem pretty bizarre! After all, the photon either goes from <emphasis>A</emphasis> to <emphasis>C</emphasis>, or from <emphasis>A</emphasis> to <emphasis>B</emphasis>; one or the other. (Or so you would think, if you were instinctively trying to break reality down into individually real particles.) But when you block off one course or the other, as in Figure 3, you start getting different experimental results! </para>
+<para>It’s like the photon wants to be <emphasis>allowed</emphasis> to go both ways, even though (you would think) it only goes one way or the other. And it can <emphasis>tell</emphasis> if you try to block it off, without actually going <emphasis>there</emphasis>—if it’d gone there, it would have run into the block, and not hit any detector at all. </para>
+<para>It’s as if mere <emphasis>possibilities</emphasis> could have causal effects, in defiance of what the word “real” is usually thought to <emphasis>mean</emphasis>… </para>
+<para>But it’s a bit early to jump to conclusions like <emphasis>that</emphasis>, when you don’t have a complete picture of what goes on inside the experiment. </para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata contentwidth="100%" fileref="./img/17faa5bc31e73aacca40c725e754eda3.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/17faa5bc31e73aacca40c725e754eda3.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>So it occurs to you to put a sensor between <emphasis>A</emphasis> and <emphasis>C</emphasis>, like in Figure 4, so you can tell which way the photon <emphasis>really</emphasis> goes on each occasion. </para>
+<para>And the mysterious phenomenon goes away. </para>
+<para>I mean, now how crazy is that? What kind of paranoia does that inspire in some poor scientist? </para>
+<para>Okay, so in the twenty-first century we realize in order to “know” a photon’s history, the particles making up your brain <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_QkX2bAkwG2EpGvNug">have to be correlated</olink> with the photon’s history. If having a tiny little sensitive thingy <emphasis>S</emphasis> that correlates to the photon’s history is enough to distinguish the final configurations and prevent the amplitude flows from canceling, then an entire sensor with a digital display, never mind a human brain, will put <emphasis>septillions</emphasis> of particles in different positions and prevent the amplitude flows from canceling. </para>
+<para>But if you hadn’t worked that out yet… </para>
+<para>Then you would ponder the sensor having banished the Mysterious Phenomenon, and think: </para>
+<para>The photon doesn’t just want to be <emphasis>physically</emphasis> free to go either way. It’s not a little wave going along an unblocked pathway, because then just having a physically unblocked pathway would be enough. </para>
+<para>No… I’m not allowed to know which way the photon went. </para>
+<para>The mysterious phenomenon… <emphasis>doesn’t want me looking at it too closely</emphasis>… while it’s doing its mysterious thing. </para>
+<para>It’s not <emphasis>physical possibilities</emphasis> that have an effect on reality… only <emphasis>epistemic possibilities</emphasis>. If I <emphasis>know</emphasis> which way the photon went, it’s no longer <emphasis>plausible</emphasis> that it went the other way… which cuts off the mysterious phenomenon as effectively as putting a block between <emphasis>B</emphasis> and <emphasis>D</emphasis>. </para>
+<para>I have to <emphasis>not observe</emphasis> which way the photon went, in order for it to always end up at Detector 2. It has to be <emphasis>reasonable</emphasis> that the photon could have gone to either <emphasis>B</emphasis> or <emphasis>C</emphasis>. What I can <emphasis>know</emphasis> is the determining factor, regardless of which physical paths I leave open or closed. </para>
+<para>STOP THE PRESSES! MIND IS FUNDAMENTAL AFTER ALL! CONSCIOUS AWARENESS DETERMINES OUR EXPERIMENTAL RESULTS!</para>
+<para>You can <emphasis>still read</emphasis> this kind of stuff. In <emphasis>physics textbooks</emphasis>. Even now, when a majority of theoretical physicists know better. Stop the presses. Please, stop the presses. </para>
+<para><link xl:href="https://www.lesswrong.com/posts/fkM9XsNvXdYH6PPAx/hindsight-bias">Hindsight is 20/20</link>; and so it’s easy to say that, in hindsight, there were certain clues that this interpretation was not correct. </para>
+<para>Like, if you put the sensor between <emphasis>A</emphasis> and <emphasis>C</emphasis><emphasis>but don’t read it</emphasis>, the mysterious phenomenon <emphasis>still</emphasis> goes away, and the photon still sometimes ends up at Detector 1. (Oh, but you <emphasis>could</emphasis> have read it, and possibilities are real now…) </para>
+<para>But it doesn’t even have to be a <emphasis>sensor</emphasis>, a scientific instrument that you built. A single particle that gets nudged far enough will dispel the interference. A photon radiating off to where you’ll never see it again can do the trick. Not much human involvement there. Not a whole lot of conscious awareness. </para>
+<para>Maybe before you pull the dualist fire alarm on human brains being physically special, you should provide experimental proof that a rock can’t play the same role in dispelling the Mysterious Phenomenon as a human researcher? </para>
+<para>But that’s hindsight, and it’s easy to call the shots in hindsight. Do you <emphasis>really</emphasis> think you could’ve done better than John von Neumann, if you’d been alive at the time? The point of this kind of <link xl:href="https://www.lesswrong.com/posts/7khK4DShZBR8gfyHv/chronophone-motivations">retrospective analysis</link> is to ask what kind of <link xl:href="https://www.lesswrong.com/posts/cKrgy7hLdszkse2pq/archimedes-s-chronophone">fully general clues</link> you could have followed, and whether there are any similar clues you’re ignoring now on current mysteries. </para>
+<para>Though it <emphasis>is</emphasis> a little embarrassing that even <emphasis>after</emphasis> the theory of amplitudes and configurations had been worked out—with the theory now giving the definite prediction that any nudged particle would do the trick—early scientists <emphasis>still</emphasis> didn’t get it. </para>
+<para>But you see… it had been established as Common Wisdom that configurations were possibilities, it was epistemic possibility that mattered, amplitudes were a very strange sort of partial information, and conscious observation made quantumness go away. And that it was best to avoid thinking too hard about the whole business, so long as your experimental predictions came out right. </para>
+
+  
+</section>

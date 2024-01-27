@@ -1,0 +1,34 @@
+<chapter xml:id="item_M3TJ2fTCzoQq66NBJ"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Death Spirals</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/M3TJ2fTCzoQq66NBJ"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>Leveling up in rationality means encountering a lot of interesting and powerful new ideas. In many cases, it also means making friends who you can bounce ideas off of and finding communities that encourage you to better yourself. This sequence discusses some important hazards that can afflict groups united around common interests and amazing shiny ideas, which will need to be overcome if we’re to get the full benefits out of rationalist communities.</para>
+
+  <xi:include href="06_Death_Spirals/01_The_Affect_Heuristic.dbk"/>
+<xi:include href="06_Death_Spirals/02_Evaluability_And_Cheap_Holiday_Shopping.dbk"/>
+<xi:include href="06_Death_Spirals/03_Unbounded_Scales_Huge_Jury_Awards_Futurism.dbk"/>
+<xi:include href="06_Death_Spirals/04_The_Halo_Effect.dbk"/>
+<xi:include href="06_Death_Spirals/05_Superhero_Bias.dbk"/>
+<xi:include href="06_Death_Spirals/06_Affective_Death_Spirals.dbk"/>
+<xi:include href="06_Death_Spirals/07_Resist_the_Happy_Death_Spiral.dbk"/>
+<xi:include href="06_Death_Spirals/08_Uncritical_Supercriticality.dbk"/>
+<xi:include href="06_Death_Spirals/09_Evaporative_Cooling_of_Group_Beliefs.dbk"/>
+<xi:include href="06_Death_Spirals/10_When_None_Dare_Urge_Restraint.dbk"/>
+<xi:include href="06_Death_Spirals/11_Every_Cause_Wants_To_Be_A_Cult.dbk"/>
+<xi:include href="06_Death_Spirals/12_Two_Cult_Koans.dbk"/>
+<xi:include href="06_Death_Spirals/13_Aschs_Conformity_Experiment.dbk"/>
+<xi:include href="06_Death_Spirals/14_On_Expressing_Your_Concerns.dbk"/>
+<xi:include href="06_Death_Spirals/15_Lonely_Dissent.dbk"/>
+<xi:include href="06_Death_Spirals/16_Cultish_Countercultishness.dbk"/>
+</chapter>

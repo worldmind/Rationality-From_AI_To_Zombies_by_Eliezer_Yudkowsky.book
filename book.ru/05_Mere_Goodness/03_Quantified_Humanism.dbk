@@ -1,0 +1,29 @@
+<chapter xml:id="item_waF2Pomid7YHjfEDt"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Quantified Humanism</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/waF2Pomid7YHjfEDt"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>On the tricky question of how we should apply such theories to our ordinary moral intuitions and decision-making.</para>
+
+  <xi:include href="03_Quantified_Humanism/01_One_Life_Against_the_World.dbk"/>
+<xi:include href="03_Quantified_Humanism/02_The_Allais_Paradox.dbk"/>
+<xi:include href="03_Quantified_Humanism/03_Zut_Allais.dbk"/>
+<xi:include href="03_Quantified_Humanism/04_Feeling_Moral.dbk"/>
+<xi:include href="03_Quantified_Humanism/05_The_Intuitions_Behind_Utilitarianism.dbk"/>
+<xi:include href="03_Quantified_Humanism/06_Ends_Dont_Justify_Means_Among_Humans.dbk"/>
+<xi:include href="03_Quantified_Humanism/07_Ethical_Injunctions.dbk"/>
+<xi:include href="03_Quantified_Humanism/08_Something_to_Protect.dbk"/>
+<xi:include href="03_Quantified_Humanism/09_When_Not_To_Use_Probabilities.dbk"/>
+<xi:include href="03_Quantified_Humanism/10_Newcombs_Problem_and_Regret_of_Rationality.dbk"/>
+<xi:include href="03_Quantified_Humanism/11_Twelve_Virtues_of_Rationality.dbk"/>
+</chapter>

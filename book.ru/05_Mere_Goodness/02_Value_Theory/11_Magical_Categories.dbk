@@ -1,0 +1,143 @@
+<section xml:id="item_PoDAyQMWEXBBBEJ5P"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Magical Categories</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/PoDAyQMWEXBBBEJ5P/magical-categories"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-09-17</pubdate>
+  </info>
+  <indexterm><primary>Squiggle Maximizer (formerly "Paperclip maximizer")</primary></indexterm>
+<indexterm><primary>Machine Learning  (ML)</primary></indexterm>
+<indexterm><primary>AI</primary></indexterm>
+  <blockquote>
+  <para> &apos;We can design intelligent machines so their primary, innate emotion is unconditional love for all humans.  First we can build relatively simple machines that learn to recognize happiness and unhappiness in human facial expressions, human voices and human body language.  Then we can hard-wire the result of this learning as the innate emotional values of more complex intelligent machines, positively reinforced when we are happy and negatively reinforced when we are unhappy.&apos;</para>
+  <para>         -- Bill Hibbard (2001), <link xl:href="http://www.ssec.wisc.edu/%7Ebillh/visfiles.html">Super-intelligent machines</link>.</para>
+</blockquote>
+<para>That was published in a peer-reviewed journal, and the author later wrote a whole book about it, so this is not a strawman position I&apos;m discussing here.</para>
+<para>So... um... what could possibly go wrong...</para>
+<para>When I <link xl:href="https://intelligence.org/files/AIPosNegFactor.pdf">mentioned</link> (sec. 6) that Hibbard&apos;s AI ends up tiling the galaxy with tiny molecular smiley-faces, Hibbard wrote an <link xl:href="http://www.sl4.org/archive/0606/15138.html">indignant reply</link> saying:</para>
+<blockquote>
+  <para> &apos;When it is feasible to build a super-intelligence, it will be feasible to build hard-wired recognition of &quot;human facial expressions, human voices and human body language&quot; (to use the words of mine that you quote) that exceed the recognition accuracy of current humans such as you and me, and will certainly not be fooled by &quot;tiny molecular pictures of smiley-faces.&quot; You should not assume such a poor implementation of my idea that it cannot make discriminations that are trivial to current humans.&apos;</para>
+</blockquote>
+<para>As Hibbard also <link xl:href="http://www.ssec.wisc.edu/%7Ebillh/g/AIRisk_Reply.html">wrote</link>&quot;Such obvious contradictory assumptions show Yudkowsky&apos;s preference for drama over reason,&quot; I&apos;ll go ahead and mention that Hibbard illustrates a key point:  There is no professional certification test you have to take before you are allowed to talk about AI morality.  But that is not my primary topic today.  Though it is a crucial point about the state of the gameboard, that most AGI/FAI wannabes are so <emphasis>utterly</emphasis> unsuited to the task, that I know no one <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_CPm5LTwHrvBJCa9h5">cynical enough</olink> to imagine the horror without seeing it <link xl:href="http://www.mail-archive.com/agi@v2.listbox.com/">firsthand</link>.  Even Michael Vassar was probably surprised his first time through.</para>
+<para>No, today I am here to dissect &quot;You should not assume such a poor implementation of my idea that it cannot make discriminations that are trivial to current humans.&quot;</para>
+<para>Once upon a time - I&apos;ve seen this story in several versions and several places, sometimes cited as fact, but I&apos;ve never tracked down an original source - once upon a time, I say, the US Army wanted to use neural networks to automatically detect camouflaged enemy tanks.</para>
+<para>The researchers trained a neural net on 50 photos of camouflaged tanks amid trees, and 50 photos of trees without tanks. Using standard techniques for supervised learning, the researchers trained the neural network to a weighting that correctly loaded the training set - output &quot;yes&quot; for the 50 photos of camouflaged tanks, and output &quot;no&quot; for the 50 photos of forest.</para>
+<para>Now this did not prove, or even imply, that new examples would be classified correctly.  The neural network might have &quot;learned&quot; 100 special cases that wouldn&apos;t generalize to new problems.  Not, &quot;camouflaged tanks versus forest&quot;, but just, &quot;photo-1 positive, photo-2 negative, photo-3 negative, photo-4 positive...&quot;</para>
+<para>But wisely, the researchers had originally taken 200 photos, 100 photos of tanks and 100 photos of trees, and had used only half in the training set.  The researchers ran the neural network on the remaining 100 photos, and <emphasis>without further training</emphasis> the neural network classified all remaining photos correctly.   Success confirmed!</para>
+<para>The researchers handed the finished work to the Pentagon, which soon handed it back, complaining that in their own tests the neural network did no better than chance at discriminating photos.</para>
+<para>It turned out that in the researchers&apos; data set, photos of camouflaged tanks had been taken on cloudy days, while photos of plain forest had been taken on sunny days. The neural network had learned to distinguish cloudy days from sunny days, instead of distinguishing camouflaged tanks from empty forest.</para>
+<para>This parable - which might or might not be fact - illustrates one of the most fundamental problems in the field of supervised learning and in fact the whole field of Artificial Intelligence:  If the training problems and the real problems have the slightest difference in context - if they are not drawn from the same independently identically distributed process - there is no statistical guarantee from past success to future success.  It doesn&apos;t matter if the AI seems to be working great under the training conditions.  (This is not an <emphasis>unsolvable</emphasis> problem but it is an <emphasis>unpatchable</emphasis> problem.  There are deep ways to address it - a topic beyond the scope of this post - but no bandaids.)</para>
+<para>As described in <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_82eMd5KLiJ5Z6rTrr">Superexponential Conceptspace</olink>, there are exponentially more possible concepts than possible objects, just as the number of possible objects is exponential in the number of attributes.  If a black-and-white image is 256 pixels on a side, then the total image is 65536 pixels.  The number of possible images is 2<superscript>65536</superscript>.  And the number of possible <emphasis>concepts</emphasis> that classify images into positive and negative instances - the number of possible <emphasis>boundaries</emphasis> you could draw in the space of images - is 2^(2<superscript>65536</superscript>).  From this, we see that even supervised learning is almost entirely a matter of inductive bias, without which it would take a minimum of 2<superscript>65536</superscript> classified examples to discriminate among 2^(2<superscript>65536</superscript>) possible concepts - even if classifications are constant over time.</para>
+<para>If this seems at all counterintuitive or non-obvious, see <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_82eMd5KLiJ5Z6rTrr">Superexponential Conceptspace</olink>.</para>
+<para>So let us now turn again to:</para>
+<blockquote>
+  <para> &apos;First we can build relatively simple machines that learn to recognize happiness and unhappiness in human facial expressions, human voices and human body language.  Then we can hard-wire the result of this learning as the innate emotional values of more complex intelligent machines, positively reinforced when we are happy and negatively reinforced when we are unhappy.&apos;</para>
+</blockquote>
+<para>and</para>
+<blockquote>
+  <para> &apos;When it is feasible to build a super-intelligence, it will be feasible to build hard-wired recognition of &quot;human facial expressions, human voices and human body language&quot; (to use the words of mine that you quote) that exceed the recognition accuracy of current humans such as you and me, and will certainly not be fooled by &quot;tiny molecular pictures of smiley-faces.&quot; You should not assume such a poor implementation of my idea that it cannot make discriminations that are trivial to current humans.&apos;</para>
+</blockquote>
+<para>It&apos;s trivial to <emphasis>discriminate</emphasis> a photo of a picture with a camouflaged tank, and a photo of an empty forest, in the sense of determining that the two photos are not identical.  They&apos;re different pixel arrays with different 1s and 0s in them.  Discriminating between them is as simple as testing the arrays for equality.</para>
+<para><emphasis>Classifying</emphasis> new photos into positive and negative instances of &quot;smile&quot;, by reasoning from a set of training photos classified positive or negative, is a different order of problem.</para>
+<para>When you&apos;ve got a 256x256 image from a real-world camera, and the image turns out to depict a camouflaged tank, there is no <emphasis>additional</emphasis> 65537th bit denoting the positiveness - no tiny little XML tag that says &quot;This image is <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_ZTRiSNmeGQK8AkdN2">inherently</olink> positive&quot;.  It&apos;s only a positive example relative to some <emphasis>particular</emphasis> concept.</para>
+<para>But for any non-Vast amount of training data - any training data that does not include the <emphasis>exact</emphasis> bitwise image now seen - there are <emphasis>super</emphasis>exponentially many possible concepts compatible with previous classifications.</para>
+<para>For the AI, choosing or weighting from among superexponential possibilities is a matter of inductive bias.  Which may not match what the user has in mind.  The gap between these two example-classifying processes - induction on the one hand, and the user&apos;s actual goals on the other - is not trivial to cross.</para>
+<para>Let&apos;s say the AI&apos;s training data is:</para>
+<para><literal>Dataset 1:</literal></para>
+<itemizedlist>
+  <listitem>
+    <para><literal>+ </literal><itemizedlist>
+        <listitem>
+          <para><literal>Smile_1, Smile_2, Smile_3</literal></para>
+        </listitem>
+      </itemizedlist>
+</para>
+  </listitem>
+  <listitem>
+    <para><literal>-</literal><itemizedlist>
+        <listitem>
+          <para><literal>Frown_1, Cat_1, Frown_2, Frown_3, Cat_2, Boat_1, Car_1, Frown_5</literal></para>
+        </listitem>
+      </itemizedlist>
+</para>
+  </listitem>
+</itemizedlist>
+<para>Now the AI grows up into a superintelligence, and encounters this data:</para>
+<para><literal>Dataset 2:</literal></para>
+<itemizedlist>
+  <listitem>
+    <para><literal> </literal><itemizedlist>
+        <listitem>
+          <para><literal>Frown_6, Cat_3, Smile_4, Galaxy_1, Frown_7, Nanofactory_1, Molecular_Smileyface_1, Cat_4, Molecular_Smileyface_2, Galaxy_2, Nanofactory_2</literal></para>
+        </listitem>
+      </itemizedlist>
+</para>
+  </listitem>
+</itemizedlist>
+<para>It is not a property <emphasis>of these datasets</emphasis> that the inferred classification <emphasis>you would prefer</emphasis> is:</para>
+<itemizedlist>
+  <listitem>
+    <para><literal>+ </literal><itemizedlist>
+        <listitem>
+          <para><literal>Smile_1, Smile_2, Smile_3, Smile_4</literal></para>
+        </listitem>
+      </itemizedlist>
+</para>
+  </listitem>
+  <listitem>
+    <para> - </para>
+    <itemizedlist>
+      <listitem>
+        <para><literal>Frown_1, Cat_1, Frown_2, Frown_3, Cat_2, Boat_1, Car_1, Frown_5, Frown_6, Cat_3, Galaxy_1, Frown_7, Nanofactory_1, Molecular_Smileyface_1, Cat_4, Molecular_Smileyface_2, Galaxy_2, Nanofactory_2</literal></para>
+      </listitem>
+    </itemizedlist>
+  </listitem>
+</itemizedlist>
+<para>rather than</para>
+<itemizedlist>
+  <listitem>
+    <para><literal>+ </literal><itemizedlist>
+        <listitem>
+          <para><literal>Smile_1, Smile_2, Smile_3, Molecular_Smileyface_1, Molecular_Smileyface_2, Smile_4</literal></para>
+        </listitem>
+      </itemizedlist>
+</para>
+  </listitem>
+  <listitem>
+    <para> - </para>
+    <itemizedlist>
+      <listitem>
+        <para><literal>Frown_1, Cat_1, Frown_2, Frown_3, Cat_2, Boat_1, Car_1, Frown_5, Frown_6, Cat_3, Galaxy_1, Frown_7, Nanofactory_1, Cat_4, Galaxy_2, Nanofactory_2</literal></para>
+      </listitem>
+    </itemizedlist>
+  </listitem>
+</itemizedlist>
+<para>Both of these classifications are compatible with the training data.  The number of <emphasis>concepts</emphasis> compatible with the training data will be much larger, since more than one concept can project the same shadow onto the combined dataset.  If the space of possible concepts includes the space of possible computations that classify instances, the space is infinite.</para>
+<para>Which classification will the AI choose?  This is not an inherent property of the training data; it is a property of how the AI performs induction.</para>
+<para>Which is the <emphasis>correct</emphasis> classification?  This is not a property of the training data; it is a property of your preferences (or, if you prefer, a property of the <link xl:href="https://www.lesswrong.com/posts/9KacKm5yBv27rxWnJ/abstracted-idealized-dynamics">idealized abstract dynamic</link> you name &quot;<link xl:href="https://www.lesswrong.com/posts/fG3g3764tSubr6xvs/the-meaning-of-right">right</link>&quot;).</para>
+<para>The concept that <emphasis>you wanted</emphasis>, cast its shadow onto the training data as you yourself labeled each instance + or -, drawing on your own intelligence and preferences to do so.  That&apos;s what supervised learning is all about - providing the AI with labeled training examples that project a shadow of the causal process that generated the labels.</para>
+<para>But unless the training data is drawn from <emphasis>exactly</emphasis> the same context as the real-life, the training data will be &quot;shallow&quot; in some sense, a projection from a much higher-dimensional space of possibilities.</para>
+<para>The AI never saw a tiny molecular smileyface during its dumber-than-human training phase, or it never saw a tiny little agent with a happiness counter set to a googolplex.  Now <emphasis>you,</emphasis> finally presented with a tiny molecular smiley - or perhaps a very realistic tiny sculpture of a human face - know at once that this is not what <emphasis>you</emphasis> want to count as a smile.  But that judgment reflects an <link xl:href="https://www.lesswrong.com/posts/XeHYXXTGRuDrhk5XL/unnatural-categories">unnatural category</link>, one whose classification boundary depends sensitively on your <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_cSXZpvqpa9vbGGLtG">complicated values</olink>.  It is your own plans and desires that are at work when you say &quot;No!&quot;</para>
+<para>Hibbard knows instinctively that a tiny molecular smileyface isn&apos;t a &quot;smile&quot;, because he knows that&apos;s not what he wants his putative AI to do.  If someone else were presented with a different task, like classifying artworks, they might feel that the Mona Lisa was obviously smiling - as opposed to frowning, say - even though it&apos;s only paint.</para>
+<para>As the case of Terry Schiavo illustrates, <link xl:href="https://www.lesswrong.com/posts/XeHYXXTGRuDrhk5XL/unnatural-categories">technology enables new borderline cases</link> that throw us into new, essentially <emphasis>moral</emphasis> dilemmas.  Showing an AI pictures of living and dead humans as they existed during the age of Ancient Greece, will not enable the AI to make a <emphasis>moral</emphasis> decision as to whether switching off Terry&apos;s life support is murder.  That information isn&apos;t present in the dataset even inductively!  Terry Schiavo raises new moral questions, appealing to new moral considerations, that you wouldn&apos;t need to think about while classifying photos of living and dead humans from the time of Ancient Greece.  No one was on life support then, still breathing with a brain half fluid.  So such considerations play no role in the causal process that you use to classify the ancient-Greece training data, and hence cast no shadow on the training data, and hence are not accessible by induction on the training data.</para>
+<para>As a matter of formal fallacy, I see two anthropomorphic errors on display.</para>
+<para>The first fallacy is <emphasis>underestimating the <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_f4txACqDWithRi7hs">complexity</olink></emphasis> of a concept we develop for the sake of its value.  The borders of the concept will depend on many values and probably on-the-fly moral reasoning, if the borderline case is of a kind we haven&apos;t seen before.  But all that takes place invisibly, in the background; to Hibbard it just seems that a tiny molecular smileyface is just obviously not a smile.  And we don&apos;t generate <emphasis>all</emphasis> possible borderline cases, so we don&apos;t think of all the considerations that might play a role in redefining the concept, but haven&apos;t yet played a role in defining it.  Since people underestimate the <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_f4txACqDWithRi7hs">complexity</olink> of their concepts, they underestimate the difficulty of inducing the concept from training data.  (And also the difficulty of describing the concept directly - see <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4ARaTpNX62uaL86j6">The Hidden Complexity of Wishes</olink>.)</para>
+<para>The second fallacy is <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_RcZeZt8cPk48xxiQ8">anthropomorphic optimism</olink>:  Since Bill Hibbard uses his own intelligence to generate options and plans ranking high in his preference ordering, he is incredulous at the idea that a superintelligence could classify never-before-seen tiny molecular smileyfaces as a positive instance of &quot;smile&quot;.  As Hibbard uses the &quot;smile&quot; concept (to describe desired behavior of superintelligences), extending &quot;smile&quot; to cover tiny molecular smileyfaces would rank very low in his preference ordering; it would be a <emphasis>stupid</emphasis> thing to do - inherently so, as <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_ZTRiSNmeGQK8AkdN2">a property of the concept itself</olink> - so surely a superintelligence would not do it; this is just obviously the <emphasis>wrong</emphasis> classification.  Certainly a <emphasis>superintelligence</emphasis> can see <olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_mMBTPTjRbsrqbSkZE">which heaps of pebbles are correct or incorrect</olink>.</para>
+<para>Why, Friendly AI isn&apos;t hard at all!  All you need is an AI that does what&apos;s <emphasis>good!</emphasis>  Oh, sure, not every possible mind does what&apos;s <emphasis>good</emphasis> - but in this case, we just <emphasis>program</emphasis> the superintelligence to do what&apos;s <emphasis>good</emphasis>.  All you need is a neural network that sees a few instances of <emphasis>good</emphasis> things and not-<emphasis>good</emphasis> things, and you&apos;ve got a classifier.  Hook that up to an expected utility maximizer and you&apos;re done!</para>
+<para>I shall call this the fallacy of magical categories - simple little words that turn out to carry all the desired functionality of the AI.  Why not program a chess-player by running a neural network (that is, a magical category-absorber) over a set of winning and losing sequences of chess moves, so that it can generate &quot;winning&quot; sequences?  Back in the 1950s it was believed that AI might be that simple, but <emphasis>this turned out not to be the case.</emphasis></para>
+<para>The novice thinks that Friendly AI is a problem of <emphasis>coercing</emphasis> an AI to make it do what <emphasis>you</emphasis> want, rather than the AI following its own desires.  But the real problem of Friendly AI is one of <emphasis>communication</emphasis> - transmitting category boundaries, like &quot;good&quot;, that can&apos;t be fully delineated in any training data you can give the AI during its childhood.  Relative to the full space of possibilities the Future encompasses, we <emphasis>ourselves</emphasis> haven&apos;t imagined most of the borderline cases, and would have to engage in full-fledged moral arguments to figure them out.  To solve the FAI problem you have to step outside the paradigm of induction on human-labeled training data <emphasis>and</emphasis> the paradigm of human-generated intensional definitions.</para>
+<para>Of course, even if Hibbard did succeed in conveying to an AI a concept that covers exactly every human facial expression that Hibbard would label a &quot;smile&quot;, and excludes every facial expression that Hibbard wouldn&apos;t label a &quot;smile&quot;...</para>
+<para>Then the resulting AI would <emphasis>appear</emphasis> to work correctly during its childhood, when it was weak enough that it could only generate smiles by pleasing its programmers.</para>
+<para>When the AI progressed to the point of superintelligence and its own nanotechnological infrastructure, it would rip off your face, wire it into a permanent smile, and start xeroxing.</para>
+<para>The deep answers to such problems are beyond the scope of this post, but it is a general principle of Friendly AI that there are no bandaids.  In 2004, Hibbard modified his proposal to assert that expressions of human agreement should reinforce the definition of happiness, and then happiness should reinforce other behaviors.  Which, even if it worked, just leads to the AI xeroxing a horde of things similar-in-its-conceptspace to programmers saying &quot;Yes, that&apos;s happiness!&quot; about hydrogen atoms - hydrogen atoms are easy to make.</para>
+<para>Link to my discussion with Hibbard <link xl:href="http://yudkowsky.net/AIRisk_Hibbard.html">here.</link>  You already got the important parts.</para>
+
+  
+</section>

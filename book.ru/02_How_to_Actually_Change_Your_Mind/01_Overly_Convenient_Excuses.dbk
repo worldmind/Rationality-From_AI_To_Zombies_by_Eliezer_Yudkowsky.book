@@ -1,0 +1,32 @@
+<chapter xml:id="item_FrqfoG3LJeCZs96Ym"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Overly Convenient Excuses</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/FrqfoG3LJeCZs96Ym"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>This sequence focuses on questions that are as probabilistically clear-cut as questions get. The Bayes-optimal answer is often infeasible to compute, but errors like confirmation bias can take root even in cases where the available evidence is overwhelming and we have plenty of time to think things over.</para>
+
+  <xi:include href="01_Overly_Convenient_Excuses/01_Rationality_An_Introduction.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/02_Tsuyoku_Naritai_I_Want_To_Become_Stronger.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/03_The_Proper_Use_of_Humility.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/04_Tsuyoku_vs_the_Egalitarian_Instinct.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/05_The_Third_Alternative.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/06_Lotteries_A_Waste_of_Hope.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/07_New_Improved_Lottery.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/08_But_Theres_Still_A_Chance_Right.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/09_The_Fallacy_of_Gray.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/10_Absolute_Authority.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/11_How_to_Convince_Me_That_2_2_3.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/12_Infinite_Certainty.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/13_0_And_1_Are_Not_Probabilities.dbk"/>
+<xi:include href="01_Overly_Convenient_Excuses/14_Your_Rationality_is_My_Business.dbk"/>
+</chapter>

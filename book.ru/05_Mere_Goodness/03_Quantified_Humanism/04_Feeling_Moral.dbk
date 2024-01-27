@@ -1,0 +1,52 @@
+<section xml:id="item_Nx2WxEuPSvNBGuYpo"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Feeling Moral</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/Nx2WxEuPSvNBGuYpo/feeling-moral"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-06-06</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Consequentialism</primary></indexterm>
+<indexterm><primary>Ethics &amp; Morality</primary></indexterm>
+  <para>Suppose that a disease, or a monster, or a war, or something, is killing people. And suppose you only have enough resources to implement one of the following two options: </para>
+<orderedlist>
+  <listitem>
+    <para> Save 400 lives, with certainty. </para>
+  </listitem>
+  <listitem>
+    <para> Save 500 lives, with 90% probability; save no lives, 10% probability. </para>
+  </listitem>
+</orderedlist>
+<para>Most people choose option 1. Which, I think, is foolish; because if you multiply 500 lives by 90% probability, you get an expected value of 450 lives, which exceeds the 400-life value of option 1. (Lives saved don’t diminish in marginal utility, so this is an appropriate calculation.) </para>
+<para>“What!” you cry, incensed. “How can you gamble with human lives? How can you think about numbers when so much is at stake? What if that 10% probability strikes, and everyone dies? So much for your damned logic! You’re following your rationality off a cliff!” </para>
+<para>Ah, but here’s the interesting thing. If you present the options this way: </para>
+<orderedlist>
+  <listitem>
+    <para> 100 people die, with certainty. </para>
+  </listitem>
+  <listitem>
+    <para> 90% chance no one dies; 10% chance 500 people die.</para>
+  </listitem>
+</orderedlist>
+<para>Then a majority choose option 2. <emphasis>Even though it’s the same gamble</emphasis>. You see, just as a <emphasis>certainty</emphasis> of saving 400 lives seems to <emphasis>feel </emphasis>so much more comfortable than an unsure gain, so too, a certain loss <emphasis>feels</emphasis> worse than an uncertain one. </para>
+<para>You can grandstand on the second description too: “How can you condemn 100 people to certain death when there’s such a good chance you can save them? We’ll all share the risk! Even if it was only a 75% chance of saving everyone, it would still be worth it—so long as there’s a chance—everyone makes it, or no one does!” </para>
+<para>You know what? This isn’t about your feelings. A human life, with all its joys and all its pains, adding up over the course of decades, is worth far more than your brain’s feelings of comfort or discomfort with a plan. Does computing the expected utility feel too cold-blooded for your taste? Well, that feeling isn’t even a feather in the scales, when a life is at stake. Just shut up and multiply. A googol is 10^100—a 1 followed by one hundred zeroes. A googolplex is an even more incomprehensibly large number—it’s 10^googol, a 1 <emphasis>followed by a googol zeroes</emphasis>. Now pick some trivial inconvenience, like a hiccup, and some decidedly untrivial misfortune, like getting slowly torn limb from limb by sadistic mutant sharks. If we’re forced into a choice between either preventing a googolplex people’s hiccups, or preventing a single person’s shark attack, which choice should we make? If you assign <emphasis>any</emphasis> negative value to hiccups, then, on pain of decision-theoretic incoherence, there must be some number of hiccups that would add up to rival the negative value of a shark attack. For any particular finite evil, there must be <link xl:href="https://www.lesswrong.com/posts/a5JAiTdytou3Jg749/pascal-s-mugging-tiny-probabilities-of-vast-utilities">some number</link> of hiccups that would be even worse. </para>
+<para>Moral dilemmas like these aren’t conceptual blood sports for keeping analytic philosophers entertained at dinner parties. They’re distilled versions of the kinds of situations we<link xl:href="https://www.youtube.com/watch?v=Diuv3XZQXyc"> actually find ourselves in</link> every day. Should I spend $50 on a console game, or give it all to charity? Should I organize a $700,000 fundraiser to pay for a single bone marrow transplant, or should I use that same money on mosquito nets and prevent<link xl:href="http://www.givewell.org/charities/against-malaria-foundation#Whatdoyougetforyourdollar"> the malaria deaths of some 200 children</link>? </para>
+<para>Yet there are many who avert their gaze from the real world’s abundance of unpleasant moral tradeoffs—many, too, who take pride in looking away. Research shows that people distinguish “sacred values,” like human lives, from “unsacred values,” like money. When you try to trade off a sacred value against an unsacred value, subjects express great indignation. (Sometimes they want to punish the person who made the suggestion.) </para>
+<para>My favorite anecdote along these lines comes from a team of researchers who evaluated the effectiveness of a certain project, calculating the cost per life saved, and recommended to the government that the project be implemented because it was cost-effective. The governmental agency rejected the report because, they said, you couldn’t put a dollar value on human life. After rejecting the report, the agency decided <emphasis>not</emphasis> to implement the measure. </para>
+<para>Trading off a sacred value against an unsacred value <emphasis>feels really awful</emphasis>. To merely multiply utilities would be too cold-blooded—it would be following rationality off a cliff . . . But altruism isn’t the warm fuzzy feeling you get from being altruistic. If you’re doing it for the spiritual benefit, that is nothing but selfishness. The primary thing is to help others, whatever the means. So shut up and multiply!</para>
+<para> And if it seems to you that there is a fierceness to this maximization, like the bare sword of the law, or the burning of the Sun—if it seems to you that at the center of this rationality there is a small cold flame— </para>
+<para>Well, the other way might feel better inside you. But it wouldn’t work. </para>
+<para>And I say also this to you: That if you set aside your regret for all the spiritual satisfaction you could be having—if you <emphasis>wholeheartedly </emphasis>pursue the Way, without thinking that you are being cheated—if you give yourself over to rationality without holding back, you will find that rationality gives to you in return.</para>
+<para> But<emphasis> that </emphasis>part only works if you don’t go around saying to yourself, “It would feel better inside me if only I could be less rational.” Should you be sad that you have the opportunity to actually help people? You cannot attain your full potential if you regard your gift as a burden.</para>
+<para><emphasis>The first publication of this post is </emphasis><link xl:href="https://www.lesswrong.com/posts/4ZzefKQwAtMo5yp99/circular-altruism"><emphasis>here</emphasis></link><emphasis>.</emphasis></para>
+
+  
+</section>

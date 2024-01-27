@@ -1,0 +1,29 @@
+<chapter xml:id="item_zpCiuR4T343j9WkcK"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Noticing Confusion</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/zpCiuR4T343j9WkcK"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2022-06-24</pubdate>
+  </info>
+  
+  
+  <xi:include href="03_Noticing_Confusion/01_Focus_Your_Uncertainty.dbk"/>
+<xi:include href="03_Noticing_Confusion/02_What_is_Evidence.dbk"/>
+<xi:include href="03_Noticing_Confusion/03_Scientific_Evidence_Legal_Evidence_Rational_Evidence.dbk"/>
+<xi:include href="03_Noticing_Confusion/04_How_Much_Evidence_Does_It_Take.dbk"/>
+<xi:include href="03_Noticing_Confusion/05_Einsteins_Arrogance.dbk"/>
+<xi:include href="03_Noticing_Confusion/06_Occams_Razor.dbk"/>
+<xi:include href="03_Noticing_Confusion/07_Your_Strength_as_a_Rationalist.dbk"/>
+<xi:include href="03_Noticing_Confusion/08_Absence_of_Evidence_Is_Evidence_of_Absence.dbk"/>
+<xi:include href="03_Noticing_Confusion/09_Conservation_of_Expected_Evidence.dbk"/>
+<xi:include href="03_Noticing_Confusion/10_Hindsight_Devalues_Science.dbk"/>
+<xi:include href="03_Noticing_Confusion/11_Illusion_of_Transparency_Why_No_One_Understands_You.dbk"/>
+<xi:include href="03_Noticing_Confusion/12_Expecting_Short_Inferential_Distances.dbk"/>
+</chapter>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:id="item_ah2GqzZSeBpW9QHgb"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      doc_status="final;draft"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Mere Reality</title>
+    <abstract><para>What kind of world do we live in? What is our place in that world? Building on the previous sequences’ examples of how evolutionary and cognitive models work, these six sequences explore the nature of mind and the character of physical law. In addition to applying and generalizing past lessons on scientific mysteries and parsimony, these essays raise new questions about the role science should play in individual rationality.</para>
+</abstract>
+    <authorgroup>
+      <author><personname>
+<firstname>Eliezer</firstname><surname>Yudkowsky</surname>
+</personname>
+</author>
+      <othercredit role="coauthor"><personname>
+<firstname>Rob</firstname><surname>Bensinger</surname>
+</personname>
+</othercredit>
+      <othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>Raemon</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>habryka</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>mingyuan</firstname><surname></surname>
+</personname>
+</othercredit>
+    </authorgroup>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/rationality#ah2GqzZSeBpW9QHgb"></link>
+    </bibliosource>
+    <pubdate>2023-12-19</pubdate>
+  </info>
+  <xi:include href="04_Mere_Reality/01_Lawful_Truth.dbk"/>
+<xi:include href="04_Mere_Reality/02_Reductionism_101.dbk"/>
+<xi:include href="04_Mere_Reality/03_Joy_in_the_Merely_Real.dbk"/>
+<xi:include href="04_Mere_Reality/04_Physicalism_201.dbk"/>
+<xi:include href="04_Mere_Reality/05_Quantum_Physics_and_Many_Worlds.dbk"/>
+<xi:include href="04_Mere_Reality/06_Science_and_Rationality.dbk"/>
+  <index/>
+</book>
