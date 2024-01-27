@@ -1,0 +1,33 @@
+<section xml:id="item_teaxCFgtmCQ3E9fy8"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Martial Art of Rationality</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/teaxCFgtmCQ3E9fy8/the-martial-art-of-rationality"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2022-07-01</pubdate>
+  </info>
+  <indexterm><primary>Habits</primary></indexterm>
+<indexterm><primary>Motivational Intro Posts</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Cultural knowledge</primary></indexterm>
+<indexterm><primary>Rationality Verification</primary></indexterm>
+  <para>I often use the metaphor that <link xl:href="http://wiki.lesswrong.com/wiki/Rationality">rationality</link> is the <link xl:href="http://wiki.lesswrong.com/wiki/Rationality_as_martial_art">martial art of mind</link>. You don’t need huge, bulging muscles to learn martial arts—there’s a tendency toward more athletic people being more likely to learn martial arts, but that may be a matter of <emphasis role="italic">enjoyment</emphasis> as much as anything else. If you have a hand, with tendons and muscles in the appropriate places, then you can learn to make a fist.</para>
+<para>Similarly, if you have a brain, with cortical and subcortical areas in the appropriate places, you might be able to learn to use it properly. If you’re a fast learner, you might learn faster—but the art of rationality isn’t about that; it’s about training brain machinery we all have in common. And where there are systematic errors human brains tend to make—like an insensitivity to scope—rationality is about fixing those mistakes, or finding work-arounds.</para>
+<para>Alas, our minds respond less readily to our will than our hands. Our ability to control our muscles is evolutionarily ancient; our ability to reason about our own reasoning processes is a much more recent innovation. We shouldn’t be surprised, then, that muscles are easier to use than brains. But it is not wise to neglect the latter training because it is more difficult. It is not by bigger muscles that the human species rose to prominence upon Earth.</para>
+<para>If you live in an urban area, you probably don’t need to walk very far to find a martial arts dojo. Why aren’t there dojos that teach rationality?</para>
+<para>One reason, perhaps, is that it’s harder to verify skill. To rise a level in Tae Kwon Do, you might need to break a board of a certain width. If you succeed, all the onlookers can see and applaud. If you fail, your teacher can watch how you shape a fist, and check if you shape it correctly. If not, the teacher holds out a hand and makes a fist correctly, so that you can observe how to do so.</para>
+<para>Within martial arts schools, techniques of muscle have been refined and elaborated over generations. Techniques of rationality are harder to pass on, even to the most willing student.</para>
+<para>Very recently—in just the last few decades—the human species has acquired a great deal of new knowledge about human rationality. The most salient example would be the <link xl:href="https://en.wikipedia.org/wiki/Heuristics_in_judgment_and_decision-making">heuristics and biases</link> program in experimental psychology. There is also the <link xl:href="https://wiki.lesswrong.com/wiki/Bayesian">Bayesian</link> systematization of probability theory and statistics; evolutionary psychology; social psychology. Experimental investigations of empirical human psychology; and theoretical probability theory to interpret what our experiments tell us; and evolutionary theory to explain the conclusions. These fields give us new focusing lenses through which to view the landscape of our own minds. With their aid, we may be able to see more clearly the muscles of our brains, the fingers of thought as they move. We have a shared vocabulary in which to describe problems and solutions. Humanity may finally be ready to synthesize the martial art of mind: to refine, share, systematize, and pass on techniques of personal rationality.</para>
+<para>Such understanding as I have of rationality, I acquired in the course of wrestling with the challenge of artificial general intelligence (an endeavor which, to actually succeed, would require sufficient mastery of rationality to build a complete working rationalist out of toothpicks and rubber bands). In most ways the AI problem is enormously more demanding than the personal art of rationality, but in some ways it is actually easier. In the martial art of mind, we need to acquire the realtime procedural skill of pulling the right levers at the right time on a large, pre-existing thinking machine whose innards are not end-user-modifiable. Some of the machinery is optimized for evolutionary selection pressures that run directly counter to our declared goals in using it. Deliberately we decide that we want to seek only the truth; but our brains have hardwired support for rationalizing falsehoods. We can try to compensate for what we choose to regard as flaws of the machinery; but we can’t actually rewire the neural circuitry. Nor may martial artists plate titanium over their bones—not today, at any rate.</para>
+<para>Trying to synthesize a personal art of rationality, using the science of rationality, may prove awkward: One imagines trying to invent a martial art using an abstract theory of physics, game theory, and human anatomy.</para>
+<para>But humans arent reflectively blind. We do have a native instinct for introspection. The inner eye isnt sightless, though it sees blurrily, with systematic distortions. We need, then, to <emphasis role="italic">apply</emphasis> the science to our intuitions, to use the abstract knowledge to <emphasis role="italic">correct</emphasis> our mental movements and <emphasis role="italic">augment</emphasis> our metacognitive skills.</para>
+<para>We aren&apos;t writing a computer program to make a string puppet execute martial arts forms; it is our own mental limbs that we must move. Therefore we must connect theory to practice. We must come to see what the science means, for ourselves, for our daily inner life.</para>
+
+  
+</section>

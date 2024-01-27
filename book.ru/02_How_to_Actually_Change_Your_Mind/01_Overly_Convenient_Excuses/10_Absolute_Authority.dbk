@@ -1,0 +1,92 @@
+<section xml:id="item_PmQkensvTGg7nGtJE"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Absolute Authority</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/PmQkensvTGg7nGtJE/absolute-authority"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-11-24</pubdate>
+  </info>
+  <indexterm><primary>Bayes' Theorem</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Probabilistic Reasoning</primary></indexterm>
+<indexterm><primary>Reversed Stupidity Is Not Intelligence</primary></indexterm>
+  <para>The one comes to you and loftily says: “Science doesn’t really <emphasis role="italic">know</emphasis> anything. All you have are <emphasis role="italic">theories</emphasis>—you can’t know for <emphasis role="italic">certain</emphasis> that you’re right. You scientists changed your minds about how gravity works—who’s to say that tomorrow you won’t change your minds about evolution?”</para>
+<para>Behold the abyssal cultural gap. If you think you can cross it in a few sentences, you are bound to be sorely disappointed.</para>
+<para>In the world of the unenlightened ones, there is authority and un-authority. What can be trusted, can be trusted; what cannot be trusted, you may as well throw away. There are good sources of information and bad sources of information. If scientists have changed their stories ever in their history, then science cannot be a true Authority, and can never again be trusted—like a witness caught in a contradiction, or like an employee found stealing from the till.</para>
+<para>Plus, the one takes for granted that a proponent of an idea is expected to defend it against every possible counterargument and confess nothing. All claims are discounted accordingly. If even the <emphasis role="italic">proponent</emphasis> of science admits that science is less than perfect, why, it must be pretty much worthless.</para>
+<para>When someone has lived their life accustomed to certainty, you can’t just say to them, “Science is probabilistic, just like all other knowledge.” They will accept the first half of the statement as a confession of guilt; and dismiss the second half as a flailing attempt to accuse everyone else to avoid judgment.</para>
+<para>You have admitted you are not trustworthy—so begone, Science, and trouble us no more!</para>
+<para>One obvious source for this pattern of thought is religion, where the scriptures are alleged to come from God; therefore to confess any flaw in them would destroy their authority utterly; so any trace of doubt is a sin, and claiming certainty is <emphasis role="italic">mandatory</emphasis> whether you’re certain or not.<footnote xml:id="fn_7bf48e883c4f1388b001771fade44fe5">
+    <para>See “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_RmCjazjupRGcHSm5N">Professing and Cheering</olink>,” collected in <emphasis role="italic">Map and Territory</emphasis> and findable at <link xl:href="https://www.rationalitybook.com">rationalitybook.com</link> and <link xl:href="https://www.lesswrong.com/rationality">lesswrong.com/rationality</link>.</para>
+  </footnote>
+</para>
+<para>But I suspect that the traditional school regimen also has something to do with it. The teacher tells you certain things, and you have to believe them, and you have to recite them back on the test. But when a student makes a suggestion in class, you don’t have to go along with it—you’re free to agree or disagree (it seems) and no one will punish you.</para>
+<para>This experience, I fear, maps the domain of belief onto the social domains of <emphasis role="italic">authority</emphasis>, of <emphasis role="italic">command</emphasis>, of <emphasis role="italic">law</emphasis>. In the social domain, there is a qualitative difference between absolute laws and nonabsolute laws, between commands and suggestions, between authorities and unauthorities. There seems to be strict knowledge and unstrict knowledge, like a strict regulation and an unstrict regulation. Strict authorities must be yielded to, while unstrict suggestions can be obeyed or discarded as a matter of personal preference. And Science, since it confesses itself to have a possibility of error, must belong in the second class.</para>
+<para>(I note in passing that I see a certain similarity to they who think that if you don’t get an Authoritative probability written on a piece of paper from the teacher in class, or handed down from some similar Unarguable Source, then your uncertainty is not a matter for Bayesian probability theory.<footnote xml:id="fn_f1ce15e997f8458127bd93e65f65b9af">
+    <para>See “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_GJ4ZQm7crTzTM6xDW">Focus Your Uncertainty</olink>” in <link xl:href="https://www.lesswrong.com/rationality/"><emphasis role="italic">Map and Territory</emphasis></link>.</para>
+  </footnote>
+ Someone might——argue with your estimate of the prior probability. It thus seems to the not-fully-enlightened ones that Bayesian priors belong to the class of beliefs proposed by students, and not the class of beliefs commanded you by teachers—it is not proper ).</para>
+<para>The abyssal cultural gap between the Authoritative Way and the Quantitative Way is rather annoying to those of us staring across it from the rationalist side. Here is someone who believes they have knowledge <emphasis role="italic">more</emphasis> reliable than science’s mere probabilistic guesses—such as the guess that the Moon will rise in its appointed place and phase tomorrow, just like it has every observed night since the invention of astronomical record-keeping, and just as predicted by physical theories whose previous predictions have been successfully confirmed to fourteen decimal places. And what is this knowledge that the unenlightened ones set above ours, and why? It’s probably some musty old scroll that has been contradicted eleventeen ways from Sunday, and from Monday, and from every day of the week. Yet this is more reliable than Science (they say) because it never admits to error, never changes its mind, no matter how often it is contradicted. They toss around the word “certainty” like a tennis ball, using it as lightly as a feather—while scientists are weighed down by dutiful doubt, struggling to achieve even a modicum of probability. “I’m perfect,” they say without a care in the world, “I must be so far above <emphasis role="italic">you</emphasis>, who must still struggle to improve yourselves.”</para>
+<para>There is nothing simple you can say to them—no <emphasis role="italic">fast</emphasis> crushing rebuttal. By thinking carefully, you may be able to win over the audience, if this is a public debate. Unfortunately you cannot just blurt out, “Foolish mortal, the Quantitative Way is beyond your comprehension, and the beliefs you lightly name ‘certain’ are less assured than the least of our mighty hypotheses.” It’s a difference of <emphasis role="italic">life-gestalt</emphasis> that isn’t easy to describe in words at all, let alone quickly.</para>
+<para>What might you try, rhetorically, in front of an audience? Hard to say . . . maybe:</para>
+<itemizedlist>
+  <listitem>
+    <para> “The power of science comes from having the ability to change our minds and admit we’re wrong. If you’ve never admitted you’re wrong, it doesn’t mean you’ve made fewer mistakes.”</para>
+  </listitem>
+  <listitem>
+    <para> “Anyone can <emphasis role="italic">say</emphasis> they’re absolutely certain. It’s a bit harder to never, ever make any mistakes. Scientists understand the difference, so they don’t say they’re absolutely certain. That’s all. It doesn’t mean that they have any specific reason to doubt a theory—absolutely every scrap of evidence can be going the same way, all the stars and planets lined up like dominos in support of a single hypothesis, and the scientists still won’t say they’re absolutely sure, because they’ve just got higher standards. It doesn’t mean scientists are less <emphasis role="italic">entitled</emphasis> to certainty than, say, the politicians who always seem so sure of everything.”</para>
+  </listitem>
+  <listitem>
+    <para> “Scientists don’t use the phrase ‘not absolutely certain’ the way you’re used to from regular conversation. I mean, suppose you went to the doctor, and got a blood test, and the doctor came back and said, ‘We ran some tests, and it’s not absolutely certain that you’re not made out of cheese, and there’s a non-zero chance that twenty fairies made out of sentient chocolate are singing the “I love you” song from Barney inside your lower intestine.’ Run for the hills, your doctor needs a doctor. When a scientist says the same thing, it means that they think the probability is so tiny that you couldn’t see it with an electron microscope, but the scientist is willing to see the evidence in the extremely unlikely event that you have it.”</para>
+  </listitem>
+  <listitem>
+    <para> “Would you be willing to change your mind about the things you call ‘certain’ if you saw enough evidence? I mean, suppose that God himself descended from the clouds and told you that your whole religion was true except for the Virgin Birth. If that would change your mind, you can’t say you’re absolutely certain of the Virgin Birth. For technical reasons of probability theory, if it’s theoretically possible for you to change your mind about something, it can’t have a probability exactly equal to one. The uncertainty might be smaller than a dust speck, but it has to be there. And if you wouldn’t change your mind even if God told you otherwise, then you have a problem with refusing to admit you’re wrong that transcends anything a mortal like me can say to you, I guess.”</para>
+  </listitem>
+</itemizedlist>
+<para>But, in a way, the more interesting question is what you say to someone <emphasis role="italic">not</emphasis> in front of an audience. How do you begin the long process of teaching someone to live in a universe without certainty?</para>
+<para>I think the first, beginning step should be understanding that you <emphasis role="italic">can</emphasis> live without certainty—that <emphasis role="italic">if</emphasis>, <emphasis role="italic">hypothetically speaking</emphasis>, you couldn’t be certain of anything, it would not deprive you of the ability to make moral or factual distinctions. To paraphrase Lois Bujold, “Don’t push harder, lower the resistance.”</para>
+<para>One of the common <emphasis role="italic">defenses</emphasis> of Absolute Authority is something I call “The Argument from the Argument from Gray,” which runs like this:</para>
+<itemizedlist>
+  <listitem>
+    <para><emphasis role="italic">Moral relativists say</emphasis> :</para>
+    <itemizedlist>
+      <listitem>
+        <para> The world isn’t black and white, therefore:</para>
+      </listitem>
+      <listitem>
+        <para> Everything is gray, therefore:</para>
+      </listitem>
+      <listitem>
+        <para> No one is better than anyone else, therefore:</para>
+      </listitem>
+      <listitem>
+        <para> I can do whatever I want and you can’t stop me bwahahaha.</para>
+      </listitem>
+    </itemizedlist>
+  </listitem>
+  <listitem>
+    <para> But we’ve got to be able to stop people from committing murder.</para>
+  </listitem>
+  <listitem>
+    <para> Therefore there has to be some way of being absolutely certain, or the moral relativists win.</para>
+  </listitem>
+</itemizedlist>
+<para>Reversed stupidity is not intelligence. You can’t arrive at a correct answer by reversing <emphasis role="italic">every single</emphasis> line of an argument that ends with a bad conclusion—it gives the fool too much detailed control over you. Every single line must be correct for a mathematical argument to carry. And it doesn’t follow, from the fact that moral relativists say “The world isn’t black and white,” that this is false, any more than it follows, from Stalin’s belief that 2 + 2 = 4, that “2 + 2 = 4” is false. The error (and it only takes one) is in the leap from the two-color view to the single-color view, that all grays are the same shade.</para>
+<para>It would concede far too much (indeed, concede the whole argument) to agree with the premise that you need absolute knowledge of absolutely good options and absolutely evil options in order to be moral. You can have uncertain knowledge of relatively better and relatively worse options, and still choose. It should be routine, in fact, not something to get all dramatic about.</para>
+<para>I mean, yes, if you have to choose between two alternatives A and B, and you somehow succeed in establishing knowably certain well-calibrated 100% confidence that A is absolutely and entirely desirable and that B is the sum of everything evil and disgusting, then this is a <emphasis role="italic">sufficient</emphasis> condition for choosing A over B. It is not a <emphasis role="italic">necessary</emphasis> condition.</para>
+<para>Oh, and: Logical fallacy: Appeal to consequences of belief.</para>
+<para>Let’s see, what else do they need to know? Well, there’s the entire rationalist culture which says that doubt, questioning, and confession of error are not terrible shameful things.</para>
+<para>There’s the whole notion of gaining information by <emphasis role="italic">looking at things</emphasis>, rather than being proselytized. When you look at things harder, sometimes you find out that they’re different from what you thought they were at first glance; but it doesn’t mean that Nature lied to you, or that you should give up on seeing.</para>
+<para>Then there’s the concept of a calibrated confidence—that “probability” isn’t the same concept as the little progress bar in your head that measures your emotional commitment to an idea. It’s more like a measure of how often, pragmatically, in real life, people in a certain state of belief say things that are actually true. If you take one hundred people and ask them each to make a statement of which they are “absolutely certain,” how many of these statements will be correct? Not one hundred.</para>
+<para>If anything, the statements that people are really fanatic about are <emphasis role="italic">far less</emphasis> likely to be correct than statements like “the Sun is larger than the Moon” that seem too obvious to get excited about. For every statement you can find of which someone is “absolutely certain,” you can probably find someone “absolutely certain” of its opposite, because such fanatic professions of belief do not arise in the absence of opposition. So the little progress bar in people’s heads that measures their emotional commitment to a belief does not translate well into a calibrated confidence—it doesn’t even behave monotonically.</para>
+<para>As for “absolute certainty”—well, if you say that something is 99.9999% probable, it means you think you could make <emphasis role="italic">one million</emphasis> equally strong independent statements, <emphasis role="italic">one after the other</emphasis>, over the course of a solid year or so, and be wrong, on average, around once. This is incredible enough. (It’s amazing to realize we can actually <emphasis role="italic">get</emphasis> that level of confidence for “Thou shalt not win the lottery.”) So let us say nothing of probability 1.0. Once you realize you don’t <emphasis role="italic">need</emphasis> probabilities of 1.0 to get along in life, you’ll realize how absolutely ridiculous it is to think you could ever get to 1.0 with a human brain. A probability of 1.0 isn’t just certainty, it’s <emphasis role="italic">infinite certainty</emphasis>.</para>
+<para>In fact, it seems to me that to prevent public misunderstanding, maybe scientists should go around saying “We are not infinitely certain” rather than “We are not certain.” For the latter case, in ordinary discourse, suggests you know some specific reason for doubt.</para>
+
+  
+</section>

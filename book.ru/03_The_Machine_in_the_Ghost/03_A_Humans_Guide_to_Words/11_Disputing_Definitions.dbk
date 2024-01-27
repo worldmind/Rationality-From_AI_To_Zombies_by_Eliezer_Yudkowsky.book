@@ -1,0 +1,88 @@
+<section xml:id="item_7X2j8HAkWdmMoS8PE"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Disputing Definitions</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/7X2j8HAkWdmMoS8PE/disputing-definitions"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-12</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+<indexterm><primary>Rationalist Taboo</primary></indexterm>
+  <para>I have watched more than one conversation—even conversations supposedly about cognitive science—go the route of disputing over definitions.  Taking the classic example to be &quot;If a tree falls in a forest, and no one hears it, does it make a sound?&quot;, the dispute often follows a course like this:</para>
+<blockquote>
+  <para> <emphasis>If a tree falls in the forest, and no one hears it, does it make a sound?</emphasis></para>
+  <para>Albert:  &quot;Of course it does.  What kind of silly question is that?  Every time I&apos;ve listened to a tree fall, it made a sound, so I&apos;ll guess that other trees falling also make sounds.  I don&apos;t believe the world changes around when I&apos;m not looking.&quot;</para>
+</blockquote>
+<blockquote>
+  <para> Barry:  &quot;Wait a minute.  If no one hears it, how can it be a sound?&quot;</para>
+</blockquote>
+<para>In this example, Barry is arguing with Albert because of a genuinely different intuition about what constitutes a sound.  But there&apos;s more than one way the Standard Dispute can start.  Barry could have a motive for rejecting Albert&apos;s conclusion.  Or Barry could be a skeptic who, upon hearing Albert&apos;s argument, reflexively <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_AdYdLP2sRqPMoe8fb">scrutinized</olink> it for possible logical flaws; and then, on finding a counterargument, automatically <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_L32LHWzy9FzSDazEg">accepted</olink> it without applying a second layer of search for a counter-counterargument; thereby arguing himself into the opposite position.  This doesn&apos;t require that Barry&apos;s <emphasis>prior</emphasis> intuition—the intuition Barry would have had, if we&apos;d asked him before Albert spoke—have differed from Albert&apos;s.</para>
+<para>Well, if Barry didn&apos;t have a differing intuition before, he sure has one now.</para>
+<blockquote>
+  <para> Albert:  &quot;What do you mean, there&apos;s no sound?  The tree&apos;s roots snap, the trunk comes crashing down and hits the ground. This generates vibrations that travel through the ground and the air. That&apos;s where the energy of the fall goes, into heat and sound.  Are you saying that if people leave the forest, the tree violates conservation of energy?&quot;</para>
+  <para>Barry:  &quot;But no one hears anything.  If there are no humans in the forest, or, for the sake of argument, anything else with a complex nervous system capable of &apos;hearing&apos;, then no one hears a sound.&quot;</para>
+</blockquote>
+<para>Albert and Barry recruit arguments that <emphasis>feel</emphasis> like support for their respective positions, describing in more detail the thoughts that caused their <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yA4gF5KrboK2m2Xu7">&quot;sound&quot;-detectors</olink> to fire or stay silent.  But so far the conversation has still focused on the forest, rather than definitions.  And note that they don&apos;t actually disagree on anything that happens in the forest.</para>
+<blockquote>
+  <para> Albert:  &quot;This is the dumbest argument I&apos;ve ever been in.  You&apos;re a niddlewicking fallumphing pickleplumber.&quot;</para>
+  <para>Barry:  &quot;Yeah?  Well, you look like your face caught on fire and someone put it out with a shovel.&quot;</para>
+</blockquote>
+<para>Insult has been proffered and accepted; now neither party can back down without losing face.  Technically, this isn&apos;t part of the <emphasis>argument,</emphasis> as rationalists account such things; but it&apos;s such an important part of the Standard Dispute that I&apos;m including it anyway.</para>
+<blockquote>
+  <para> Albert:  &quot;The tree produces acoustic vibrations.  By definition, that is a sound.&quot;</para>
+  <para>Barry:  &quot;No one hears anything.  By definition, that is not a sound.&quot;</para>
+</blockquote>
+<para>The argument starts shifting to focus on definitions.  Whenever you feel tempted to say the words &quot;by definition&quot; in an argument that is not literally about pure mathematics, remember that anything which is true &quot;by definition&quot; is <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_bcM5ft8jvsffsZZ4Y">true in all possible worlds</olink>, and so observing its truth can never <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_fysgqk4CjAwhBgNYT">constrain</olink><emphasis>which</emphasis> world you live in.</para>
+<blockquote>
+  <para> Albert: &quot;My computer&apos;s microphone can record a sound without anyone being around to hear it, store it as a file, and it&apos;s called a &apos;sound file&apos;. And what&apos;s stored in the file is the pattern of vibrations in air, not the pattern of neural firings in anyone&apos;s brain.  &apos;Sound&apos; means a pattern of vibrations.&quot;</para>
+</blockquote>
+<para>Albert deploys an argument that <emphasis>feels</emphasis> like support for the word &quot;sound&quot;<emphasis>having a particular meaning.</emphasis> This is a different kind of question from whether acoustic vibrations take place in a forest—but the shift usually passes unnoticed.</para>
+<blockquote>
+  <para> Barry:  &quot;Oh, yeah?  Let&apos;s just see if the dictionary agrees with you.&quot;</para>
+</blockquote>
+<para>There&apos;s a lot of things I could be curious about in the falling-tree scenario. I could go into the forest and look at trees, or learn how to derive the wave equation for changes of air pressure, or examine the anatomy of an ear, or study the neuroanatomy of the auditory cortex.  Instead of doing any of these things, I am to consult a dictionary, apparently.  Why?  Are the editors of the dictionary expert botanists, expert physicists, expert neuroscientists?  Looking in an encyclopedia might make sense, but why a <emphasis>dictionary?</emphasis></para>
+<blockquote>
+  <para> Albert:  &quot;Hah!  Definition 2c in Merriam-Webster:  &apos;Sound:  Mechanical radiant energy that is transmitted by longitudinal pressure waves in a material medium (as air).&apos;&quot;</para>
+  <para>Barry:  &quot;Hah!  Definition 2b in Merriam-Webster: &apos;Sound:  The sensation perceived by the sense of hearing.&apos;&quot;</para>
+  <para>Albert and Barry, chorus:  &quot;Consarned dictionary!  This doesn&apos;t help at all!&quot;</para>
+</blockquote>
+<para>Dictionary editors are historians of usage, not legislators of language. Dictionary editors find words in current usage, then write down the words next to (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_HsznWM9A7NiuGsp28">a small part of</olink>) what people seem to mean by them.  If there&apos;s more than one usage, the editors write down more than one definition.</para>
+<blockquote>
+  <para> Albert:  &quot;Look, suppose that I left a microphone in the forest and recorded the pattern of the acoustic vibrations of the tree falling.  If I played that back to someone, they&apos;d call it a &apos;sound&apos;!  That&apos;s the common usage!  Don&apos;t go around making up your own wacky definitions!&quot;</para>
+  <para>Barry:  &quot;One, I can define a word any way I like so long as I use it consistently.  Two, the meaning I gave was in the dictionary.  Three, who gave you the right to decide what is or isn&apos;t common usage?&quot;</para>
+</blockquote>
+<para>There&apos;s quite a lot of rationality errors in the Standard Dispute.  Some of them I&apos;ve already covered, and some of them I&apos;ve yet to cover; likewise the remedies.</para>
+<para>But for now, I would just like to point out—in a mournful sort of way—that Albert and Barry seem to agree on virtually every question of what is <emphasis>actually</emphasis> going on inside the forest, and yet it doesn&apos;t seem to generate any feeling of agreement.</para>
+<para>Arguing about definitions is a garden path; people wouldn&apos;t go down the path if they saw at the outset where it led.  If you asked Albert (Barry) why he&apos;s still arguing, he&apos;d probably say something like: &quot;Barry (Albert) is trying to sneak in his own definition of &apos;sound&apos;, the scurvey scoundrel, to support his ridiculous point; and I&apos;m here to defend the standard definition.&quot;</para>
+<para>But suppose I went back in time to before the start of the argument:</para>
+<blockquote>
+  <para> <emphasis>(Eliezer appears from nowhere in a peculiar conveyance that looks just like the time machine from the original &apos;The Time Machine&apos; movie.)</emphasis></para>
+  <para>Barry:  &quot;Gosh!  A time traveler!&quot;</para>
+  <para>Eliezer:  &quot;I am a traveler from the future!  Hear my words!  I have traveled far into the past—around fifteen minutes—&quot;</para>
+  <para>Albert:  &quot;Fifteen <emphasis>minutes?</emphasis>&quot;</para>
+  <para>Eliezer:  &quot;—to bring you this message!&quot;</para>
+  <para><emphasis>(There is a pause of mixed confusion and expectancy.)</emphasis></para>
+  <para>Eliezer:  &quot;Do you think that &apos;sound&apos; should be defined to require both acoustic vibrations (pressure waves in air) and also auditory experiences (someone to listen to the sound), or should &apos;sound&apos; be defined as meaning only acoustic vibrations, or only auditory experience?&quot;</para>
+  <para>Barry:  &quot;You went back in time to ask us <emphasis>that?</emphasis>&quot;</para>
+  <para>Eliezer:  &quot;My purposes are my own!  Answer!&quot;</para>
+  <para>Albert:  &quot;Well... I don&apos;t see why it would matter.  You can pick any definition so long as you use it consistently.&quot;</para>
+  <para>Barry:  &quot;Flip a coin.  Er, flip a coin twice.&quot;</para>
+  <para>Eliezer:  &quot;Personally I&apos;d say that if the issue arises, both sides should switch to describing the event in unambiguous lower-level constituents, like acoustic vibrations or auditory experiences.  Or each side could designate a new word, like &apos;alberzle&apos; and &apos;bargulum&apos;, to use for what they respectively used to call &apos;sound&apos;; and then both sides could use the new words consistently.  That way neither side has to back down or lose face, but they can still communicate.  And of course you should try to keep track, at all times, of some testable proposition that the argument is actually about.  Does that sound right to you?&quot;</para>
+  <para>Albert:  &quot;I guess...&quot;</para>
+  <para>Barry:  &quot;Why are we talking about this?&quot;</para>
+  <para>Eliezer:  &quot;To preserve your friendship against a contingency you will, now, never know.  For the future has already changed!&quot;</para>
+  <para><emphasis>(Eliezer and the machine vanish in a puff of smoke.)</emphasis></para>
+  <para>Barry:  &quot;Where were we again?&quot;</para>
+  <para>Albert:  &quot;Oh, yeah:  If a tree falls in the forest, and no one hears it, does it make a sound?&quot;</para>
+  <para>Barry:  &quot;It makes an alberzle but not a bargulum.  What&apos;s the next question?&quot;</para>
+</blockquote>
+<para>This remedy doesn&apos;t destroy <emphasis>every</emphasis> dispute over categorizations.  But it destroys a substantial fraction.</para>
+
+  
+</section>

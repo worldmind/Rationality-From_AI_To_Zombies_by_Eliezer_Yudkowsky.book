@@ -1,0 +1,62 @@
+<section xml:id="item_5K7CMa6dEL7TN7sae"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>3 Levels of Rationality Verification</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/5K7CMa6dEL7TN7sae/3-levels-of-rationality-verification"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-07-13</pubdate>
+  </info>
+  <indexterm><primary>Empiricism</primary></indexterm>
+<indexterm><primary>Skill Building</primary></indexterm>
+<indexterm><primary>Mechanism Design</primary></indexterm>
+<indexterm><primary>Skill / Expertise Assessment</primary></indexterm>
+<indexterm><primary>Rationality Verification</primary></indexterm>
+  <para>I strongly suspect that there is a possible art of rationality (attaining the map that reflects the territory, choosing so as to direct reality into regions high in your preference ordering) which goes beyond the skills that are standard, and beyond what any single practitioner singly knows.  I have <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_Nu3wa6npK4Ry66vFp">a sense that more is possible</olink>.</para>
+<para>The degree to which a <emphasis>group </emphasis>of people can do anything useful about this, will depend <emphasis>overwhelmingly </emphasis>on what methods we can devise to <emphasis>verify</emphasis> our many amazing good ideas.</para>
+<para>I suggest stratifying verification methods into 3 levels of usefulness:</para>
+<itemizedlist>
+  <listitem>
+    <para> Reputational</para>
+  </listitem>
+  <listitem>
+    <para> Experimental</para>
+  </listitem>
+  <listitem>
+    <para> Organizational</para>
+  </listitem>
+</itemizedlist>
+<para>If your martial arts master occasionally fights realistic duels (ideally, <emphasis>real </emphasis>duels) against the masters of other schools, and wins or at least doesn&apos;t lose too often, then you know that the master&apos;s <emphasis>reputation </emphasis>is <emphasis>grounded in reality;</emphasis> you know that your master is not a complete poseur.  The same would go if your school regularly competed against other schools.  You&apos;d be <emphasis>keepin&apos; it real.</emphasis></para>
+<para>Some martial arts fail to compete realistically enough, and their students go down in seconds against real streetfighters.  Other martial arts schools fail to compete at <emphasis>all</emphasis>—except based on charisma and good stories—and their masters decide they have chi powers.  In this latter class we can also place the <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_JnKCaGcgZL4Rsep8m">splintered schools of psychoanalysis</olink>.</para>
+<para>So even just the basic step of trying to <emphasis>ground reputations</emphasis> in some realistic trial other than charisma and good stories, has tremendous positive effects on a whole field of endeavor.</para>
+<para>But that doesn&apos;t yet get you a science.  A science requires that you be able to test 100 applications of method A against 100 applications of method B and run statistics on the results.  <emphasis>Experiments </emphasis>have to be <link xl:href="http://www.overcomingbias.com/2007/08/scientific-evid.html">replicable</link> and replicated<emphasis>.</emphasis>  This requires <emphasis>standard measurements </emphasis>that can be run on students who&apos;ve been taught using randomly-assigned alternative methods, not just <emphasis>realistic duels</emphasis> fought between masters using all of their accumulated techniques and strength.</para>
+<para>The field of happiness studies was created, more or less, by realizing that asking people &quot;On a scale of 1 to 10, how good do you feel right now?&quot; was a measure that statistically validated well against other ideas for measuring happiness.  And this, despite all skepticism, looks like it&apos;s actually a pretty useful measure of some things, if you ask 100 people and average the results.</para>
+<para>But suppose you wanted to put happier people in positions of power—pay happy people to train other people to be happier, or employ the happiest at a hedge fund?  Then you&apos;re going to need some test that&apos;s <emphasis>harder to game </emphasis>than just asking someone &quot;How happy are you?&quot;</para>
+<para>This question of verification methods good enough to build <emphasis>organizations,</emphasis> is a huge problem at all levels of modern human society.  If you&apos;re going to use the SAT to control admissions to elite colleges, then can the SAT be defeated by studying <emphasis>just</emphasis> for the SAT in a way that ends up not correlating to other scholastic potential?  If you give colleges the power to grant degrees, then do they have an incentive not to fail people?  (I consider it drop-dead obvious that the task of verifying acquired skills and hence the power to grant degrees should be separated from the institutions that do the teaching, but let&apos;s not go into that.)  If a hedge fund posts 20% returns, are they really that much better than the indices, or are they selling puts that will blow up in a down market?</para>
+<para>If you have a verification method that can be gamed, the whole field adapts to game it, and <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_sP2Hg6uPwpfp3jZJN">loses its purpose</olink>.  Colleges turn into tests of whether you can endure the classes.  High schools do nothing but teach to statewide tests.  Hedge funds sell puts to boost their returns.</para>
+<para>On the other hand—we still manage to teach engineers, even though our organizational verification methods aren&apos;t perfect.  So what perfect or imperfect methods could you use for verifying rationality skills, that would be at least a <emphasis>little</emphasis> resistant to gaming?</para>
+<para>(Added:  Measurements with high noise can still be used <emphasis>experimentally, </emphasis>if you randomly assign enough subjects to have an expectation of washing out the variance.  But for the <emphasis>organizational </emphasis>purpose of verifying particular individuals, you need low-noise measurements.)</para>
+<para>So I now put to you the question—how do you verify rationality skills?  At any of the three levels?  Brainstorm, I beg you; even a difficult and expensive measurement can become a gold standard to verify other metrics.  Feel free to email me at sentience@pobox.com to suggest any measurements that are better off not being publicly known (though this is of course a major disadvantage of that method).  Stupid ideas can suggest good ideas, so if you can&apos;t come up with a good idea, <emphasis>come up with a stupid one.</emphasis></para>
+<para>Reputational, experimental, organizational:</para>
+<itemizedlist>
+  <listitem>
+    <para> Something the masters and schools can do to keep it real (realistically real);</para>
+  </listitem>
+  <listitem>
+    <para> Something you can do to measure each of a hundred students;</para>
+  </listitem>
+  <listitem>
+    <para> Something you could use as a test even if people have an incentive to game it.</para>
+  </listitem>
+</itemizedlist>
+<para>Finding good solutions at each level determines what a whole field of study can be useful for—how much it can hope to accomplish.  This is one of the Big Important Foundational Questions, so—</para>
+<para><emphasis>Think!</emphasis></para>
+<para>(<emphasis role="bold">PS</emphasis>:  And ponder on your own before you look at the other comments; we need breadth of coverage here.)</para>
+
+  
+</section>

@@ -1,0 +1,34 @@
+<chapter xml:id="item_FqgKAHZAiZn9JAjDo"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Physicalism 201</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/FqgKAHZAiZn9JAjDo"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>Can we ever know what it’s like to be a bat? Traditional dualism, with its immaterial souls freely floating around violating physical laws, may be false; but what about the weaker thesis, that consciousness is a “further fact” not fully explainable by the physical facts? A number of philosophers and scientists have found this line of reasoning persuasive. If we feel this argument’s intuitive force, should we grant its conclusion and ditch physicalism?</para>
+<para>We certainly shouldn’t reject it just because it sounds strange or feels vaguely unscientific. But how does the argument stand up to a technical understanding of how explanation and belief work? Are there any hints we can take from the history of science, or from our understanding of the physical mechanisms underlying evidence? This is the question that this sequence will attempt to answer.</para>
+
+  <xi:include href="04_Physicalism_201/01_Hand_vs_Fingers.dbk"/>
+<xi:include href="04_Physicalism_201/02_Angry_Atoms.dbk"/>
+<xi:include href="04_Physicalism_201/03_Heat_vs_Motion.dbk"/>
+<xi:include href="04_Physicalism_201/04_Brain_Breakthrough_Its_Made_of_Neurons.dbk"/>
+<xi:include href="04_Physicalism_201/05_When_Anthropomorphism_Became_Stupid.dbk"/>
+<xi:include href="04_Physicalism_201/06_A_Priori.dbk"/>
+<xi:include href="04_Physicalism_201/07_Reductive_Reference.dbk"/>
+<xi:include href="04_Physicalism_201/08_Zombies_Zombies.dbk"/>
+<xi:include href="04_Physicalism_201/09_Zombie_Responses.dbk"/>
+<xi:include href="04_Physicalism_201/10_The_Generalized_AntiZombie_Principle.dbk"/>
+<xi:include href="04_Physicalism_201/11_GAZP_vs_GLUT.dbk"/>
+<xi:include href="04_Physicalism_201/12_Belief_in_the_Implied_Invisible.dbk"/>
+<xi:include href="04_Physicalism_201/13_Zombies_The_Movie.dbk"/>
+<xi:include href="04_Physicalism_201/14_Excluding_the_Supernatural.dbk"/>
+<xi:include href="04_Physicalism_201/15_Psychic_Powers.dbk"/>
+</chapter>

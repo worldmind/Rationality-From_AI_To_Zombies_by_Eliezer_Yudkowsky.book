@@ -1,0 +1,51 @@
+<section xml:id="item_BwtBhqvTPGG2n2GuJ"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Qualitatively Confused</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/BwtBhqvTPGG2n2GuJ/qualitatively-confused"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-01-31</pubdate>
+  </info>
+  <indexterm><primary>Bayesianism</primary></indexterm>
+<indexterm><primary>Calibration</primary></indexterm>
+<indexterm><primary>Bayes' Theorem</primary></indexterm>
+  <para>I suggest that a primary cause of confusion about the distinction between &quot;belief&quot;, &quot;truth&quot;, and &quot;reality&quot; is <link xl:href="http://www.overcomingbias.com/2008/01/gray-fallacy.html">qualitative thinking</link> about beliefs.</para>
+<para>Consider the archetypal postmodernist attempt to be clever:</para>
+<blockquote>
+  <para> &quot;The Sun goes around the Earth&quot; is true for Hunga Huntergatherer, but &quot;The Earth goes around the Sun&quot; is true for Amara Astronomer!  Different societies have different truths!</para>
+</blockquote>
+<para>No, different societies have different <emphasis>beliefs.</emphasis>  Belief is of a different type than truth; it&apos;s like comparing apples and probabilities.</para>
+<blockquote>
+  <para> Ah, but there&apos;s no difference between the way you use the word &apos;belief&apos; and the way you use the word &apos;truth&apos;!  Whether you say, &quot;I believe &apos;snow is white&apos;&quot;, or you say, &quot;&apos;Snow is white&apos; is true&quot;, you&apos;re expressing exactly the same opinion.</para>
+</blockquote>
+<para>No, these sentences mean quite different things, which is how I can <emphasis>conceive</emphasis> of the possibility that my beliefs are false.</para>
+<blockquote>
+  <para> Oh, you claim to <emphasis>conceive</emphasis> it, but you never <emphasis>believe</emphasis> it.  As Wittgenstein said, &quot;If there were a verb meaning &apos;to believe falsely&apos;, it would not have any significant first person, present indicative.&quot;</para>
+</blockquote>
+<para>And that&apos;s what I mean by putting my finger on qualitative reasoning as the source of the problem.  The dichotomy between belief and disbelief, being binary, is confusingly similar to the dichotomy between truth and untruth.</para>
+<para>So let&apos;s use quantitative reasoning instead.  Suppose that I assign a 70% probability to the proposition that snow is white.  It follows that I think there&apos;s around a 70% chance that the sentence &quot;snow is white&quot; will turn out to be true.  If the sentence &quot;snow is white&quot; is true, is my 70% probability assignment to the proposition, also &quot;true&quot;?  Well, it&apos;s more true than it would have been if I&apos;d assigned 60% probability, but not so true as if I&apos;d assigned 80% probability.</para>
+<para>When talking about the correspondence between a probability assignment and reality, a better word than &quot;truth&quot; would be &quot;accuracy&quot;.  &quot;Accuracy&quot; sounds more quantitative, like an archer shooting an arrow: how close did your probability assignment strike to the center of the target?</para>
+<para>To make a <link xl:href="http://yudkowsky.net/bayes/technical.html">long story</link> short, it turns out that there&apos;s a very natural way of scoring the accuracy of a probability assignment, as compared to reality: just take the logarithm of the probability assigned to the real state of affairs.</para>
+<para>So if snow is white, my belief &quot;70%: &apos;snow is white&apos;&quot; will <link xl:href="http://yudkowsky.net/bayes/technical.html">score</link> -0.51 bits:  Log<subscript>2</subscript>(0.7) = -0.51.</para>
+<para>But what if snow is not white, as I have conceded a 30% probability is the case?  If &quot;snow is white&quot; is false, my belief &quot;30% probability: &apos;snow is not white&apos;&quot; will score -1.73 bits.  Note that -1.73 &lt; -0.51, so I have done worse.</para>
+<para>About how accurate do I think my own beliefs are?  Well, my expectation over the score is 70% * -0.51 + 30% * -1.73 = -0.88 bits.  If snow is white, then my beliefs will be more accurate than I expected; and if snow is not white, my beliefs will be less accurate than I expected; but in neither case will my belief be <emphasis>exactly</emphasis> as accurate as I expected on average.</para>
+<para>All this should not be confused with the statement &quot;I assign 70% credence that &apos;snow is white&apos;.&quot;  I may well believe <emphasis>that</emphasis> proposition with probability ~1—be quite certain that this is in fact my belief.  If so I&apos;ll expect my meta-belief &quot;~1: &apos;I assign 70% credence that &quot;snow is white&quot;&apos;&quot; to score ~0 bits of accuracy, which is as good as it gets.</para>
+<para>Just because I am uncertain about snow, does not mean I am uncertain about my <emphasis>quoted probabilistic beliefs</emphasis>.  Snow is out there, my beliefs are inside me.  I may be a great deal less uncertain about how uncertain I am about snow, than I am uncertain about snow.  (Though beliefs about beliefs are <link xl:href="http://www.overcomingbias.com/2007/07/belief-in-belie.html">not always accurate</link>.)</para>
+<para>Contrast this probabilistic situation to the qualitative reasoning where I just believe that snow is white, and believe that I believe that snow is white, and believe &quot;&apos;snow is white&apos; is true&quot;, and believe &quot;my belief &apos;&quot;snow is white&quot; is true&apos; is correct&quot;, etc.  Since all the quantities involved are 1, it&apos;s easy to mix them up.</para>
+<para>Yet the nice distinctions of quantitative reasoning will be short-circuited if you start thinking &quot;&apos;&quot;snow is white&quot; with 70% probability&apos; is <emphasis>true</emphasis>&quot;, which is a type error.  It is a true fact about you, that you <emphasis>believe</emphasis>&quot;70% probability: &apos;snow is white&apos;&quot;; but that does not mean the probability assignment <emphasis>itself </emphasis>can possibly be &quot;true&quot;.  The belief scores either -0.51 bits or -1.73 bits of accuracy, depending on the actual state of reality.</para>
+<para>The cognoscenti will recognize &quot;&apos;&quot;snow is white&quot; with 70% probability&apos; is true&quot; as the mistake of thinking that <link xl:href="http://www.overcomingbias.com/2008/03/mind-probabilit.html">probabilities are inherent properties of things</link>.</para>
+<para><link xl:href="http://www.overcomingbias.com/2008/02/algorithm-feels.html">From the inside</link>, our beliefs about the world look like the world, and our beliefs about our beliefs look like beliefs.  When you see the world, you are experiencing a belief from the inside.  When you notice yourself believing something, you are experiencing a belief about belief from the inside.  So if your internal representations of belief, and belief about belief, are <link xl:href="http://www.overcomingbias.com/2008/03/quote-not-refer.html">dissimilar</link>, then you are less likely to mix them up and commit the <link xl:href="http://www.overcomingbias.com/2008/03/mind-projection.html">Mind Projection Fallacy</link>—I hope.</para>
+<para>When you think in probabilities, your beliefs, and your beliefs about your beliefs, will hopefully not be represented similarly enough that you mix up belief and accuracy, or mix up accuracy and reality.  When you think in probabilities <emphasis>about the world</emphasis>, your beliefs will be represented with probabilities <emphasis role="bold">∈</emphasis> (0, 1).  Unlike the truth-values of propositions, which are in {true, false}.  As for the accuracy of your probabilistic belief, you can represent that in the range (-∞, 0).  Your probabilities <emphasis>about your </emphasis><emphasis>beliefs</emphasis> will typically be extreme.  And things themselves—why, they&apos;re just red, or blue, or weighing 20 pounds, or whatever.</para>
+<para>Thus we will be less likely, perhaps, to mix up the map with the territory.</para>
+<para>This type distinction may also help us remember that <emphasis>uncertainty</emphasis> is a state of mind.  A coin is not <emphasis>inherently</emphasis> 50% uncertain of which way it will land.  The coin is not a belief processor, and does not have partial information about itself.  In qualitative reasoning you can create a belief that corresponds very straightforwardly to the coin, like &quot;The coin will land heads&quot;.  This belief will be true or false <emphasis>depending on</emphasis> the coin, and there will be a transparent implication from the truth or falsity of the belief, to the facing side of the coin.</para>
+<para>But even under qualitative reasoning, to say that the coin <emphasis>itself</emphasis> is &quot;true&quot; or &quot;false&quot; would be a severe type error.  The coin is not a belief, it is a coin.  The territory is not the map.</para>
+<para>If a coin cannot be true or false, how much less can it assign a 50% probability to itself?</para>
+
+  
+</section>

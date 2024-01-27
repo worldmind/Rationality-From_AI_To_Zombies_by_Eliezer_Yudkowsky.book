@@ -1,0 +1,117 @@
+<section xml:id="item_soQX8yXLbKy7cFvy8"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Entropy, and Short Codes</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/soQX8yXLbKy7cFvy8/entropy-and-short-codes"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-23</pubdate>
+  </info>
+  <indexterm><primary>Logic &amp; Mathematics </primary></indexterm>
+<indexterm><primary>Entropy</primary></indexterm>
+<indexterm><primary>Information Theory</primary></indexterm>
+<indexterm><primary>Philosophy of Language</primary></indexterm>
+  <para>Suppose you have a system X that&apos;s equally likely to be in any of 8 possible states:</para>
+<blockquote>
+  <para> {X<subscript>1</subscript>, X<subscript>2</subscript>, X<subscript>3</subscript>, X<subscript>4</subscript>, X<subscript>5</subscript>, X<subscript>6</subscript>, X<subscript>7</subscript>, X<subscript>8</subscript>.}</para>
+</blockquote>
+<para>There&apos;s an extraordinarily ubiquitous quantity—in physics, mathematics, and even biology—called <emphasis>entropy</emphasis>; and the entropy of X is 3 bits.  This means that, on average, we&apos;ll have to ask 3 yes-or-no questions to find out X&apos;s value.  For example, someone could tell us X&apos;s value using this code:</para>
+<blockquote>
+  <para><informaltable frame="none">
+      <tgroup cols="4">
+        <colspec colname="c1" colwidth="25*"/>
+        <colspec colname="c2" colwidth="25*"/>
+        <colspec colname="c3" colwidth="25*"/>
+        <colspec colname="c4" colwidth="25*"/>
+        <tbody>
+          <row>
+            <entry><para>X<subscript>1</subscript>: 001</para></entry>
+            <entry><para>   X<subscript>2</subscript>: 010</para></entry>
+            <entry><para>   X<subscript>3</subscript>: 011</para></entry>
+            <entry><para>   X<subscript>4</subscript>: 100</para></entry>
+          </row>
+          <row>
+            <entry><para>X<subscript>5</subscript>: 101</para></entry>
+            <entry><para>   X<subscript>6</subscript>: 110</para></entry>
+            <entry><para>   X<subscript>7</subscript>: 111</para></entry>
+            <entry><para>   X<subscript>8</subscript>: 000</para></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+</para>
+</blockquote>
+<para>So if I asked &quot;Is the first symbol 1?&quot; and heard &quot;yes&quot;, then asked &quot;Is the second symbol 1?&quot; and heard &quot;no&quot;, then asked &quot;Is the third symbol 1?&quot; and heard &quot;no&quot;, I would know that X was in state 4.</para>
+<para>Now suppose that the system Y has four possible states with the following probabilities:</para>
+<blockquote>
+  <para><informaltable frame="none">
+      <tgroup cols="4">
+        <colspec colname="c1" colwidth="25*"/>
+        <colspec colname="c2" colwidth="25*"/>
+        <colspec colname="c3" colwidth="25*"/>
+        <colspec colname="c4" colwidth="25*"/>
+        <tbody>
+          <row>
+            <entry><para>Y<subscript>1</subscript>: 1/2 (50%)</para></entry>
+            <entry><para>    Y<subscript>2</subscript>: 1/4 (25%)</para></entry>
+            <entry><para>    Y<subscript>3</subscript>: 1/8 (12.5%)</para></entry>
+            <entry><para>    Y<subscript>4</subscript>: 1/8 (12.5%)</para></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+</para>
+</blockquote>
+<para>Then the entropy of Y would be 1.75 bits, meaning that we can find out its value by asking 1.75 yes-or-no questions.</para>
+<para>What does it mean to talk about asking one and three-fourths of a question?  Imagine that we designate the states of Y using the following code:</para>
+<blockquote>
+  <para><informaltable frame="none">
+      <tgroup cols="4">
+        <colspec colname="c1" colwidth="25*"/>
+        <colspec colname="c2" colwidth="25*"/>
+        <colspec colname="c3" colwidth="25*"/>
+        <colspec colname="c4" colwidth="25*"/>
+        <tbody>
+          <row>
+            <entry><para>Y<subscript>1</subscript>: 1</para></entry>
+            <entry><para>    Y<subscript>2</subscript>: 01</para></entry>
+            <entry><para>    Y<subscript>3</subscript>: 001</para></entry>
+            <entry><para>    Y<subscript>4</subscript>: 000</para></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </informaltable>
+</para>
+</blockquote>
+<para>First you ask, &quot;Is the first symbol 1?&quot;  If the answer is &quot;yes&quot;, you&apos;re done:  Y is in state 1.  This happens half the time, so 50% of the time, it takes 1 yes-or-no question to find out Y&apos;s state.</para>
+<para>Suppose that instead the answer is &quot;No&quot;.  Then you ask, &quot;Is the second symbol 1?&quot;  If the answer is &quot;yes&quot;, you&apos;re done:  Y is in state 2.  Y is in state 2 with probability 1/4, and each time Y is in state 2 we discover this fact using two yes-or-no questions, so 25% of the time it takes 2 questions to discover Y&apos;s state.</para>
+<para>If the answer is &quot;No&quot; twice in a row, you ask &quot;Is the third symbol 1?&quot;  If &quot;yes&quot;, you&apos;re done and Y is in state 3; if &quot;no&quot;, you&apos;re done and Y is in state 4.  The 1/8 of the time that Y is in state 3, it takes three questions; and the 1/8 of the time that Y is in state 4, it takes three questions.</para>
+<blockquote>
+  <para> (1/2 * 1) + (1/4 * 2) + (1/8 * 3) + (1/8 * 3)</para>
+  <para>= 0.5 + 0.5 + 0.375 + 0.375</para>
+  <para>= 1.75.</para>
+</blockquote>
+<para>The general formula for the entropy of a system S is the sum, over all S<subscript>i</subscript>, of -p(S<subscript>i</subscript>)*log<subscript>2</subscript>(p(S<subscript>i</subscript>)).</para>
+<para>For example, the log (base 2) of 1/8 is -3.  So -(1/8 * -3) = 0.375 is the contribution of state S<subscript>4</subscript> to the total entropy:  1/8 of the time, we have to ask 3 questions.</para>
+<para>You can&apos;t always devise a perfect code for a system, but if you have to tell someone the state of arbitrarily many copies of S in a single message, you can get arbitrarily close to a perfect code.  (Google &quot;arithmetic coding&quot; for a simple method.)</para>
+<para>Now, you might ask:  &quot;Why not use the code 10 for Y<subscript>4</subscript>, instead of 000?  Wouldn&apos;t that let us transmit messages more quickly?&quot;</para>
+<para>But if you use the code 10 for Y<subscript>4</subscript><subscript> </subscript>, then when someone answers &quot;Yes&quot; to the question &quot;Is the first symbol 1?&quot;, you won&apos;t know yet whether the system state is Y<subscript>1</subscript> (1) or Y<subscript>4</subscript> (10).  In fact, if you change the code this way, the whole system falls apart—because if you hear &quot;1001&quot;, you don&apos;t know if it means &quot;Y<subscript>4</subscript>, followed by Y<subscript>2</subscript>&quot; or &quot;Y<subscript>1</subscript>, followed by Y<subscript>3</subscript>.&quot;</para>
+<para>The moral is that <emphasis>short words are a conserved resource.</emphasis></para>
+<para>The key to creating a good code—a code that transmits messages as compactly as possible—is to reserve short words for things that you&apos;ll need to say frequently, and use longer words for things that you won&apos;t need to say as often.</para>
+<para> When you take this art to its limit, the length of the message you need to describe something, corresponds exactly or almost exactly to its probability.  This is the Minimum Description Length or Minimum Message Length formalization of <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_f4txACqDWithRi7hs">Occam&apos;s Razor</olink>.</para>
+<para>And so even the <emphasis>labels</emphasis> that we use for words are not quite arbitrary.  The sounds that we attach to our concepts can be better or worse, wiser or more foolish.  Even apart from considerations of <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_9ZooAqfh2TC9SBDvq">common usage</olink>!</para>
+<para>I say all this, because the idea that &quot;You can X any way you like&quot; is a huge obstacle to learning how to X wisely.  &quot;It&apos;s a free country; I have <link xl:href="http://www.overcomingbias.com/2006/12/you_are_never_e.html">a right to my own opinion</link>&quot; obstructs the art of finding truth.  &quot;I can define a word any way I like&quot; obstructs the art of <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_d5NyJ2Lf6N22AD9PB">carving reality at its joints</olink>.  And even the sensible-sounding &quot;The labels we attach to words are arbitrary&quot; obstructs awareness of compactness.  Prosody too, for that matter—Tolkien once observed what a beautiful sound the phrase &quot;cellar door&quot; makes; that is the kind of awareness it takes to use language like Tolkien.</para>
+<para>The length of words also plays a nontrivial role in the cognitive science of language:</para>
+<para>Consider the phrases &quot;recliner&quot;, &quot;chair&quot;, and &quot;furniture&quot;.  Recliner is a more specific category than chair; furniture is a more general category than chair.  But the vast majority of chairs have a common use—you use the same sort of motor actions to sit down in them, and you sit down in them for the same sort of purpose (to take your weight off your feet while you eat, or read, or type, or rest).  Recliners do not depart from this theme.  &quot;Furniture&quot;, on the other hand, includes things like beds and tables which have different uses, and call up different motor functions, from chairs.</para>
+<para>In the terminology of cognitive psychology, &quot;chair&quot; is a <emphasis>basic-level category.</emphasis></para>
+<para>People have a tendency to talk, and presumably think, at the basic level of categorization—to draw the boundary around &quot;chairs&quot;, rather than around the more specific category &quot;recliner&quot;, or the more general category &quot;furniture&quot;.  People are more likely to say &quot;You can sit in that chair&quot; than &quot;You can sit in that recliner&quot; or &quot;You can sit in that furniture&quot;.</para>
+<para>And it is no coincidence that the word for &quot;chair&quot; contains fewer syllables than either &quot;recliner&quot; or &quot;furniture&quot;.  Basic-level categories, in general, tend to have short names; and nouns with short names tend to refer to basic-level categories.  Not a perfect rule, of course, but a definite tendency.  Frequent use goes along with short words; short words go along with frequent use.</para>
+<para>Or as Douglas Hofstadter put it, there&apos;s a reason why the English language uses &quot;the&quot; to mean &quot;the&quot; and &quot;antidisestablishmentarianism&quot; to mean &quot;antidisestablishmentarianism&quot; instead of antidisestablishmentarianism other way around.</para>
+
+  
+</section>

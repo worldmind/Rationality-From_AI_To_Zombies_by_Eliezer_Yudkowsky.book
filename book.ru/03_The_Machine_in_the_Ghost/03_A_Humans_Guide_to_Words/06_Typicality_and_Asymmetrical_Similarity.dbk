@@ -1,0 +1,36 @@
+<section xml:id="item_4mEsPHqcbRWxnaE5b"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Typicality and Asymmetrical Similarity</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/4mEsPHqcbRWxnaE5b/typicality-and-asymmetrical-similarity"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-08-11</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+  <para>Birds fly.  Well, except ostriches don&apos;t.  But which is a more typical bird—a robin, or an ostrich?</para>
+<para>Which is a more typical chair:  A desk chair, a rocking chair, or a beanbag chair?</para>
+<para>Most people would say that a robin is a more typical bird, and a desk chair is a more typical chair.  The cognitive psychologists who study this sort of thing experimentally, do so under the heading of &quot;typicality effects&quot; or &quot;prototype effects&quot; (Rosch and Lloyd 1978).  For example, if you ask subjects to press a button to indicate &quot;true&quot; or &quot;false&quot; in response to statements like &quot;A robin is a bird&quot; or &quot;A penguin is a bird&quot;, reaction times are faster for more central examples.  (I&apos;m still unpacking my books, but I&apos;m reasonably sure my source on this is Lakoff 1986.)  Typicality measures correlate well using different investigative methods—reaction times are one example; you can also ask people to directly rate, on a scale of 1 to 10, how well an example (like a specific robin) fits a category (like &quot;bird&quot;).</para>
+<para>So we have a mental measure of typicality—which might, perhaps, function as a heuristic—but is there a corresponding bias we can use to pin it down?</para>
+<para>Well, which of these statements strikes you as more natural:  &quot;98 is approximately 100&quot;, or &quot;100 is approximately 98&quot;?  If you&apos;re like most people, the first statement seems to make more sense.  (Sadock 1977.)  For similar reasons, people asked to rate how similar Mexico is to the United States, gave consistently higher ratings than people asked to rate how similar the United States is to Mexico.  (Tversky and Gati 1978.)</para>
+<para>And if that still seems harmless, a study by Rips (1975) showed that people were more likely to expect a disease would spread from robins to ducks on an island, than from ducks to robins.  Now this is not a <emphasis role="italic">logical</emphasis> impossibility, but in a pragmatic sense, whatever difference separates a duck from a robin and would make a disease less likely to spread from a duck to a robin, must also be a difference between a robin and a duck, and would make a disease less likely to spread from a robin to a duck.</para>
+<para> </para>
+<para>Yes, you can come up with rationalizations, like &quot;Well, there could be more neighboring species of the robins, which would make the disease more likely to spread initially, etc.,&quot; but be careful not to try too hard to rationalize the probability ratings of subjects who didn&apos;t even realize there was a comparison going on.  And don&apos;t forget that Mexico is more similar to the United States than the United States is to Mexico, and that 98 is closer to 100 than 100 is to 98.  A simpler interpretation is that people are using the (demonstrated) similarity heuristic as a proxy for the probability that a disease spreads, and this heuristic is (demonstrably) asymmetrical.</para>
+<para>Kansas is unusually close to the center of the United States, and Alaska is unusually far from the center of the United States; so Kansas is probably closer to most places in the US and Alaska is probably farther.  It does not follow, however, that Kansas is closer to Alaska than is Alaska to Kansas.  But people seem to reason (metaphorically speaking) as if closeness is an inherent property of Kansas and distance is an inherent property of Alaska; so that Kansas is still close, even to Alaska; and Alaska is still distant, even from Kansas.</para>
+<para>So once again we see that Aristotle&apos;s notion of categories—logical classes with membership determined by a collection of properties that are individually strictly necessary, and together strictly sufficient—is not a good model of human cognitive psychology.  (Science&apos;s view has changed somewhat over the last 2350 years?  Who would&apos;ve thought?)  We don&apos;t even reason as if set membership is a true-or-false property:  Statements of set membership can be more or less true.  (Note:  This is <emphasis role="italic">not</emphasis> the same thing as being more or less probable.)</para>
+<para>One more reason not to <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_3nxs2WYDGzJbzcLMp">pretend</olink> that you, or anyone else, is <emphasis role="italic">really</emphasis> going to treat words as Aristotelian logical classes.</para>
+<bibliography>
+  <bibliomixed><abbrev>bg_a310fa248487566b51f6f18387d70108</abbrev>Lakoff, George. (1986). <emphasis role="italic">Women, Fire and Dangerous Things: What Categories Tell Us About the Nature of Thought</emphasis>. University of Chicago Press, Chicago.</bibliomixed>
+  <bibliomixed><abbrev>bg_6b721e8d5336dd0976eb2d46347b946b</abbrev>Rips, Lance J. (1975). &quot;Inductive judgments about natural categories.&quot;  Journal of Verbal Learning and Verbal Behavior. <emphasis role="bold">14</emphasis>:665-81.</bibliomixed>
+  <bibliomixed><abbrev>bg_66b3eb4d37f73ff9228004f535114c45</abbrev>Rosch, Eleanor and B. B. Lloyd, eds. (1978).  Cognition and Categorization.  Hillsdale, N.J.: Lawrence Erlbaum Associates.</bibliomixed>
+  <bibliomixed><abbrev>bg_4c1cfa1b58630b0dbcf2279969a9aab4</abbrev>Sadock, Jerrold. (1977).  &quot;Truth and Approximations.&quot;  In Papers from the Third Annual Meeting of the Berkeley Linguistics Society, pp. 430-39.  Berkeley: Berkeley Linguistics Society.</bibliomixed>
+  <bibliomixed><abbrev>bg_8e094ce8a75a2f8346d8110ba34496b2</abbrev>Tversky, Amos and Itamar Gati. (1978).  &quot;Studies of Similarity&quot;.  In Rosch and Lloyd (1978).</bibliomixed>
+</bibliography>
+
+  
+</section>

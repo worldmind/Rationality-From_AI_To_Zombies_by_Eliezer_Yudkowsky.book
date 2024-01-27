@@ -1,0 +1,56 @@
+<section xml:id="item_5bJyRMZzwMov5u3hW"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Science Doesn't Trust Your Rationality</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/5bJyRMZzwMov5u3hW/science-doesn-t-trust-your-rationality"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-05-14</pubdate>
+  </info>
+  <indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Practice &amp; Philosophy of Science</primary></indexterm>
+  <para><link xl:href="http://scottaaronson.com/blog/?p=326">Scott Aaronson</link> suggests that Many-Worlds and libertarianism are similar in that they are both cases of bullet-swallowing, rather than bullet-dodging:</para>
+<blockquote>
+  <para> Libertarianism and MWI are both are grand philosophical theories that start from premises that almost all educated people accept (quantum mechanics in the one case, Econ 101 in the other), and claim to reach conclusions that most educated people reject, or are at least puzzled by (the existence of parallel universes / the desirability of eliminating fire departments).</para>
+</blockquote>
+<para>Now <emphasis>there&apos;s</emphasis> an analogy that would never have occurred to me.</para>
+<para>I&apos;ve previously argued that <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_viPPjojmChxLGPE2v">Science rejects Many-Worlds but Bayes accepts it</olink>.  (Here, &quot;Science&quot; is capitalized because we are talking about the idealized form of Science, not just the actual social process of science.)</para>
+<para>It furthermore seems to me that there is a <emphasis>deep</emphasis> analogy between (small-&apos;l&apos;) libertarianism and Science:</para>
+<orderedlist>
+  <listitem>
+    <para> Both are based on a pragmatic distrust of reasonable-sounding arguments.</para>
+  </listitem>
+  <listitem>
+    <para> Both try to build systems that are more trustworthy than the people in them.</para>
+  </listitem>
+  <listitem>
+    <para> Both accept that people are flawed, and try to harness their flaws to power the system.</para>
+  </listitem>
+</orderedlist>
+<para>The core argument for libertarianism is historically motivated distrust of lovely theories of &quot;How much <emphasis>better</emphasis> society would be, if we just made a rule that said XYZ.&quot;  If that sort of trick actually <emphasis>worked,</emphasis> then more regulations would correlate to higher economic growth as society moved from local to global optima.  But when some person or interest group gets enough power to start doing everything they think is a good idea, history says that what actually <emphasis>happens</emphasis> is Revolutionary France or Soviet Russia.</para>
+<para>The plans that in lovely theory should have made everyone happy ever after, don&apos;t have the results predicted by reasonable-sounding arguments.  And power corrupts, and attracts the corrupt.</para>
+<para>So you regulate as little as possible, because you can&apos;t trust the lovely theories and you can&apos;t trust the people who implement them.</para>
+<para>You don&apos;t shake your finger at people for being selfish.  You try to build an efficient system of production out of selfish participants, by requiring transactions to be voluntary.  So people are forced to play positive-sum games, because that&apos;s how they get the <emphasis>other</emphasis> party to sign the contract.  With violence restrained and contracts enforced, individual selfishness can power a globally productive system.</para>
+<para>Of course none of this works quite so well in practice as in theory, and I&apos;m not going to go into market failures, commons problems, etc.  The core argument for libertarianism is not that libertarianism would work in a perfect world, but that it degrades gracefully into real life.  Or rather, degrades less awkwardly than any other known economic principle.  (People who see Libertarianism as the <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_XrzQW69HpidzvBxGr">perfect</olink> solution for perfect people, strike me as kinda missing the point of the &quot;pragmatic distrust&quot; thing.)</para>
+<para>Science first came to know itself as a rebellion against trusting the word of Aristotle. If the people of that revolution had merely said, &quot;Let us trust ourselves, not Aristotle!&quot; they would have flashed and faded like the French Revolution.</para>
+<para>But the Scientific Revolution lasted because—like the American Revolution—the architects propounded a stranger philosophy:  &quot;Let us trust no one!  Not even ourselves!&quot;</para>
+<para>In the beginning came the idea that we can&apos;t just toss out Aristotle&apos;s armchair reasoning and replace it with <emphasis>different </emphasis>armchair reasoning.  We need to talk to Nature, and actually <emphasis>listen</emphasis> to what It says in reply.  This, itself, was a stroke of genius.</para>
+<para>But then came the challenge of implementation. People are stubborn, and may not want to accept the verdict of experiment.  Shall we shake a disapproving finger at them, and say &quot;Naughty&quot;?</para>
+<para>No; we assume and accept that each individual scientist may be crazily attached to their personal theories.  Nor do we assume that anyone can be trained out of this tendency—we don&apos;t try to choose Eminent Judges who are supposed to be impartial.</para>
+<para>Instead, we try to <emphasis>harness</emphasis> the individual scientist&apos;s stubborn desire to prove their personal theory, by saying:  &quot;Make a new experimental prediction, and do the experiment.  If you&apos;re right, and the experiment is replicated, you win.&quot;  So long as scientists believe this is true, they have a motive to do experiments that can <emphasis>falsify </emphasis>their own theories.  Only by accepting the possibility of defeat is it possible to win.  And any great claim will require replication; this gives scientists a motive to be honest, on pain of great embarrassment.</para>
+<para>And so the stubbornness of individual scientists is harnessed to produce a steady stream of knowledge at the group level.  The System is <emphasis>somewhat</emphasis> more trustworthy than its parts.</para>
+<para>Libertarianism secretly relies on most individuals being prosocial enough to tip at a restaurant they won&apos;t ever visit again.  An economy of <olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_Masoq4NdmmGSiq2xw">genuinely selfish</olink> human-level agents would implode.  Similarly, Science relies on most scientists not committing sins so egregious that they can&apos;t rationalize them away.</para>
+<para>To the extent that scientists believe they can promote their theories by playing academic politics—or game the statistical methods to potentially win without a chance of losing—or to the extent that nobody bothers to replicate claims—science degrades in effectiveness.  But it degrades gracefully, as such things go.</para>
+<para>The part where the successful predictions belong to the theory and theorists who originally made them, and cannot just be stolen by a theory that comes along later—<emphasis>without</emphasis> a novel experimental prediction—is an important feature of this social process.</para>
+<para>The final upshot is that Science is not easily reconciled with probability theory.  If you do a probability-theoretic calculation <emphasis>correctly</emphasis>, you&apos;re going to get the <emphasis>rational</emphasis> answer.  Science doesn&apos;t trust your rationality, and it doesn&apos;t rely on your ability to use probability theory as the arbiter of truth.  It wants you to set up a definitive experiment.</para>
+<para>Regarding Science as a mere approximation to some probability-theoretic ideal of rationality... would certainly seem to be <emphasis>rational</emphasis>.  There seems to be an extremely reasonable-sounding argument that Bayes&apos;s Theorem is the <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_QrhAeKBkm2WsdRYao">hidden structure</olink> that explains why Science works.  But to subordinate Science to the grand schema of Bayesianism, and let Bayesianism come in and override Science&apos;s verdict when that seems appropriate, is not a trivial step!</para>
+<para>Science is built around the assumption that you&apos;re <emphasis>too stupid and self-deceiving </emphasis>to just use Solomonoff induction.  After all, if it was that simple, we wouldn&apos;t need a social process of science... right?</para>
+<para>So, are you going to believe in <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_WqGCaRhib42dhKWRL">faster-than-light quantum &quot;collapse&quot; fairies</olink> after all?  Or do you think you&apos;re smarter than that?</para>
+
+  
+</section>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:id="item_T3CjiQq6bBgFuzvp6"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      doc_status="final;draft"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Mere Goodness</title>
+    <abstract><para>What makes something valuable—morally, or aesthetically, or prudentially? These three sequences ask how we can justify, revise, and naturalize our values and desires. The aim will be to find a way to understand our goals without compromising our efforts to actually achieve them. Here the biggest challenge is knowing when to trust your messy, complicated case-by-case impulses about what’s right and wrong, and when to replace them with simple exceptionless principles.</para>
+</abstract>
+    <authorgroup>
+      <author><personname>
+<firstname>Eliezer</firstname><surname>Yudkowsky</surname>
+</personname>
+</author>
+      <othercredit role="coauthor"><personname>
+<firstname>Rob</firstname><surname>Bensinger</surname>
+</personname>
+</othercredit>
+      <othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>Raemon</firstname><surname></surname>
+</personname>
+</othercredit>
+<othercredit role="reviewer" doc_status="draft"><personname>
+<firstname>habryka</firstname><surname></surname>
+</personname>
+</othercredit>
+    </authorgroup>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/rationality#T3CjiQq6bBgFuzvp6"></link>
+    </bibliosource>
+    <pubdate>2024-01-20</pubdate>
+  </info>
+  <xi:include href="05_Mere_Goodness/01_Fake_Preferences.dbk"/>
+<xi:include href="05_Mere_Goodness/02_Value_Theory.dbk"/>
+<xi:include href="05_Mere_Goodness/03_Quantified_Humanism.dbk"/>
+  <index/>
+</book>

@@ -1,0 +1,39 @@
+<section xml:id="item_YshRbqZHYFoEMqFAu"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Why Truth?</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/YshRbqZHYFoEMqFAu/why-truth"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-01</pubdate>
+  </info>
+  <indexterm><primary>Emotions</primary></indexterm>
+<indexterm><primary>Truth, Semantics, &amp; Meaning</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+  <para>The goal of instrumental rationality mostly speaks for itself. Some commenters have wondered, on the other hand, why rationalists care about truth. Which invites a few different answers, depending on who you ask; and these different answers have differing characters, which can shape the search for truth in different ways.</para>
+<para>You might hold the view that pursuing truth is inherently noble, important, and worthwhile. In which case your priorities will be determined by your ideals about which truths are most important, or about when truthseeking is most virtuous.</para>
+<para>This motivation tends to have a moral character to it. If you think it your duty to look behind the curtain, you are a lot more likely to believe that someone <emphasis role="italic">else</emphasis> should look behind the curtain too, or castigate them if they deliberately close their eyes.</para>
+<para>I tend to be suspicious of morality as a motivation for rationality, <emphasis role="italic">not</emphasis> because I reject the moral ideal, but because it invites certain kinds of trouble. It is too easy to acquire, as learned moral duties, modes of thinking that are dreadful missteps in the dance.</para>
+<para>Consider Spock, the naive archetype of rationality. Spock&apos;s affect is always set to “calm,” even when wildly inappropriate. He often gives many significant digits for probabilities that are grossly uncalibrated.<footnote xml:id="fn_23ec22ffd6a0a71dd9cad134a02d1269">
+    <para> E.g., “Captain, if you steer the Enterprise directly into that black hole, our probability of surviving is only 2.234%.” Yet nine times out of ten the <emphasis role="italic">Enterprise</emphasis> is not destroyed. What kind of tragic fool gives four significant digits for a figure that is off by two orders of magnitude?</para>
+  </footnote>
+ Yet this popular image is how many people conceive of the duty to be “rational”—small wonder that they do not embrace it wholeheartedly.</para>
+<para>To make rationality into a moral duty is to give it all the dreadful degrees of freedom of an arbitrary tribal custom. People arrive at the wrong answer, and then indignantly protest that they acted with propriety, rather than learning from their mistake.</para>
+<para>What other motives are there?</para>
+<para>Well, you might want to accomplish some specific real-world goal, like building an airplane, and therefore you need to know some specific truth about aerodynamics. Or more mundanely, you want chocolate milk, and therefore you want to know whether the local grocery has chocolate milk, so you can choose whether to walk there or somewhere else.</para>
+<para>If this is the reason you want truth, then the priority you assign to your questions will reflect the expected utility of their information—how much the possible answers influence your choices, how much your choices matter, and how much you expect to find an answer that changes your choice from its default.</para>
+<para>To seek truth merely for its instrumental value may seem impure—should we not desire the truth for its own sake?—but such investigations are extremely important because they create an outside criterion of verification: if your airplane drops out of the sky, or if you get to the store and find no chocolate milk, its a hint that you did something wrong. You get back feedback on which modes of thinking work, and which don&apos;t.</para>
+<para>Another possibility: you might care about whats true because, damn it, you&apos;re <emphasis role="italic">curious</emphasis>.</para>
+<para>As a reason to seek truth, curiosity has a special and admirable purity. If your motive is curiosity, you will assign priority to questions according to how the questions, themselves, tickle your aesthetic sense. A trickier challenge, with a greater probability of failure, may be worth more effort than a simpler one, just because it&apos;s more fun.</para>
+<para>Curiosity and morality can both attach an intrinsic value to truth. Yet being curious about whats behind the curtain is a very different state of mind from believing that you have a moral duty to look there. If you&apos;re curious, your priorities will be determined by which truths you find most intriguing, not most important or most useful.</para>
+<para>Although pure curiosity is a wonderful thing, it may not linger too long on verifying its answers, once the attractive mystery is gone. Curiosity, as a human emotion, has been around since long before the ancient Greeks. But what set humanity firmly on the path of Science was noticing that certain modes of thinking uncovered beliefs that let us <emphasis role="italic">manipulate the world</emphasis>—truth as an instrument. As far as sheer curiosity goes, spinning campfire tales of gods and heroes satisfied that desire just as well, and no one realized that anything was wrong with that.</para>
+<para>At the same time, if we&apos;re going to improve our skills of rationality, go beyond the standards of performance set by hunter-gatherers, we&apos;ll need deliberate beliefs about how to think—things that look like norms of rationalist “propriety.” When we write new mental programs for ourselves, they start out as explicit injunctions, and are only slowly (if ever) trained into the neural circuitry that underlies our core motivations and habits.</para>
+<para>Curiosity, pragmatism, and quasi-moral injunctions are all key to the rationalist project. Yet if you were to ask me which of these is most foundational, I would say: “curiosity.” I have my principles, and I have my plans, which may well tell me to look behind the curtain. But then, I also just really want to know. What will I see? The world has handed me a puzzle, and a solution feels tantalizingly close.</para>
+
+  
+</section>

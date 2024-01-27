@@ -1,0 +1,28 @@
+<chapter xml:id="item_3HyeNiEpvbQQaqeoH"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Fragile Purposes</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/3HyeNiEpvbQQaqeoH"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>This sequence abstracts from human cognition and evolution to the idea of minds and goal-directed systems at their most general. These essays serve the secondary purpose of explaining the author’s general approach to philosophy and the science of rationality, which is strongly informed by his work in AI.</para>
+
+  <xi:include href="02_Fragile_Purposes/01_Belief_in_Intelligence.dbk"/>
+<xi:include href="02_Fragile_Purposes/02_Humans_in_Funny_Suits.dbk"/>
+<xi:include href="02_Fragile_Purposes/03_Optimization_and_the_Intelligence_Explosion.dbk"/>
+<xi:include href="02_Fragile_Purposes/04_Ghosts_in_the_Machine.dbk"/>
+<xi:include href="02_Fragile_Purposes/05_Artificial_Addition.dbk"/>
+<xi:include href="02_Fragile_Purposes/06_Terminal_Values_and_Instrumental_Values.dbk"/>
+<xi:include href="02_Fragile_Purposes/07_Leaky_Generalizations.dbk"/>
+<xi:include href="02_Fragile_Purposes/08_The_Hidden_Complexity_of_Wishes.dbk"/>
+<xi:include href="02_Fragile_Purposes/09_Anthropomorphic_Optimism.dbk"/>
+<xi:include href="02_Fragile_Purposes/10_Lost_Purposes.dbk"/>
+</chapter>

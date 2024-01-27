@@ -1,0 +1,74 @@
+<section xml:id="item_NnQbfLo868wgnHF4n"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Collective Apathy and the Internet</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/NnQbfLo868wgnHF4n/collective-apathy-and-the-internet"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2009-04-14</pubdate>
+  </info>
+  <indexterm><primary>Altruism</primary></indexterm>
+<indexterm><primary>Public Discourse</primary></indexterm>
+<indexterm><primary>Coordination / Cooperation</primary></indexterm>
+<indexterm><primary>Bystander Effect</primary></indexterm>
+  <para>Yesterday I convered <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_K5nq3KcDXaGm7QQWR">the bystander effect</olink>, aka bystander apathy: given a fixed problem situation, a <emphasis>group </emphasis>of bystanders is actually <emphasis>less</emphasis> likely to act than a <emphasis>single</emphasis> bystander.  The standard explanation for this result is in terms of pluralistic ignorance (if it&apos;s not clear whether the situation is an emergency, each person tries to <emphasis>look </emphasis>calm while darting their eyes at the other bystanders, and sees other people <emphasis>looking </emphasis>calm) and diffusion of responsibility (everyone hopes that someone else will be first to act; being part of a crowd diminishes the individual pressure to the point where no one acts).</para>
+<para>Which may be a symptom of our <link xl:href="http://www.overcomingbias.com/2007/11/evolutionary-ps.html">hunter-gatherer</link> coordination mechanisms being defeated by modern conditions.  You didn&apos;t usually <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_f42BHX7rMw2dyFJfT">form task-forces with strangers</olink> back in the ancestral environment; it was mostly people you knew.  And in fact, when all the subjects know each other, the bystander effect diminishes.</para>
+<para>So I know this is an amazing and revolutionary observation, and I hope that I don&apos;t kill any readers outright from shock by saying this: but people seem to have a hard time reacting constructively to problems encountered over the Internet.</para>
+<para>Perhaps because our innate coordination instincts are not tuned for:</para>
+<itemizedlist>
+  <listitem>
+    <para> Being part of a group of strangers.  (When all subjects know each other, the bystander effect diminishes.)</para>
+  </listitem>
+  <listitem>
+    <para> Being part of a group of unknown size, of strangers of unknown identity.</para>
+  </listitem>
+  <listitem>
+    <para> Not being in physical contact (or visual contact); not being able to exchange meaningful glances.</para>
+  </listitem>
+  <listitem>
+    <para> Not communicating in real time.</para>
+  </listitem>
+  <listitem>
+    <para> Not being much beholden to each other for other forms of help; not being codependent on the group you&apos;re in.</para>
+  </listitem>
+  <listitem>
+    <para> Being shielded from reputational damage, or the fear of reputational damage, by your own apparent anonymity; no one is visibly looking at you, before whom your reputation might suffer from inaction.</para>
+  </listitem>
+  <listitem>
+    <para> Being part of a large collective of other inactives; no one will single out you to blame.</para>
+  </listitem>
+  <listitem>
+    <para> Not hearing a voiced plea for help.</para>
+  </listitem>
+</itemizedlist>
+<para>Etcetera.  I don&apos;t have a brilliant solution to this problem.  But it&apos;s the sort of thing that I would wish for potential dot-com cofounders to ponder explicitly, rather than wondering how to throw sheep on Facebook.  (Yes, I&apos;m looking at <emphasis>you</emphasis>, Hacker News.)  There are online activism web apps, but they tend to be along the lines of <emphasis>sign this petition! yay, you signed something!</emphasis> rather than <emphasis>How can we counteract the bystander effect, restore motivation, and work with native group-coordination instincts, over the Internet?</emphasis></para>
+<para>Some of the things that come to mind:</para>
+<itemizedlist>
+  <listitem>
+    <para> Put a video of someone asking for help online.</para>
+  </listitem>
+  <listitem>
+    <para> Put up names and photos or even brief videos if available of the <emphasis>first</emphasis> people who helped (or have some redditish priority algorithm that depends on a combination of amount-helped and recency).</para>
+  </listitem>
+  <listitem>
+    <para> Give helpers a video thank-you from the founder of the cause that they can put up on their &quot;people I&apos;ve helped&quot; page, which with enough standardization could be partially or wholly assembled automatically and easily embedded in their home webpage or Facebook account.</para>
+  </listitem>
+  <listitem>
+    <para> Find a <emphasis>non-annoying </emphasis>idiom for &quot;Tell a friend about cause X&quot;; allow referrer link codes; then show people how many others they&apos;ve evangelized (how many people who initially got here using referrer code X actually contributed or took some other action).</para>
+  </listitem>
+  <listitem>
+    <para> (All of the above applies not just to donations, but to open-source projects to which people have contributed code.  Or if people really do want nothing but signatures on a petition, then for signatures.  There are ways to help besides money—even though <olink targetdoc="item_e6WsPsivzBifrWHeA" targetptr="item_ZpDnRCeef2CLEFeKM">money is usually the most effective</olink>.  The main thing is that the form of help has to be verifiable online.)</para>
+  </listitem>
+  <listitem>
+    <para> Make it easier for people to offer monetary bounties on subtasks whose performance is verifiable.</para>
+  </listitem>
+</itemizedlist>
+<para>But mostly I just hand you an open, unsolved problem: make it possible / easier for groups of strangers to coalesce into an effective task force over the Internet, in defiance of the usual failure modes and the default reasons why this is a non-ancestral problem.  Think of that old statistic about Wikipedia representing <link xl:href="http://www.shirky.com/herecomeseverybody/2008/04/looking-for-the-mouse.html">1/2,000</link> of the time spent in the US alone on watching television.  There&apos;s quite a lot of fuel out there, if there were only such a thing as an effective engine...</para>
+
+  
+</section>

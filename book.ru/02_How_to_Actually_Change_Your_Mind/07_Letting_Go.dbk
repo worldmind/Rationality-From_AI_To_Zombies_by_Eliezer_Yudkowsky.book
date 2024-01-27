@@ -1,0 +1,36 @@
+<chapter xml:id="item_5bZZZJ5psXrrD5BGb"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Letting Go</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/5bZZZJ5psXrrD5BGb"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-05-14</pubdate>
+  </info>
+  
+  <para>Our natural state isn’t to change our minds like a Bayesian would. Getting the people in opposing tribes to notice what they’re really seeing won’t be as easy as reciting the axioms of probability theory to them. As Luke Muehlhauser writes, in <link xl:href="https://www.lesswrong.com/posts/vbcjYg6h3XzuqaaN8/the-power-of-agency">The Power of Agency</link>:</para>
+<blockquote>
+  <para> You are not a Bayesian homunculus whose reasoning is “corrupted” by cognitive biases.</para>
+  <para>You just are cognitive biases.</para>
+</blockquote>
+<para>Confirmation bias, status quo bias, correspondence bias, and the like are not tacked on to our reasoning; they are its very substance.</para>
+<para>That doesn’t mean that debiasing is impossible. We aren’t perfect calculators underneath all our arithmetic errors, either. Many of our mathematical limitations result from very deep facts about how the human brain works. Yet we can train our mathematical abilities; we can learn when to trust and distrust our mathematical intuitions, and share our knowledge, and help one another; we can shape our environments to make things easier on us, and build tools to offload much of the work.</para>
+<para>Our biases are part of us. But there is a shadow of Bayesianism present in us as well, a flawed apparatus that really can bring us closer to truth. No homunculus—but still, some truth. Enough, perhaps, to get started.</para>
+
+  <xi:include href="07_Letting_Go/01_Singlethink.dbk"/>
+<xi:include href="07_Letting_Go/02_The_Importance_of_Saying_Oops.dbk"/>
+<xi:include href="07_Letting_Go/03_The_Crackpot_Offer.dbk"/>
+<xi:include href="07_Letting_Go/04_Just_Lose_Hope_Already.dbk"/>
+<xi:include href="07_Letting_Go/05_The_Proper_Use_of_Doubt.dbk"/>
+<xi:include href="07_Letting_Go/06_You_Can_Face_Reality.dbk"/>
+<xi:include href="07_Letting_Go/07_The_Meditation_on_Curiosity.dbk"/>
+<xi:include href="07_Letting_Go/08_No_One_Can_Exempt_You_From_Rationalitys_Laws.dbk"/>
+<xi:include href="07_Letting_Go/09_Leave_a_Line_of_Retreat.dbk"/>
+<xi:include href="07_Letting_Go/10_Crisis_of_Faith.dbk"/>
+<xi:include href="07_Letting_Go/11_The_Ritual.dbk"/>
+</chapter>

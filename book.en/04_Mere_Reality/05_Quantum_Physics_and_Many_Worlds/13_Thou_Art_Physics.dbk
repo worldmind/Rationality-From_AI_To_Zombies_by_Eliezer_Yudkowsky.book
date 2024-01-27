@@ -1,0 +1,77 @@
+<section xml:id="item_NEeW7eSXThPz7o4Ne"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Thou Art Physics</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/NEeW7eSXThPz7o4Ne/thou-art-physics"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-08-22</pubdate>
+  </info>
+  <indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Physics</primary></indexterm>
+  <para><olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_Mc6QcrsbH5NRXbCRX">Three months ago</olink>—jeebers, has it really been that long?—I posed the following <link xl:href="https://wiki.lesswrong.com/wiki/Free_will">homework assignment</link>: Do a stack trace of the human cognitive algorithms that produce debates about “free will.” Note that this task is strongly distinguished from arguing that free will does or does not exist.</para>
+<para>Now, as expected, people are asking, “If the future is determined, how can our choices control it?” The wise reader can guess that <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_qcYCAxYZT4Xp9iMZY">it all adds up to normality</olink>; but this leaves the question of <emphasis>how</emphasis>.</para>
+<para>People hear: “The universe runs like clockwork; physics is deterministic; <link xl:href="https://www.lesswrong.com/posts/rrW7yf42vQYDf8AcH/timeless-physics">the future is fixed</link>.” And their minds form a causal network that looks like this:</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata contentwidth="100%" fileref="./img/7ef8c8001794cd509f28c929126d63ce.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/7ef8c8001794cd509f28c929126d63ce.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>Here we see the causes “Me” and “Physics,” competing to determine the state of the “Future” effect. If the “Future” is fully determined by “Physics,” then obviously there is no room for it to be affected by “Me.”</para>
+<para>This causal network is not an explicit philosophical belief. It’s implicit— a background representation of the brain, controlling which philosophical arguments seem “reasonable.” It just seems like the way things <emphasis>are</emphasis>.</para>
+<para>Every now and then, another neuroscience press release appears, claiming that, because researchers used an fMRI to spot the brain doing something-or-other during a decision process, <emphasis>it’s not you who chooses, it’s your brain</emphasis>.</para>
+<para>Likewise that old chestnut, “Reductionism undermines rationality itself. Because then, every time you said something, it wouldn’t be the result of <emphasis>reasoning</emphasis> about the evidence—it would be merely quarks bopping around.”</para>
+<para>Of course the actual diagram should be:</para>
+ <informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata contentwidth="40%" fileref="./img/aaf552614b8132779b52dd994d6731a2.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/aaf552614b8132779b52dd994d6731a2.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>Or better yet:</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata contentwidth="40%" fileref="./img/840ed92c08ec4d7c0e3ab031a352b700.svg" format="SVG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/840ed92c08ec4d7c0e3ab031a352b700.svg" format="SVG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>Why is this not obvious? Because there are many <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_tPqQdLCuxanjhoaNs">levels of organization</olink> that separate our models of our thoughts—our emotions, our beliefs, our agonizing indecisions, and our final choices—from our models of electrons and quarks.</para>
+<para>We can <emphasis>intuitively</emphasis> visualize that a hand is made of fingers (and thumb and palm). To ask whether it’s <emphasis>really</emphasis> our hand that picks something up, or <emphasis>merely</emphasis> our fingers, thumb, and palm, is transparently a <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_XzrqkhfwtiSDgKoAF">wrong question</olink>.</para>
+<para>But the gap between <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_ddwk9veF8efn3Nzbu">physics and cognition</olink> cannot be crossed by direct visualization. No one can <emphasis>visualize</emphasis> atoms making up a person, the way they can see fingers making up a hand.</para>
+<para>And so it requires <emphasis>constant vigilance</emphasis> to maintain your perception of yourself as an entity <emphasis>within physics</emphasis>.</para>
+<para>This vigilance is one of the great keys to philosophy, like the <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_ZTRiSNmeGQK8AkdN2">Mind Projection Fallacy</olink>. You will recall that it is this point which I <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_Bh9cdfMjATrTdLrGH">nominated</olink> as having tripped up the quantum physicists who failed to imagine macroscopic decoherence; they did not think to apply the laws to <emphasis>themselves</emphasis>.</para>
+<para>Beliefs, desires, emotions, morals, goals, imaginations, anticipations, sensory perceptions, fleeting wishes, ideals, temptations… You might call this the “surface layer” of the mind, the parts-of-self that people can see even without science. If I say, “It is not <emphasis>you</emphasis> who determines the future, it is your <emphasis>desires, plans, and actions</emphasis> that determine the future,” you can readily see the part-whole relations. It is immediately visible, like fingers making up a hand. There are other part-whole relations all the way down to physics, but they are not immediately visible.</para>
+<para>“Compatibilism” is the philosophical position that “free will” can be intuitively and satisfyingly defined in such a way as to be compatible with deterministic physics. “Incompatibilism” is the position that free will and determinism are incompatible.</para>
+<para>My position might perhaps be called “Requiredism.” When agency, choice, control, and moral responsibility are cashed out in a sensible way, they <emphasis>require</emphasis> determinism—at least some patches of determinism within the universe. If you choose, and plan, and act, and bring some future into being, in accordance with your desire, then all this requires a lawful sort of reality; you cannot do it amid utter chaos. There must be order over at least those parts of reality that are being controlled by you. <emphasis>You</emphasis> are within physics, and so you/physics have determined the future. If it were not determined by physics, it could not be determined by you.</para>
+<para>Or perhaps I should say, “If the future were not determined by reality, it could not be determined by you,” or “If the future were not determined by something, it could not be determined by you.” You don’t need neuroscience or physics to push naive definitions of free will into incoherence. If the mind were not embodied in the brain, it would be embodied in something else; there would be <emphasis>some real thing</emphasis> that was a mind. If the future were not determined by physics, it would be determined by <emphasis>something</emphasis>, some law, some order, some grand reality that included you within it.</para>
+<para>But if the laws of physics control us, then how can we be said to control ourselves?</para>
+<para>Turn it around: If the laws of physics did <emphasis>not</emphasis> control us, how could we possibly control ourselves?</para>
+<para>How could thoughts judge other thoughts, how could emotions conflict with each other, how could one course of action appear best, how could we pass from uncertainty to certainty about our own plans, in the midst of utter chaos?</para>
+<para>If we were not in reality, where could we be?</para>
+<para>The future is determined by physics. What kind of physics? The kind of physics that includes the actions of human beings.</para>
+<para>People’s choices are determined by physics. What kind of physics? The kind of physics that includes weighing decisions, considering possible outcomes, judging them, being tempted, following morals, rationalizing transgressions, trying to do better…</para>
+<para>There is no point where a quark swoops in from Pluto and overrides all this.</para>
+<para>The thoughts of your decision process are all <emphasis>real</emphasis>, they are all <emphasis>something</emphasis>. But a thought is too big and complicated to be an atom. So thoughts are <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_tPqQdLCuxanjhoaNs">made of smaller things</olink>, and our name for the stuff that stuff is made of is “physics.”</para>
+<para>Physics underlies our decisions and includes our decisions. It does not <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_cphoF8naigLhRf3tu">explain them away</olink>.</para>
+<para>Remember, <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_qcYCAxYZT4Xp9iMZY">physics adds up to normality</olink>; <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_XzrqkhfwtiSDgKoAF">it’s your cognitive algorithms that generate confusion</olink></para>
+
+  
+</section>

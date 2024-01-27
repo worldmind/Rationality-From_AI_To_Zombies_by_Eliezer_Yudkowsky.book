@@ -1,0 +1,49 @@
+<section xml:id="item_BaCWFCxBQYjJXSsah"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Priming and Contamination</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/BaCWFCxBQYjJXSsah/priming-and-contamination"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-07</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Priming</primary></indexterm>
+  <para>Suppose you ask subjects to press one button if a string of letters forms a word, and another button if the string does not form a word (e.g., “banack” vs. “banner”). Then you show them the string “water.” Later, they will more quickly identify the string “drink” as a word. This is known as “cognitive priming”; this particular form would be “semantic priming” or “conceptual priming.” </para>
+<para>The fascinating thing about priming is that it occurs at such a low level—priming speeds up <emphasis>identifying letters as forming a word</emphasis>, which one would expect to take place <emphasis>before</emphasis> you deliberate on the word’s meaning.</para>
+<para>Priming also reveals the massive parallelism of spreading activation: if seeing “water” activates the word “drink,” it probably also activates “river,” or “cup,” or “splash” . . . and this activation spreads, from the semantic linkage of concepts, all the way back to recognizing strings of letters.</para>
+<para>Priming is subconscious and unstoppable, an artifact of the human neural architecture. Trying to stop yourself from priming is like trying to stop the spreading activation of your own neural circuits.</para>
+<para>Try making a set of index cards with words like Brown written in randomly assigned colors–a red Green, a blue Yellow, and so on. Try to say aloud the color—not the meaning, but the color—of the letter-strings.</para>
+<para>In Mussweiler and Strack’s experiment, subjects were asked an anchoring question: “Is the annual mean temperature in Germany higher or lower than 5°C / 20°C?”<footnote xml:id="fn_a5e5624f30cca2180a3d4ad63fc63a6e">
+    <para><anchor xml:id="cite.0.Mussweiler.1999"/>Thomas Mussweiler and Fritz Strack, “Comparing Is Believing: A Selective Accessibility Model of Judgmental Anchoring,” <emphasis>European Review of Social Psychology</emphasis> 10 (1 1999): 135–167.</para>
+  </footnote>
+<anchor xml:id="x46-47001f1"/> Afterward, on a word-identification task, subjects presented with the 5°C anchor were faster on identifying words like “cold” and “snow,” while subjects with the high anchor were faster to identify “hot” and “sun.” This shows a non-adjustment mechanism for anchoring: priming compatible thoughts and memories.</para>
+<para>The more general result is that <emphasis>completely uninformative</emphasis>, <emphasis>known false</emphasis>, or <emphasis>totally irrelevant</emphasis> “information” can influence estimates and decisions. In the field of heuristics and biases, this more general phenomenon is known as <emphasis>contamination</emphasis>.<footnote xml:id="fn_f88a69788f357b093debe6d48d654363">
+    <para><anchor xml:id="cite.0.Chapman.2002"/>Gretchen B. Chapman and Eric J. Johnson, “Incorporating the Irrelevant: Anchors in Judgments of Belief and Value,” in <emphasis>Heuristics and Biases</emphasis>, ed. Thomas Gilovich, Dale Griffin, and Daniel Kahneman (New York: Cambridge University Press, 2002), 120–138.</para>
+  </footnote>
+<anchor xml:id="x46-47002f2"/></para>
+<para>Early research in heuristics and biases discovered anchoring effects, such as subjects giving lower (higher) estimates of the percentage of UN countries found within Africa, depending on whether they were first asked if the percentage was more or less than 10 (65). This effect was originally attributed to subjects adjusting from the anchor as a starting point, stopping as soon as they reached a plausible value, and under-adjusting because they were stopping at one end of a confidence interval.<footnote xml:id="fn_e0fa92e31fbd3b997b204cf228f99f1c">
+    <para>Tversky and Kahneman, <link xl:href="https://www.lesswrong.com/posts/Text/main-printch38.html#cite.0.Tversky.1974">“Judgment Under Uncertainty</link>.”</para>
+  </footnote>
+<anchor xml:id="x46-47003f3"/></para>
+<para>Tversky and Kahneman’s early hypothesis still appears to be the correct explanation in some circumstances, notably when subjects generate the initial estimate themselves. But modern research seems to show that most anchoring is actually due to contamination, not sliding adjustment.<footnote xml:id="fn_723585a386e03f9c361cf09b119d9626">
+    <para><anchor xml:id="cite.0.Epley.2001"/>Nicholas Epley and Thomas Gilovich, “Putting Adjustment Back in the Anchoring and Adjustment Heuristic: Differential Processing of Self-Generated and Experimentor-Provided Anchors,” <emphasis>Psychological Science</emphasis> 12 (5 2001): 391–396.</para>
+  </footnote>
+<anchor xml:id="x46-47004f4"/></para>
+<para>Your grocery store probably has annoying signs saying “Limit 12 per customer” or “5 for $10.” Are these signs effective at getting customers to buy in larger quantities? You probably <link xl:href="http://en.wikipedia.org/wiki/Bias_blind_spot">think you’re not influenced</link>. But <emphasis>someone</emphasis> must be, because these signs have been shown to work. Which is why stores keep putting them up.<footnote xml:id="fn_ac00218f9ee4d78ef7f5788c9e267684">
+    <para><anchor xml:id="cite.0.Wansink.1998"/>Brian Wansink, Robert J. Kent, and Stephen J. Hoch, “An Anchoring and Adjustment Model of Purchase Quantity Decisions,” <emphasis>Journal of Marketing Research</emphasis> 35, no. 1 (1998): 71–81,<link xl:href="http://www.jstor.org/stable/3151931">http://www.jstor.org/stable/3151931</link>.</para>
+  </footnote>
+<anchor xml:id="x46-47005f5"/></para>
+<para>Yet the most fearsome aspect of contamination is that it serves as yet another of the thousand faces of confirmation bias.<footnote xml:id="fn_c49aaa715d298825e86ec816d4b9ef7a">
+    <para>See “The Third Alternative,” “Knowing About Biases Can Hurt You,” “One Argument Against An Army,” “What Evidence Filtered Evidence?”, and “Rationalization.” And “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_WnheMGAka4fL99eae">Hindsight Devalues Science</olink>,” “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_RgkqLqkg8vLhsYpfh">Fake Causality</olink>,” and “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_rmAbiEKQDpDnZzcRf">Positive Bias: Look into the Dark</olink>” in <emphasis>Map and Territory</emphasis>. And the rest of this book.</para>
+  </footnote>
+<anchor xml:id="x46-47006f6"/> Once an idea gets into your head, it primes information compatible with it—and thereby ensures its continued existence. Never mind the selection pressures for winning political arguments; confirmation bias is built directly into our hardware, associational networks priming compatible thoughts and memories. An unfortunate side effect of our existence as neural creatures.</para>
+<para>A single fleeting image can be enough to prime associated words for recognition. Don’t think it takes anything more to set confirmation bias in motion. All it takes is that one quick flash, and the bottom line is already decided, for we change our minds less often than we think . . .</para>
+
+  
+</section>

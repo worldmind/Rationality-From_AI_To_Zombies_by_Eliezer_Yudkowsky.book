@@ -1,0 +1,109 @@
+<section xml:id="item_8qccXytpkEhEAkjjM"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Rationality: An Introduction</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/8qccXytpkEhEAkjjM/rationality-an-introduction"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-02</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Rationality A-Z (discussion &amp; meta)</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+  <para>In the autumn of 1951, a football game between Dartmouth and Princeton turned unusually rough. A pair of psychologists, Dartmouth’s Albert Hastorf and Princeton’s Hadley Cantril, decided to ask students from both schools which team had initiated the rough play. Nearly everyone agreed that Princeton hadn’t started it; but 86% of Princeton students believed that Dartmouth had started it, whereas only 36% of Dartmouth students blamed Dartmouth. (Most Dartmouth students believed “both started it.”)</para>
+<para>When shown a film of the game later and asked to count the infractions they saw, Dartmouth students claimed to see a mean of 4.3 infractions by the Dartmouth team (and identified half as “mild”), whereas Princeton students claimed to see a mean of 9.8 Dartmouth infractions (and identified a third as “mild”).<footnote xml:id="fn_673081c67ae4912a215499d2271d7821">
+    <para> Albert Hastorf and Hadley Cantril, “They Saw a Game: A Case Study,” <emphasis role="italic">Journal of Abnormal and Social Psychology</emphasis> 49 (1954): 129–134, <link xl:href="http://www2.psych.ubc.ca/~schaller/Psyc590Readings/Hastorf1954.pdf">http://www2.psych.ubc.ca/~schaller/Psyc590Readings/Hastorf1954.pdf</link>.</para>
+  </footnote>
+</para>
+<para>When something we value is threatened—our world-view, our in-group, our social standing, or something else we care about—our thoughts and perceptions rally to their defense.<footnote xml:id="fn_c4cb6f04c8ca11101f7bd7bd21371e9a">
+    <para> Emily Pronin, “How We See Ourselves and How We See Others,” <emphasis role="italic">Science</emphasis> 320 (2008): 1177–1180.</para>
+  </footnote>
+<footnote xml:id="fn_baa68658a5271b519db7d3625d8116d0">
+    <para> Robert P. Vallone, Lee Ross, and Mark R. Lepper, “The Hostile Media Phenomenon: Biased Perception and Perceptions of Media Bias in Coverage of the Beirut Massacre,” <emphasis role="italic">Journal of Personality and Social Psychology</emphasis> 49 (1985): 577–585, <link xl:href="http://ssc.wisc.edu/~jpiliavi/965/hwang.pdf">http://ssc.wisc.edu/~jpiliavi/965/hwang.pdf</link>.</para>
+  </footnote>
+ Some psychologists go so far as to hypothesize that the human ability to come up with explicit justifications for our conclusions evolved  to help us win arguments.<footnote xml:id="fn_fc189fa82dc3cd961fe1f4252d8ca5c9">
+    <para> Hugo Mercier and Dan Sperber, “Why Do Humans Reason? Arguments for an Argumentative Theory,” <emphasis role="italic">Behavioral and Brain Sciences</emphasis> 34 (2011): 57–74, <link xl:href="http://hal.archives-ouvertes.fr/file/index/docid/904097/filename/MercierSperberWhydohumansreason.pdf">http://hal.archives-ouvertes.fr/file/index/docid/904097/filename/MercierSperberWhydohumansreason.pdf</link>.</para>
+  </footnote>
+</para>
+<para>One of the basic insights of 20th-century psychology is that human behavior is often driven by sophisticated unconscious processes, and the stories we tell ourselves about our motives and reasons are much more biased and confabulated than we realize. We often fail, in fact, to realize that we’re doing any story-telling. When we seem to “directly perceive” things about ourselves in introspection, it often turns out to rest on tenuous implicit causal models.<footnote xml:id="fn_8f1e962b23e309f7402f79658cfaca34">
+    <para> Richard E. Nisbett and Timothy D. Wilson, “Telling More than We Can Know: Verbal Reports on Mental Processes,” <emphasis role="italic">Psychological Review</emphasis> 84 (1977): 231–259, <link xl:href="http://goo.gl/3HcEgh">http://people.virginia.edu/~tdw/nisbett&amp;wilson.pdf</link>.</para>
+  </footnote>
+<footnote xml:id="fn_1ecc65380b700e7132f67db3d53524ea">
+    <para> Eric Schwitzgebel, <emphasis role="italic">Perplexities of Consciousness</emphasis> (MIT Press, 2011).</para>
+  </footnote>
+ When we try to argue for our beliefs, we can come up with shaky reasoning bearing no relation to how we first arrived at the belief.<footnote xml:id="fn_40a054ffc93d880953970e8a1ec2b27b">
+    <para> Jonathan Haidt, “The Emotional Dog and Its Rational Tail: A Social Intuitionist Approach to Moral Judgment,” <emphasis role="italic">Psychological Review</emphasis> 108, no. 4 (2001): 814–834, doi:<link xl:href="http://dx.doi.org/10.1037/0033-295X.108.4.814">10.1037/0033-295X.108.4.814</link>.</para>
+  </footnote>
+ Rather than trusting explanations in proportion to their predictive power, we tend to trust  in proportion to their psychological appeal.</para>
+<para>How can we do better? How can we arrive at a realistic view of the world, when we’re so prone to rationalization? How can we come to a realistic view of our mental lives, when our thoughts <emphasis role="italic">about</emphasis> thinking are also suspect?</para>
+<para>What’s the <emphasis role="italic">least</emphasis> shaky place we could put our weight down?</para>
+<para> </para>
+<section>
+  <title>The Mathematics of Rationality</title>
+  <para>At the turn of the 20th century, coming up with simple (e.g., set-theoretic) axioms for arithmetic gave mathematicians a clearer standard by which to judge the correctness of their conclusions. If a human or calculator outputs “2 + 2 = 4,” we can now do more than just say “that seems intuitively right.” We can explain <emphasis role="italic">why</emphasis> it’s right, and we can prove that its rightness is tied in systematic ways to the rightness of the rest of arithmetic.</para>
+  <para>But mathematics lets us model the behaviors of physical systems that are a lot more interesting than a pocket calculator. We can also formalize <emphasis role="italic">rational belief in general</emphasis>, using probability theory to pick out features held in common by all successful forms of inference. We can even formalize <emphasis role="italic">rational behavior in general</emphasis> by drawing upon decision theory.</para>
+  <para>Probability theory defines how we would ideally reason in the face of uncertainty, if we had the requisite time, computing power, and mental control. Given some background knowledge (<emphasis role="italic">priors</emphasis>) and a new piece of evidence, probability theory uniquely and precisely defines the best set of new beliefs (<emphasis role="italic">posterior</emphasis>) I could adopt. Likewise, decision theory defines what action I should take based on my beliefs. For any consistent set of beliefs and preferences I could have, there is a decision-theoretic answer to how I should then act in order to satisfy my preferences.</para>
+  <para>Suppose you find out that one of your six classmates has a crush on you—perhaps you get a letter from a secret admirer, and you’re sure it’s from one of those six—but you have no idea which of the six it is. Bob happens to be one of those six classmates. If you have no special reason to think Bob’s any likelier (or any less likely) than the other five candidates, then what are the odds that Bob is the one with the crush?</para>
+  <para>Answer: The odds are 1:5. There are six possibilities, so a wild guess would result in you getting it right once for every five times you got it wrong, on average.</para>
+  <para>We can’t say, “Well, I have no idea who has a crush on me; maybe it’s Bob, or maybe it’s not. So I’ll just say the odds are fifty-fifty.” Even if we would rather say “I don’t know” or “Maybe” and stop there, the right answer is still 1:5. This follows from the assumption that there are six possibilities and you have no reason to favor one of them over any of the others.<footnote xml:id="fn_1a3de2554fce923f911c0e7f21f681a0">
+      <para> We’re also assuming, unrealistically, that you can really be certain the admirer is one of those six people, and that you aren’t neglecting other possibilities. (What if more than one of your classmates has a crush on you?)</para>
+    </footnote>
+</para>
+  <para>Suppose that you’ve <emphasis role="italic">also</emphasis> noticed you get winked at by people ten times as often when they have a crush on you. If Bob then winks at you, that’s a new piece of evidence. In that case, it would be a mistake to stay skeptical about whether Bob is your secret admirer; the 10:1 odds in favor of “a random person who winks at me has a crush on me” outweigh the 1:5 odds against “Bob has a crush on me.”</para>
+  <para>It would <emphasis role="italic">also</emphasis> be a mistake to say, “That evidence is so strong, it’s a sure bet that he’s the one who has the crush on me! I’ll just assume from now on that Bob is into me.” Overconfidence is just as bad as underconfidence.</para>
+  <para>In fact, there’s only one viable answer to this question too. To change our mind from the 1:5 prior odds in response to the evidence’s 10:1 likelihood ratio, we multiply the left sides together and the right sides together, getting 10:5 posterior odds, or 2:1 odds in favor of “Bob has a crush on me.” Given our assumptions and the available evidence, guessing that Bob has a crush on you will turn out to be correct 2 times for every 1 time it turns out to be wrong. Equivalently: the probability that he’s attracted to you is 2/3. Any other confidence level would be inconsistent.</para>
+  <para>It turns out that given very modest constraints, the question “What should I believe?” has an objectively right answer. It has a right answer when you’re wracked with uncertainty, not just when you have a conclusive proof. There is always a correct amount of confidence to have in a statement, even when it looks more like a “personal belief” instead of an expert-verified “fact.”</para>
+  <para>Yet we often talk as though the existence of uncertainty and disagreement makes beliefs a mere matter of taste. We say “that’s just my opinion” or “you’re entitled to your opinion,” as though the assertions of science and math existed on a different and higher plane than beliefs that are merely “private” or “subjective.” To which economist Robin Hanson has responded:<footnote xml:id="fn_4c420a76b7b25c2c4235ac7465fe07f9">
+      <para> Robin Hanson, “You Are Never Entitled to Your Opinion,” <emphasis role="italic">Overcoming Bias</emphasis> (Blog), 2006, <link xl:href="http://www.overcomingbias.com/2006/12/you_are_never_e.html">http://www.overcomingbias.com/2006/12/you_are_never_e.html</link>.</para>
+    </footnote>
+</para>
+  <blockquote>
+    <para> You are never entitled to your opinion. Ever! You are not even entitled to “I don’t know.” You are entitled to your desires, and sometimes to your choices. You might own a choice, and if you can choose your preferences, you may have the right to do so. But your beliefs are not about you; beliefs are about the world. Your beliefs should be your best available estimate of the way things are; anything else is a lie. [ . . . ]</para>
+    <para>It is true that some topics give experts stronger mechanisms for resolving disputes. On other topics our biases and the complexity of the world make it harder to draw strong conclusions. [ . . . ]</para>
+    <para>But never forget that on any question about the way things are (or should be), and in any information situation, there <emphasis role="italic">is</emphasis> always a best estimate. You are only entitled to your best honest effort to find that best estimate; anything else is a lie.</para>
+  </blockquote>
+  <para>Our culture hasn’t internalized the lessons of probability theory—that the correct answer to questions like “How sure can I be that Bob has a crush on me?” is just as logically constrained as the correct answer to a question on an algebra quiz or in a geology textbook.</para>
+  <para>Our brains are kludges slapped together by natural selection. Humans aren’t perfect reasoners or perfect decision-makers, any more than we’re perfect calculators. Even at our best, we don’t compute the <emphasis role="italic">exact</emphasis> right answer to “what should I think?” and “what should I do?”<footnote xml:id="fn_4b757977c22297a016bd0b29e15585b6">
+      <para> We lack the computational resources (and evolution lacked the engineering expertise and foresight) to iron out all our bugs. Indeed, even a maximally efficient reasoner in the real world would still need to rely on heuristics and approximations. The best possible computationally tractable algorithms for changing beliefs would still fall short of probability theory’s consistency.</para>
+    </footnote>
+</para>
+  <para>And yet, knowing we can’t become <emphasis role="italic">fully</emphasis> consistent, we can certainly still get better. Knowing that there’s an ideal standard we can compare ourselves to—what researchers call Bayesian rationality—can guide us as we improve our thoughts and actions. Though we’ll never be perfect Bayesians, the mathematics of rationality can help us understand <emphasis role="italic">why</emphasis> a certain answer is correct, and help us spot exactly where we messed up.</para>
+  <para>Imagine trying to learn math through rote memorization alone. You might be told that “10 + 3 = 13,” “31 + 108 = 139,” and so on, but it won’t do you a lot of good unless you understand the pattern behind the squiggles. It can be a lot harder to seek out methods for improving your rationality when you don’t have a general framework for judging a method’s success. The purpose of this book is to help people build for themselves such frameworks.</para>
+  <para> </para>
+</section>
+<section>
+  <title>Rationality Applied</title>
+  <para>The tightly linked essays in <emphasis role="italic">How to Actually Change Your Mind</emphasis> were originally written by Eliezer Yudkowsky for the blog <emphasis role="italic">Overcoming Bias</emphasis>. Published in the late 2000s, these posts helped inspire the growth of a vibrant community interested in rationality and self-improvement.</para>
+  <para><emphasis role="italic">Map and Territory</emphasis> was the first such collection. <emphasis role="italic">How to Actually Change Your Mind</emphasis> is the second. The full six-book set, titled <emphasis role="italic">Rationality: From AI to Zombies</emphasis>, can be found on <emphasis role="italic">Less Wrong</emphasis> at <link xl:href="https://www.lesswrong.com/rationality"><emphasis role="bold">http://lesswrong.com/rationality</emphasis></link>.</para>
+  <para>One of the rationality community’s most popular writers, Scott Alexander, has previously observed:<footnote xml:id="fn_72d20b98bbb46baae9f0d16129e13e02">
+      <para> Scott Alexander, “Why I Am Not Rene Descartes,” <emphasis role="italic">Slate Star Codex</emphasis> (Blog), 2014, <link xl:href="http://slatestarcodex.com/2014/11/27/why-i-am-not-rene-descartes/">http://slatestarcodex.com/2014/11/27/why-i-am-not-rene-descartes/</link>.</para>
+    </footnote>
+</para>
+  <blockquote>
+    <para> [O]bviously it’s useful to have as much evidence as possible, in the same way it’s useful to have as much money as possible. But equally obviously it’s useful to be able to use a limited amount of evidence wisely, in the same way it’s useful to be able to use a limited amount of money wisely.</para>
+  </blockquote>
+  <para>Rationality techniques help us get more mileage out of the evidence we have, in cases where the evidence is inconclusive or our biases are distorting how we interpret the evidence.</para>
+  <para>This applies to our personal lives, as in the tale of Bob. It applies to disagreements between political factions and sports fans. And it applies to philosophical puzzles and debates about the future trajectory of technology and society. Recognizing that the same mathematical rules apply to each of these domains (and that in many cases the same cognitive biases crop up), <emphasis role="italic">How to Actually Change Your Mind</emphasis> freely moves between a wide range of topics.</para>
+  <para>The first sequence of essays in this book, <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_FrqfoG3LJeCZs96Ym"><emphasis role="bold">Overly Convenient Excuses</emphasis></olink>, focuses on probabilistically “easy” questions—ones where the odds are extreme, and systematic errors <emphasis role="italic">seem</emphasis> like they should be particularly easy to spot.…</para>
+  <para>From there, we move into murkier waters with <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_3ELrPerFTSo75WnrH"><emphasis role="bold">Politics and Rationality</emphasis></olink>. Politics—or rather, mainstream national politics of the sort debated by TV pundits—is famous for its angry, unproductive discussions. On the face of it, there’s something surprising about that. Why do we take political disagreements so personally, even though the machinery and effects of national politics are often so distant from us in space or in time? For that matter, why do we not become <emphasis role="italic">more</emphasis> careful and rigorous with the evidence when we’re dealing with issues we deem important?</para>
+  <para>The Dartmouth-Princeton game hints at an answer. Much of our reasoning process is really rationalization—story-telling that makes our current beliefs feel more coherent and justified, without necessarily improving their accuracy. <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_GSqFqc646rsRd2oyz"><emphasis role="bold">Against Rationalization</emphasis></olink> speaks to this problem, followed by <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_pmHZDpak4NeRLLLCw"><emphasis role="bold">Seeing with Fresh Eyes</emphasis></olink>, on the challenge of recognizing evidence that doesn’t fit our expectations and assumptions.</para>
+  <para>In practice, leveling up in rationality often means encountering interesting and powerful new ideas and colliding more with the in-person rationality community. <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_M3TJ2fTCzoQq66NBJ"><emphasis role="bold">Death Spirals</emphasis></olink> discusses some important hazards that can afflict groups united around common interests and amazing shiny ideas, which rationalists will need to overcome if they’re to translate their high-minded ideas into real-world effectiveness. <emphasis role="italic">How to Actually Change Your Mind</emphasis> then concludes with a sequence on <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_5bZZZJ5psXrrD5BGb"><emphasis role="bold">Letting Go</emphasis></olink>.</para>
+  <para>Our natural state <emphasis role="italic">isn’t</emphasis> to change our minds like a Bayesian would. Getting the Dartmouth and Princeton students to notice what they’re actually seeing won’t be as easy as reciting the axioms of probability theory to them. As philanthropic research analyst Luke Muehlhauser writes in “The Power of Agency”:<footnote xml:id="fn_396510a6b3b13aa2d514e6b0667bedf1">
+      <para> Luke Muehlhauser, “The Power of Agency,” <emphasis role="italic">Less Wrong</emphasis> (Blog), 2011, <link xl:href="https://www.lesswrong.com/posts/vbcjYg6h3XzuqaaN8/the-power-of-agency">http://lesswrong.com/lw/5i8/the_power_of_agency/</link>.</para>
+    </footnote>
+</para>
+  <blockquote>
+    <para> You are not a Bayesian homunculus whose reasoning is “corrupted” by cognitive biases.</para>
+    <para>You just <emphasis role="italic">are</emphasis> cognitive biases.</para>
+  </blockquote>
+  <para>Confirmation bias, status quo bias, correspondence bias, and the like are not tacked on to our reasoning; they are its very substance.</para>
+  <para>That doesn’t mean that debiasing is impossible. We aren’t perfect calculators underneath all our arithmetic errors, either. Many of our mathematical limitations result from very deep facts about how the human brain works. Yet we can train our mathematical abilities; we can learn when to trust and distrust our mathematical intuitions; we can shape our environments to make things easier on us. And if we’re wrong today, we can be less so tomorrow.</para>
+</section>
+
+  
+</section>

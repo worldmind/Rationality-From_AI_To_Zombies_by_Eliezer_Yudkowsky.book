@@ -1,0 +1,53 @@
+<section xml:id="item_6FmqiAgS8h4EJm86s"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>How to Convince Me That 2 + 2 = 3</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/6FmqiAgS8h4EJm86s/how-to-convince-me-that-2-2-3"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-03-09</pubdate>
+  </info>
+  <indexterm><primary>Logic &amp; Mathematics </primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Epistemology</primary></indexterm>
+  <para>In “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_6s3xABaXKPdFwA3FS">What is Evidence?</olink>” I wrote:<footnote xml:id="fn_fd29ee68416f436b4a0d00f535985972">
+    <para>See <link xl:href="https://www.lesswrong.com/rationality/"><emphasis>Map and Territory</emphasis></link>.</para>
+  </footnote>
+<anchor xml:id="x14-15001f1"/></para>
+<blockquote>
+  <para> This is why rationalists put such a heavy premium on the paradoxical-seeming claim that a belief is only really <emphasis>worthwhile</emphasis> if you could, in principle, be persuaded to believe otherwise. If your retina ended up in the same state regardless of what light entered it, you would be blind . . . Hence the phrase, “blind faith.” If what you believe doesn’t depend on what you see, you’ve been blinded as effectively as by poking out your eyeballs.</para>
+</blockquote>
+<para>Cihan Baran replied:<footnote xml:id="fn_fa624bb08bdebe2fe8a2b45a9181a570">
+    <para>Comment: <link xl:href="https://www.lesswrong.com/posts/6s3xABaXKPdFwA3FS/what-is-evidence?commentId=ubFQTM2SK3MtWNWdy">http://lesswrong.com/lw/jl/what_is_evidence/f7h</link>.</para>
+  </footnote>
+<anchor xml:id="x14-15002f2"/></para>
+<blockquote>
+  <para> I can not conceive of a situation that would make 2 + 2 = 4 false. Perhaps for that reason, my belief in 2 + 2 = 4 is unconditional.</para>
+</blockquote>
+<para>I admit, I cannot conceive of a “situation” that would <emphasis>make</emphasis> 2 + 2 = 4 false. (There are redefinitions, but those are not “situations,” and then you’re no longer talking about 2, 4, =, or +.) But that doesn’t make my belief unconditional. I find it quite easy to imagine a situation which would <emphasis>convince</emphasis> me that 2 + 2 = 3.</para>
+<para>Suppose I got up one morning, and took out two earplugs, and set them down next to two other earplugs on my nighttable, and noticed that there were now three earplugs, without any earplugs having appeared or disappeared—in contrast to my stored memory that 2 + 2 was supposed to equal 4. Moreover, when I visualized the process in my own mind, it seemed that making xx and xx come out to xxxx required an extra x to appear from nowhere, and was, moreover, inconsistent with other arithmetic I visualized, since subtracting xx from xxx left xx, but subtracting xx from xxxx left xxx. This would conflict with my stored memory that 3 - 2 = 1, but memory would be absurd in the face of physical and mental confirmation that xxx - xx = xx.</para>
+<para>I would also check a pocket calculator, Google, and perhaps my copy of 1984 where Winston writes that “Freedom is the freedom to say two plus two equals three.” All of these would naturally show that the rest of the world agreed with my current visualization, and disagreed with my memory, that 2 + 2 = 3.</para>
+<para>How could I possibly have ever been so deluded as to believe that 2 + 2 = 4? Two explanations would come to mind: First, a neurological fault (possibly caused by a sneeze) had made all the additive sums in my stored memory go up by one. Second, someone was messing with me, by hypnosis or by my being a computer simulation. In the second case, I would think it more likely that they had messed with my arithmetic <emphasis>recall</emphasis> than that 2 + 2 <emphasis>actually</emphasis> equalled 4. Neither of these plausible-sounding explanations would prevent me from noticing that I was very, very, <emphasis>very</emphasis> confused.<footnote xml:id="fn_ff73117bcd713287e798bc53d0009e4d">
+    <para>See “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_5JDkW4MYXit2CquLs">Your Strength as a Rationalist</olink>” in <emphasis>Map and Territory</emphasis>.</para>
+  </footnote>
+<anchor xml:id="x14-15003f3"/></para>
+<para>What would convince me that 2 + 2 = 3, in other words, is exactly the same kind of evidence that currently convinces me that 2 + 2 = 4: The evidential crossfire of physical observation, mental visualization, and social agreement.</para>
+<para>There was a time when I had no idea that 2 + 2 = 4. I did not arrive at this <emphasis>new</emphasis> belief by random processes—then there would have been no particular reason for my brain to end up storing “2 + 2 = 4” instead of “2 + 2 = 7.” The fact that my brain stores an answer surprisingly similar to what happens when I lay down two earplugs alongside two earplugs, calls forth an explanation of what entanglement produces this strange mirroring of mind and reality.</para>
+<para>There’s really only two possibilities, for a belief of fact—either the belief got there via a mind-reality entangling process, or not. If not, the belief can’t be correct except by coincidence. For beliefs with the slightest shred of internal complexity (requiring a computer program of more than 10 bits to simulate), the space of possibilities is large enough that coincidence vanishes.<footnote xml:id="fn_92e542df5d27fa677df5763841b58873">
+    <para>For more on belief formation and beliefs of fact, see “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_SqF8cHjJv43mvJJzx">Feeling Rational</olink>” and “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_6s3xABaXKPdFwA3FS">What Is Evidence?</olink>” in <emphasis>Map and Territory</emphasis>. For more on belief complexity, see “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_f4txACqDWithRi7hs">Occam’s Razor</olink>” in the same volume.</para>
+  </footnote>
+<anchor xml:id="x14-15004f4"/></para>
+<para>Unconditional facts are not the same as unconditional beliefs. If entangled evidence convinces me that a fact is unconditional, this doesn’t mean I always believed in the fact without need of entangled evidence.</para>
+<para>I believe that 2 + 2 = 4, and I find it quite easy to conceive of a situation which would convince me that 2 + 2 = 3. Namely, the same sort of situation that currently convinces me that 2 + 2 = 4. Thus I do not fear that I am a victim of blind faith.<footnote xml:id="fn_0aa6666e8677363f8f009e84569cb5c8">
+    <para>If there are any Christians reading this who know Bayes’s Theorem, might I inquire of you what situation would convince you of the truth of Islam? Presumably it would be the same sort of situation causally responsible for producing your current belief in Christianity: We would push you screaming out of the uterus of a Muslim woman, and have you raised by Muslim parents who continually told you that it is good to believe unconditionally in Islam.</para>
+  </footnote>
+<anchor xml:id="x14-15005f5"/></para>
+<para>Or is there more to it than that? If so, what situation would convince you of Islam, or at least, non-Christianity? And how confident are you that the general kinds of evidence and reasoning you appeal to would have been enough to dissuade you of your religion if you had been raised a Muslim?</para>
+
+  
+</section>

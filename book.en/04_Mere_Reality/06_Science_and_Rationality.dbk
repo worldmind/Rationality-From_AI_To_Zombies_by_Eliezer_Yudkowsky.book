@@ -1,0 +1,33 @@
+<chapter xml:id="item_fxynfGCSHpY4FmBZy"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Science and Rationality</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/fxynfGCSHpY4FmBZy"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>The final sequence in this book tie these ideas together, and draws some conclusions on the strength of our scientific institutions.</para>
+
+  <xi:include href="06_Science_and_Rationality/01_The_Failures_of_Eld_Science.dbk"/>
+<xi:include href="06_Science_and_Rationality/02_The_Dilemma_Science_or_Bayes.dbk"/>
+<xi:include href="06_Science_and_Rationality/03_Science_Doesnt_Trust_Your_Rationality.dbk"/>
+<xi:include href="06_Science_and_Rationality/04_When_Science_Cant_Help.dbk"/>
+<xi:include href="06_Science_and_Rationality/05_Science_Isnt_Strict_Enough.dbk"/>
+<xi:include href="06_Science_and_Rationality/06_Do_Scientists_Already_Know_This_Stuff.dbk"/>
+<xi:include href="06_Science_and_Rationality/07_No_Safe_Defense_Not_Even_Science.dbk"/>
+<xi:include href="06_Science_and_Rationality/08_Changing_the_Definition_of_Science.dbk"/>
+<xi:include href="06_Science_and_Rationality/09_Faster_Than_Science.dbk"/>
+<xi:include href="06_Science_and_Rationality/10_Einsteins_Speed.dbk"/>
+<xi:include href="06_Science_and_Rationality/11_That_Alien_Message.dbk"/>
+<xi:include href="06_Science_and_Rationality/12_My_Childhood_Role_Model.dbk"/>
+<xi:include href="06_Science_and_Rationality/13_Einsteins_Superpowers.dbk"/>
+<xi:include href="06_Science_and_Rationality/14_Class_Project.dbk"/>
+<xi:include href="06_Science_and_Rationality/15_A_Technical_Explanation_of_Technical_Explanation.dbk"/>
+</chapter>

@@ -1,0 +1,41 @@
+<section xml:id="item_YF9HB6cWCJrDK5pBM"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Words as Mental Paintbrush Handles</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/YF9HB6cWCJrDK5pBM/words-as-mental-paintbrush-handles"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-03-02</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+<indexterm><primary>Neuroscience</primary></indexterm>
+<indexterm><primary>Illusion of Transparency</primary></indexterm>
+  <para>(We should be done with the mathy posts, I think, at least for now.  But forgive me if, ironically, I end up resorting to Rationality Quotes for a day or two.  I&apos;m currently at the AGI-08 conference, which, as of the first session, is not nearly so bad as I feared.)</para>
+<para>Suppose I tell you:  &quot;It&apos;s the strangest thing:  The lamps in this hotel have triangular lightbulbs.&quot;</para>
+<para>You may or may not have visualized it—if you haven&apos;t done it yet, do so now—what, in your mind&apos;s eye, does a &quot;triangular lightbulb&quot; look like?</para>
+<para>In your mind&apos;s eye, did the glass have sharp edges, or smooth?</para>
+<para>When the phrase &quot;triangular lightbulb&quot; first crossed my mind—no, the hotel doesn&apos;t have them—then as best as my introspection could determine, I first saw a pyramidal lightbulb with sharp edges, then (almost immediately) the edges were smoothed, and then my mind generated a loop of flourescent bulb in the shape of a smooth triangle as an alternative.</para>
+<para>As far as I can tell, no deliberative/verbal thoughts were involved—just wordless reflex flinch away from the imaginary mental vision of sharp glass, which design problem was solved before I could even think in words.</para>
+<para>Believe it or not, for some decades, there was a serious debate about whether people <emphasis>really</emphasis> had mental images in their mind—an actual <emphasis>picture</emphasis> of a chair somewhere—or if people just naively <emphasis>thought</emphasis> they had mental images (having been misled by &quot;introspection&quot;, a very bad forbidden activity), while actually just having a little &quot;chair&quot; label, like a LISP token, active in their brain.</para>
+<para>I am trying hard not to say anything like &quot;How spectacularly silly,&quot; because there is always the <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_WnheMGAka4fL99eae">hindsight effect</olink> to consider, but: how spectacularly silly.</para>
+<para>This academic paradigm, I think, was mostly a deranged legacy of behaviorism, which denied the existence of thoughts in humans, and sought to explain all human phenomena as &quot;reflex&quot;, including speech.  Behaviorism probably deserves its own post at some point, as it was a perversion of rationalism; but this is not that post.</para>
+<para>&quot;You call it &apos;silly&apos;,&quot; you inquire, &quot;but how do you <emphasis>know</emphasis> that your brain represents visual images?  Is it merely that you can close your eyes and see them?&quot;</para>
+<para>This question <emphasis>used</emphasis> to be harder to answer, back in the day of the controversy.  If you wanted to prove the existence of mental imagery &quot;scientifically&quot;, rather than just by introspection, you had to infer the existence of mental imagery from experiments like, e.g.:  Show subjects two objects and ask them if one can be rotated into correspondence with the other.  The response time is linearly proportional to the angle of rotation required.  This is easy to explain if you are actually visualizing the image and continuously rotating it at a constant speed, but hard to explain if you are just checking propositional features of the image.</para>
+<para>Today we can actually neuroimage the little pictures in the visual cortex.  So, yes, your brain really does represent a detailed image of what it sees or imagines.  See Stephen Kosslyn&apos;s <emphasis>Image and Brain: The Resolution of the Imagery Debate.</emphasis></para>
+<para>Part of the reason people get in trouble with words, is that they do not realize how much complexity lurks behind words.</para>
+<para>Can you visualize a &quot;green dog&quot;?  Can you visualize a &quot;cheese apple&quot;?</para>
+<para>&quot;Apple&quot; isn&apos;t just a sequence of two syllables or five letters.  That&apos;s a shadow.  That&apos;s the tip of the tiger&apos;s tail.</para>
+<para>Words, or rather the concepts behind them, are paintbrushes—you can use them to draw images in your own mind.  Literally draw, if you employ concepts to make a picture in your visual cortex.  And by the use of shared labels, you can reach into someone else&apos;s mind, and grasp their paintbrushes to draw pictures in <emphasis>their</emphasis> minds—sketch a little green dog in their visual cortex.</para>
+<para>But don&apos;t think that, because you send syllables through the air, or letters through the Internet, it is the syllables or the letters that draw pictures in the visual cortex.  That takes some complex instructions that wouldn&apos;t fit in the sequence of letters.  &quot;Apple&quot; is 5 bytes, and drawing a picture of an apple from scratch would take more data than that.</para>
+<para>&quot;Apple&quot; is merely the tag attached to the true and wordless <emphasis>apple</emphasis> concept, which can paint a picture in your visual cortex, or collide with &quot;cheese&quot;, or recognize an apple when you see one, or taste its archetype in apple pie, maybe even send out the motor behavior for eating an apple...</para>
+<para>And it&apos;s not as simple as just calling up a picture from memory.  Or how would you be able to visualize combinations like a &quot;triangular lightbulb&quot;—imposing triangleness on lightbulbs, keeping the essence of both, even if you&apos;ve never seen such a thing in your life?</para>
+<para>Don&apos;t make the mistake the behaviorists made.  There&apos;s far more to speech than sound in air.  The labels are just pointers—&quot;look in memory area 1387540&quot;.  Sooner or later, when you&apos;re handed a pointer, it comes time to dereference it, and actually look in memory area 1387540.</para>
+<para>What does a word point to?</para>
+
+  
+</section>

@@ -1,0 +1,40 @@
+<section xml:id="item_ZQG9cwKbct2LtmL3p"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Evaporative Cooling of Group Beliefs</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/ZQG9cwKbct2LtmL3p/evaporative-cooling-of-group-beliefs"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-02-01</pubdate>
+  </info>
+  <indexterm><primary>Groupthink</primary></indexterm>
+<indexterm><primary>Social &amp; Cultural Dynamics</primary></indexterm>
+  <para>Early studiers of cults were surprised to discover that when cults receive a major shock—a prophecy fails to come true, a moral flaw of the founder is revealed—they often come back stronger than before, with increased belief and fanaticism. The Jehovah’s Witnesses placed Armageddon in 1975, based on Biblical calculations; 1975 has come and passed. The Unarian cult, still going strong today, survived the nonappearance of an intergalactic spacefleet on September 27, 1975.</para>
+<para>Why would a group belief become <emphasis>stronger</emphasis> after encountering crushing counterevidence?</para>
+<para>The conventional interpretation of this phenomenon is based on cognitive dissonance. When people have taken “irrevocable” actions in the service of a belief—given away all their property in anticipation of the saucers landing—they cannot possibly admit they were mistaken. The challenge to their belief presents an immense cognitive dissonance; they must find reinforcing thoughts to counter the shock, and so become more fanatical. In this interpretation, the increased group fanaticism is the result of increased individual fanaticism.</para>
+<para>I was looking at a Java applet which demonstrates the use of evaporative cooling to form a Bose-Einstein condensate, when it occurred to me that another force entirely might operate to increase fanaticism. Evaporative cooling sets up a potential energy barrier around a collection of hot atoms. Thermal energy is essentially statistical in nature—not all atoms are moving at the exact same speed. The kinetic energy of any given atom varies as the atoms collide with each other. If you set up a potential energy barrier that’s just a little higher than the average thermal energy, the workings of chance will give an occasional atom a kinetic energy high enough to escape the trap. When an unusually fast atom escapes, it takes with it an unusually large amount of kinetic energy, and the average energy decreases. The group becomes substantially cooler than the potential energy barrier around it.</para>
+<para>In Festinger, Riecken, and Schachter’s classic <emphasis>When Prophecy Fails</emphasis>, one of the cult members walked out the door immediately after the flying saucer failed to land. Who gets fed up and leaves <emphasis>first</emphasis>? An <emphasis>average</emphasis> cult member? Or a relatively skeptical member, who previously might have been acting as a voice of moderation, a brake on the more fanatic members?</para>
+<para>After the members with the highest kinetic energy escape, the remaining discussions will be between the extreme fanatics on one end and the slightly less extreme fanatics on the other end, with the group consensus somewhere in the “middle.”</para>
+<para>And what would be the analogy to collapsing to form a Bose-Einstein condensate? Well, there’s no real need to stretch the analogy that far. But you may recall that I used a fission chain reaction analogy for the affective death spiral; when a group ejects all its voices of moderation, then all the people encouraging each other, and suppressing dissents, may internally increase in average fanaticism.<footnote xml:id="fn_97f3b8d48ea243271c3287f2e8af4739">
+    <para>No thermodynamic analogy here, unless someone develops a nuclear weapon that explodes when it gets cold.</para>
+  </footnote>
+<anchor xml:id="x65-66001f1"/></para>
+<para>When <link xl:href="https://www.lesswrong.com/posts/96TBXaHwLbFyeAxrg/guardians-of-ayn-rand">Ayn Rand</link>’s long-running affair with Nathaniel Branden was revealed to the Objectivist membership, a substantial fraction of the Objectivist membership broke off and followed Branden into espousing an “open system” of Objectivism not bound so tightly to Ayn Rand. Who stayed with Ayn Rand even after the scandal broke? The ones who <emphasis>really, really</emphasis> believed in her—and perhaps some of the undecideds, who, after the voices of moderation left, heard arguments from only one side. This may account for how the Ayn Rand Institute is (reportedly) more fanatical after the breakup than the original core group of Objectivists under Branden and Rand.</para>
+<para>A few years back, I was on a transhumanist mailing list where a small group espousing “social democratic transhumanism” vitriolically insulted every libertarian on the list. Most libertarians left the mailing list; most of the others gave up on posting. As a result, the remaining group shifted substantially to the left. Was this deliberate? Probably not, because I don’t think the perpetrators knew that much psychology.<footnote xml:id="fn_152e9308cb692b9d7035514d4e7545d3">
+    <para>For that matter, I can’t recall seeing the evaporative cooling analogy elsewhere, though that doesn’t mean it hasn’t been noted before.</para>
+  </footnote>
+<anchor xml:id="x65-66002f2"/> At most, they might have thought to make themselves “bigger fish in a smaller pond.”</para>
+<para>This is one reason why it’s important to be prejudiced in favor of tolerating dissent. Wait until substantially <emphasis>after</emphasis> it seems to you justified in ejecting a member from the group, before actually ejecting. If you get rid of the old outliers, the group position will shift, and someone else will become the oddball. If you eject them too, you’re well on the way to becoming a Bose-Einstein condensate and, er, exploding.</para>
+<para>The flip side: Thomas Kuhn believed that a science has to become a “paradigm,” with a shared technical language that excludes outsiders, before it can get any real work done. In the formative stages of a science, according to Kuhn, the adherents go to great pains to make their work comprehensible to outside academics. But (according to Kuhn) a science can only make real progress as a technical discipline once it abandons the requirement of outside accessibility, and scientists working in the paradigm assume familiarity with large cores of technical material in their communications. This sounds cynical, relative to what is usually said about public understanding of science, but I can definitely see a core of truth here.<footnote xml:id="fn_5b298a75f47cd93e5c8cd70d4e80f392">
+    <para>My own theory of Internet moderation is that you have to be willing to exclude trolls and spam to get a conversation going. You must even be willing to exclude kindly but technically uninformed folks from technical mailing lists if you want to get any work done. A genuinely open conversation on the Internet degenerates fast.</para>
+  </footnote>
+<anchor xml:id="x65-66003f3"/></para>
+<para>It’s the <emphasis>articulate</emphasis> trolls that you should be wary of ejecting, on this theory—they serve the hidden function of legitimizing less extreme disagreements. But you should not have so many articulate trolls that they begin arguing with each other, or begin to dominate conversations. If you have one person around who is the famous Guy Who Disagrees With Everything, anyone with a more reasonable, more moderate disagreement won’t look like the sole nail sticking out. This theory of Internet moderation may not have served me too well in practice, so take it with a grain of salt.</para>
+
+  
+</section>

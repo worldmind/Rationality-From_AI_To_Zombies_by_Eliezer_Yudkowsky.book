@@ -1,0 +1,60 @@
+<section xml:id="item_i2dfY65JciebF3CAo"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Empty Labels</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/i2dfY65JciebF3CAo/empty-labels"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-15</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+<indexterm><primary>Cognitive Reduction</primary></indexterm>
+  <para>Consider (yet again) the Aristotelian idea of categories.  Let&apos;s say that there&apos;s some object with properties A, B, C, D, and E, or at least it looks E-ish.</para>
+<blockquote>
+  <para> Fred:  &quot;You mean that thing over there is blue, round, fuzzy, and—&quot;</para>
+  <para>Me: &quot;In Aristotelian logic, it&apos;s not supposed to make a difference what the properties are, or what I call them.  That&apos;s why I&apos;m just using the letters.&quot;</para>
+</blockquote>
+<para>Next, I invent the Aristotelian category &quot;zawa&quot;, which describes those objects, all those objects, and only those objects, which have properties A, C, and D.</para>
+<blockquote>
+  <para> Me:  &quot;Object 1 is zawa, B, and E.&quot;</para>
+  <para>Fred:  &quot;And it&apos;s blue—I mean, A—too, right?&quot;</para>
+  <para>Me:  &quot;That&apos;s implied when I say it&apos;s zawa.&quot;</para>
+  <para>Fred:  &quot;Still, I&apos;d like you to say it explicitly.&quot;</para>
+  <para>Me:  &quot;Okay.  Object 1 is A, B, zawa, and E.&quot;</para>
+</blockquote>
+<para>Then I add another word, &quot;yokie&quot;, which describes all and only objects that are B and E; and the word &quot;xippo&quot;, which describes all and only objects which are E but not D.</para>
+<blockquote>
+  <para> Me:  &quot;Object 1 is zawa and yokie, but not xippo.&quot;</para>
+  <para>Fred:  &quot;Wait, is it luminescent?  I mean, is it E?&quot;</para>
+  <para>Me:  &quot;Yes.  That is the only possibility on the information given.&quot;</para>
+  <para>Fred:  &quot;I&apos;d rather you spelled it out.&quot;</para>
+  <para>Me:  &quot;Fine:  Object 1 is A, zawa, B, yokie, C, D, E, and not xippo.&quot;</para>
+  <para>Fred:  &quot;Amazing!  You can tell all that just by looking?&quot;</para>
+</blockquote>
+<para>Impressive, isn&apos;t it?  Let&apos;s invent even more new words:  &quot;Bolo&quot; is A, C, and yokie; &quot;mun&quot; is A, C, and xippo; and &quot;merlacdonian&quot; is bolo and mun.</para>
+<para>Pointlessly confusing?  I think so too.  Let&apos;s replace the labels with the definitions:</para>
+<blockquote>
+  <para> &quot;Zawa, B, and E&quot; becomes [A, C, D], B, E</para>
+  <para>&quot;Bolo and A&quot; becomes [A, C, [B, E]], A</para>
+  <para>&quot;Merlacdonian&quot; becomes [A, C, [B, E]], [A, C, [E, ~D]]</para>
+</blockquote>
+<para>And the thing to remember about the Aristotelian idea of categories is that [A, C, D] is the <emphasis>entire</emphasis> information of &quot;zawa&quot;.  It&apos;s not just that I can vary the label, but that I can get along just fine without any label at all—the rules for Aristotelian classes work purely on structures like [A, C, D].  To call one of these structures &quot;zawa&quot;, or attach any other label to it, is a human convenience (or inconvenience) which makes not the slightest difference to the Aristotelian rules.</para>
+<para>Let&apos;s say that &quot;human&quot; is to be defined as a mortal featherless biped.  Then the <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_bcM5ft8jvsffsZZ4Y">classic syllogism</olink> would have the form:</para>
+<blockquote>
+  <para> All [mortal, ~feathers, bipedal] are mortal.</para>
+  <para>Socrates is a [mortal, ~feathers, bipedal].</para>
+  <para>Therefore, Socrates is mortal.</para>
+</blockquote>
+<para>The feat of reasoning looks a lot less impressive now, doesn&apos;t it?</para>
+<para>Here the <emphasis>illusion of inference</emphasis> comes from the labels, which conceal the premises, and pretend to novelty in the conclusion.  Replacing labels with definitions reveals the illusion, making visible the tautology&apos;s <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_bcM5ft8jvsffsZZ4Y">empirical unhelpfulness</olink>.  You can never say that Socrates is a [mortal, ~feathers, biped] until you have observed him to be mortal.</para>
+<para>There&apos;s an idea, which you may have noticed I hate, that &quot;you can define a word any way you like&quot;.  This idea came from the Aristotelian notion of categories; since, if you follow the Aristotelian rules <emphasis>exactly</emphasis> and <emphasis>without flaw</emphasis>—<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_3nxs2WYDGzJbzcLMp">which humans never do</olink>; Aristotle knew perfectly well that Socrates was human, even though that wasn&apos;t justified under his rules—but, <emphasis>if</emphasis> some imaginary nonhuman entity were to follow the rules exactly, they would never arrive at a contradiction.  They wouldn&apos;t arrive at much of anything: they couldn&apos;t say that Socrates is a [mortal, ~feathers, biped] until they observed him to be mortal.</para>
+<para>But it&apos;s not so much that labels are <emphasis>arbitrary</emphasis> in the Aristotelian system, as that the Aristotelian system works fine without <emphasis>any labels at all</emphasis>—it cranks out exactly the same stream of tautologies, they just look a lot less impressive.  The labels are only there to create the <emphasis>illusion</emphasis> of inference.</para>
+<para>So if you&apos;re going to have an Aristotelian proverb at all, the proverb should be, not &quot;I can define a word any way I like,&quot; nor even, &quot;Defining a word never has any consequences,&quot; but rather, &quot;Definitions don&apos;t need words.&quot;</para>
+
+  
+</section>

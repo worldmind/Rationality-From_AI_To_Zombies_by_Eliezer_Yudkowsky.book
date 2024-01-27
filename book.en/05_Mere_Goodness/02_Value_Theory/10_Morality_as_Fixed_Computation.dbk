@@ -1,0 +1,59 @@
+<section xml:id="item_FnJPa8E9ZG5xiLLp5"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Morality as Fixed Computation</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/FnJPa8E9ZG5xiLLp5/morality-as-fixed-computation"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-08-08</pubdate>
+  </info>
+  <indexterm><primary>Ethics &amp; Morality</primary></indexterm>
+  <para>Toby Ord <link xl:href="https://www.lesswrong.com/posts/fG3g3764tSubr6xvs/the-meaning-of-right?commentId=QpskFjAR9qxcD8Pzr">commented</link>:</para>
+<blockquote>
+  <para> Eliezer,  I&apos;ve just reread your article and was wondering if this is a good quick summary of your position (leaving apart how you got to it):</para>
+  <para>&apos;I should X&apos; means that I would attempt to X were I fully informed.</para>
+</blockquote>
+<para>Toby&apos;s a <link xl:href="http://www.amirrorclear.net/academic/index.html">pro</link>, so if he didn&apos;t get it, I&apos;d better try again.  Let me try a different tack of explanation—one closer to the historical way that I arrived at my own position.</para>
+<para>Suppose you build an AI, and—leaving aside that AI goal systems <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4ARaTpNX62uaL86j6">cannot be built around English statements</olink>, and all such descriptions are only dreams—you try to infuse the AI with the action-determining principle, &quot;Do what I want.&quot;</para>
+<para>And suppose you get the AI design close <emphasis>enough</emphasis>—it doesn&apos;t just end up tiling the universe with paperclips, cheesecake or tiny molecular copies of satisfied programmers—that its utility function actually assigns utilities as follows, to the world-states we would describe in English as:</para>
+<blockquote>
+  <para> <literal>&lt;Programmer weakly desires &apos;X&apos;,   quantity 20 of X exists&gt;:  +20 &lt;Programmer strongly desires &apos;Y&apos;, </literal><literal>quantity 20 of X exists</literal><literal>&gt;:  0 &lt;Programmer weakly desires &apos;X&apos;,   quantity 30 of Y exists&gt;:  0 &lt;Programmer strongly desires &apos;Y&apos;, quantity 30 of Y exists&gt;:  +60</literal></para>
+</blockquote>
+<para>You perceive, of course, that this destroys the world.</para>
+<para>...since if the programmer initially weakly wants &apos;X&apos; and X is hard to obtain, the AI will modify the programmer to strongly want &apos;Y&apos;, which is easy to create, and then bring about lots of Y.  Y might be, say, iron atoms—those are highly stable.</para>
+<para>Can you patch this problem?  No.  <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4ARaTpNX62uaL86j6">As a general rule, it is not possible to patch flawed Friendly AI designs.</olink></para>
+<para>If you try to bound the utility function, or make the AI not care about how <emphasis>much</emphasis> the programmer wants things, the AI still has a motive (as an <emphasis>expected</emphasis> utility maximizer) to make the programmer want something that can be obtained with a very high degree of certainty.</para>
+<para>If you try to make it so that the AI can&apos;t modify the programmer, then the AI can&apos;t talk to the programmer (talking to someone modifies them).</para>
+<para>If you try to rule out a specific class of ways the AI could modify the programmer, the AI has a motive to superintelligently seek out loopholes and ways to modify the programmer indirectly.</para>
+<para>As a general rule, it is not possible to patch flawed FAI designs.</para>
+<para>We, ourselves, do not <link xl:href="https://www.lesswrong.com/posts/WAQ3qMD4vdXheQmui/math-is-subjunctively-objective">imagine the future and judge</link>, that any future in which our brains want something, and that thing exists, is a good future.  If we did think this way, we would say: &quot;Yay!  Go ahead and modify us to strongly want something cheap!&quot;  But we do <emphasis>not</emphasis> say this, which means that this AI design is <emphasis>fundamentally</emphasis> flawed: it will choose things very unlike what we would choose; it will judge desirability very differently from how we judge it.  This core disharmony <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4ARaTpNX62uaL86j6">cannot be patched by ruling out a handful of specific failure modes.</olink></para>
+<para>There&apos;s also a duality between Friendly AI problems and moral philosophy problems—though you&apos;ve got to structure that duality in exactly the right way.  So if you prefer, the core problem is that the AI will choose in a way very unlike the structure of what is, y&apos;know, actually <emphasis>right</emphasis>—never mind the way we choose.  Isn&apos;t the whole point of this problem, that merely <emphasis>wanting</emphasis> something doesn&apos;t <emphasis>make </emphasis>it right?</para>
+<para>So this is the paradoxical-seeming issue which I have analogized to the difference between:</para>
+<blockquote>
+  <para> A calculator that, when you press &apos;2&apos;, &apos;+&apos;, and &apos;3&apos;, tries to compute:</para>
+  <para>        &quot;What is 2 + 3?&quot;</para>
+  <para>A calculator that, when you press &apos;2&apos;, &apos;+&apos;, and &apos;3&apos;, tries to compute:</para>
+  <para>        &quot;What does this calculator output when you press &apos;2&apos;, &apos;+&apos;, and &apos;3&apos;?&quot;</para>
+</blockquote>
+<para>The Type 1 calculator, as it were, <emphasis>wants</emphasis> to output 5.</para>
+<para>The Type 2 &quot;calculator&quot; could return any result; and in the act of returning that result, it <emphasis>becomes</emphasis> the correct answer to the question that was internally asked.</para>
+<para>We ourselves are like unto the Type 1 calculator.  But the putative AI is being built as though it were to reflect the Type 2 calculator.</para>
+<para>Now imagine that the Type 1 calculator is trying to build an AI, only the Type 1 calculator doesn&apos;t <emphasis>know</emphasis> its own question.  The calculator continually asks the question by its very nature, it was born to ask that question, <olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_CuSTqHgeK4CMpWYTe">created already in motion</olink> around that question—but the calculator has no insight into its own transistors; it cannot print out the question, which is <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_cSXZpvqpa9vbGGLtG">extremely complicated</olink> and <olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_NnohDYHNnKDtbiMyp">has no simple approximation</olink>.</para>
+<para>So the calculator wants to build an AI (it&apos;s a pretty smart calculator, it just doesn&apos;t have access to its own transistors) and have the AI give the right answer.  Only the calculator can&apos;t print out the question.  So the calculator wants to have the AI look at the calculator, where the question is written, and answer the question that the AI will discover implicit in those transistors.  But this cannot be done by the cheap shortcut of a utility function that says &quot;All X: &lt;calculator asks &apos;X?&apos;, answer X&gt;: utility 1; else: utility 0&quot; because that actually mirrors the utility function of a Type 2 calculator, not a Type 1 calculator.</para>
+<para>This gets us into FAI issues that I am not going into (some of which I&apos;m still working out myself).</para>
+<para>However, when you back out of the details of FAI design, and swap back to the perspective of moral philosophy, then <emphasis>what we were just talking about</emphasis> was the dual of the moral issue:  &quot;But if what&apos;s &apos;right&apos; is a mere preference, then anything that anyone wants is &apos;right&apos;.&quot;</para>
+<para>Now I did argue against that particular concept in some detail, in <link xl:href="https://www.lesswrong.com/posts/fG3g3764tSubr6xvs/the-meaning-of-right">The Meaning of Right</link>, so I am not going to repeat all that...</para>
+<para>But the key notion is the idea that what we name by &apos;right&apos; is a <emphasis>fixed</emphasis> question, or perhaps a <emphasis>fixed framework</emphasis>. We can encounter moral arguments that modify our terminal values, and even encounter moral arguments that modify what we count as a moral argument; nonetheless, it all grows out of a particular starting point.  We do not experience ourselves as embodying the question &quot;What will I decide to do?&quot; which would be a Type 2 calculator; anything we decided would thereby become right.  We experience ourselves as asking the embodied question:  &quot;What will save my friends, and my people, from getting hurt?  How can we all have more fun?  ...&quot; where the &quot;...&quot; is around a thousand other things.</para>
+<para>So &apos;I should X&apos; does not mean that I would attempt to X were I fully informed.</para>
+<para>&apos;I should X&apos; means that X answers the question, &quot;What will save my people?  How can we all have more fun? How can we get more control over our own lives?  What&apos;s the funniest jokes we can tell?  ...&quot;</para>
+<para>And I may not <emphasis>know</emphasis> what this question <emphasis>is,</emphasis> actually; I may not be able to print out my current guess nor my surrounding framework; but I know, as all non-moral-relativists instinctively know, that the question surely<emphasis> </emphasis>is not just &quot;How can I do whatever I want?&quot;</para>
+<para>When these two formulations begin to seem as entirely distinct as &quot;snow&quot; and snow, then you shall have created <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_y5MxoeacRKKM3KQth">distinct buckets</olink> for the <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_np3tP49caG4uFLRbS">quotation and the referent</olink>.</para>
+<para><emphasis role="bold">Added:</emphasis>  This was posted automatically and the front page got screwed up somehow.  I have no idea how.  It is now fixed and should make sense.</para>
+
+  
+</section>

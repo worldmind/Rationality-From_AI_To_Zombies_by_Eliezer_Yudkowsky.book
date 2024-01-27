@@ -1,0 +1,36 @@
+<section xml:id="item_qRWfvgJG75ESLRNu9"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Crackpot Offer</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/qRWfvgJG75ESLRNu9/the-crackpot-offer"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-08-30</pubdate>
+  </info>
+  <indexterm><primary>Confirmation Bias</primary></indexterm>
+<indexterm><primary>Logic &amp; Mathematics </primary></indexterm>
+<indexterm><primary>Sunk-Cost Fallacy</primary></indexterm>
+  <para>When I was very young—I think thirteen or maybe fourteen—I thought I had found a disproof of Cantor’s Diagonal Argument, a famous theorem which demonstrates that the real numbers outnumber the rational numbers. Ah, the dreams of fame and glory that danced in my head! </para>
+<para>My idea was that since each whole number can be decomposed into a bag of powers of 2, it was possible to map the whole numbers onto the set of subsets of whole numbers simply by writing out the binary expansion. The number 13, for example, 1101, would map onto {0, 2, 3}. It took a whole week before it occurred to me that perhaps I should <emphasis>apply</emphasis> Cantor’s Diagonal Argument to my clever construction, and of course it found a counterexample—the binary number (. . . 1111), which does not correspond to any finite whole number.</para>
+<para>So I found this counterexample, and saw that my attempted disproof was false, along with my dreams of fame and glory.</para>
+<para>I was initially a bit disappointed.</para>
+<para>The thought went through my mind: “I’ll get that theorem eventually! <emphasis>Someday</emphasis> I’ll disprove Cantor’s Diagonal Argument, even though my first try failed!” I resented the theorem for being obstinately true, for depriving me of my fame and fortune, and I began to look for other disproofs.</para>
+<para>And then I realized something. I realized that I had made a mistake, and that, now that I’d spotted my mistake, there was absolutely no reason to suspect the strength of Cantor’s Diagonal Argument any more than other major theorems of mathematics.</para>
+<para>I saw then very clearly that I was being offered the opportunity to become a math crank, and to spend the rest of my life writing angry letters in green ink to math professors. (I’d read a book once about math cranks.)</para>
+<para>I did not wish this to be my future, so I gave a small laugh, and let it go. I waved Cantor’s Diagonal Argument on with all good wishes, and I did not question it again.</para>
+<para>And I don’t remember, now, if I thought this at the time, or if I thought it afterward . . . but what a terribly unfair test to visit upon a child of thirteen. That I had to be that rational, already, at that age, or fail.</para>
+<para>The smarter you are, the younger you may be, the first time you have what looks to you like a really revolutionary idea. I was lucky in that I saw the mistake myself; that it did not take another mathematician to point it out to me, and perhaps give me an outside source to blame. I was lucky in that the disproof was simple enough for me to understand. Maybe I would have recovered eventually, otherwise. I’ve recovered from much worse, as an adult. But if I had gone wrong that early, would I ever have developed that skill?</para>
+<para>I wonder how many people writing angry letters in green ink were thirteen when they made that first fatal misstep. I wonder how many were promising minds before then.</para>
+<para>I made a mistake. That was all. I was not <emphasis>really right, deep down</emphasis>; I did not win a moral victory; I was not displaying ambition or skepticism or any other wondrous virtue; it was not a reasonable error; I was not half right or even the tiniest fraction right. I thought a thought I would never have thought if I had been wiser, and that was all there ever was to it.</para>
+<para>If I had been unable to admit this to myself, if I had reinterpreted my mistake as virtuous, if I had insisted on being at least a <emphasis>little</emphasis> right for the sake of pride, then I would not have let go. I would have gone on looking for a flaw in the Diagonal Argument. And, sooner or later, I might have found one.</para>
+<para>Until you admit you were wrong, you cannot get on with your life; your self-image will still be bound to the old mistake.</para>
+<para>Whenever you are tempted to hold on to a thought you would never have thought if you had been wiser, you are being offered the opportunity to become a crackpot—even if you never write any angry letters in green ink. If no one bothers to argue with you, or if you never tell anyone your idea, you may still be a crackpot. It’s the <emphasis>clinging</emphasis> that defines it.</para>
+<para>It’s not true. It’s not true deep down. It’s not half-true or even a little true. It’s nothing but a thought you should never have thought. Not every cloud has a silver lining. Human beings make mistakes, and not all of them are disguised successes. Human beings make mistakes; it happens, that’s all. Say “oops,” and get on with your life.</para>
+
+  
+</section>

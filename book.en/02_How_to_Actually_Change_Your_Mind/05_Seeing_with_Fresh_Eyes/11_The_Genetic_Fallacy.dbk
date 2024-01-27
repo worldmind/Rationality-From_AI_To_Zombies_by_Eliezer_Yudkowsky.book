@@ -1,0 +1,52 @@
+<section xml:id="item_KZLa74SzyKhSJ3M55"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Genetic Fallacy</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/KZLa74SzyKhSJ3M55/the-genetic-fallacy"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-07</pubdate>
+  </info>
+  <indexterm><primary>Rationalization</primary></indexterm>
+<indexterm><primary>Fallacies</primary></indexterm>
+  <para>In lists of logical fallacies, you will find included “the genetic fallacy”—the fallacy of attacking a belief based on someone’s causes for believing it.</para>
+<para>This is, at first sight, a very strange idea—if the causes of a belief do not determine its systematic reliability, what does? If Deep Blue advises us of a chess move, we trust it based on our understanding of the <emphasis role="italic">code</emphasis> that searches the game tree, being unable to evaluate the actual game tree ourselves. What could license any probability assignment as “rational,” except that it was produced by some systematically reliable process?</para>
+<para>Articles on the genetic fallacy will tell you that genetic reasoning is not always a fallacy—that the origin of evidence <emphasis role="italic">can</emphasis> be relevant to its evaluation, as in the case of a trusted expert. But other times, say the articles, it <emphasis role="italic">is</emphasis> a fallacy; the chemist Kekulé first saw the ring structure of benzene in a dream, but this doesn’t mean we can never trust this belief.</para>
+<para>So sometimes the genetic fallacy is a fallacy, and sometimes it’s not?</para>
+<para>The genetic fallacy is formally a fallacy, because the <emphasis role="italic">original cause</emphasis> of a belief is not the same as its <emphasis role="italic">current justificational status</emphasis>, the sum of all the support and antisupport <emphasis role="italic">currently</emphasis> known.</para>
+<para>Yet we change our minds less often than we think. Genetic accusations have a force among humans that they would not have among ideal Bayesians.</para>
+<para>Clearing your mind is a <emphasis role="italic">powerful heuristic</emphasis> when you’re faced with new suspicion that many of your ideas may have come from a flawed source.</para>
+<para>Once an idea gets into our heads, it’s not always easy for evidence to root it out. Consider all the people out there who grew up believing in the Bible; later came to reject (on a deliberate level) the idea that the Bible was written by the hand of God; and who nonetheless think that the Bible is full of indispensable ethical wisdom. They have failed to clear their minds; they could do significantly better by doubting anything the Bible said <emphasis role="italic">because the Bible said it</emphasis>.</para>
+<para>At the same time, they would have to bear firmly in mind the principle that reversed stupidity is not intelligence; the goal is to genuinely shake your mind loose and do independent thinking, not to negate the Bible and let that be your algorithm.</para>
+<para>Once an idea gets into your head, you tend to find support for it everywhere you look—and so when the original source is suddenly cast into suspicion, you would be very wise indeed to suspect all the leaves that originally grew on that branch . . .</para>
+<para>If you can! It’s not easy to clear your mind. It takes a convulsive effort to <emphasis role="italic">actually reconsider</emphasis>, instead of letting your mind fall into the pattern of rehearsing cached arguments. “It ain’t a true crisis of faith unless things could just as easily go either way,” <link xl:href="http://forums.keenspot.com/viewtopic.php?p=1099965#p1099965">said</link> Thor Shenkel.</para>
+<para>You should be <emphasis role="italic">extremely suspicious</emphasis> if you have many ideas suggested by a source that you now know to be untrustworthy, but by golly, it seems that all the ideas still ended up being right—the Bible being the obvious archetypal example.</para>
+<para>On the other hand . . . there’s such a thing as sufficiently clear-cut evidence, that it no longer significantly matters where the idea originally came from. Accumulating that kind of clear-cut evidence is what Science is all about. It doesn’t matter any more that Kekulé first saw the ring structure of benzene in a dream—it wouldn’t matter if we’d found the hypothesis to test by generating random computer images, or from a spiritualist revealed as a fraud, or even from the Bible. The ring structure of benzene is pinned down by enough experimental evidence to make the source of the suggestion irrelevant.</para>
+<para>In the absence of such clear-cut evidence, then you do need to pay attention to the original sources of ideas—to give experts more credence than layfolk, if their field has earned respect—to suspect ideas you originally got from suspicious sources—to distrust those whose motives are untrustworthy, <emphasis role="italic">if</emphasis> they cannot present arguments independent of their own authority.</para>
+<para>The genetic fallacy is a <emphasis role="italic">fallacy</emphasis> when there exist justifications <emphasis role="italic">beyond</emphasis> the genetic fact asserted, but the genetic accusation is presented as if it settled the issue. Hal Finney suggests that we call correctly appealing to a claim’s origins “the genetic heuristic.”<footnote xml:id="fn_bfdf02ef9155834ead93bb14491fd99a">
+    <para>Source: <link xl:href="https://www.lesswrong.com/posts/KZLa74SzyKhSJ3M55/the-genetic-fallacy?commentId=arzu8aX3bf4PvkvMK">http://lesswrong.com/lw/s3/the_genetic_fallacy/lls</link>.</para>
+  </footnote>
+</para>
+<para>Some good rules of thumb (for humans):</para>
+<itemizedlist>
+  <listitem>
+    <para> Be suspicious of genetic accusations against beliefs that you dislike, especially if the proponent claims justifications beyond the simple authority of a speaker. “Flight is a religious idea, so the Wright Brothers must be liars” is one of the classically given examples.</para>
+  </listitem>
+  <listitem>
+    <para> By the same token, don’t think you can get good information about a technical issue just by sagely psychoanalyzing the personalities involved and their flawed motives. If technical arguments exist, they get priority.</para>
+  </listitem>
+  <listitem>
+    <para> When new suspicion is cast on one of your fundamental sources, you really <emphasis role="italic">should</emphasis> doubt all the branches and leaves that grew from that root. You are not licensed to reject them outright as conclusions, because reversed stupidity is not intelligence, but . . .</para>
+  </listitem>
+  <listitem>
+    <para> Be extremely suspicious if you find that you still believe the early suggestions of a source you later rejected.</para>
+  </listitem>
+</itemizedlist>
+
+  
+</section>

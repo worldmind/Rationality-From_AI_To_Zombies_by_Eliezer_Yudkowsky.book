@@ -1,0 +1,40 @@
+<section xml:id="item_bMkCEZoBNhgRBtzoj"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Anchoring and Adjustment</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/bMkCEZoBNhgRBtzoj/anchoring-and-adjustment"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-07</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Anchoring</primary></indexterm>
+<indexterm><primary>Priming</primary></indexterm>
+  <para>Suppose I spin a Wheel of Fortune device as you watch, and it comes up pointing to 65. Then I ask: Do you think the percentage of countries in the United Nations that are in Africa is above or below this number? What do you think is the percentage of UN countries that are in Africa? Take a moment to consider these two questions yourself, if you like, and please don’t Google.</para>
+<para>Also, try to guess, within <emphasis>five seconds</emphasis>, the value of the following arithmetical expression. Five seconds. Ready? Set . . . <emphasis>Go!</emphasis></para>
+<para><emphasis role="bold">1 × 2 × 3 × 4 × 5 × 6 × 7 × 8</emphasis></para>
+<para>Tversky and Kahneman recorded the estimates of subjects who saw the Wheel of Fortune showing various numbers.<footnote xml:id="fn_cf6dec11101fa99c3585854b0e3c9e87">
+    <para><anchor xml:id="cite.0.Tversky.1974"/>Amos Tversky and Daniel Kahneman, “Judgment Under Uncertainty: Heuristics and Biases,” <emphasis>Science</emphasis> 185, no. 4157 (1974): 1124–1131.</para>
+  </footnote>
+<anchor xml:id="x45-46001f1"/> The median estimate of subjects who saw the wheel show 65 was 45%; the median estimate of subjects who saw 10 was 25%.</para>
+<para>The current theory for this and similar experiments is that subjects take the initial, uninformative number as their starting point or <emphasis>anchor</emphasis>; and then they <emphasis>adjust</emphasis> upward or downward from their starting estimate until they reach an answer that “sounds plausible”; and then they stop adjusting. This typically results in under-adjustment from the anchor—more distant numbers could also be “plausible,” but one stops at the first satisfying-sounding answer.</para>
+<para>Similarly, students shown “1 × 2 × 3 × 4 × 5 × 6 × 7 × 8” made a median estimate of 512, while students shown “8 × 7 × 6 × 5 × 4 × 3 × 2 × 1” made a median estimate of 2,250. The motivating hypothesis was that students would try to multiply (or guess-combine) the first few factors of the product, then adjust upward. In both cases the adjustments were insufficient, relative to the true value of 40,320; but the first set of guesses were much more insufficient because they started from a lower anchor.</para>
+<para>Tversky and Kahneman report that offering payoffs for accuracy did not reduce the anchoring effect.</para>
+<para>Strack and Mussweiler asked for the year Einstein first visited the United States.<footnote xml:id="fn_7769f38784242f5fdd8601225375e252">
+    <para><anchor xml:id="cite.0.Strack.1997"/>Fritz Strack and Thomas Mussweiler, “Explaining the Enigmatic Anchoring Effect: Mechanisms of Selective Accessibility,” <emphasis>Journal of Personality and Social Psychology</emphasis> 73, no. 3 (1997): 437–446.</para>
+  </footnote>
+<anchor xml:id="x45-46002f2"/> Completely implausible anchors, such as 1215 or 1992, produced anchoring effects just as large as more plausible anchors such as 1905 or 1939.</para>
+<para>There are obvious applications in, say, salary negotiations, or buying a car. I won’t suggest that you exploit it, but watch out for exploiters.</para>
+<para>And watch yourself thinking, and try to notice when you are <emphasis>adjusting</emphasis> a figure in search of an estimate.</para>
+<para>Debiasing manipulations for anchoring have generally proved not very effective. I would suggest these two: First, if the initial guess sounds implausible, try to throw it away entirely and come up with a new estimate, rather than sliding from the anchor. But this in itself may not be sufficient—subjects instructed to avoid anchoring still seem to do so.<footnote xml:id="fn_7b733e1439321e4b3d23b5a82e134955">
+    <para><anchor xml:id="cite.0.Quattrone.1981"/>George A. Quattrone et al., “Explorations in Anchoring: The Effects of Prior Range, Anchor Extremity, and Suggestive Hints” (Unpublished manuscript, Stanford University, 1981).</para>
+  </footnote>
+<anchor xml:id="x45-46003f3"/> So, second, even if you are trying the first method, try also to think of an anchor in the opposite direction—an anchor that is clearly too small or too large, instead of too large or too small—and dwell on it briefly.</para>
+
+  
+</section>

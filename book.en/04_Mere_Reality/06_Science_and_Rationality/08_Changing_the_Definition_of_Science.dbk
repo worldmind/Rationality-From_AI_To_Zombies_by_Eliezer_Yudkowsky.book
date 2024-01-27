@@ -1,0 +1,33 @@
+<section xml:id="item_SoDsr8GEZmRKMZNkj"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Changing the Definition of Science</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/SoDsr8GEZmRKMZNkj/changing-the-definition-of-science"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-05-18</pubdate>
+  </info>
+  <indexterm><primary>Bayesianism</primary></indexterm>
+<indexterm><primary>Practice &amp; Philosophy of Science</primary></indexterm>
+  <para>New Scientist on <link xl:href="http://www.newscientist.com/article.ns?id=mg19826551.700">changing the definition of science</link>, ungated <link xl:href="http://postbiota.org/pipermail/tt/2008-May/002997.html">here</link>:</para>
+<blockquote>
+  <para> Others believe such criticism is based on a misunderstanding. &quot;Some people say that the multiverse concept isn&apos;t falsifiable because it&apos;s unobservable—but that&apos;s a fallacy,&quot; says cosmologist Max Tegmark of the Massachusetts Institute of Technology. He argues that the multiverse is a natural consequence of such eminently falsifiable theories as quantum theory and general relativity. As such, the multiverse theory stands or fails according to how well these other theories stand up to observational tests.</para>
+  <para>[...]</para>
+  <para>So if the simplicity of falsification is misleading, what should scientists be doing instead? Howson believes it is time to ditch Popper&apos;s notion of capturing the scientific process using deductive logic. Instead, the focus should be on reflecting what scientists actually do: gathering the weight of evidence for rival theories and assessing their relative plausibility.</para>
+</blockquote>
+<blockquote>
+  <para> Howson is a leading advocate for an alternative view of science based not on simplistic true/false logic, but on the far more subtle concept of degrees of belief. At its heart is a fundamental connection between the subjective concept of belief and the cold, hard mathematics of probability.</para>
+</blockquote>
+<para>I&apos;m a good deal less of a lonely iconoclast than I seem.  Maybe it&apos;s just the way I talk.</para>
+<para>The points of departure between myself and <emphasis>mainstream</emphasis> let&apos;s-reformulate-Science-as-Bayesianism is that:</para>
+<para>(1)  I&apos;m not in academia and can censor myself a <emphasis>lot </emphasis>less when it comes to saying &quot;extreme&quot; things that others might well already be thinking.</para>
+<para>(2)  I think that <emphasis role="bold">just teaching probability theory won&apos;t be nearly enough</emphasis>.  We&apos;ll have to synthesize lessons from multiple sciences like cognitive biases and social psychology, forming a new coherent <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_teaxCFgtmCQ3E9fy8">Art</olink> of Bayescraft, before we are actually going to do any better <emphasis>in the real world</emphasis> than modern science.  Science tolerates errors, Bayescraft does not.  Nobel laureate Robert Aumann, who first proved that Bayesians with the same priors cannot agree to disagree, is a believing Orthodox Jew.  Probability theory alone won&apos;t do the trick, when it comes to really teaching scientists.  <emphasis>This is my primary point of departure, and it is not something I&apos;ve seen suggested elsewhere.</emphasis></para>
+<para>(3)  I think it <emphasis>is</emphasis> possible to do better in the real world.  In the extreme case, a Bayesian superintelligence could use <emphasis>enormously</emphasis> less sensory information than a human scientist to come to correct conclusions.  First time you ever see an apple fall down, you observe the position goes as the square of time, invent calculus, generalize Newton&apos;s Laws... and see that Newton&apos;s Laws involve action at a distance, look for alternative explanations with increased locality, invent relativistic covariance around a hypothetical speed limit, and consider that General Relativity might be worth testing.  Humans do not process evidence <emphasis>efficiently</emphasis>—our minds are so noisy that it requires orders of magnitude more <emphasis>extra</emphasis> evidence to set us back on track after we derail.  Our collective, academia, is even slower.</para>
+
+  
+</section>

@@ -1,0 +1,52 @@
+<section xml:id="item_WLJwTJ7uGPA5Qphbp"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Trying to Try</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/WLJwTJ7uGPA5Qphbp/trying-to-try"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-10-01</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Planning &amp; Decision-Making</primary></indexterm>
+<indexterm><primary>Heroic Responsibility</primary></indexterm>
+<indexterm><primary>Map and Territory</primary></indexterm>
+  <blockquote>
+  <para> &quot;No!  Try not!  Do, or do not.  There is no try.&quot;</para>
+  <para>        —<link xl:href="http://www.youtube.com/watch?v=PcjnbIF1yAA">Yoda</link></para>
+</blockquote>
+<para>Years ago, I thought this was yet another example of <link xl:href="https://www.lesswrong.com/posts/aSQy7yHj6nPD44RNo/how-to-seem-and-be-deep">Deep Wisdom</link> that is actually quite stupid.  <literal>SUCCEED</literal> is not a primitive action.  You can&apos;t just <emphasis>decide</emphasis> to win by choosing hard enough.  There is never a plan that works with <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_ooypcn7qFzsMcy53R">probability 1</olink>.</para>
+<para>But Yoda <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_rHBdcHGLJ7KvLJQPk">was</olink> wiser than I first realized.</para>
+<para>The first elementary technique of epistemology—it&apos;s not deep, but it&apos;s cheap—is to <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_np3tP49caG4uFLRbS">distinguish the quotation from the referent</olink>.  Talking about snow is not the same as talking about &quot;snow&quot;.  When I use the word &quot;snow&quot;, without quotes, I mean to talk about snow; and when I use the word &quot;&quot;snow&quot;&quot;, with quotes, I mean to talk about the word &quot;snow&quot;.  You have to enter a special mode, the quotation mode, to talk about your beliefs.  By default, we just talk about reality.</para>
+<para>If someone says, &quot;I&apos;m going to flip that switch&quot;, then by default, they mean they&apos;re going to try to flip the switch.  They&apos;re going to build a plan that promises to lead, by the consequences of its actions, to the goal-state of a flipped switch; and then execute that plan.</para>
+<para>No plan succeeds with infinite certainty.  So by default, when you talk about setting out to achieve a goal, you do not imply that your plan exactly and perfectly leads to <emphasis>only </emphasis>that possibility.  But when you say, &quot;I&apos;m going to flip that switch&quot;, you are <emphasis>trying</emphasis> only to flip the switch—not <emphasis>trying</emphasis> to achieve a 97.2% probability of flipping the switch.</para>
+<para>So what does it mean when someone says, &quot;I&apos;m going to <emphasis>try </emphasis>to flip that switch?&quot;</para>
+<para>Well, <emphasis>colloquially,</emphasis>&quot;I&apos;m going to flip the switch&quot; and &quot;I&apos;m going to try to flip the switch&quot; mean more or less the same thing, except that the latter expresses the possibility of failure.  This is why I originally took offense at Yoda for seeming to deny the possibility.  But bear with me here.</para>
+<para>Much of life&apos;s challenge consists of holding ourselves to a high enough standard.  I may speak more on this principle later, because it&apos;s a lens through which you can view many-but-not-all personal dilemmas—&quot;What standard am I holding myself to?  Is it high enough?&quot;</para>
+<para>So if much of life&apos;s failure consists in holding yourself to too low a standard, you should be wary of demanding too little from yourself—setting goals that are too easy to fulfill.</para>
+<para>Often where <emphasis>succeeding</emphasis> to do a thing, is very hard, <emphasis>trying</emphasis> to do it is much easier.</para>
+<para>Which is easier—to build a successful startup, or to try to build a successful startup?  To make a million dollars, or to try to make a million dollars?</para>
+<para>So if &quot;I&apos;m going to flip the switch&quot; means by default that you&apos;re going to try to flip the switch—that is, you&apos;re going to set up a plan that promises to lead to switch-flipped state, maybe not with probability 1, but with the highest probability you can manage—</para>
+<para>—then &quot;I&apos;m going to &apos;try to flip&apos; the switch&quot; means that you&apos;re going to try to &quot;try to flip the switch&quot;, that is, you&apos;re going to try to achieve the goal-state of &quot;having a plan that might flip the switch&quot;.</para>
+<para>Now, if this were a self-modifying AI we were talking about, the transformation we just performed ought to end up at a reflective equilibrium—the AI planning its planning operations.</para>
+<para>But when we deal with humans, <emphasis>being satisfied with having a plan</emphasis> is not at all like <emphasis>being satisfied with success.</emphasis>  The part where the plan has to maximize your probability of succeeding, gets <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_sP2Hg6uPwpfp3jZJN">lost</olink> along the way.  It&apos;s far easier to convince ourselves that we are &quot;maximizing our probability of succeeding&quot;, than it is to convince ourselves that we will succeed.</para>
+<para>Almost any effort will serve to convince us that we have &quot;tried our hardest&quot;, if trying our hardest is all we are trying to do.</para>
+<blockquote>
+  <para> &quot;You have been asking what you could do in the great events that are now stirring, and have found that you could do nothing. But that is because your suffering has caused you to phrase the question in the wrong way... Instead of asking what you could do, you ought to have been asking what needs to be done.&quot;</para>
+  <para>        —Steven Brust, <emphasis>The Paths of the Dead</emphasis></para>
+</blockquote>
+<para>When you ask, &quot;What can I do?&quot;, you&apos;re trying to do your best.  What is your best?  It is whatever you can do without the slightest inconvenience.  It is whatever you can do with the money in your pocket, minus whatever you need for your accustomed lunch.  What you can do with those resources, may not give you very good odds of winning.  But it&apos;s the &quot;best you can do&quot;, and so you&apos;ve acted defensibly, right?</para>
+<para>But what <emphasis>needs</emphasis> to be done?  Maybe what <emphasis>needs</emphasis> to be done requires three times your life savings, and you must produce it or fail.</para>
+<para>So trying to have &quot;maximized your probability of success&quot;—as opposed to trying to succeed—is a far lesser barrier.  You can have &quot;maximized your probability of success&quot; using only the money in your pocket, so long as you don&apos;t demand actually <emphasis>winning.</emphasis></para>
+<para>Want to try to make a million dollars?  Buy a <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_vYsuM8cpuRgZS5rYB">lottery ticket</olink>.  Your odds of winning may not be very good, but you did try, and trying was what you wanted.  In fact, you tried your <emphasis>best,</emphasis> since you only had one dollar left after buying lunch.  Maximizing the odds of goal achievement using available resources: is this not intelligence?</para>
+<para>It&apos;s only when you want, above all else, to <emphasis>actually</emphasis> flip the switch—without quotation and without consolation prizes just for trying—that you will <emphasis>actually</emphasis> put in the effort to <emphasis>actually</emphasis> maximize the probability.</para>
+<para>But if all you want is to &quot;maximize the probability of success using available resources&quot;, then that&apos;s the easiest thing in the world to convince yourself you&apos;ve done.  The very first plan you hit upon, will serve quite well as &quot;maximizing&quot;—if necessary, you can generate an inferior alternative to prove its optimality.  And any tiny resource that you care to put in, will be what is &quot;available&quot;.  Remember to congratulate yourself on putting in 100% of it!</para>
+<para>Don&apos;t try your best.  Win, or fail.  There is no best.</para>
+
+  
+</section>

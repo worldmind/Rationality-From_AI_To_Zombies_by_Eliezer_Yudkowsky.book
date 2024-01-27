@@ -1,0 +1,47 @@
+<section xml:id="item_2ftJ38y9SRBCBsCzy"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Scope Insensitivity</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/2ftJ38y9SRBCBsCzy/scope-insensitivity"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-12-24</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Altruism</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Effective Altruism</primary></indexterm>
+<indexterm><primary>World Optimization</primary></indexterm>
+<indexterm><primary>Scope Insensitivity</primary></indexterm>
+  <para>Once upon a time, three groups of subjects were asked how much they would pay to save 2,000 / 20,000 / 200,000 migrating birds from drowning in uncovered oil ponds. The groups respectively answered $80, $78, and $88.<footnote xml:id="fn_8ae9e57fed136d6e47b21fe499f07953">
+    <para> William H. Desvousges et al., <emphasis role="italic">Measuring Nonuse Damages Using Contingent Valuation: An Experimental Evaluation of Accuracy</emphasis>, technical report (Research Triangle Park, NC: RTI International, 2010).</para>
+  </footnote>
+ This is  or : the number of birds saved—the  of the altruistic action—had little effect on willingness to pay.</para>
+<para>Similar experiments showed that Toronto residents would pay little more to clean up all polluted lakes in Ontario than polluted lakes in a particular region of Ontario, or that residents of four western US states would pay only 28% more to protect all 57 wilderness areas in those states than to protect a single area.<footnote xml:id="fn_9e15bc2a3ce35c3120b31cd46fbfdef0">
+    <para> Daniel Kahneman, “Comments by Professor Daniel Kahneman,” in <emphasis role="italic">Valuing Environmental Goods: An Assessment of the Contingent Valuation Method</emphasis>, ed. Ronald G. Cummings, David S. Brookshire, and William D. Schulze, vol. 1.B, Experimental Methods for Assessing Environmental Benefits (Totowa, NJ: Rowman &amp; Allanheld, 1986), 226–235; Daniel L. McFadden and Gregory K. Leonard, “Issues in the Contingent Valuation of Environmental Goods: Methodologies for Data Collection and Analysis,” in <emphasis role="italic">Contingent Valuation: A Critical Assessment</emphasis>, ed. Jerry A. Hausman, Contributions to Economic Analysis 220 (New York: North-Holland, 1993), 165–215.</para>
+  </footnote>
+ People visualize “a single exhausted bird, its feathers soaked in black oil, unable to escape.”<footnote xml:id="fn_0940b4df29b5924380cba8ec18eea8a5">
+    <para> Daniel Kahneman, Ilana Ritov, and David Schkade, “Economic Preferences or Attitude Expressions?: An Analysis of Dollar Responses to Public Issues,” <emphasis role="italic">Journal of Risk and Uncertainty</emphasis> 19, nos. 1–3 (1999): 203–235.</para>
+  </footnote>
+ This image, or , calls forth some level of emotional arousal that is primarily responsible for willingness-to-pay—and the image is the same in all cases. As for scope, it gets tossed out the window—no human can visualize 2,000 birds at once, let alone 200,000. The usual finding is that  increases in scope create  increases in willingness-to-pay—perhaps corresponding to the linear time for our eyes to glaze over the zeroes; this small amount of affect is added, not multiplied, with the prototype affect. This hypothesis is known as “valuation by prototype.”</para>
+<para>An alternative hypothesis is “purchase of moral satisfaction.” People spend enough money to create a <emphasis role="italic">warm glow</emphasis> in themselves, a sense of having done their duty. The level of spending needed to purchase a warm glow depends on personality and financial situation, but it certainly has nothing to do with the number of birds.</para>
+<para>We are insensitive to scope even when human lives are at stake: Increasing the alleged risk of chlorinated drinking water from 0.004 to 2.43 annual deaths per 1,000—a factor of 600—increased willingness-to-pay from $3.78 to $15.23.<footnote xml:id="fn_30c6d5af564cd496e387da4f554a7a04">
+    <para> Richard T. Carson and Robert Cameron Mitchell, “Sequencing and Nesting in Contingent Valuation Surveys,” <emphasis role="italic">Journal of Environmental Economics and Management</emphasis> 28, no. 2 (1995): 155–173.</para>
+  </footnote>
+ Baron and Greene found no effect from varying lives saved by a factor of 10.<footnote xml:id="fn_f9e71e7b5d705c7a93246db492f06904">
+    <para> Jonathan Baron and Joshua D. Greene, “Determinants of Insensitivity to Quantity in Valuation of Public Goods: Contribution, Warm Glow, Budget Constraints, Availability, and Prominence,” <emphasis role="italic">Journal of Experimental Psychology: Applied</emphasis> 2, no. 2 (1996): 107–125.</para>
+  </footnote>
+</para>
+<para>A paper entitled <link xl:href="http://web.archive.org/web/20130328012735/http://commonsenseatheism.com/wp-content/uploads/2011/09/Fetherstonhaugh-et-al-Insensitivity-to-the-value-of-human-life-A-study-of-psychophysical-numbing.pdf">“Insensitivity to the value of human life: A study of psychophysical numbing”</link> collected evidence that our perception of human deaths follows Weber’s Law—obeys a logarithmic scale where the “just noticeable difference” is a constant fraction of the whole. A proposed health program to save the lives of Rwandan refugees garnered far higher support when it promised to save 4,500 lives in a camp of 11,000 refugees, rather than 4,500 in a camp of 250,000. A potential disease cure had to promise to save far more lives in order to be judged worthy of funding, if the disease was originally stated to have killed 290,000 rather than 160,000 or 15,000 people per year.<footnote xml:id="fn_9b19639d37ec7ca4546fef677c85cd48">
+    <para> David Fetherstonhaugh et al., “Insensitivity to the Value of Human Life: A Study of Psychophysical Numbing,” <emphasis role="italic">Journal of Risk and Uncertainty</emphasis> 14, no. 3 (1997): 283–300.</para>
+  </footnote>
+</para>
+<para>The moral: If you want to be an effective altruist, you have to think it through with the part of your brain that processes those unexciting inky zeroes on paper, not just the part that gets real worked up about that poor struggling oil-soaked bird.</para>
+
+  
+</section>

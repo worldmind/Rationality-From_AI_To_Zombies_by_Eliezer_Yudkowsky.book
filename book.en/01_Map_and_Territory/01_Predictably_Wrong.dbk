@@ -1,0 +1,31 @@
+<chapter xml:id="item_5g5TkQTe9rmPS5vvM"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Predictably Wrong</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/5g5TkQTe9rmPS5vvM"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-07-02</pubdate>
+  </info>
+  
+  <para>This, the first book of &quot;Rationality: AI to Zombies&quot; (also known as &quot;The Sequences&quot;), begins with cognitive bias. The rest of the book won’t stick to just this topic; bad habits and bad ideas matter, even when they arise from our minds’ contents as opposed to our minds’ structure.</para>
+<para>It is cognitive bias, however, that provides the clearest and most direct glimpse into the stuff of our psychology, into the shape of our heuristics and the logic of our limitations. It is with bias that we will begin.</para>
+
+  <xi:include href="01_Predictably_Wrong/01_Preface.dbk"/>
+<xi:include href="01_Predictably_Wrong/02_Biases_An_Introduction.dbk"/>
+<xi:include href="01_Predictably_Wrong/03_Scope_Insensitivity.dbk"/>
+<xi:include href="01_Predictably_Wrong/04_The_Martial_Art_of_Rationality.dbk"/>
+<xi:include href="01_Predictably_Wrong/05_Availability.dbk"/>
+<xi:include href="01_Predictably_Wrong/06_Whats_a_Bias.dbk"/>
+<xi:include href="01_Predictably_Wrong/07_Burdensome_Details.dbk"/>
+<xi:include href="01_Predictably_Wrong/08_What_Do_We_Mean_By_Rationality.dbk"/>
+<xi:include href="01_Predictably_Wrong/09_Planning_Fallacy.dbk"/>
+<xi:include href="01_Predictably_Wrong/10_Why_Truth.dbk"/>
+<xi:include href="01_Predictably_Wrong/11_Feeling_Rational.dbk"/>
+<xi:include href="01_Predictably_Wrong/12_The_Lens_That_Sees_Its_Flaws.dbk"/>
+</chapter>

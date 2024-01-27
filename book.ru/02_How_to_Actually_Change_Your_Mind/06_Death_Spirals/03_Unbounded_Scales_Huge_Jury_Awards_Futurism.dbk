@@ -1,0 +1,50 @@
+<section xml:id="item_5u5THLyRkTpPHiaG5"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Unbounded Scales, Huge Jury Awards, &amp; Futurism</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/5u5THLyRkTpPHiaG5/unbounded-scales-huge-jury-awards-and-futurism"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-07</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Futurism</primary></indexterm>
+<indexterm><primary>Technological Forecasting</primary></indexterm>
+  <para>“Psychophysics,” despite the name, is the respectable field that links physical effects to sensory effects. If you dump acoustic energy into air—make noise—then <emphasis role="italic">how loud</emphasis> does that sound to a person, as a function of acoustic energy? How much more acoustic energy do you have to pump into the air, before the noise sounds twice as loud to a human listener? It’s not twice as much; more like eight times as much.</para>
+<para>Acoustic energy and photons are straightforward to measure. When you want to find out how loud an acoustic stimulus <emphasis role="italic">sounds</emphasis>, how bright a light source <emphasis role="italic">appears</emphasis>, you usually ask the listener or watcher. This can be done using a bounded scale from “very quiet” to “very loud,” or “very dim” to “very bright.” You can also use an unbounded scale, whose zero is “not audible at all” or “not visible at all,” but which increases from there without limit. When you use an unbounded scale, the observer is typically presented with a constant stimulus, the <emphasis role="italic">modulus</emphasis>, which is given a fixed rating. For example, a sound that is assigned a loudness of 10. Then the observer can indicate a sound twice as loud as the modulus by writing 20.</para>
+<para>And this has proven to be a fairly reliable technique. But what happens if you give subjects an unbounded scale, but no modulus? Zero to infinity, with no reference point for a fixed value? Then they make up their own modulus, of course. The <emphasis role="italic">ratios</emphasis> between stimuli will continue to correlate reliably between subjects. Subject A says that sound X has a loudness of 10 and sound Y has a loudness of 15. If subject B says that sound X has a loudness of 100, then it’s a good guess that subject B will assign loudness in the vicinity of 150 to sound Y. But if you don’t know what subject C is using as their modulus—their scaling factor—then there’s no way to guess what subject C will say for sound X. It could be 1. It could be 1,000.</para>
+<para>For a subject rating a <emphasis role="italic">single</emphasis> sound, on an <emphasis role="italic">unbounded</emphasis> scale, <emphasis role="italic">without</emphasis> a fixed standard of comparison, nearly <emphasis role="italic">all</emphasis> the variance is due to the arbitrary choice of modulus, rather than the sound itself.</para>
+<para>“Hm,” you think to yourself, “this sounds an awful lot like juries deliberating on punitive damages. No wonder there’s so much variance!” An interesting analogy, but how would you go about demonstrating it experimentally?</para>
+<para>Kahneman et al. presented 867 jury-eligible subjects with descriptions of legal cases (e.g., a child whose clothes caught on fire) and asked them to either</para>
+<orderedlist>
+  <listitem>
+    <para> Rate the outrageousness of the defendant’s actions, on a bounded scale, </para>
+  </listitem>
+  <listitem>
+    <para> Rate the degree to which the defendant should be punished, on a bounded scale, or  </para>
+  </listitem>
+  <listitem>
+    <para> Assign a dollar value to punitive damages.<footnote xml:id="fn_d8a732ce05569f36679dd94fa64df330">
+        <para>Daniel Kahneman, David A. Schkade, and Cass R. Sunstein, “Shared Outrage and Erratic Awards: The Psychology of Punitive Damages,” <emphasis role="italic">Journal of Risk and Uncertainty</emphasis> 16 (1 1998): 48–86; Daniel Kahneman, Ilana Ritov, and David Schkade, “Economic Preferences or Attitude Expressions?: An Analysis of Dollar Responses to Public Issues,” <emphasis role="italic">Journal of Risk and Uncertainty</emphasis> 19, nos. 1–3 (1999): 203–235.</para>
+      </footnote>
+</para>
+  </listitem>
+</orderedlist>
+<para>And, lo and behold, while subjects correlated very well with each other in their outrage ratings and their punishment ratings, their punitive damages were all over the map. Yet subjects’ <emphasis role="italic">rank-ordering</emphasis> of the punitive damages—their ordering from lowest award to highest award—correlated well across subjects.</para>
+<para>If you asked how much of the variance in the “punishment” scale could be explained by the specific scenario—the particular legal case, as presented to multiple subjects—then the answer, even for the raw scores, was 0.49. For the <emphasis role="italic">rank orders</emphasis> of the dollar responses, the amount of variance predicted was 0.51. For the <emphasis role="italic">raw dollar</emphasis> amounts, the variance explained was 0.06!</para>
+<para>Which is to say: if you knew the scenario presented—the aforementioned child whose clothes caught on fire—you could take a good guess at the punishment rating, and a good guess at the <emphasis role="italic">rank-ordering</emphasis> of the dollar award relative to other cases, but the dollar award itself would be completely unpredictable.</para>
+<para>Taking the median of twelve randomly selected responses didn’t help much either.</para>
+<para>So a jury award for punitive damages isn’t so much an economic valuation as an attitude expression—a psychophysical measure of outrage, expressed on an unbounded scale with no standard modulus.</para>
+<para>I observe that many <emphasis role="italic">futuristic predictions</emphasis> are, likewise, best considered as attitude expressions. Take the question, “How long will it be until we have human-level AI?” The responses I’ve seen to this are all over the map. On one memorable occasion, a mainstream AI guy said to me, “Five hundred years.” (!!)</para>
+<para>Now the reason why time-to-AI is just <emphasis role="italic">not very predictable</emphasis>, is a long discussion in its own right. But it’s not as if the guy who said “Five hundred years” was looking into the future to find out. And he can’t have gotten the number using the standard bogus method with Moore’s Law. So what did the number 500 <emphasis role="italic">mean</emphasis>?</para>
+<para>As far as I can guess, it’s as if I’d asked, “On a scale where zero is ‘not difficult at all,’ how difficult does the AI problem <emphasis role="italic">feel</emphasis> to you?” If this were a bounded scale, every sane respondent would mark “extremely hard” at the right-hand end. Everything <emphasis role="italic">feels</emphasis> extremely hard when you don’t know how to do it. But instead there’s an unbounded scale with no standard modulus. So people just make up a number to represent “extremely difficult,” which may come out as 50, 100, or even 500. Then they tack “years” on the end, and that’s their futuristic prediction.</para>
+<para>“How hard does the AI problem feel?” isn’t the only substitutable question. Others respond as if I’d asked “How positive do you feel about AI?”—except lower numbers mean more positive feelings—and then they also tack “years” on the end. But if these “time estimates” represent anything other than attitude expressions on an unbounded scale with no modulus, I have been unable to determine it.</para>
+
+  
+</section>

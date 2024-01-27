@@ -1,0 +1,29 @@
+<chapter xml:id="item_oFePMp9rKftEeZDDr"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Lawful Truth</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/oFePMp9rKftEeZDDr"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>Just as it was useful to contrast humans as goal-oriented systems with inhuman processes in evolutionary biology and artificial intelligence, it will be useful in the coming sequences of essays to contrast humans as physical systems with inhuman processes that aren’t mind-like.</para>
+<para>We humans are, after all, built out of inhuman parts. The world of atoms looks nothing like the world as we ordinarily think of it, and certainly looks nothing like the world’s conscious denizens as we ordinarily think of them. As Giulio Giorello put the point in an interview with Daniel Dennett: “Yes, we have a soul. But it’s made of lots of tiny robots.&quot;</para>
+<para>We start with a sequence on the basic links between physics and human cognition.</para>
+
+  <xi:include href="01_Lawful_Truth/01_The_World_An_Introduction.dbk"/>
+<xi:include href="01_Lawful_Truth/02_Universal_Fire.dbk"/>
+<xi:include href="01_Lawful_Truth/03_Universal_Law.dbk"/>
+<xi:include href="01_Lawful_Truth/04_Is_Reality_Ugly.dbk"/>
+<xi:include href="01_Lawful_Truth/05_Beautiful_Probability.dbk"/>
+<xi:include href="01_Lawful_Truth/06_Outside_the_Laboratory.dbk"/>
+<xi:include href="01_Lawful_Truth/07_The_Second_Law_of_Thermodynamics_and_Engines_of_Cognition.dbk"/>
+<xi:include href="01_Lawful_Truth/08_Perpetual_Motion_Beliefs.dbk"/>
+<xi:include href="01_Lawful_Truth/09_Searching_for_BayesStructure.dbk"/>
+</chapter>

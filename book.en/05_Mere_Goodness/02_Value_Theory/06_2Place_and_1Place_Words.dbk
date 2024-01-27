@@ -1,0 +1,77 @@
+<section xml:id="item_eDpPnT7wdBwWPGvo5"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>2-Place and 1-Place Words</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/eDpPnT7wdBwWPGvo5/2-place-and-1-place-words"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-06-27</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+<indexterm><primary>Mind Projection Fallacy</primary></indexterm>
+<indexterm><primary>Map and Territory</primary></indexterm>
+  <para><link xl:href="img/2f0d638ee6de765ac7d0b7467447e08e.jpg"><inlinemediaobject><imageobject role="html">
+        <imagedata contentdepth="134px" contentwidth="100px" fileref="./img/2f0d638ee6de765ac7d0b7467447e08e.jpg" format="JPG" scalefit="1"/>
+      </imageobject>
+<imageobject role="fo">
+        <imagedata contentdepth="100%" fileref="./img/2f0d638ee6de765ac7d0b7467447e08e.jpg" format="JPG" scalefit="1" width="100%"/>
+      </imageobject>
+</inlinemediaobject></link></para>
+<para>I have previously spoken of the ancient, pulp-era magazine covers that showed a bug-eyed monster carrying off a girl in a torn dress; and about how people think as if sexiness is an inherent property of a sexy entity, without dependence on the admirer.</para>
+<para>&quot;Of <emphasis>course</emphasis> the bug-eyed monster will prefer human females to its own kind,&quot; says the artist (who we&apos;ll call Fred); &quot;it can see that human females have soft, pleasant skin instead of slimy scales.  It may be an alien, but it&apos;s not <emphasis>stupid</emphasis>—why are you expecting it to make such a basic mistake about sexiness?&quot;</para>
+<para>What is Fred&apos;s error?  It is treating a function of 2 arguments (&quot;2-place function&quot;):</para>
+<blockquote>
+  <para> <literal>Sexiness: Admirer, Entity—&gt; [0, ∞)</literal></para>
+</blockquote>
+<para>As though it were a function of 1 argument (&quot;1-place function&quot;):</para>
+<blockquote>
+  <para> <literal>Sexiness: Entity—&gt; [0, ∞)</literal></para>
+</blockquote>
+<para>If Sexiness is treated as a function that accepts only one Entity as its argument, then of course Sexiness will appear to depend only on the Entity, with nothing else being relevant.</para>
+<para>When you think about a two-place function as though it were a one-place function, you end up with a <link xl:href="http://www.overcomingbias.com/2008/03/variable-questi.html">Variable Question Fallacy</link> / <link xl:href="http://www.overcomingbias.com/2008/03/mind-projection.html">Mind Projection Fallacy</link>.  Like trying to determine whether a building is <emphasis>intrinsically </emphasis>on the left or on the right side of the road, independent of anyone&apos;s travel direction.</para>
+<para>An alternative and equally valid standpoint is that &quot;sexiness&quot;<emphasis>does</emphasis> refer to a one-place function—but each speaker uses a <emphasis>different </emphasis>one-place function to decide who to kidnap and ravish.  Who says that just because Fred, the artist, and Bloogah, the bug-eyed monster, both use the word &quot;sexy&quot;, they must mean the same thing by it?</para>
+<para>If you take this viewpoint, there is no paradox in speaking of some woman intrinsically having 5 units of Fred::Sexiness.  All onlookers can agree on this fact, once Fred::Sexiness has been specified in terms of curves, skin texture, clothing, status cues etc.  This specification need <emphasis>make no mention of Fred</emphasis>, only the woman to be evaluated.</para>
+<para>It so happens that Fred, himself, <emphasis>uses</emphasis> this algorithm to select flirtation targets.  But that doesn&apos;t mean the algorithm itself has to <emphasis>mention</emphasis> Fred.  So Fred&apos;s Sexiness function really <emphasis>is</emphasis> a function of one object—the woman—on this view.  I called it Fred::Sexiness, but remember that this <emphasis>name</emphasis> refers to a function that is being described independently of Fred.  Maybe it would be better to write:</para>
+<para>Fred::Sexiness == Sexiness_20934</para>
+<para>It is an empirical fact about Fred that he uses the function Sexiness_20934 to evaluate potential mates.  Perhaps John uses exactly the same algorithm; it doesn&apos;t matter where it comes from once we have it.</para>
+<para>And similarly, the same woman has only 0.01 units of Sexiness_72546, whereas a slime mold has 3 units of Sexiness_72546.  It happens to be an empirical fact that Bloogah uses Sexiness_72546 to decide who to kidnap; that is, Bloogah::Sexiness names the fixed Bloogah-independent mathematical object that is the function Sexiness_72546.</para>
+<para>Once we say that the woman has 0.01 units of Sexiness_72546 and 5 units of Sexiness_20934, all observers can agree on this without paradox.</para>
+<para>And the two 2-place and 1-place views can be unified using the concept of &quot;currying&quot;, named after the mathematician Haskell Curry.  Currying is a technique allowed in certain programming language, where e.g. instead of writing</para>
+<blockquote>
+  <para> <literal>x = plus(2, 3)    </literal>(x = 5)</para>
+</blockquote>
+<para>you can also write</para>
+<blockquote>
+  <para> <literal>y = plus(2)       </literal>(y is now a &quot;curried&quot; form of the function <literal>plus</literal>, which has eaten a <literal>2</literal>)</para>
+  <para><literal>x = y(3)          </literal>(x = 5)</para>
+  <para><literal>z = y(7)          </literal>(z = 9)</para>
+</blockquote>
+<para>So <literal>plus</literal> is a 2-place function, but currying <literal>plus</literal>—letting it eat only one of its two required arguments—turns it into a 1-place function that adds 2 to any input.  (Similarly, you could start with a 7-place function, feed it 4 arguments, and the result would be a 3-place function, etc.)</para>
+<para>A true purist would insist that all functions should be viewed, by definition, as taking exactly 1 argument.  On this view, <literal>plus</literal> accepts 1 numeric input, and outputs a <emphasis>new</emphasis> function; and this <emphasis>new</emphasis> function has 1 numeric input and finally outputs a number.  On this view, when we write <literal>plus(2, 3)</literal> we are really computing <literal>plus(2)</literal> to get a function that adds 2 to any input, and then applying the result to <literal>3</literal>.  A programmer would write this as:</para>
+<blockquote>
+  <para> <literal>plus: int—&gt; (int—&gt; int)</literal></para>
+</blockquote>
+<para>This says that <literal>plus</literal> takes an <literal>int</literal> as an argument, and returns a function of type <literal>int—&gt; int</literal>.</para>
+<para>Translating the metaphor back into the human use of words, we could imagine that &quot;sexiness&quot; starts by eating an Admirer, and spits out the fixed <emphasis>mathematical</emphasis> object that describes how the Admirer currently evaluates pulchritude.  It is an <emphasis>empirical</emphasis> fact about the Admirer that their intuitions of desirability are computed in a way that is isomorphic to this <emphasis>mathematical</emphasis> function.</para>
+<para>Then the mathematical object spit out by currying Sexiness(Admirer) can be applied to the Woman.  If the Admirer was originally Fred, Sexiness(Fred) will first return Sexiness_20934.  We can then say it is an empirical fact about the <emphasis>Woman</emphasis>, independently of Fred, that Sexiness_20934(Woman) = 5.</para>
+<para>In Hilary Putnam&apos;s &quot;Twin Earth&quot; thought experiment, there was a tremendous philosophical brouhaha over whether it makes sense to postulate a Twin Earth which is just like our own, except that instead of water being H20, water is a <emphasis>different</emphasis> transparent flowing substance, XYZ.  And furthermore, set the time of the thought experiment a few centuries ago, so in neither our Earth nor the Twin Earth does anyone know how to test the alternative hypotheses of H20 vs. XYZ.  Does the word &quot;water&quot;<emphasis>mean</emphasis> the same thing in that world, as in this one?</para>
+<para>Some said, &quot;Yes, because when an Earth person and a Twin Earth person utter the word &apos;water&apos;, they have the same sensory test in mind.&quot;</para>
+<para>Some said, &quot;No, because &apos;water&apos; in our Earth means H20 and &apos;water&apos; in the Twin Earth means XYZ.&quot;</para>
+<para>If you think of &quot;water&quot; as a concept that <emphasis>begins</emphasis> by eating a world to find out the empirical true nature of that transparent flowing stuff, and <emphasis>returns</emphasis> a new fixed concept Water_42 or H20, then this world-eating concept is the same in our Earth and the Twin Earth; it just returns different answers in different places.</para>
+<para>If you think of &quot;water&quot; as meaning H20 then the concept does nothing different when we transport it between worlds, and the Twin Earth contains no H20.</para>
+<para>And of course there is no point in arguing over what the sound of the syllables &quot;wa-ter&quot;<link xl:href="http://www.overcomingbias.com/2008/02/disputing-defin.html">really means</link>.</para>
+<para>So should you pick one definition and use it consistently?  But it&apos;s not that easy to save yourself from confusion.  You have to train yourself to be <emphasis>deliberately aware</emphasis> of the distinction between the curried and uncurried forms of concepts.</para>
+<para>When you take the uncurried water concept and apply it in a different world, it is the same concept but it <emphasis>refers</emphasis> to a different thing; that is, we are applying a constant world-eating function to a different world and obtaining a different return value.  In the Twin Earth, XYZ is &quot;water&quot; and H20 is not; in our Earth, H20 is &quot;water&quot; and XYZ is not.</para>
+<para>On the other hand, if you take &quot;water&quot; to refer to what the prior thinker would call &quot;the result of applying &apos;water&apos; to <emphasis>our</emphasis> Earth&quot;, then in the Twin Earth, XYZ is not water and H20 is.</para>
+<para>The whole confusingness of the subsequent philosophical debate, rested on a tendency to <emphasis>instinctively</emphasis> curry concepts or <emphasis>instinctively</emphasis> uncurry them.</para>
+<para>Similarly it takes an extra step for Fred to realize that other agents, like the Bug-Eyed-Monster agent, will choose kidnappees for ravishing based on Sexiness<subscript>BEM</subscript>(Woman), not Sexiness<subscript>Fred</subscript>(Woman).  To do this, Fred must consciously re-envision Sexiness as a function with two arguments.  All Fred&apos;s brain does by instinct is evaluate <literal>Woman.sexiness</literal>—that is, Sexiness<subscript>Fred</subscript>(Woman); but it&apos;s simply labeled <literal>Woman.sexiness</literal>.</para>
+<para>The fixed mathematical function Sexiness_20934 makes no mention of Fred or the BEM, only women, so Fred does not <emphasis>instinctively</emphasis> see why the BEM would evaluate &quot;sexiness&quot; any differently.  And indeed the BEM would <emphasis>not</emphasis> evaluate Sexiness_20934 any differently, if for some odd reason it cared about the result of that particular function; but it is an <emphasis>empirical</emphasis> fact about the BEM that it uses a different function <emphasis>to decide who to kidnap.</emphasis></para>
+<para>If you&apos;re wondering as to the point of this analysis, we shall need it later in order to <link xl:href="http://www.overcomingbias.com/2008/02/taboo-words.html">Taboo</link> such confusing words as &quot;objective&quot;, &quot;subjective&quot;, and &quot;arbitrary&quot;.</para>
+
+  
+</section>

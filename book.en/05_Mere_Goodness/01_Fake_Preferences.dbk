@@ -1,0 +1,26 @@
+<chapter xml:id="item_fqh9TLuoquxpducDb"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Fake Preferences</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/fqh9TLuoquxpducDb"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>On failed attempts at theories of value.</para>
+
+  <xi:include href="01_Fake_Preferences/01_Ends_An_Introduction.dbk"/>
+<xi:include href="01_Fake_Preferences/02_Not_for_the_Sake_of_Happiness_Alone.dbk"/>
+<xi:include href="01_Fake_Preferences/03_Fake_Selfishness.dbk"/>
+<xi:include href="01_Fake_Preferences/04_Fake_Morality.dbk"/>
+<xi:include href="01_Fake_Preferences/05_Fake_Utility_Functions.dbk"/>
+<xi:include href="01_Fake_Preferences/06_Detached_Lever_Fallacy.dbk"/>
+<xi:include href="01_Fake_Preferences/07_Dreams_of_AI_Design.dbk"/>
+<xi:include href="01_Fake_Preferences/08_The_Design_Space_of_MindsInGeneral.dbk"/>
+</chapter>

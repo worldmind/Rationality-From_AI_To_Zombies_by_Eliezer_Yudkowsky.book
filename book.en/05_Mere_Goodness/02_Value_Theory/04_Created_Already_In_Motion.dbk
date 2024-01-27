@@ -1,0 +1,72 @@
+<section xml:id="item_CuSTqHgeK4CMpWYTe"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Created Already In Motion</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/CuSTqHgeK4CMpWYTe/created-already-in-motion"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-07-01</pubdate>
+  </info>
+  <indexterm><primary>Metaethics</primary></indexterm>
+  <para><emphasis role="bold">Followup to</emphasis>:  <link xl:href="http://www.overcomingbias.com/2008/06/no-universally.html">No Universally Compelling Arguments</link>, <link xl:href="http://www.overcomingbias.com/2008/06/pass-recursive.html">Passing the Recursive Buck</link></para>
+<para>Lewis Carroll, who was also a mathematician, once wrote a short dialogue called <link xl:href="http://www.ditext.com/carroll/tortoise.html">What the Tortoise said to Achilles</link>.  If you have not yet read this ancient classic, consider doing so now.</para>
+<para>The Tortoise offers Achilles a step of reasoning drawn from Euclid&apos;s First Proposition:</para>
+<blockquote>
+  <para> (A)  Things that are equal to the same are equal to each other.</para>
+  <para>(B)  The two sides of this Triangle are things that are equal to the same.</para>
+  <para>(Z)  The two sides of this Triangle are equal to each other.</para>
+</blockquote>
+<para>Tortoise:  &quot;And if some reader had <emphasis>not</emphasis> yet accepted A and B as true, he might still accept the <emphasis>sequence</emphasis> as a <emphasis>valid</emphasis> one, I suppose?&quot;</para>
+<para>Achilles:   &quot;No doubt such a reader might exist.  He might say, &apos;I accept as true the Hypothetical Proposition that, <emphasis>if</emphasis> A and B be true, Z must be true; but, I <emphasis>don&apos;t</emphasis> accept A and B as true.&apos;  Such a reader would do wisely in abandoning Euclid, and taking to football.&quot;</para>
+<para>Tortoise:  &quot;And might there not <emphasis>also</emphasis> be some reader who would say, &apos;I accept A and B as true, but I <emphasis>don&apos;t</emphasis> accept the Hypothetical&apos;?&quot;</para>
+<para>Achilles, unwisely, concedes this; and so asks the Tortoise to accept another proposition:</para>
+<blockquote>
+  <para> (C)  If A and B are true, Z must be true.</para>
+</blockquote>
+<para>But, asks, the Tortoise, suppose that he accepts A and B and C, but not Z?</para>
+<para>Then, says, Achilles, he must ask the Tortoise to accept one more hypothetical:</para>
+<blockquote>
+  <para> (D)  If A and B and C are true, Z must be true.</para>
+</blockquote>
+<para>Douglas Hofstadter paraphrased the argument some time later:</para>
+<blockquote>
+  <para> Achilles:  If you have [(A⋀B)→Z], and you also have (A⋀B), then surely you have Z.</para>
+  <para>Tortoise:  Oh!  You mean &lt;{(A⋀B)⋀[(A⋀B)→Z]}→Z&gt;, don&apos;t you?</para>
+</blockquote>
+<para>As Hofstadter says, &quot;Whatever Achilles considers a rule of inference, the Tortoise immediately flattens into a mere string of the system.  If you use only the letters A, B, and Z, you will get a recursive pattern of longer and longer strings.&quot;</para>
+<para>By now you should recognize the anti-pattern <link xl:href="http://www.overcomingbias.com/2008/06/pass-recursive.html">Passing the Recursive Buck</link>; and though the counterspell is sometimes hard to find, when found, it generally takes the form <link xl:href="http://www.overcomingbias.com/2008/06/causality-and-r.html">The Buck Stops Immediately</link>.</para>
+<para>The Tortoise&apos;s mind needs the <emphasis>dynamic</emphasis> of adding Y to the belief pool when X and (X→Y) are previously in the belief pool.  If this dynamic is not present—a rock, for example, lacks it—then you can go on adding in X and (X→Y) and (X⋀(X→Y))→Y until the end of eternity, without ever getting to Y.</para>
+<para>The phrase that once came into my mind to describe this requirement, is that a mind must be <emphasis>created already in motion.</emphasis>  There is no argument so compelling that it will give dynamics to a static thing.  There is no computer program so <emphasis>persuasive</emphasis> that you can run it on a rock.</para>
+<para>And even if you have a mind that <emphasis>does</emphasis> carry out modus ponens, it is futile for it to have such beliefs as...</para>
+<blockquote>
+  <para> (A)  If a toddler is on the train tracks, then pulling them off is fuzzle.</para>
+  <para>(B)  There is a toddler on the train tracks.</para>
+</blockquote>
+<para>...unless the mind also <emphasis>implements:</emphasis></para>
+<blockquote>
+  <para> <emphasis>Dynamic:</emphasis>  When the belief pool contains &quot;X is fuzzle&quot;, send X to the action system.</para>
+</blockquote>
+<para>(<emphasis role="bold">Added:</emphasis>  Apparently this wasn&apos;t clear...  By &quot;dynamic&quot; I mean a property of a physically implemented cognitive system&apos;s <emphasis>development over time</emphasis>.  A &quot;dynamic&quot; is something that <emphasis>happens inside</emphasis> a cognitive system, <emphasis>not</emphasis> data that it stores in memory and manipulates.  Dynamics are the manipulations.  There is no way to write a dynamic on a piece of paper, because the paper will just lie there.  So the text immediately above, which says &quot;dynamic&quot;, is not dynamic.  If I wanted the text to <emphasis>be</emphasis> dynamic and not just <emphasis>say</emphasis>&quot;dynamic&quot;, I would have to write a Java applet.)</para>
+<para>Needless to say, having the belief...</para>
+<blockquote>
+  <para> (C)  If the belief pool contains &quot;X is fuzzle&quot;, then &quot;send &apos;X&apos; to the action system&quot; is fuzzle.</para>
+</blockquote>
+<para>...won&apos;t help unless the mind already implements the <emphasis>behavior</emphasis> of translating hypothetical actions labeled &apos;fuzzle&apos; into actual motor actions.</para>
+<para>By dint of careful arguments about the nature of cognitive systems, you might be able to prove...</para>
+<blockquote>
+  <para> (D)   A mind with a dynamic that sends plans labeled &quot;fuzzle&quot; to the action system, is more fuzzle than minds that don&apos;t.</para>
+</blockquote>
+<para>...but that <emphasis>still</emphasis> won&apos;t help, unless the listening mind <emphasis>previously</emphasis> possessed the <emphasis>dynamic</emphasis> of swapping out its current source code for alternative source code that is believed to be more fuzzle.</para>
+<para>This is why you can&apos;t argue fuzzleness into a rock.</para>
+<para> </para>
+<para>Part of <link xl:href="http://wiki.lesswrong.com/wiki/Metaethics_sequence"><emphasis>The Metaethics Sequence</emphasis></link></para>
+<para>Next post: &quot;<link xl:href="https://www.lesswrong.com/posts/iAxkfiyG8WizPSPbq/the-bedrock-of-fairness">The Bedrock of Fairness</link>&quot;</para>
+<para>Previous post: &quot;<link xl:href="https://www.lesswrong.com/posts/K9JSM7d7bLJguMxEp/the-moral-void">The Moral Void</link>&quot;</para>
+
+  
+</section>

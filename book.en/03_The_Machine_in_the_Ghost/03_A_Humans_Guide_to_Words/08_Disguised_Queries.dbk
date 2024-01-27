@@ -1,0 +1,59 @@
+<section xml:id="item_4FcxgdvdQP45D6Skg"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Disguised Queries</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/4FcxgdvdQP45D6Skg/disguised-queries"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-02-09</pubdate>
+  </info>
+  <indexterm><primary>Parables &amp; Fables</primary></indexterm>
+<indexterm><primary>Philosophy of Language</primary></indexterm>
+  <para>Imagine that you have a peculiar job in a peculiar factory:  Your task is to take objects from a mysterious conveyor belt, and sort the objects into two bins.  When you first arrive, Susan the Senior Sorter explains to you that blue egg-shaped objects are called &quot;bleggs&quot; and go in the &quot;blegg bin&quot;, while red cubes are called &quot;rubes&quot; and go in the &quot;rube bin&quot;.</para>
+<para>Once you start working, you notice that bleggs and rubes differ in ways besides color and shape.  Bleggs have fur on their surface, while rubes are smooth.  Bleggs flex slightly to the touch; rubes are hard.  Bleggs are opaque; the rube&apos;s surface slightly translucent.</para>
+<para>Soon after you begin working, you encounter a blegg shaded an unusually dark blue—in fact, on closer examination, the color proves to be purple, halfway between red and blue.</para>
+<para>Yet wait!  Why are you calling this object a &quot;blegg&quot;?  A &quot;blegg&quot; was originally defined as blue and egg-shaped—the qualification of blueness appears in the very name &quot;blegg&quot;, in fact.  This object is not blue.  One of the necessary qualifications is missing; you should call this a &quot;purple egg-shaped object&quot;, not a &quot;blegg&quot;.</para>
+<para>But it so happens that, in addition to being purple and egg-shaped, the object is also furred, flexible, and opaque.  So when you saw the object, you thought, &quot;Oh, a strangely colored blegg.&quot;  It certainly isn&apos;t a rube... right?</para>
+<para>Still, you aren&apos;t quite sure what to do next.  So you call over Susan the Senior Sorter.</para>
+<blockquote>
+  <para>     &quot;Oh, yes, it&apos;s a blegg,&quot; Susan says, &quot;you can put it in the blegg bin.&quot;</para>
+  <para>    You start to toss the purple blegg into the blegg bin, but pause for a moment.  &quot;Susan,&quot; you say, &quot;how do you <emphasis>know</emphasis> this is a blegg?&quot;</para>
+  <para>    Susan looks at you oddly.  &quot;Isn&apos;t it obvious?  This object may be purple, but it&apos;s still egg-shaped, furred, flexible, and opaque, like all the other bleggs.  You&apos;ve got to expect a few color defects.  Or is this one of those philosophical conundrums, like &apos;How do you know the world wasn&apos;t created five minutes ago complete with false memories?&apos;  In a philosophical sense I&apos;m not <emphasis>absolutely certain</emphasis> that this is a blegg, but it seems like a good guess.&quot;</para>
+  <para>    &quot;No, I mean...&quot;  You pause, searching for words.  &quot;<emphasis>Why</emphasis> is there a blegg bin and a rube bin?  What&apos;s the <emphasis>difference</emphasis> between bleggs and rubes?&quot;</para>
+  <para>    &quot;Bleggs are blue and egg-shaped, rubes are red and cube-shaped,&quot; Susan says patiently.  &quot;You got the standard orientation lecture, right?&quot;</para>
+  <para>    &quot;Why do bleggs and rubes <emphasis>need</emphasis> to be sorted?&quot;</para>
+  <para>    &quot;Er... because otherwise they&apos;d be all mixed up?&quot; says Susan.  &quot;Because nobody will pay us to sit around all day and <emphasis>not</emphasis> sort bleggs and rubes?&quot;</para>
+  <para>    &quot;Who originally determined that the first blue egg-shaped object was a &apos;blegg&apos;, and how did they determine that?&quot;</para>
+  <para>    Susan shrugs.  &quot;I suppose you could just as easily call the red cube-shaped objects &apos;bleggs&apos; and the blue egg-shaped objects &apos;rubes&apos;, but it seems easier to remember this way.&quot;</para>
+  <para>    You think for a moment.  &quot;Suppose a completely mixed-up object came off the conveyor.  Like, an orange sphere-shaped furred translucent object with writhing green tentacles.  How could I tell whether it was a blegg or a rube?&quot;</para>
+  <para>    &quot;Wow, no one&apos;s ever found an object <emphasis>that</emphasis> mixed up,&quot; says Susan, &quot;but I guess we&apos;d take it to the sorting scanner.&quot;</para>
+  <para>    &quot;How does the sorting scanner work?&quot; you inquire.  &quot;X-rays?  Magnetic resonance imaging?  Fast neutron transmission spectroscopy?&quot;</para>
+  <para>    &quot;I&apos;m told it works by Bayes&apos;s Rule, but I don&apos;t quite understand how,&quot; says Susan.  &quot;I like to say it, though.  Bayes Bayes Bayes Bayes Bayes.&quot;</para>
+  <para>    &quot;What does the sorting scanner <emphasis>tell</emphasis> you?&quot;</para>
+  <para>    &quot;It tells you whether to put the object into the blegg bin or the rube bin.  That&apos;s why it&apos;s called a sorting scanner.&quot;</para>
+  <para>    At this point you fall silent.</para>
+  <para>    &quot;Incidentally,&quot; Susan says casually, &quot;it may interest you to know that bleggs contain small nuggets of vanadium ore, and rubes contain shreds of palladium, both of which are useful industrially.&quot;</para>
+  <para>    &quot;Susan, you are pure evil.&quot;</para>
+  <para>    &quot;Thank you.&quot;</para>
+</blockquote>
+<para>So now it seems we&apos;ve discovered the heart and essence of bleggness: a blegg is an object that contains a nugget of vanadium ore.  Surface characteristics, like blue color and furredness, do not <emphasis>determine</emphasis> whether an object is a blegg; surface characteristics only matter because they help you <emphasis>infer</emphasis> whether an object is a blegg, that is, whether the object contains vanadium.</para>
+<para>Containing vanadium is a necessary and sufficient definition: all bleggs contain vanadium and everything that contains vanadium is a blegg: &quot;blegg&quot; is just a shorthand way of saying &quot;vanadium-containing object.&quot;  Right?</para>
+<para>Not so fast, says Susan:  Around 98% of bleggs contain vanadium, but 2% contain palladium instead.  To be precise (Susan continues) around 98% of blue egg-shaped furred flexible opaque objects contain vanadium.  For unusual bleggs, it may be a different percentage: 95% of purple bleggs contain vanadium, 92% of hard bleggs contain vanadium, etc.</para>
+<para>Now suppose you find a blue egg-shaped furred flexible opaque object, an ordinary blegg in every visible way, and just for kicks you take it to the sorting scanner, and the scanner says &quot;palladium&quot;—this is one of the rare 2%.  Is it a blegg?</para>
+<para>At first you might answer that, since you intend to throw this object in the rube bin, you might as well call it a &quot;rube&quot;.  However, it turns out that almost all bleggs, if you switch off the lights, glow faintly in the dark; while almost all rubes do not glow in the dark.  And the percentage of bleggs that glow in the dark is not significantly different for blue egg-shaped furred flexible opaque objects that contain palladium, instead of vanadium.  Thus, if you want to guess whether the object glows like a blegg, or remains dark like a rube, you should guess that it glows like a blegg.</para>
+<para>So is the object <emphasis>really</emphasis> a blegg or a rube?</para>
+<para>On one hand, you&apos;ll throw the object in the rube bin no matter what else you learn.  On the other hand, if there are any unknown characteristics of the object you need to infer, you&apos;ll infer them as if the object were a blegg, not a rube—group it into the similarity cluster of blue egg-shaped furred flexible opaque things, and not the similarity cluster of red cube-shaped smooth hard translucent things.</para>
+<para>The question &quot;Is this object a blegg?&quot; may stand in for different queries on different occasions.</para>
+<para>If it weren&apos;t standing in for <emphasis>some</emphasis> query, you&apos;d have no reason to care.</para>
+<para><olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_NCefvet6X3Sd4wrPc">Is atheism a &quot;religion&quot;</olink>?  <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_gBma88LH3CLQsqyfS">Is transhumanism a &quot;cult&quot;</olink>?  People who argue that atheism is a religion &quot;because it states beliefs about God&quot; are really trying to argue (I think) that the reasoning methods used in atheism are on a par with the reasoning methods used in religion, or that atheism is no safer than religion in terms of the probability of causally engendering violence, etc...  What&apos;s really at stake is an atheist&apos;s claim of substantial difference and superiority relative to religion, which the religious person is trying to reject by denying the difference rather than the superiority(!)</para>
+<para>But that&apos;s not the a priori irrational part:  The a priori irrational part is where, in the course of the argument, someone pulls out a dictionary and looks up the definition of &quot;atheism&quot; or &quot;religion&quot;.  (And yes, it&apos;s just as silly whether an atheist or religionist does it.)  How could a dictionary <emphasis>possibly</emphasis> decide whether an empirical cluster of atheists is really substantially different from an empirical cluster of theologians?  How can reality vary with the meaning of a word?  The points in thingspace don&apos;t move around when we redraw a boundary.</para>
+<para>But people often don&apos;t <emphasis>realize</emphasis> that their argument about where to draw a definitional boundary, is really a dispute over whether to infer a characteristic shared by most things inside an empirical cluster...</para>
+<para>Hence the phrase, &quot;disguised query&quot;.</para>
+
+  
+</section>

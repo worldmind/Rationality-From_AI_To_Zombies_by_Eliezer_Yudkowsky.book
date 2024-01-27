@@ -1,0 +1,138 @@
+<section xml:id="item_FaJaCgqBKphrDzDSj"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>37 Ways That Words Can Be Wrong</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/FaJaCgqBKphrDzDSj/37-ways-that-words-can-be-wrong"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-02-19</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+  <para>Some reader is bound to declare that a better title for this post would be &quot;37 Ways That You Can Use Words Unwisely&quot;, or &quot;37 Ways That Suboptimal Use Of Categories Can Have Negative Side Effects On Your Cognition&quot;.</para>
+<para>But one of the primary lessons of this gigantic list is that saying &quot;There&apos;s no way my choice of X can be &apos;wrong&apos;&quot; is nearly always an error in practice, whatever the theory.  You can always be wrong.  Even when it&apos;s theoretically impossible to be wrong, you can still be wrong.  There is never a Get-Out-Of-Jail-Free card for anything you do.  That&apos;s life.</para>
+<para>Besides, I can define the word &quot;wrong&quot; to mean anything I like - it&apos;s not like a word can be <emphasis>wrong.</emphasis></para>
+<para>Personally, I think it quite justified to use the word &quot;wrong&quot; when:</para>
+<orderedlist>
+  <listitem>
+    <para><emphasis>A word fails to connect to reality in the first place.</emphasis>   Is Socrates a framster?  Yes or no?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_hQxYBfu2LPc9Ydo6w">The Parable of the Dagger.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>Your argument, if it worked, could coerce reality to go a different way by choosing a different word definition.</emphasis>   Socrates is a human, and humans, by definition, are mortal.  So if you defined humans to not be mortal, would Socrates live forever?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_bcM5ft8jvsffsZZ4Y">The Parable of Hemlock</olink>.) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You try to establish any sort of empirical proposition as being true &quot;by definition&quot;.</emphasis>   Socrates is a human, and humans, by definition, are mortal.  So is it a <emphasis>logical truth</emphasis> if we empirically predict that Socrates should keel over if he drinks hemlock?  It seems like there are logically possible, non-self-contradictory worlds where Socrates doesn&apos;t keel over - where he&apos;s immune to hemlock by a quirk of biochemistry, say.  Logical truths are true in all possible worlds, and so never tell you <emphasis>which</emphasis> possible world you live in - and anything you can establish &quot;by definition&quot; is a logical truth.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_bcM5ft8jvsffsZZ4Y">The Parable of Hemlock</olink>.) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You unconsciously slap the conventional label on something, without actually using the verbal definition you just gave.</emphasis>   You know perfectly well that Bob is &quot;human&quot;, even though, on your definition, you can never call Bob &quot;human&quot; without first observing him to be mortal.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_bcM5ft8jvsffsZZ4Y">The Parable of Hemlock</olink>.) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>The act of labeling something with a word, disguises a challengable inductive inference you are making. </emphasis>  If the last 11 egg-shaped objects drawn have been blue, and the last 8 cubes drawn have been red, it is a matter of induction to say this rule will hold in the future.  But if you call the blue eggs &quot;bleggs&quot; and the red cubes &quot;rubes&quot;, you may reach into the barrel, feel an egg shape, and think &quot;Oh, a blegg.&quot;  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_3nxs2WYDGzJbzcLMp">Words as Hidden Inferences.</olink>)</para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You try to define a word using words, in turn defined with ever-more-abstract words, without being able to point to an example.</emphasis>   &quot;What is red?&quot;  &quot;Red is a color.&quot;  &quot;What&apos;s a color?&quot;  &quot;It&apos;s a property of a thing?&quot;  &quot;What&apos;s a thing?  What&apos;s a property?&quot;  It never occurs to you to point to a stop sign and an apple.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_HsznWM9A7NiuGsp28">Extensions and Intensions.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>The extension doesn&apos;t match the intension.</emphasis>   We aren&apos;t consciously aware of our identification of a red light in the sky as &quot;Mars&quot;, which will probably happen regardless of your attempt to define &quot;Mars&quot; as &quot;The God of War&quot;.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_HsznWM9A7NiuGsp28">Extensions and Intensions.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>Your verbal definition doesn&apos;t capture more than a tiny fraction of the category&apos;s shared characteristics, but you try to reason as if it does.</emphasis>   When the philosophers of Plato&apos;s Academy claimed that the best definition of a human was a &quot;featherless biped&quot;, Diogenes the Cynic is said to have exhibited a plucked chicken and declared &quot;Here is Plato&apos;s Man.&quot;  The Platonists promptly changed their definition to &quot;a featherless biped with broad nails&quot;.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_jMTbQj9XB5ah2maup">Similarity Clusters.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You try to treat category membership as all-or-nothing, ignoring the existence of more and less typical subclusters.</emphasis>   Ducks and penguins are less typical birds than robins and pigeons. Interestingly, a between-groups experiment showed that subjects thought a dis  ease was more likely to spread from robins to ducks on an island, than from ducks to robins.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4mEsPHqcbRWxnaE5b">Typicality and Asymmetrical Similarity.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>A verbal definition works well enough in practice to point out the intended cluster of similar things, but you nitpick exceptions.</emphasis>  Not every human has ten fingers, or wears clothes, or uses language; but if you look for an empirical cluster of things which share these characteristics, you&apos;ll get enough information that the occasional nine-fingered human won&apos;t fool you.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_WBw8dDkAWohFjWQSk">The Cluster Structure of Thingspace</olink>.) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You ask whether something &quot;is&quot; or &quot;is not&quot; a category member but can&apos;t name the question you really want answered.</emphasis>   What is a &quot;man&quot;?  Is Barney the Baby Boy a &quot;man&quot;?  The &quot;correct&quot; answer may depend considerably on whether the query you <emphasis>really</emphasis> want answered is &quot;Would hemlock be a good thing to feed Barney?&quot; or &quot;Will Barney make a good husband?&quot;  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_4FcxgdvdQP45D6Skg">Disguised Queries.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You treat intuitively perceived hierarchical categories like the only correct way to parse the world, without realizing that other forms of statistical inference are possible even though your brain doesn&apos;t use them.</emphasis>   It&apos;s much easier <emphasis>for a human</emphasis> to notice whether an object is a &quot;blegg&quot; or &quot;rube&quot;; than <emphasis>for a human</emphasis> to notice that red objects never glow in the dark, but red furred objects have all the other characteristics of bleggs.  Other statistical algorithms work differently.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yFDKvfN6D87Tf5J9f">Neural Categories.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You talk about categories as if they are manna fallen from the Platonic Realm, rather than inferences implemented in a real brain.</emphasis>  The ancient philosophers said &quot;Socrates is a man&quot;, not, &quot;My brain perceptually classifies Socrates as a match against the &apos;human&apos; concept&quot;.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yA4gF5KrboK2m2Xu7">How An Algorithm Feels From Inside.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You argue about a category membership even after screening off all questions that could possibly depend on a category-based inference.</emphasis>   After you observe that an object is blue, egg-shaped, furred, flexible, opaque, luminescent, and palladium-containing, what&apos;s <emphasis>left</emphasis> to ask by arguing, &quot;Is it a blegg?&quot;  But if your brain&apos;s categorizing neural network contains a (metaphorical) central unit corresponding to the inference of blegg-ness, it may still <emphasis>feel</emphasis> like there&apos;s a leftover question.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yA4gF5KrboK2m2Xu7">How An Algorithm Feels From Inside.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You allow an argument to slide into being about definitions, even though it isn&apos;t what you originally wanted to argue about.</emphasis>  If, before a dispute started about whether a tree falling in a deserted forest makes a &quot;sound&quot;, you asked the two soon-to-be arguers whether they thought a &quot;sound&quot; should be defined as &quot;acoustic vibrations&quot; or &quot;auditory experiences&quot;, they&apos;d probably tell you to flip a coin.  Only after the argument starts does the definition of a word become politically charged.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_7X2j8HAkWdmMoS8PE">Disputing Definitions.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You think a word has a meaning, as a property of the word itself; rather than there being a label that your brain associates to a particular concept.</emphasis>   When someone shouts, &quot;Yikes!  A tiger!&quot;, evolution would not favor an organism that thinks, &quot;Hm... I have just heard the syllables &apos;Tie&apos; and &apos;Grr&apos; which my fellow tribemembers associate with their internal analogues of my own <emphasis>tiger</emphasis> concept and which <emphasis>aiiieeee</emphasis> CRUNCH CRUNCH GULP.&quot;  So the brain takes a shortcut, and it seems that the meaning of tigerness is a property of the label itself.  People argue about the <emphasis>correct meaning</emphasis> of a label like &quot;sound&quot;. (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_dMCFk2n2ur8n62hqB">Feel the Meaning.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You argue over the meanings of a word, even after all sides understand perfectly well what the other sides are trying to say.</emphasis>   The human ability to associate labels to concepts is a tool for communication.  When people <emphasis>want</emphasis> to communicate, we&apos;re hard to stop; if we have no common language, we&apos;ll draw pictures in sand.  When you each understand what is in the other&apos;s mind, you are <emphasis>done.  </emphasis>(<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_9ZooAqfh2TC9SBDvq">The Argument From Common Usage.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You pull out a dictionary in the middle of an empirical or moral argument.  </emphasis> Dictionary editors are historians of usage, not legislators of language.  If the common definition contains a problem - if &quot;Mars&quot; is defined as the God of War, or a &quot;dolphin&quot; is defined as a kind of fish, or &quot;Negroes&quot; are defined as a separate category from humans, the dictionary will reflect the standard mistake.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_9ZooAqfh2TC9SBDvq">The Argument From Common Usage.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You pull out a dictionary in the middle of any argument ever.</emphasis>  Seriously, what the heck makes you think that dictionary editors are an authority on whether &quot;atheism&quot; is a &quot;religion&quot; or whatever?  If you have any substantive issue whatsoever at stake, do you really think dictionary editors have access to ultimate wisdom that settles the argument?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_9ZooAqfh2TC9SBDvq">The Argument From Common Usage.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You defy common usage without a reason, making it gratuitously hard for others to understand you.</emphasis>   Fast stand up plutonium, with bagels without handle.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_9ZooAqfh2TC9SBDvq">The Argument From Common Usage.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You use complex renamings to create the illusion of inference.</emphasis>  Is a &quot;human&quot; defined as a &quot;mortal featherless biped&quot;?  Then write:  &quot;All [mortal featherless bipeds] are mortal; Socrates is a [mortal featherless biped]; therefore, Socrates is mortal.&quot;  Looks less impressive that way, doesn&apos;t it?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_i2dfY65JciebF3CAo">Empty Labels.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You get into arguments that you could avoid if you just didn&apos;t use the word.</emphasis>  If Albert and Barry aren&apos;t allowed to use the word &quot;sound&quot;, then Albert will have to say &quot;A tree falling in a deserted forest generates acoustic vibrations&quot;, and Barry will say &quot;A tree falling in a deserted forest generates no auditory experiences&quot;.  When a word poses a problem, the simplest solution is to eliminate the word and its synonyms.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_WBdvyyHLdxZSAMmoz">Taboo Your Words.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>The existence of a neat little word prevents you from seeing the details of the thing you&apos;re trying to think about.</emphasis>  What actually goes on in schools once you stop calling it &quot;education&quot;? What&apos;s a degree, once you stop calling it a &quot;degree&quot;?  If a coin lands &quot;heads&quot;, what&apos;s its radial orientation?  What is &quot;truth&quot;, if you can&apos;t say &quot;accurate&quot; or &quot;correct&quot; or &quot;represent&quot; or &quot;reflect&quot; or &quot;semantic&quot; or &quot;believe&quot; or &quot;knowledge&quot; or &quot;map&quot; or &quot;real&quot; or any other simple term?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_GKfPL6LQFgB49FEnv">Replace the Symbol with the Substance.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You have only one word, but there are two or more different things-in-reality, so that all the facts about them get dumped into a single undifferentiated mental bucket.</emphasis>   It&apos;s part of a detective&apos;s ordinary work to observe that Carol wore red last night, or that she has black hair; and it&apos;s part of a detective&apos;s ordinary work to wonder if maybe Carol dyes her hair.  But it takes a subtler detective to wonder if there are two Carols, so that the Carol who wore red is not the same as the Carol who had black hair.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_y5MxoeacRKKM3KQth">Fallacies of Compression.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You see patterns where none exist, harvesting other characteristics from your definitions even when there is no similarity along that dimension.</emphasis>   In Japan, it is thought that people of blood type A are earnest and creative, blood type Bs are wild and cheerful, blood type Os are agreeable and sociable, and blood type ABs are cool and controlled.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_veN86cBhoe7mBxXLk">Categorizing Has Consequences.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You try to sneak in the connotations of a word, by arguing from a definition that doesn&apos;t include the connotations.</emphasis>  A &quot;wiggin&quot; is defined in the dictionary as a person with green eyes and black hair.  The word &quot;wiggin&quot; also carries the connotation of someone who commits crimes and launches cute baby squirrels, but that part isn&apos;t in the dictionary.  So you point to someone and say:  &quot;Green eyes?  Black hair?  See, told you he&apos;s a wiggin!  Watch, next he&apos;s going to steal the silverware.&quot;  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yuKaWPRTxZoov4z8K">Sneaking in Connotations.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You claim &quot;X, by definition, is a Y!&quot;  On such occasions you&apos;re almost certainly trying to sneak in a connotation of Y that wasn&apos;t in your given definition.</emphasis>   You define &quot;human&quot; as a &quot;featherless biped&quot;, and point to Socrates and say, &quot;No feathers - two legs - he must be human!&quot;  But what you <emphasis>really</emphasis> care about is something else, like mortality.  If what was in dispute was Socrates&apos;s number of legs, the other fellow would just reply, &quot;Whaddaya mean, Socrates&apos;s got two legs?  That&apos;s what we&apos;re arguing about in the first place!&quot;  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_cFzC996D7Jjds3vS9">Arguing &quot;By Definition&quot;.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You claim &quot;Ps, by definition, are Qs!&quot;</emphasis>   If you see Socrates out in the field with some biologists, gathering herbs that might confer resistance to hemlock, there&apos;s no point in arguing &quot;Men, by definition, are mortal!&quot;  The main time you feel the need to tighten the vise by insisting that something is true &quot;by definition&quot; is when there&apos;s other information that calls the default inference into doubt. (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_cFzC996D7Jjds3vS9">Arguing &quot;By Definition&quot;.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You try to establish membership in an empirical cluster &quot;by definition&quot;.</emphasis>   You wouldn&apos;t feel the need to say, &quot;Hinduism, <emphasis>by definition,</emphasis> is a religion!&quot; because, well, of course Hinduism is a religion.  It&apos;s not just a religion &quot;by definition&quot;, it&apos;s, like, an <emphasis>actual</emphasis> religion.  Atheism does not resemble the central members of the &quot;religion&quot; cluster, so if it wasn&apos;t for the fact that atheism is a religion <emphasis>by definition,</emphasis> you might go around thinking that atheism <emphasis>wasn&apos;t</emphasis> a religion.  That&apos;s why you&apos;ve got to crush all opposition by pointing out that &quot;Atheism is a religion&quot; is true <emphasis>by definition</emphasis>, because it isn&apos;t true any other way.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_cFzC996D7Jjds3vS9">Arguing &quot;By Definition&quot;.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>Your definition draws a boundary around things that don&apos;t really belong together.</emphasis>   You can claim, if you like, that you are <emphasis>defining</emphasis> the word &quot;fish&quot; to refer to salmon, guppies, sharks, dolphins, and trout, but not jellyfish or algae.  You can claim, if you like, that this is merely a list, and there is no way a list can be &quot;wrong&quot;.  Or you can stop playing nitwit games and admit that you made a mistake and that dolphins don&apos;t belong on the fish list.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_d5NyJ2Lf6N22AD9PB">Where to Draw the Boundary?</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You use a short word for something that you won&apos;t need to describe often, or a long word for something you&apos;ll need to describe often.  This can result in inefficient thinking, or even misapplications of Occam&apos;s Razor, if your mind thinks that short sentences sound &quot;simpler&quot;.</emphasis>   Which sounds more plausible, &quot;God did a miracle&quot; or &quot;A supernatural universe-creating entity temporarily suspended the laws of physics&quot;?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_soQX8yXLbKy7cFvy8">Entropy, and Short Codes.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You draw your boundary around a volume of space where there is no greater-than-usual density, meaning that the associated word does not correspond to any performable Bayesian inferences.</emphasis>   Since green-eyed people are not more likely to have black hair, or vice versa, and they don&apos;t share any other characteristics in common, why have a word for &quot;wiggin&quot;?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yLcuygFfMfrfK8KjF">Mutual Information, and Density in Thingspace.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You draw an unsimple boundary without any reason to do so.</emphasis>  The act of defining a word to refer to all humans, except black people, seems kind of suspicious.  If you don&apos;t present reasons to draw that particular boundary, trying to create an &quot;arbitrary&quot; word in that location is like a detective saying:  &quot;Well, I haven&apos;t the slightest shred of support one way or the other for who could&apos;ve murdered those orphans... but have we considered John Q. Wiffleheim as a suspect?&quot;  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_82eMd5KLiJ5Z6rTrr">Superexponential Conceptspace, and Simple Words.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You use categorization to make inferences about properties that don&apos;t have the appropriate empirical structure, namely, conditional independence given knowledge of the class, to be well-approximated by Naive Bayes.</emphasis>   No way am I trying to summarize this one.  Just read the blog post.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_gDWvLicHhcMfGmwaK">Conditional Independence, and Naive Bayes.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You think that words are like tiny little LISP symbols in your mind, rather than words being labels that act as handles to direct complex mental paintbrushes that can paint detailed pictures in your sensory workspace.</emphasis>   Visualize a &quot;triangular lightbulb&quot;.  What did you see?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_YF9HB6cWCJrDK5pBM">Words as Mental Paintbrush Handles.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You use a word that has different meanings in different places as though it meant the same thing on each occasion, possibly creating the illusion of something protean and shifting.</emphasis>   &quot;Martin told Bob the building was on his left.&quot;  But &quot;left&quot; is a function-word that evaluates with a speaker-dependent variable grabbed from the surrounding context.  Whose &quot;left&quot; is meant, Bob&apos;s or Martin&apos;s?  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_shoMpaoZypfkXv84Y">Variable Question Fallacies.</olink>) </para>
+  </listitem>
+  <listitem>
+    <para><emphasis>You think that definitions can&apos;t be &quot;wrong&quot;, or that &quot;I can define a word any way I like!&quot;</emphasis>  This kind of attitude teaches you to indignantly defend your past actions, instead of paying attention to their consequences, or fessing up to your mistakes.  (<olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_FaJaCgqBKphrDzDSj">37 Ways That Suboptimal Use Of Categories Can Have Negative Side Effects On Your Cognition.</olink>)</para>
+  </listitem>
+</orderedlist>
+<para>Everything you do in the mind has an effect, and your brain races ahead unconsciously without your supervision.</para>
+<para>Saying &quot;Words are arbitrary; I can define a word any way I like&quot; makes around as much sense as driving a car over thin ice with the accelerator floored and saying, &quot;Looking at this steering wheel, I can&apos;t see why one radial angle is special - so I can turn the steering wheel any way I like.&quot;</para>
+<para>If you&apos;re trying to go anywhere, or even just trying to <emphasis>survive,</emphasis> you had better start paying attention to the three or six dozen optimality criteria that control how you use words, definitions, categories, classes, boundaries, labels, and concepts.</para>
+
+  
+</section>

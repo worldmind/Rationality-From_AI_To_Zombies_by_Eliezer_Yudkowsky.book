@@ -1,0 +1,64 @@
+<section xml:id="item_WHK94zXkQm7qm7wXk"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Asch's Conformity Experiment</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/WHK94zXkQm7qm7wXk/asch-s-conformity-experiment"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-07</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Groupthink</primary></indexterm>
+<indexterm><primary>Social Reality</primary></indexterm>
+<indexterm><primary>Social &amp; Cultural Dynamics</primary></indexterm>
+<indexterm><primary>Conformity Bias</primary></indexterm>
+  <para>Solomon Asch, with experiments originally carried out in the 1950s and well-replicated since, highlighted a phenomenon now known as “conformity.” In the classic experiment, a subject sees a puzzle like the one in the nearby diagram: Which of the lines A, B, and C is the same size as the line X? Take a moment to determine your own answer . . .</para>
+<informalfigure>
+  <mediaobject>
+    <imageobject role="html">
+      <imagedata fileref="./img/3ea068c83e808a0087f2d0e707f4546e.png" format="PNG" scalefit="1"/>
+    </imageobject>
+    <imageobject role="fo">
+      <imagedata contentdepth="100%" fileref="./img/3ea068c83e808a0087f2d0e707f4546e.png" format="PNG" scalefit="1" width="100%"/>
+    </imageobject>
+  </mediaobject>
+</informalfigure>
+<para>The gotcha is that the subject is seated alongside a number of other people looking at the diagram—seemingly other subjects, actually confederates of the experimenter. The other “subjects” in the experiment, one after the other, say that line C seems to be the same size as X. The real subject is seated next-to-last. How many people, placed in this situation, would say “C”—giving an obviously incorrect answer that agrees with the unanimous answer of the other subjects? What do you think the percentage would be?</para>
+<para>Three-quarters of the subjects in Asch’s experiment gave a “conforming” answer at least once. A third of the subjects conformed more than half the time.</para>
+<para>Interviews after the experiment showed that while most subjects claimed to have not really believed their conforming answers, some said they’d really thought that the conforming option was the correct one.</para>
+<para>Asch was disturbed by these results:<footnote xml:id="fn_52a5bdf65bd1f4db5a99d424c3d17a2f">
+    <para><anchor xml:id="cite.0.Asch.1956"/>Solomon E. Asch, “Studies of Independence and Conformity: A Minority of One Against a Unanimous Majority,” <emphasis>Psychological Monographs</emphasis> 70 (1956).</para>
+  </footnote>
+<anchor xml:id="x69-70001f1"/></para>
+<blockquote>
+  <para> That we have found the tendency to conformity in our society so strong . . . is a matter of concern. It raises questions about our ways of education and about the values that guide our conduct.</para>
+</blockquote>
+<para>It is not a trivial question whether the subjects of Asch’s experiments behaved <emphasis>irrationally.</emphasis> Robert Aumann’s Agreement Theorem shows that honest Bayesians cannot agree to disagree—if they have common knowledge of their probability estimates, they have the same probability estimate. Aumann’s Agreement Theorem was proved more than twenty years after Asch’s experiments, but it only formalizes and strengthens an intuitively obvious point—other people’s beliefs are often legitimate evidence.</para>
+<para>If you were looking at a diagram like the one above, but you knew <emphasis>for a fact</emphasis> that the other people in the experiment were honest and seeing the same diagram as you, and three other people said that C was the same size as X, then what are the odds that <emphasis>only you</emphasis> are the one who’s right? I lay claim to no advantage of <emphasis>visual</emphasis> reasoning—I don’t think I’m better than an average human at judging whether two lines are the same size. In terms of individual rationality, I hope I would notice my own severe confusion and then assign &gt;50% probability to the majority vote.</para>
+<para>In terms of group rationality, seems to me that the proper thing for an honest rationalist to say is, “How surprising, it <emphasis>looks</emphasis> to me like B is the same size as X. But if we’re all looking at the same diagram and reporting honestly, I have no reason to believe that my assessment is better than yours.” The last sentence is important—it’s a much weaker claim of disagreement than, “Oh, <emphasis>I</emphasis> see the optical illusion—I understand why you think it’s C, of course, but the real answer is B.”</para>
+<para>So the conforming subjects in these experiments are not <emphasis>automatically</emphasis> convicted of irrationality, based on what I’ve described so far. But as you might expect, the devil is in the details of the experimental results. According to a meta-analysis of over a hundred replications by Smith and Bond . . .<footnote xml:id="fn_48c7fb3b48ae9c3c7a3fe457c2a1ac44">
+    <para><anchor xml:id="cite.0.Bond.1996"/>Rod Bond and Peter B. Smith, “Culture and Conformity: A Meta-Analysis of Studies Using Asch’s (1952b, 1956) Line Judgment Task,” <emphasis>Psychological Bulletin</emphasis> 119 (1996): 111–137.</para>
+  </footnote>
+<anchor xml:id="x69-70002f2"/></para>
+<para>. . . Conformity increases strongly up to 3 confederates, but doesn’t increase further up to 10–15 confederates. If people are conforming rationally, then the opinion of 15 other subjects should be substantially stronger evidence than the opinion of 3 other subjects.</para>
+<para>Adding a single dissenter—just one other person who gives the correct answer, or even an incorrect answer that’s different from the group’s incorrect answer—reduces conformity <emphasis>very</emphasis> sharply, down to 5–10% of subjects. If you’re applying some intuitive version of Aumann’s Agreement to think that when 1 person disagrees with 3 people, the 3 are probably right, then in most cases you should be equally willing to think that 2 people will disagree with 6 people.<footnote xml:id="fn_d1556d4579137b1e905dadaac3dbb7c6">
+    <para>This isn’t automatically true, but it’s true <emphasis>ceteris paribus</emphasis>.</para>
+  </footnote>
+<anchor xml:id="x69-70003f3"/> On the other hand, if you’ve got people who are emotionally nervous about being the odd one out, then it’s easy to see how adding a single other person who agrees with you, or even adding a single other person who disagrees with the group, would make you much less nervous.</para>
+<para>Unsurprisingly, subjects in the one-dissenter condition did not think their nonconformity had been influenced or enabled by the dissenter. Like the 90% of drivers who think they’re above-average in the top 50%, some of them may be right about this, but not all. People are not self-aware of the causes of their conformity or dissent, which weighs against any attempts to argue that the patterns of conformity are rational.<footnote xml:id="fn_03950123a146cb012c503d4d09591f01">
+    <para>For example, in the hypothesis that people are socially-rationally choosing to lie in order to not stick out, it appears that (at least some) subjects in the one-dissenter condition do not consciously anticipate the “conscious strategy” they would employ when faced with unanimous opposition.</para>
+  </footnote>
+<anchor xml:id="x69-70004f4"/></para>
+<para>When the single dissenter suddenly switched to <emphasis>conforming to the group</emphasis>, subjects’ conformity rates went back up to just as high as in the no-dissenter condition. Being the first dissenter is a valuable (and costly!) social service, but you’ve got to keep it up.</para>
+<para>Consistently within and across experiments, all-female groups (a female subject alongside female confederates) conform significantly more often than all-male groups. Around one-half the women conform more than half the time, versus a third of the men. If you argue that the average subject is rational, then apparently women are too agreeable and men are too disagreeable, so neither group is actually <emphasis>rational</emphasis> . . . </para>
+<para>Ingroup-outgroup manipulations (e.g., a handicapped subject alongside other handicapped subjects) similarly show that conformity is significantly higher among members of an ingroup.</para>
+<para>Conformity is lower in the case of blatant diagrams, like the one at the beginning of this essay, versus diagrams where the errors are more subtle. This is hard to explain if (all) the subjects are making a socially rational decision to avoid sticking out.</para>
+<para>Finally, Paul Crowley reminds me to note that when subjects can respond in a way that will not be seen by the group, conformity also drops, which also argues against an Aumann interpretation. </para>
+
+  
+</section>

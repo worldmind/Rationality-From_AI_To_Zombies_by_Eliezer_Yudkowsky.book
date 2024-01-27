@@ -1,0 +1,77 @@
+<section xml:id="item_rHBdcHGLJ7KvLJQPk"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Logical Fallacy of Generalization from Fictional Evidence</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/rHBdcHGLJ7KvLJQPk/the-logical-fallacy-of-generalization-from-fictional"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-05-12</pubdate>
+  </info>
+  <indexterm><primary>Fiction (Topic)</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Fallacies</primary></indexterm>
+<indexterm><primary>Generalization From Fictional Evidence</primary></indexterm>
+  <para>When I try to introduce the subject of advanced AI, what’s the first thing I hear, more than half the time? </para>
+<para>“Oh, you mean like the <emphasis>Terminator</emphasis> movies / <emphasis>The Matrix</emphasis> / Asimov’s robots!”</para>
+<para>And I reply, “Well, no, not exactly. I try to avoid the logical fallacy of generalizing from fictional evidence.”</para>
+<para>Some people get it right away, and laugh. Others defend their use of the example, disagreeing that it’s a fallacy.</para>
+<para>What’s wrong with using movies or novels as starting points for the discussion? No one’s claiming that it’s <emphasis>true</emphasis>, after all. Where is the lie, where is the rationalist sin? Science fiction represents the author’s attempt to visualize the future; why not take advantage of the thinking that’s already been done on our behalf, instead of starting over?</para>
+<para>Not every misstep in the precise dance of rationality consists of outright belief in a falsehood; there are subtler ways to go wrong.</para>
+<para>First, let us dispose of the notion that science fiction represents a full-fledged rational attempt to forecast the future. Even the most diligent science fiction writers are, first and foremost, storytellers; the requirements of storytelling are not the same as the requirements of forecasting. As Nick Bostrom points out:<footnote xml:id="fn_a4c867faccca3188cf249bc4921ea76f">
+    <para><anchor xml:id="cite.0.Bostrom.2002"/>Nick Bostrom, “Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards,” <emphasis>Journal of Evolution and Technology</emphasis> 9 (2002),<link xl:href="http://www.jetpress.org/volume9/risks.html">http://www.jetpress.org/volume9/risks.html</link>.</para>
+  </footnote>
+<anchor xml:id="x52-53001f1"/></para>
+<blockquote>
+  <para> When was the last time you saw a movie about humankind suddenly going extinct (without warning and without being replaced by some other civilization)? While this scenario may be much more probable than a scenario in which human heroes successfully repel an invasion of monsters or robot warriors, it wouldn’t be much fun to watch.</para>
+</blockquote>
+<para>So there are specific distortions in fiction.<footnote xml:id="fn_7c6b21ad00a6021618d0492066b5c0f5">
+    <para>E.g., Hanson’s (2006) “Biases of Science Fiction.” <link xl:href="https://www.overcomingbias.com/2006/12/biases_of_scien.html">http://www.overcomingbias.com/2006/12/biases_of_scien.html</link>.</para>
+  </footnote>
+<anchor xml:id="x52-53002f2"/> But trying to correct for these specific distortions is not enough. A story is  a rational attempt at analysis, not even with the most diligent science fiction writers, because stories don’t use probability distributions. I illustrate as follows:</para>
+<blockquote>
+  <para> Bob Merkelthud slid cautiously through the door of the alien spacecraft, glancing right and then left (or left and then right) to see whether any of the dreaded Space Monsters yet remained. At his side was the only weapon that had been found effective against the Space Monsters, a Space Sword forged of pure titanium with 30% probability, an ordinary iron crowbar with 20% probability, and a shimmering black discus found in the smoking ruins of Stonehenge with 45% probability, the remaining 5% being distributed over too many minor outcomes to list here.</para>
+  <para>Merklethud (though there’s a significant chance that Susan Wifflefoofer was there instead) took two steps forward or one step back, when a vast roar split the silence of the black airlock! Or the quiet background hum of the white airlock! Although Amfer and Woofi (1997) argue that Merklethud is devoured at this point, Spacklebackle (2003) points out that—</para>
+</blockquote>
+<para>Characters can be ignorant, but the <emphasis>author</emphasis> can’t say the three magic words “I don’t know.” The protagonist must thread a single line through the future, full of the details that lend flesh to the story, from Wifflefoofer’s appropriately futuristic attitudes toward feminism, down to the color of her earrings.</para>
+<para>Then all these burdensome details and questionable assumptions are wrapped up and given a short label, creating the illusion that they are a single package.<footnote xml:id="fn_0798f82132bb881f178855779f1de020">
+    <para>See “The Third Alternative” in this volume, and “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_f4txACqDWithRi7hs">Occam’s Razor</olink>” and “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_Yq6aA4M3JKWaQepPJ">Burdensome Details</olink>” in <emphasis>Map and Territory</emphasis>.</para>
+  </footnote>
+<anchor xml:id="x52-53003f3"/></para>
+<para>On problems with large answer spaces, the greatest difficulty is not <emphasis>verifying</emphasis> the correct answer but simply locating it in answer space to begin with. If someone starts out by asking whether or not AIs are gonna put us into capsules like in <emphasis>The Matrix</emphasis>, they’re jumping to a 100-bit proposition, without a corresponding 98 bits of evidence to locate it in the answer space as a possibility worthy of explicit consideration. It would only take a handful more evidence after the first 98 bits to promote that possibility to near-certainty, which tells you something about where nearly all the work gets done.</para>
+<para>The “preliminary” step of locating possibilities worthy of explicit consideration includes steps like: weighing what you know and don’t know, what you can and can’t predict; making a deliberate effort to avoid absurdity bias and widen confidence intervals; pondering which questions are the important ones, trying to adjust for possible Black Swans and think of (formerly) unknown unknowns. Jumping to “<emphasis>The Matrix</emphasis>: Yes or No?” skips over all of this.</para>
+<para>Any professional negotiator knows that to control the terms of a debate is very nearly to control the outcome of the debate. If you start out by thinking of <emphasis>The Matrix</emphasis>, it brings to mind marching robot armies defeating humans after a long struggle—not a superintelligence snapping nanotechnological fingers. It focuses on an “Us vs. Them” struggle, directing attention to questions like “Who will win?” and “Who should win?” and “Will AIs really be like that?” It creates a general atmosphere of entertainment, of “What is your amazing vision of the future?”</para>
+<para>Lost to the echoing emptiness are: considerations of more than one possible mind design that an “artificial intelligence” could implement; the future’s dependence on initial conditions; the power of smarter-than-human intelligence and the argument for its unpredictability; people taking the whole matter seriously and trying to do something about it.</para>
+<para>If some insidious corrupter of debates decided that <emphasis>their</emphasis> preferred outcome would be best served by forcing discussants to start out by refuting <emphasis>Terminator</emphasis>, they would have done well in skewing the frame. Debating gun control, the NRA spokesperson does not wish to be introduced as a “shooting freak,” the anti-gun opponent does not wish to be introduced as a “victim disarmament advocate.” Why should you allow the same order of frame-skewing by Hollywood scriptwriters, even accidentally?</para>
+<para>Journalists don’t tell me, “The future will be like <emphasis>2001</emphasis>.” But they ask, “Will the future be like <emphasis>2001</emphasis>, or will it be like <emphasis>A.I.</emphasis>?” This is just as huge a framing issue as asking, “Should we cut benefits for disabled veterans, or raise taxes on the rich?”</para>
+<para>In the ancestral environment, there were no moving pictures; what you saw with your own eyes was true. A momentary glimpse of a single word can prime us and make compatible thoughts more available, with demonstrated strong influence on probability estimates. How much havoc do you think a two-hour movie can wreak on your judgment? It will be hard enough to undo the damage by deliberate concentration—why invite the vampire into your house? In Chess or Go, every wasted move is a loss; in rationality, any non-evidential influence is (on average) entropic.</para>
+<para>Do movie-viewers succeed in unbelieving what they see? So far as I can tell, few movie viewers act as if they have <emphasis>directly</emphasis> observed Earth’s future. People who watched the <emphasis>Terminator</emphasis> movies didn’t hide in fallout shelters on August 29, 1997. But those who commit the fallacy seem to act as if they had seen the movie events occurring on <emphasis>some other</emphasis> planet; not Earth, but somewhere similar to Earth.</para>
+<para>You say, “Suppose we build a very smart AI,” and they say, “But didn’t that lead to nuclear war in <emphasis>The Terminator</emphasis>?” As far as I can tell, it’s identical reasoning, down to the tone of voice, of someone who might say: “But didn’t that lead to nuclear war on Alpha Centauri?” or “Didn’t that lead to the fall of the Italian city-state of Piccolo in the fourteenth century?” The movie is not believed, but it is cognitively available. It is treated, not as a prophecy, but as an illustrative historical case. Will history repeat itself? Who knows?</para>
+<para>In a recent intelligence explosion discussion, someone mentioned that Vinge didn’t seem to think that brain-computer interfaces would increase intelligence much, and cited <emphasis>Marooned in Realtime</emphasis> and Tunç Blumenthal, who was the most advanced traveller but didn’t seem all that powerful. I replied indignantly, “But Tunç lost most of his hardware! He was crippled!” And then I did a mental double-take and thought to myself: What the <emphasis>hell</emphasis> am I saying.</para>
+<para>Does the issue not have to be argued in its own right, regardless of how Vinge depicted his characters? Tunç Blumenthal is not “crippled,” he’s <emphasis>unreal.</emphasis> I could say “Vinge chose to depict Tunç as crippled, for reasons that may or may not have had anything to do with his personal best forecast,” and that would give his authorial choice an appropriate weight of evidence. I cannot say “Tunç was crippled.” There is no <emphasis>was</emphasis> of Tunç Blumenthal.</para>
+<para>I deliberately left in a mistake I made, in my first draft of the beginning of this essay: “Others defend their use of the <emphasis>example</emphasis>, disagreeing that it’s a fallacy.” But <emphasis>The Matrix</emphasis> is <emphasis>not</emphasis> an example!</para>
+<para>A neighboring flaw is the logical fallacy of arguing from imaginary evidence: “Well, if you <emphasis>did</emphasis> go to the end of the rainbow, you <emphasis>would</emphasis> find a pot of gold—which just proves my point!” (Updating on evidence predicted, but not observed, is the mathematical mirror image of hindsight bias.)</para>
+<para>The brain has many mechanisms for generalizing from observation, not just the availability heuristic. You see three zebras, you form the category “zebra,” and this category embodies an automatic perceptual inference. Horse-shaped creatures with white and black stripes are classified as “Zebras,” therefore they are fast and good to eat; they are expected to be similar to other zebras observed.</para>
+<para>So people see (moving pictures of) three Borg, their brain automatically creates the category “Borg,” and they infer automatically that humans with brain-computer interfaces are of class “Borg” and will be similar to other Borg observed: cold, uncompassionate, dressing in black leather, walking with heavy mechanical steps. Journalists don’t believe that the future <emphasis>will</emphasis> contain Borg—they don’t believe <emphasis>Star Trek</emphasis> is a prophecy. But when someone talks about brain-computer interfaces, they think, “Will the future contain Borg?” Not, “How do I know computer-assisted telepathy makes people less nice?” Not, “I’ve never seen a Borg and never has anyone else.” Not, “I’m forming a racial stereotype based on <emphasis>literally</emphasis> zero evidence.”</para>
+<para>As George Orwell said of cliches:<footnote xml:id="fn_c06ac7400590a80eddeebe515168e7c4">
+    <para>Orwell, <link xl:href="https://www.lesswrong.com/posts/Text/main-printch23.html#cite.0.Orwell.1946">“Politics and the English Language</link>.”</para>
+  </footnote>
+<anchor xml:id="x52-53004f4"/></para>
+<blockquote>
+  <para> What is above all needed is to let the meaning choose the word, and not the other way around . . . When you think of something abstract you are more inclined to use words from the start, and unless you make a conscious effort to prevent it, the existing dialect will come rushing in and do the job for you, at the expense of blurring or even changing your meaning.</para>
+</blockquote>
+<para>Yet in my estimation, the <emphasis>most</emphasis> damaging aspect of using other authors’ imaginations is that it stops people from using their own. As Robert Pirsig said:<footnote xml:id="fn_0d904801025142804a66e7cd9a96c5ea">
+    <para>Pirsig, <link xl:href="https://www.lesswrong.com/posts/Text/main-printch19.html#cite.0.Pirsig.1974"><emphasis>Zen and the Art of Motorcycle Maintenance</emphasis></link>.</para>
+  </footnote>
+<anchor xml:id="x52-53005f5"/></para>
+<blockquote>
+  <para> She was blocked because she was trying to repeat, in her writing, things she had already heard, just as on the first day he had tried to repeat things he had already decided to say. She couldn’t think of anything to write about Bozeman because she couldn’t recall anything she had heard worth repeating. She was strangely unaware that she could look and see freshly for herself, as she wrote, without primary regard for what had been said before.</para>
+</blockquote>
+<para>Remembered fictions rush in and do your thinking for you; they substitute for <emphasis>seeing</emphasis>—the deadliest convenience of all.</para>
+
+  
+</section>

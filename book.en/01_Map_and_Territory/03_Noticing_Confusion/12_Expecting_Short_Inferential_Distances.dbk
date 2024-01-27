@@ -1,0 +1,38 @@
+<section xml:id="item_HLqWn5LASfhhArZ7w"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Expecting Short Inferential Distances</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/HLqWn5LASfhhArZ7w/expecting-short-inferential-distances"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-10-23</pubdate>
+  </info>
+  <indexterm><primary>Public Discourse</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Inferential Distance</primary></indexterm>
+<indexterm><primary>Conversation (topic)</primary></indexterm>
+<indexterm><primary>Evolutionary Psychology</primary></indexterm>
+<indexterm><primary>Illusion of Transparency</primary></indexterm>
+  <para><emphasis>Homo sapiens</emphasis>’s environment of evolutionary adaptedness (a.k.a. EEA or “ancestral environment”) consisted of hunter-gatherer bands of at most <link xl:href="https://en.wikipedia.org/wiki/Dunbar%27s_number">200 people</link>, with no writing. All inherited knowledge was passed down by speech and memory.</para>
+<para>In a world like that, all background knowledge is universal knowledge. All information not strictly private is public, period.</para>
+<para>In the ancestral environment, you were unlikely to end up more than <emphasis>one inferential step</emphasis> away from anyone else. When you discover a new oasis, you don’t have to explain to your fellow tribe members what an oasis is, or why it’s a good idea to drink water, or how to walk. Only you know where the oasis lies; this is private knowledge. But everyone has the background to understand your description of the oasis, the concepts needed to think about water; this is universal knowledge. When you explain things in an ancestral environment, you almost <emphasis>never</emphasis> have to explain your concepts. At most you have to explain <emphasis>one</emphasis> new concept, not two or more simultaneously. </para>
+<para>In the ancestral environment there were no abstract disciplines with vast bodies of carefully gathered evidence generalized into elegant theories transmitted by written books whose conclusions are <emphasis>a hundred inferential steps removed</emphasis> from universally shared background premises. </para>
+<para>In the ancestral environment, anyone who says something with no obvious support is a liar or an idiot. You’re not likely to think, “Hey, maybe this person has well-supported background knowledge that no one in my band has even heard of,” because it was a reliable invariant of the ancestral environment that this didn’t happen.</para>
+<para>Conversely, if you say something blatantly obvious and the other person doesn’t see it, <emphasis>they’re</emphasis> the idiot, or they’re being deliberately obstinate to annoy you. </para>
+<para>And to top it off, if someone says something with no obvious support and <emphasis>expects</emphasis> you to believe it—acting all indignant when you don’t—then they must be <emphasis>crazy.</emphasis></para>
+<para>Combined with the illusion of transparency and <link xl:href="https://www.lesswrong.com/posts/sWtvoBsknYvS6QPTb/self-anchoring">self-anchoring</link> (the tendency to model other minds as though the were slightly modified versions of oneself), I think this explains a <emphasis>lot</emphasis> about the legendary difficulty most scientists have in communicating with a lay audience—or even communicating with scientists from other disciplines. When I observe failures of explanation, I usually see the explainer taking <emphasis>one</emphasis> step back, when they need to take two or more steps back. Or listeners assume that things should be visible in one step, when they take two or more steps to explain. Both sides act as if they expect very short inferential distances from universal knowledge to any new knowledge. </para>
+<para>A biologist, speaking to a physicist, can justify evolution by saying it is the simplest explanation. But not everyone on Earth has been inculcated with that legendary history of science, from Newton to Einstein, which invests the phrase “simplest explanation” with its awesome import: a Word of Power, spoken at the birth of theories and carved on their tombstones. To someone else, “But it’s the simplest explanation!” may sound like an interesting but hardly knockdown argument; it doesn’t feel like all that powerful a tool for comprehending office politics or fixing a broken car. Obviously the biologist is infatuated with their own ideas, too arrogant to be open to alternative explanations which sound just as plausible. (If it sounds plausible to me, it should sound plausible to any sane member of my band.)</para>
+<para>And from the biologist’s perspective, they can understand how evolution might sound a little odd at first—but when someone rejects evolution even after the biologist explains that it’s the simplest explanation, well, it’s clear that nonscientists are just idiots and there’s no point in talking to them.</para>
+<para>A clear argument has to lay out an inferential <emphasis>pathway</emphasis>, starting from what the audience <emphasis>already knows or accepts</emphasis>. If you don’t recurse far enough, you’re just talking to yourself. </para>
+<para>If at any point you make a statement without obvious justification in arguments you’ve previously supported, the audience just thinks you’re crazy.</para>
+<para>This also happens when you allow yourself to be seen <emphasis>visibly</emphasis> attaching greater weight to an argument than is justified in the eyes of the audience <emphasis>at that time</emphasis>. For example, talking as if you think “simpler explanation” is a knockdown argument for evolution (which it is), rather than a sorta-interesting idea (which it sounds like to someone who hasn’t been raised to revere Occam’s Razor). </para>
+<para>Oh, and you’d better not drop any hints that <emphasis>you</emphasis> think you’re working a dozen inferential steps away from what the audience knows, or that <emphasis>you</emphasis> think you have special background knowledge not available to them. The audience doesn’t know anything about an evolutionary-psychological argument for a cognitive bias to underestimate inferential distances leading to traffic jams in communication. They’ll just think you’re condescending. </para>
+<para>And if you think you can explain the concept of “systematically underestimated inferential distances” briefly, in just a few words, I’ve got some sad news for you . . .</para>
+
+  
+</section>

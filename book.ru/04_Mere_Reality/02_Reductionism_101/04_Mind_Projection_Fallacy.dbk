@@ -1,0 +1,36 @@
+<section xml:id="item_ZTRiSNmeGQK8AkdN2"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Mind Projection Fallacy</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/ZTRiSNmeGQK8AkdN2/mind-projection-fallacy"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2023-02-14</pubdate>
+  </info>
+  <indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Mind Projection Fallacy</primary></indexterm>
+<indexterm><primary>Fallacies</primary></indexterm>
+<indexterm><primary>Map and Territory</primary></indexterm>
+  <para><link xl:href="img/2f0d638ee6de765ac7d0b7467447e08e.jpg"><inlinemediaobject><imageobject role="html">
+        <imagedata contentdepth="267px" contentwidth="200px" fileref="./img/2f0d638ee6de765ac7d0b7467447e08e.jpg" format="JPG" scalefit="1"/>
+      </imageobject>
+<imageobject role="fo">
+        <imagedata contentdepth="100%" fileref="./img/2f0d638ee6de765ac7d0b7467447e08e.jpg" format="JPG" scalefit="1" width="100%"/>
+      </imageobject>
+</inlinemediaobject></link>In the dawn days of science fiction, alien invaders would occasionally kidnap a girl in a torn dress and carry her off for intended ravishing, as lovingly depicted on many ancient magazine covers.  Oddly enough, the aliens never go after men in torn shirts.</para>
+<para>Would a non-humanoid alien, with a different evolutionary history and <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_epZLSoNvjW53tqNj9">evolutionary psychology</olink>, sexually desire a human female?  It seems rather unlikely.  To put it mildly.</para>
+<para>People don&apos;t make mistakes like that by deliberately reasoning:  &quot;All possible minds are likely to be wired pretty much the same way, therefore a bug-eyed monster will find human females attractive.&quot;  Probably the artist did not even think to ask whether an alien <emphasis>perceives</emphasis> human females as attractive.  Instead, a human female in a torn dress <emphasis>is sexy</emphasis>—inherently so, as an intrinsic property.</para>
+<para>They who went astray did not think about the alien&apos;s evolutionary history; they focused on the woman&apos;s torn dress.  If the dress were not torn, the woman would be less sexy; the alien monster doesn&apos;t enter into it.</para>
+<para>Apparently we instinctively represent Sexiness as a direct attribute of the Woman object, <literal>Woman.sexiness</literal>, like <literal>Woman.height</literal> or <literal>Woman.weight</literal>.</para>
+<para>If your brain uses that data structure, or something metaphorically similar to it, then <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yA4gF5KrboK2m2Xu7">from the inside</olink> it feels like sexiness is an inherent property of the woman, not a property of the alien looking at the woman.  Since the woman <emphasis>is attractive,</emphasis> the alien monster will be <emphasis>attracted</emphasis> to her—isn&apos;t that logical?</para>
+<para>E. T. Jaynes used the term <link xl:href="http://citeseer.ist.psu.edu/6330.html">Mind Projection Fallacy</link> to denote the error of projecting your own mind&apos;s properties into the external world.  Jaynes, as a late grand master of the Bayesian Conspiracy, was most concerned with the mistreatment of <emphasis>probabilities </emphasis>as inherent properties of objects, rather than states of partial knowledge in some particular mind.  More about this shortly.</para>
+<para>But the Mind Projection Fallacy generalizes as an error.  It is in the argument over <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_7X2j8HAkWdmMoS8PE">the real meaning of the word sound</olink>, and in the magazine cover of the monster carrying off a woman in the torn dress, and Kant&apos;s declaration that space by its very nature is flat, and Hume&apos;s definition of <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_qmqLxvtsPzZ2s6mpY">a priori</olink> ideas as those &quot;discoverable by the mere operation of thought, without dependence on what is anywhere existent in the universe&quot;...</para>
+<para>(Incidentally, I once read an SF story about a human male who entered into a sexual relationship with a sentient alien plant of appropriately squishy fronds; discovered that it was an <link xl:href="http://en.wikipedia.org/wiki/Plant_sexuality">androecious</link> (male) plant; agonized about this for a bit; and finally decided that it didn&apos;t really matter at that point.  And in Foglio and Pollotta&apos;s <emphasis>Illegal Aliens,</emphasis> the humans land on a planet inhabited by sentient insects, and see a movie advertisement showing a human carrying off a bug in a delicate chiffon dress.  Just thought I&apos;d mention that.)</para>
+
+  
+</section>

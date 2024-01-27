@@ -1,0 +1,31 @@
+<chapter xml:id="item_SXurf2mWFw8LX2mkG"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Yudkowsky's Coming of Age</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/SXurf2mWFw8LX2mkG"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>This sequence provides a last in-depth illustration of the dynamics of irrational belief, this time spotlighting the author’s own intellectual history.</para>
+
+  <xi:include href="01_Yudkowskys_Coming_of_Age/01_Beginnings_An_Introduction.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/02_My_Childhood_Death_Spiral.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/03_My_Best_and_Worst_Mistake.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/04_Raised_in_Technophilia.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/05_A_Prodigy_of_Refutation.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/06_The_Sheer_Folly_of_Callow_Youth.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/07_That_Tiny_Note_of_Discord.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/08_Fighting_a_Rearguard_Action_Against_the_Truth.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/09_My_Naturalistic_Awakening.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/10_The_Level_Above_Mine.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/11_The_Magnitude_of_His_Own_Folly.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/12_Beyond_the_Reach_of_God.dbk"/>
+<xi:include href="01_Yudkowskys_Coming_of_Age/13_My_Bayesian_Enlightenment.dbk"/>
+</chapter>

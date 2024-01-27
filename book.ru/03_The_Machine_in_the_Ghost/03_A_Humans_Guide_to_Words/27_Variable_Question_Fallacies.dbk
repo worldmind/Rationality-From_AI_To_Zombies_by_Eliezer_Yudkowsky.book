@@ -1,0 +1,42 @@
+<section xml:id="item_shoMpaoZypfkXv84Y"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Variable Question Fallacies</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/shoMpaoZypfkXv84Y/variable-question-fallacies"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-03-05</pubdate>
+  </info>
+  <indexterm><primary>Philosophy of Language</primary></indexterm>
+  <blockquote>
+  <para> Albert:  &quot;Every time I&apos;ve listened to a tree fall, it made a sound, so I&apos;ll guess that other trees falling also make sounds.  I don&apos;t believe the world changes around when I&apos;m not looking.&quot;</para>
+  <para>Barry:  &quot;Wait a minute.  If no one hears it, how can it be a sound?&quot;</para>
+</blockquote>
+<para>While writing the dialogue of Albert and Barry in their <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_7X2j8HAkWdmMoS8PE">dispute</olink> over whether a falling tree in a deserted forest makes a sound, I sometimes found myself losing empathy with my characters.  I would start to lose the gut feel of why <emphasis>anyone</emphasis> would ever argue like that, even though I&apos;d seen it happen many times.</para>
+<para>On these occasions, I would repeat to myself, &quot;Either the falling tree makes a sound, or it does not!&quot; to restore my borrowed sense of indignation.</para>
+<para>(P or ~P) is not always a reliable heuristic, if you substitute arbitrary English sentences for P.  &quot;This sentence is false&quot; cannot be consistently viewed as true or false.  And then there&apos;s the old classic, &quot;Have you stopped beating your wife?&quot;</para>
+<para>Now if you are a mathematician, and one who believes in classical (rather than intuitionistic) logic, there are ways to continue insisting that (P or ~P) is a theorem: for example, saying that &quot;This sentence is false&quot; is not a sentence.</para>
+<para>But such resolutions are subtle, which suffices to demonstrate a need for subtlety.  You cannot just bull ahead on every occasion with &quot;Either it does or it doesn&apos;t!&quot;</para>
+<para>So does the falling tree make a sound, or not, or...?</para>
+<para>Surely, 2 + 2 = X or it does not?  Well, maybe, <emphasis>if</emphasis> it&apos;s <emphasis>really</emphasis> the same X, the same 2, and the same + and =.  If X evaluates to 5 on some occasions and 4 on another, your indignation may be misplaced.</para>
+<para>To even begin claiming that (P or ~P) ought to be a necessary truth, the symbol P must stand for <emphasis>exactly</emphasis> the same thing in both halves of the dilemma.  &quot;Either the fall makes a sound, or not!&quot;—but if Albert::sound is not the same as Barry::sound, there is nothing paradoxical about the tree making an Albert::sound but not a Barry::sound.</para>
+<para>(The :: idiom is something I picked up in my C++ days for avoiding namespace collisions.  If you&apos;ve got two different packages that define a class Sound, you can write Package1::Sound to specify which Sound you mean.  The idiom is not widely known, I think; which is a pity, because I often wish I could use it in writing.)</para>
+<para>The variability may be subtle:  Albert and Barry may carefully verify that it is the same tree, in the same forest, and the same occasion of falling, just to ensure that they really do have a substantive disagreement about exactly the same event.  And then forget to check that they are matching this event against exactly the same concept.</para>
+<para>Think about the grocery store that you visit most often:  Is it on the left side of the street, or the right?  But of course there is no &quot;<emphasis>the</emphasis> left side&quot; of the street, only <emphasis>your</emphasis> left side, as you travel along it from some particular direction.  Many of the words we use are really functions of implicit variables supplied by context.</para>
+<para>It&apos;s actually one heck of a pain, requiring one heck of a lot of work, to handle this kind of problem in an Artificial Intelligence program intended to parse language—the phenomenon going by the name of &quot;speaker deixis&quot;.</para>
+<para>&quot;Martin told Bob the building was on his left.&quot;  But  &quot;left&quot; is a function-word that evaluates with a speaker-dependent variable invisibly grabbed from the surrounding context.  Whose &quot;left&quot; is meant, Bob&apos;s or Martin&apos;s?</para>
+<para>The variables in a variable question fallacy often aren&apos;t neatly labeled—it&apos;s not as simple as &quot;Say, do you think Z + 2 equals 6?&quot;</para>
+<para>If a <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_WBdvyyHLdxZSAMmoz">namespace collision</olink> introduces two different concepts that look like &quot;the same concept&quot; because they have the same name—or a <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_y5MxoeacRKKM3KQth">map compression</olink> introduces two different events that look like the same event because they don&apos;t have separate mental files—or the same function evaluates in different contexts—then reality itself becomes protean, changeable.  At least that&apos;s what the <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yA4gF5KrboK2m2Xu7">algorithm feels like from inside</olink>.  Your mind&apos;s eye sees the map, not the territory directly.</para>
+<para>If you have a question with a hidden variable, that evaluates to different expressions in different contexts, it <emphasis>feels like</emphasis> reality itself is unstable—what your mind&apos;s eye sees, shifts around depending on where it looks.</para>
+<para>This often confuses undergraduates (and postmodernist professors) who discover a sentence with more than one interpretation; they think they have discovered an unstable portion of reality.</para>
+<para>&quot;Oh my gosh!  &apos;The Sun goes around the Earth&apos; is true for Hunga Huntergatherer, but for Amara Astronomer, &apos;The Sun goes around the Earth&apos; is false!  There is no fixed truth!&quot;  The deconstruction of this sophomoric nitwittery is left as an exercise to the reader.</para>
+<para>And yet, even I initially found myself writing &quot;If X is 5 on some occasions and 4 on another, the sentence &apos;2 + 2 = X&apos; may have no fixed truth-value.&quot;  There is not <emphasis>one</emphasis> sentence with a <emphasis>variable</emphasis> truth-value.  &quot;2 + 2 = X&quot;<emphasis>has no</emphasis> truth-value.  It is not a <emphasis>proposition,</emphasis> not yet, not as mathematicians define proposition-ness, any more than &quot;2 + 2 =&quot; is a proposition, or &quot;Fred jumped over the&quot; is a grammatical sentence.</para>
+<para>But this fallacy tends to sneak in, even when you allegedly know better, because, well, that&apos;s how the <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_yA4gF5KrboK2m2Xu7">algorithm feels from inside</olink>.</para>
+
+  
+</section>

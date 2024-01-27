@@ -1,0 +1,60 @@
+<section xml:id="item_viPPjojmChxLGPE2v"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>The Dilemma: Science or Bayes?</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/viPPjojmChxLGPE2v/the-dilemma-science-or-bayes"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-05-13</pubdate>
+  </info>
+  <indexterm><primary>Rationality</primary></indexterm>
+<indexterm><primary>Practice &amp; Philosophy of Science</primary></indexterm>
+  <blockquote>
+  <para> &quot;Eli: You are writing a lot about physics recently.  Why?&quot;</para>
+  <para>        —<link xl:href="http://www.overcomingbias.com/2008/05/eppur-si-moon.html#comment-113818558">Shane Legg</link> (and several other people)</para>
+  <para>&quot;In light of your QM explanation, which to me sounds perfectly logical, it seems <emphasis>obvious and normal</emphasis> that many worlds is overwhelmingly likely. It just seems almost too good to be true that <emphasis>I</emphasis> now get what plenty of genius quantum physicists still can&apos;t. [...] Sure I can explain all that away, and I still think you&apos;re right, I&apos;m just suspicious of myself for believing the first believable explanation I met.&quot;</para>
+  <para>        —<link xl:href="http://www.overcomingbias.com/2008/05/many-worlds-one.html#comment-114204220">Recovering irrationalist</link></para>
+</blockquote>
+<para>RI, you&apos;ve got no idea how glad I was to see you post that comment.</para>
+<para>Of course I had more than just <emphasis>one</emphasis> reason for spending all that time posting about quantum physics.  I like having lots of hidden motives, it&apos;s the closest I can ethically get to being a supervillain.</para>
+<para>But to give an example of a purpose I could <emphasis>only</emphasis> accomplish by discussing quantum physics...</para>
+<para>In physics, you can get absolutely clear-cut issues.  Not in the sense that the issues are trivial to explain.  But if you try to apply Bayes to healthcare, or economics, you may not be able to <emphasis>formally</emphasis> lay out what is the simplest hypothesis, or what the evidence supports.  But when I say &quot;macroscopic decoherence is simpler than collapse&quot; it is actually <emphasis>strict</emphasis> simplicity; you could write the two hypotheses out as computer programs and count the lines of code. Nor is the evidence itself in dispute.</para>
+<para>I wanted a very clear example—<emphasis>Bayes says &quot;zig&quot;, this is a zag</emphasis>—when it came time to break your allegiance to Science.</para>
+<para>&quot;Oh, sure,&quot; you say, &quot;the physicists messed up the many-worlds thing, but give them a break, Eliezer!  No one ever claimed that the social process of science was perfect.  People are human; they make mistakes.&quot;</para>
+<para>But the physicists who refuse to adopt many-worlds aren&apos;t disobeying the rules of Science.  They&apos;re <emphasis>obeying</emphasis> the rules of Science.</para>
+<para>The tradition handed down through the generations says that a new physics theory comes up with new experimental predictions that distinguish it from the old theory.  You perform the test, and the new theory is confirmed or falsified.  If it&apos;s confirmed, you hold a huge celebration, call the newspapers, and hand out Nobel Prizes for everyone; any doddering old emeritus professors who refuse to convert are quietly humored.  If the theory is disconfirmed, the lead proponent publicly recants, and gains a reputation for honesty.</para>
+<para>This is not how things <emphasis>do </emphasis>work in science; rather it is how things are <emphasis>supposed</emphasis> to work in Science.  It&apos;s the ideal to which all good scientists aspire.</para>
+<para>Now many-worlds comes along, and it doesn&apos;t seem to make any new predictions relative to the old theory.  That&apos;s suspicious.  And there&apos;s all these other worlds, but you can&apos;t see them.  That&apos;s <emphasis>really </emphasis>suspicious.  It just doesn&apos;t seem scientific.</para>
+<para>If you got as far as RI—so that many-worlds now seems perfectly logical, obvious and normal—<emphasis>and</emphasis> you also started out as a Traditional Rationalist, then you should be able to switch back and forth between the Scientific view and the Bayesian view, like a Necker Cube.</para>
+<para>So now put on your Science Goggles—you&apos;ve still got them around somewhere, right?  Forget everything you know about Kolmogorov complexity, Solomonoff induction or Minimum Message Lengths.  That&apos;s not part of the traditional training.  You just eyeball something to see how &quot;simple&quot; it looks.  The word &quot;testable&quot; doesn&apos;t conjure up a mental image of Bayes&apos;s Theorem governing probability flows; it conjures up a mental image of being in a lab, performing an experiment, and having the celebration (or public recantation) afterward.</para>
+<blockquote>
+  <para> <emphasis>Science-Goggles on</emphasis>:  The current quantum theory has passed all experimental tests so far.  Many-Worlds doesn&apos;t make any new testable predictions—the amazing new phenomena it predicts are all hidden away where we can&apos;t see them.  You can get along fine without supposing the other worlds, and that&apos;s just what you should do.  The whole thing smacks of science fiction.  But it must be admitted that quantum physics is a very deep and very confusing issue, and who knows what discoveries might be in store?  Call me when Many-Worlds makes a testable prediction.</para>
+</blockquote>
+<para>Science-Goggles off, Bayes-Goggles back on:</para>
+<blockquote>
+  <para> <emphasis>Bayes-Goggles on</emphasis>:  The simplest quantum equations that cover all known evidence don&apos;t have a special exception for human-sized masses.  There isn&apos;t even any reason to ask that particular question.  Next!</para>
+</blockquote>
+<para>Okay, so is this a problem we can fix in five minutes with some duct tape and superglue?</para>
+<para>No.</para>
+<para>Huh?  Why not just teach new graduating classes of scientists about Solomonoff induction and Bayes&apos;s Rule?</para>
+<para>Centuries ago, there was a widespread idea that the Wise could unravel the secrets of the universe just by thinking about them, while to go out and <emphasis>look</emphasis> at things was lesser, inferior, naive, and would just delude you in the end.  You couldn&apos;t trust the way things <emphasis>looked</emphasis>—only thought could be your guide.</para>
+<para>Science began as a rebellion against this Deep Wisdom.  At the core is the pragmatic belief that human beings, sitting around in their armchairs trying to be Deeply Wise, just drift off into never-never land.  You couldn&apos;t trust your thoughts.  You had to make advance experimental predictions—predictions that no one else had made before—run the test, and confirm the result.  That was evidence.  Sitting in your armchair, thinking about what seemed reasonable... would not be taken to <emphasis>prejudice</emphasis> your theory, because Science wasn&apos;t an idealistic belief about pragmatism, or getting your hands dirty.  It was, rather, the dictum that experiment alone would decide.  Only experiments could judge your theory—not your nationality, or your religious professions, or the fact that you&apos;d invented the theory in your armchair.  Only experiments!  If you sat in your armchair and came up with a theory that made a novel prediction, and experiment confirmed the prediction, then we would care about the result of the experiment, not where your hypothesis came from.</para>
+<para><emphasis>That&apos;s</emphasis> Science.  And if you say that Many-Worlds should replace the immensely successful Copenhagen Interpretation, adding on all these twin Earths that can&apos;t be observed, just because it <emphasis>sounds more reasonable and elegant</emphasis>—not because it <emphasis>crushed the old theory with a superior experimental prediction</emphasis>—then you&apos;re undoing the core scientific rule that prevents people from running out and putting angels into all the theories, because angels are more reasonable and elegant.</para>
+<para>You think teaching a few people about Solomonoff induction is going to solve <emphasis>that</emphasis> problem?  Nobel laureate Robert Aumann—who first proved that Bayesian agents with similar priors cannot agree to disagree—is a believing Orthodox Jew.  Aumann helped a project to test the Torah for &quot;Bible codes&quot;, hidden prophecies from God—and concluded that the project had failed to confirm the codes&apos; existence.  Do you want Aumann thinking that once you&apos;ve got Solomonoff induction, you can forget about the experimental method?  Do you think that&apos;s going to help him?  And most scientists out there will not rise to the level of Robert Aumann.</para>
+<para>Okay, Bayes-Goggles back on.  Are you <emphasis>really</emphasis> going to believe that large parts of the wavefunction disappear when you can no longer see them?  As a result of the only non-linear non-unitary non-differentiable non-CPT-symmetric acausal faster-than-light informally-specified phenomenon in all of physics?  Just because, by sheer historical contingency, the stupid version of the theory was proposed first?</para>
+<para>Are you going to make a major modification to a scientific model, and believe in zillions of other worlds you can&apos;t see, without a defining moment of experimental triumph over the old model?</para>
+<para>Or are you going to reject probability theory?</para>
+<para>Will you give your allegiance to Science, or to Bayes?</para>
+<para>Michael Vassar once observed (tongue-in-cheek) that it was a good thing that a majority of the human species believed in God, because otherwise, he would have a very hard time rejecting <link xl:href="http://www.overcomingbias.com/2007/03/on_majoritarian.html">majoritarianism</link>. But since the majority opinion that God exists is simply unbelievable, we have no choice but to reject the extremely strong philosophical arguments for majoritarianism.</para>
+<para>You can see (one of the reasons) why I went to such lengths to explain quantum theory.  Those who are good at math should now be able to <emphasis>visualize</emphasis> both <link xl:href="https://www.lesswrong.com/posts/pRrksC5Y6TbyvKDJE/on-being-decoherent">macroscopic decoherence</link>, and the probability theory of <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_Atu4teGvob5vKvEAF">simplicity and testability</olink>—get the insanity of a global single world on a <emphasis>gut</emphasis> level.</para>
+<para>I wanted to present you with a nice, sharp dilemma between rejecting the scientific method, or embracing insanity.</para>
+<para>Why?  I&apos;ll give you a hint:  It&apos;s not just because I&apos;m evil.  If you would guess my motives here, think beyond the first obvious answer.</para>
+<para>PS:  If you try to come up with clever ways to wriggle out of the dilemma, you&apos;re just going to get shot down in future posts.  You have been warned.</para>
+
+  
+</section>

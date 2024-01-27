@@ -1,0 +1,76 @@
+<section xml:id="item_XC7Kry5q6CD9TyG4K"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>No Evolutions for Corporations or Nanodevices</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/XC7Kry5q6CD9TyG4K/no-evolutions-for-corporations-or-nanodevices"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-11-17</pubdate>
+  </info>
+  <indexterm><primary>Evolution</primary></indexterm>
+  <blockquote>
+  <para> &quot;The laws of physics and the rules of math don&apos;t cease to apply. That leads me to believe that evolution doesn&apos;t stop. That further leads me to believe that nature —bloody in tooth and claw, as some have termed it —will simply be taken to the next level...</para>
+</blockquote>
+<blockquote>
+  <para> &quot;[Getting rid of Darwinian evolution is] like trying to get rid of gravitation. So long as there are limited resources and multiple competing actors capable of passing on characteristics, you have selection pressure.&quot;</para>
+</blockquote>
+<blockquote>
+  <para> —Perry Metzger, predicting that the reign of natural selection would continue into the indefinite future.</para>
+</blockquote>
+ <para>In evolutionary biology, as in many other fields, it is important to think quantitatively rather than qualitatively. Does a beneficial mutation &quot;sometimes spread, but not always&quot;? Well, a <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_4Bwr6s9dofvqPWakn">psychic power</olink> would be a beneficial mutation, so you&apos;d expect it to spread, right? Yet this is qualitative reasoning, not quantitative—if X is true, then Y is true; if psychic powers are beneficial, they may spread. In <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_jAToJHtg39AMTAuJo">Evolutions Are Stupid</olink>, I described the equations for a beneficial mutation&apos;s probability of fixation, roughly twice the fitness advantage (6% for a 3% advantage). Only this kind of numerical thinking is likely to make us realize that mutations which are <emphasis>only rarely useful</emphasis> are extremely unlikely to spread, and that it is practically impossible for <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_ZyNak8F6WXjuEbWWc">complex adaptations</olink> to arise without constant use. If psychic powers really existed, we should expect to see everyone using them all the time—not just because they would be so amazingly useful, but because otherwise they couldn&apos;t have evolved in the first place.</para>
+<para>&quot;So long as there are limited resources and multiple competing actors capable of passing on characteristics, you have selection pressure.&quot; This is qualitative reasoning. <emphasis>How much</emphasis> selection pressure?</para>
+ <para>While there are several candidates for the most important equation in evolutionary biology, I would pick <link xl:href="http://en.wikipedia.org/wiki/Price_equation">Price&apos;s Equation</link>, which in its simplest formulation reads:</para>
+<para><inlineequation>
+    <mathphrase>Δz=cov(v<subscript>i</subscript>,z<subscript>i</subscript>)</mathphrase>
+  </inlineequation>
+</para>
+<para><literal>change in average characteristic = covariance(relative fitness, characteristic)</literal></para>
+ <para>This is a <emphasis>very</emphasis> powerful and general formula. For example, a particular gene for height can be the Z, the characteristic that changes, in which case Price&apos;s Equation says that the change in the probability of possessing this gene equals the covariance of the gene with reproductive fitness. Or you can consider <emphasis>height in general</emphasis> as the characteristic Z, apart from any particular genes, and Price&apos;s Equation says that the change in height in the next generation will equal the covariance of height with relative reproductive fitness.</para>
+<para>(At least, this is true so long as height is straightforwardly heritable. If nutrition improves, so that a fixed genotype becomes taller, you have to add a correction term to Price&apos;s Equation. If there are complex nonlinear interactions between many genes, you have to either add a correction term, or calculate the equation in such a complicated way that it ceases to enlighten.)</para>
+<para>Many enlightenments may be attained by studying the different forms and derivations of Price&apos;s Equation. For example, the final equation says that the average characteristic changes according to its <emphasis>covariance</emphasis> with <emphasis>relative</emphasis> fitness, rather than its <emphasis>absolute</emphasis> fitness. This means that if a Frodo gene saves its whole species from extinction, <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_gDNrpuwahdRrDJ9iY">the average Frodo characteristic does not increase</olink>, since Frodo&apos;s act benefited all genotypes equally and did not <emphasis>covary </emphasis>with <emphasis>relative</emphasis> fitness.</para>
+<para>It is said that Price became so disturbed with the implications of his equation for altruism that he committed suicide, though he may have had other issues. (<emphasis>Overcoming Bias</emphasis> does not advocate committing suicide after studying Price&apos;s Equation.)</para>
+<para>One of the enlightenments which may be gained by meditating upon Price&apos;s Equation is that &quot;limited resources&quot; and &quot;multiple competing actors capable of passing on characteristics&quot; are <emphasis>not sufficient</emphasis> to give rise to an evolution. &quot;Things that replicate themselves&quot; is not a sufficient condition. Even &quot;competition between replicating things&quot; is not sufficient.</para>
+<para>Do corporations evolve? They certainly compete. They occasionally spin off children. Their resources are limited. They sometimes die.</para>
+<para>But how much does the child of a corporation resemble its parents? Much of the personality of a corporation derives from key officers, and CEOs cannot divide themselves by fission. Price&apos;s Equation only operates to the extent that characteristics are heritable across generations. If great-great-grandchildren don&apos;t much resemble their great-great-grandparents, you won&apos;t get more than four generations&apos; worth of cumulative selection pressure—anything that happened more than four generations ago will blur itself out. Yes, the personality of a corporation can influence its spinoff—but that&apos;s nothing like the heritability of DNA, which is digital rather than analog, and can transmit itself with 10^-8 errors per base per generation.</para>
+<para>With DNA you have heritability lasting for <emphasis>millions</emphasis> of generations. That&apos;s how complex adaptations can arise by pure evolution—the digital DNA lasts long enough for a gene conveying 3% advantage to spread itself over <olink targetdoc="item_wAXodw6LPScjrdnkR" targetptr="item_jAToJHtg39AMTAuJo">768 generations</olink>, and then another gene dependent on it can arise. Even if corporations replicated with digital fidelity, they would currently be at most ten generations into the RNA World.</para>
+<para>Now, corporations are certainly <emphasis>selected,</emphasis> in the sense that incompetent corporations go bust. This should logically make you more likely to observe corporations with features contributing to competence. And in the same sense, any star that goes nova shortly after it forms, is less likely to be visible when you look up at the night sky. But if an accident of stellar dynamics makes one star burn longer than another star, that doesn&apos;t make it more likely that future stars will also burn longer—the feature will not be copied onto other stars. We should not expect future astrophysicists to discover <emphasis>complex</emphasis> internal features of stars which seem designed to help them burn longer. That kind of mechanical adaptation requires much larger <emphasis>cumulative</emphasis> selection pressures than a once-off winnowing.</para>
+<para>Think of the principle introduced in <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_MwQRucYo6BZZwjKE7">Einstein&apos;s Arrogance</olink>—that the vast majority of the evidence required to think of General Relativity had to go into raising that one particular equation to the level of Einstein&apos;s personal attention; the amount of evidence required to raise it from a deliberately considered possibility to 99.9% certainty was trivial by comparison. In the same sense, complex features of corporations which require hundreds of bits to specify, are produced primarily by human intelligence, not a handful of generations of low-fidelity evolution. In biology, the mutations are purely random and evolution supplies thousands of bits of cumulative selection pressure. In corporations, humans offer up thousand-bit intelligently designed complex &quot;mutations&quot;, and then the further selection pressure of &quot;Did it go bankrupt or not?&quot; accounts for a handful of additional bits in explaining what you see.</para>
+<para>Advanced molecular nanotechnology—the artificial sort, not biology—should be able to copy itself with digital fidelity through thousands of generations. Would Price&apos;s Equation thereby gain a foothold?</para>
+<para>Correlation is covariance divided by variance, so if A is highly predictive of B, there can be a strong &quot;correlation&quot; between them even if A is ranging from 0 to 9 and B is only ranging from 50.0001 and 50.0009. Price&apos;s Equation runs on <emphasis>covariance</emphasis> of characteristics with reproduction—not correlation! If you can compress variance in characteristics into a tiny band, the covariance goes way down, and so does the cumulative change in the characteristic.</para>
+<para>The <link xl:href="http://www.foresight.org/guidelines/current.html">Foresight Institute suggests</link>, among other sensible proposals, that the replication instructions for any nanodevice should be encrypted. Moreover, encrypted such that flipping a single bit of the encoded instructions will entirely scramble the decrypted output. If all nanodevices produced are precise molecular copies, and moreover, any mistakes on the assembly line are not heritable because the offspring got a digital copy of the original encrypted instructions for use in making grandchildren, then your nanodevices ain&apos;t gonna be doin&apos; much evolving.</para>
+<para>You&apos;d still have to worry about prions—self-replicating assembly errors apart from the encrypted instructions, where a robot arm fails to grab a carbon atom that is used in assembling a homologue of itself, and this causes the offspring&apos;s robot arm to likewise fail to grab a carbon atom, etc., even with all the encrypted instructions remaining constant. But how much <emphasis>correlation</emphasis> is there likely to be, between this sort of transmissible error, and a <emphasis>higher</emphasis> reproductive rate? Let&apos;s say that one nanodevice produces a copy of itself every 1000 seconds, and the new nanodevice is magically more efficient (it not only has a prion, it has a <emphasis>beneficial</emphasis> prion) and copies itself every 999.99999 seconds. It needs one less carbon atom attached, you see. That&apos;s not a whole lot of variance in reproduction, so it&apos;s not a whole lot of covariance either.</para>
+<para>And how often will these nanodevices need to replicate? Unless they&apos;ve got more atoms available than exist in the solar system, or for that matter, the visible Universe, only a small number of generations will pass before they hit the resource wall. &quot;Limited resources&quot; are not a sufficient condition for evolution; you need the frequently iterated death of a substantial fraction of the population to free up resources. Indeed, &quot;generations&quot; is not so much an integer as an integral over the fraction of the population that consists of newly created individuals.</para>
+<para>This is, to me, the most frightening thing about grey goo or nanotechnological weapons—that they could eat the whole Earth and then that would be <emphasis>it,</emphasis> nothing interesting would happen afterward. Diamond is stabler than proteins held together by van der Waals forces, so the goo would only need to reassemble some pieces of itself when an asteroid hit. Even if prions were a powerful enough idiom to support evolution at all—evolution is slow enough with digital DNA!—less than 1.0 generations might pass between when the goo ate the Earth and when the Sun died.</para>
+<para>To sum up, if you have <emphasis>all</emphasis> of the following properties:</para>
+<itemizedlist>
+  <listitem>
+    <para> Entities that replicate</para>
+  </listitem>
+  <listitem>
+    <para> Substantial variation in their characteristics</para>
+  </listitem>
+  <listitem>
+    <para> Substantial variation in their reproduction</para>
+  </listitem>
+  <listitem>
+    <para> Persistent correlation between the characteristics and reproduction</para>
+  </listitem>
+  <listitem>
+    <para> High-fidelity long-range heritability in characteristics</para>
+  </listitem>
+  <listitem>
+    <para> Frequent birth of a significant fraction of the breeding population</para>
+  </listitem>
+  <listitem>
+    <para> And <emphasis>all</emphasis> this remains true through <emphasis>many </emphasis>iterations</para>
+  </listitem>
+</itemizedlist>
+<para><emphasis>Then</emphasis> you will have significant <emphasis>cumulative </emphasis>selection pressures, enough to produce complex adaptations by the force of evolution.</para>
+
+  
+</section>

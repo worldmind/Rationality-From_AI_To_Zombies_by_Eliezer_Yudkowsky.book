@@ -1,0 +1,50 @@
+<section xml:id="item_zFuCxbY9E2E8HTbfZ"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Perpetual Motion Beliefs</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/zFuCxbY9E2E8HTbfZ/perpetual-motion-beliefs"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-05-18</pubdate>
+  </info>
+  <indexterm><primary>Bayesianism</primary></indexterm>
+<indexterm><primary>Law-Thinking</primary></indexterm>
+<indexterm><primary>Rationality</primary></indexterm>
+  <para> Yesterday&apos;s post concluded:</para>
+<blockquote>
+  <para> <emphasis role="bold">To form accurate beliefs about something, you really do have to observe it.</emphasis> It&apos;s a very physical, very real process: any rational mind does &quot;work&quot; in the thermodynamic sense, not just the sense of mental effort...  So unless you can tell me which <emphasis>specific step</emphasis> in your argument violates the laws of physics by giving you true knowledge of the unseen, don&apos;t expect me to believe that a big, elaborate clever argument can do it either.</para>
+</blockquote>
+<para> One of the chief morals of the mathematical analogy between thermodynamics and cognition is that the constraints of probability are inescapable; probability may be a &quot;subjective state of belief&quot;, but the laws of probability are harder than steel.</para>
+<para> People learn under the traditional school regimen that the teacher tells you certain things, and <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_PmQkensvTGg7nGtJE">you must believe them</olink> and <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_NMoLJuDJEms7Ku9XS">recite them back</olink>; but if a mere <emphasis>student</emphasis> suggests a belief, you do not have to obey it.  They map the domain of belief onto the domain of authority, and think that a <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_ooypcn7qFzsMcy53R">certain</olink> belief is like an order that must be obeyed, but a probabilistic belief is like a mere suggestion.</para>
+<para> They look at a <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_vYsuM8cpuRgZS5rYB">lottery ticket</olink>, and say, &quot;But you can&apos;t <emphasis>prove</emphasis> I won&apos;t win, right?&quot;  Meaning:  &quot;You may have calculated a low probability of winning, but since it is a <emphasis>probability,</emphasis> it&apos;s just a <emphasis>suggestion</emphasis>, and I am <emphasis>allowed</emphasis> to believe what I want.&quot;</para>
+<para> Here&apos;s a little experiment:  Smash an egg on the floor.  The rule that says that the egg won&apos;t spontaneously reform and leap back into your hand is merely probabilistic.  A suggestion, if you will.  The laws of thermodynamics are probabilistic, so they can&apos;t really be <emphasis>laws,</emphasis> the way that &quot;Thou shalt not murder&quot; is a law... right?</para>
+<para>So why not just ignore the suggestion?  Then the egg will unscramble itself... right?</para>
+<para>It may help to think of it this way - if you still have some lingering intuition that uncertain beliefs are not authoritative:</para>
+<para>In reality, there may be a very small chance that the egg spontaneously reforms.  But you cannot <emphasis>expect</emphasis> it to reform.  You <emphasis>must</emphasis> expect it to smash.  Your mandatory belief is that the egg&apos;s probability of spontaneous reformation is ~0.  Probabilities are not certainties, but the <emphasis>laws of</emphasis> probability are <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_bkSkRwo9SRYxJMiSY">theorems</olink>.</para>
+<para>If you doubt this, try dropping an egg on the floor a few decillion times, ignoring the thermodynamic suggestion and expecting it to spontaneously reassemble, and see what happens.  Probabilities may be subjective states of belief, but the laws governing them are stronger by far than steel.</para>
+<para>I once knew a fellow who was <emphasis>convinced</emphasis> that his system of wheels and gears would produce reactionless thrust, and he had an Excel spreadsheet that would prove this - which of course he couldn&apos;t show us because he was still developing the system.  In classical mechanics, violating Conservation of Momentum is <emphasis>provably</emphasis> impossible.  So any Excel spreadsheet calculated <emphasis>according to the rules of classical mechanics</emphasis> must <emphasis>necessarily</emphasis> show that no reactionless thrust exists - unless your machine is complicated enough that you have made a mistake in the calculations.</para>
+<para>And similarly, when half-trained or tenth-trained rationalists abandon their art and try to believe without evidence just this once, they often build vast edifices of justification, confusing themselves just enough to conceal the magical steps.</para>
+<para>It can be quite a pain to nail down where the magic occurs - their structure of argument tends to morph and squirm away as you interrogate them.  But there&apos;s always some step where a tiny probability turns into a large one - where they try to believe without evidence - where they step into the unknown, thinking, &quot;No one can prove me wrong&quot;.</para>
+<para>Their foot naturally lands on thin air, for there is far more thin air than ground in the realms of Possibility.  Ah, but there <emphasis>is</emphasis> an (exponentially tiny) amount of ground in Possibility, and you do have an (exponentially tiny) probability of hitting it by luck, so maybe this time, your foot <emphasis>will</emphasis> land in the right place!  It is <emphasis>merely</emphasis> a probability, so it must be <emphasis>merely</emphasis> a suggestion.</para>
+<para>The exact state of a glass of boiling-hot water may be unknown to you - indeed, <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_QkX2bAkwG2EpGvNug">your ignorance of its exact state</olink> is what makes the molecules&apos; kinetic energy &quot;heat&quot;, rather than work waiting to be extracted like the momentum of a spinning flywheel.  So the water <emphasis>might</emphasis> cool down your hand instead of heating it up, with probability ~0.</para>
+<para>Decide to ignore the laws of thermodynamics and stick your hand in anyway, and you&apos;ll get burned.</para>
+<para>&quot;But you don&apos;t know that!&quot;</para>
+<para>I don&apos;t know it with certainty, but it is <emphasis>mandatory</emphasis> that I <emphasis>expect</emphasis> it to happen.  Probabilities are not logical truths, but the <emphasis>laws of</emphasis> probability are.</para>
+<para>&quot;But what if I guess the state of the boiling water, and I happen to guess correctly?&quot;</para>
+<para>Your chance of guessing correctly by luck, is even <emphasis>less</emphasis> than the chance of the boiling water cooling your hand by luck.</para>
+<para>&quot;But you can&apos;t <emphasis>prove</emphasis> I won&apos;t guess correctly.&quot;</para>
+<para>I can (indeed, must) assign extremely low probability to it.</para>
+<para>&quot;That&apos;s not the same as certainty, though.&quot;</para>
+<para>Hey, maybe if you add enough wheels and gears to your argument, it&apos;ll turn warm water into electricity and ice cubes!  Or, rather, you will no longer see why this <emphasis>couldn&apos;t</emphasis> be the case.</para>
+<para>&quot;Right! I <emphasis>can&apos;t</emphasis> see why couldn&apos;t be the case!  So maybe it is!&quot;</para>
+<para><emphasis>Another</emphasis> gear?  That just makes your machine even <emphasis>less</emphasis> efficient.  It wasn&apos;t a perpetual motion machine before, and each extra gear you add makes it even less efficient than that.</para>
+<para><olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_Yq6aA4M3JKWaQepPJ">Each extra detail in your argument</olink> necessarily <link xl:href="https://www.lesswrong.com/posts/QAK43nNCTQQycAcYe/conjunction-fallacy">decreases the joint probability</link>.  The probability that you&apos;ve violated the Second Law of Thermodynamics without knowing exactly how, by guessing the exact state of boiling water without evidence, so that you can stick your finger in without getting burned, is, necessarily, even less than the probability of sticking in your finger into boiling water without getting burned.</para>
+<para>I say all this, because people really do construct these huge edifices of argument in the course of believing without evidence.  One must learn to see this as analogous to all the wheels and gears that fellow added onto his reactionless drive, until he finally collected enough complications to make a mistake in his Excel spreadsheet.</para>
+
+  
+</section>

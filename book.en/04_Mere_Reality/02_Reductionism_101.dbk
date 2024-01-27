@@ -1,0 +1,30 @@
+<chapter xml:id="item_p3TndjYbdYaiWwm9x"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Reductionism 101</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/p3TndjYbdYaiWwm9x"></link>
+    </bibliosource>
+    <pubdate doc_status="draft"></pubdate>
+  </info>
+  
+  
+  <xi:include href="02_Reductionism_101/01_Dissolving_the_Question.dbk"/>
+<xi:include href="02_Reductionism_101/02_Wrong_Questions.dbk"/>
+<xi:include href="02_Reductionism_101/03_Righting_a_Wrong_Question.dbk"/>
+<xi:include href="02_Reductionism_101/04_Mind_Projection_Fallacy.dbk"/>
+<xi:include href="02_Reductionism_101/05_Probability_is_in_the_Mind.dbk"/>
+<xi:include href="02_Reductionism_101/06_The_Quotation_is_not_the_Referent.dbk"/>
+<xi:include href="02_Reductionism_101/07_Qualitatively_Confused.dbk"/>
+<xi:include href="02_Reductionism_101/08_Think_Like_Reality.dbk"/>
+<xi:include href="02_Reductionism_101/09_Chaotic_Inversion.dbk"/>
+<xi:include href="02_Reductionism_101/10_Reductionism.dbk"/>
+<xi:include href="02_Reductionism_101/11_Explaining_vs_Explaining_Away.dbk"/>
+<xi:include href="02_Reductionism_101/12_Fake_Reductionism.dbk"/>
+<xi:include href="02_Reductionism_101/13_Savanna_Poets.dbk"/>
+</chapter>

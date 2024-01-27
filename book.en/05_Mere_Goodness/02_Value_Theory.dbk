@@ -1,0 +1,35 @@
+<chapter xml:id="item_9bvAELWc8y2gYjRav"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Value Theory</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/s/9bvAELWc8y2gYjRav"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2017-08-24</pubdate>
+  </info>
+  
+  <para>On obstacles to developing a new theory, and some intuitively desirable features of such a theory.</para>
+
+  <xi:include href="02_Value_Theory/01_Where_Recursive_Justification_Hits_Bottom.dbk"/>
+<xi:include href="02_Value_Theory/02_My_Kind_of_Reflection.dbk"/>
+<xi:include href="02_Value_Theory/03_No_Universally_Compelling_Arguments.dbk"/>
+<xi:include href="02_Value_Theory/04_Created_Already_In_Motion.dbk"/>
+<xi:include href="02_Value_Theory/05_Sorting_Pebbles_Into_Correct_Heaps.dbk"/>
+<xi:include href="02_Value_Theory/06_2Place_and_1Place_Words.dbk"/>
+<xi:include href="02_Value_Theory/07_What_Would_You_Do_Without_Morality.dbk"/>
+<xi:include href="02_Value_Theory/08_Changing_Your_Metaethics.dbk"/>
+<xi:include href="02_Value_Theory/09_Could_Anything_Be_Right.dbk"/>
+<xi:include href="02_Value_Theory/10_Morality_as_Fixed_Computation.dbk"/>
+<xi:include href="02_Value_Theory/11_Magical_Categories.dbk"/>
+<xi:include href="02_Value_Theory/12_The_True_Prisoners_Dilemma.dbk"/>
+<xi:include href="02_Value_Theory/13_Sympathetic_Minds.dbk"/>
+<xi:include href="02_Value_Theory/14_High_Challenge.dbk"/>
+<xi:include href="02_Value_Theory/15_Serious_Stories.dbk"/>
+<xi:include href="02_Value_Theory/16_Value_is_Fragile.dbk"/>
+<xi:include href="02_Value_Theory/17_The_Gift_We_Give_To_Tomorrow.dbk"/>
+</chapter>

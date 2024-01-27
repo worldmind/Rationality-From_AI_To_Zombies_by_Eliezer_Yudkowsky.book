@@ -1,0 +1,156 @@
+<section xml:id="item_DFxoaWGEh9ndwtZhk"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Decoherence is Falsifiable and Testable</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/DFxoaWGEh9ndwtZhk/decoherence-is-falsifiable-and-testable"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2008-05-07</pubdate>
+  </info>
+  <indexterm><primary>World Modeling</primary></indexterm>
+<indexterm><primary>Bayes' Theorem</primary></indexterm>
+<indexterm><primary>Falsifiability</primary></indexterm>
+<indexterm><primary>Physics</primary></indexterm>
+<indexterm><primary>Quantum Mechanics</primary></indexterm>
+  <para>The words “falsifiable” and “testable” are sometimes used interchangeably, which imprecision is the price of speaking in English. There are two different probability-theoretic qualities I wish to discuss here, and I will refer to one as “falsifiable” and the other as “testable” because it seems like the best fit.</para>
+<para>As for the math, it begins, as so many things do, with:</para>
+<equation>
+  <mathphrase>P(A<subscript>i</subscript>|B)=P(B|A<subscript>i</subscript>)P(A<subscript>i</subscript>)Σ<subscript>j</subscript>P(B|A<subscript>j</subscript>)P(A<subscript>j</subscript>).</mathphrase>
+</equation>
+<para>This is Bayes’s Theorem. I own at least two distinct items of clothing printed with this theorem, so it must be important.</para>
+<para>To review quickly, <emphasis>B</emphasis> here refers to an item of evidence, <inlineequation>
+    <mathphrase>A<subscript>i</subscript></mathphrase>
+  </inlineequation>
+ is some hypothesis under consideration, and the <inlineequation>
+    <mathphrase>A<subscript>j</subscript></mathphrase>
+  </inlineequation>
+ are competing, mutually exclusive hypotheses. The expression <inlineequation>
+    <mathphrase>P(B|A<subscript>i</subscript>)</mathphrase>
+  </inlineequation>
+ means “the probability of seeing <emphasis>B</emphasis>, if hypothesis <emphasis>Ai</emphasis> is true” and <inlineequation>
+    <mathphrase>P(A<subscript>i</subscript>|B)</mathphrase>
+  </inlineequation>
+ means “the probability hypothesis <inlineequation>
+    <mathphrase>A<subscript>i</subscript></mathphrase>
+  </inlineequation>
+ is true, if we see <inlineequation>
+    <mathphrase>B</mathphrase>
+  </inlineequation>
+.”</para>
+<para>The mathematical phenomenon that I will call “falsifiability” is the scientifically desirable property of a hypothesis that it should concentrate its probability mass into preferred outcomes, which implies that it must also assign low probability to some un-preferred outcomes; probabilities must sum to 1 and there is only so much probability to go around. Ideally there should be possible observations which would drive down the hypothesis’s probability to nearly zero: There should be things the hypothesis <emphasis>cannot</emphasis> explain, conceivable experimental results with which the theory is <emphasis>not</emphasis> compatible. A theory that can explain everything prohibits nothing, and so gives us no advice about what to expect.</para>
+<equation>
+  <mathphrase>P(A<subscript>i</subscript>|B)=P(B|A<subscript>i</subscript>)P(A<subscript>i</subscript>)Σ<subscript>j</subscript>P(B|A<subscript>j</subscript>)P(A<subscript>j</subscript>).</mathphrase>
+</equation>
+<para>In terms of Bayes’s Theorem, if there is at least some observation <emphasis>B</emphasis> that the hypothesis <emphasis>Ai</emphasis> can’t explain, i.e., <emphasis>P</emphasis>(<emphasis>B</emphasis>|<emphasis>Ai</emphasis>) is tiny, then the numerator <emphasis>P</emphasis>(<emphasis>B</emphasis>|<emphasis>Ai</emphasis>)<emphasis>P</emphasis>(<emphasis>Ai</emphasis>) will also be tiny, and likewise the posterior probability <emphasis>P</emphasis>(<emphasis>Ai</emphasis>|<emphasis>B</emphasis>). Updating on having seen the impossible result <emphasis>B</emphasis> has driven the probability of <emphasis>Ai</emphasis> down to nearly zero. A theory that refuses to make itself vulnerable in this way will need to spread its probability widely, so that it has no holes; it will not be able to strongly concentrate probability into a few preferred outcomes; it will not be able to offer precise advice.</para>
+<para>Thus is the rule of science derived in probability theory.</para>
+<para>As depicted here, “falsifiability” is something you evaluate by looking at a <emphasis>single</emphasis>hypothesis, asking, “How narrowly does it concentrate its probability distribution over possible outcomes? How narrowly does it tell me what to expect? Can it explain some possible outcomes much better than others?”</para>
+<para>Is the decoherence interpretation of quantum mechanics <emphasis>falsifiable</emphasis>? Are there experimental results that could drive its probability down to an infinitesimal?</para>
+<para>Sure: We could measure entangled particles that should always have opposite spin, and find that if we measure them far enough apart, they sometimes have the same spin.</para>
+<para>Or we could find apples falling upward, the planets of the Solar System zigging around at random, and an atom that kept emitting photons without any apparent energy source. Those observations would also falsify decoherent quantum mechanics. They’re things that, on the hypothesis that decoherent quantum mechanics governs the universe, we should definitely <emphasis>not expect</emphasis> to see.</para>
+<para>So there do exist observations <emphasis>B</emphasis> whose <inlineequation>
+    <mathphrase>P(B|A<subscript>decoherence</subscript>)</mathphrase>
+  </inlineequation>
+ is infinitesimal, which would drive <inlineequation>
+    <mathphrase>P(A<subscript>decoherence</subscript>|B)</mathphrase>
+  </inlineequation>
+ down to an infinitesimal.</para>
+<blockquote>
+  <para>But that’s just because decoherent quantum mechanics is still quantum mechanics! What about the decoherence part, per se, versus the collapse postulate?</para>
+</blockquote>
+<para>We’re getting there. The point is that I just defined a test that leads you to think about one hypothesis at a time (and called it “falsifiability”). If you want to distinguish decoherence <emphasis>versus</emphasis> collapse, you have to think about at least two hypotheses at a time.</para>
+<para>Now really the “falsifiability” test is not quite <emphasis>that</emphasis> singly focused, i.e., the sum in the denominator has got to contain <emphasis>some</emphasis> other hypothesis. But what I just defined as “falsifiability” pinpoints the kind of problem that Karl Popper was complaining about, when he said that Freudian psychoanalysis was “unfalsifiable” because it was equally good at coming up with an explanation for every possible thing the patient could do.</para>
+<para>If you belonged to an alien species that had never invented the collapse postulate or Copenhagen Interpretation—if the only physical theory you’d ever heard of was decoherent quantum mechanics—if <emphasis>all</emphasis> you had in your head was the differential equation for the wavefunction’s evolution plus the Born probability rule—you would still have sharp expectations of the universe. You would not live in a magical world where anything was probable.</para>
+<blockquote>
+  <para>But you could say exactly the same thing about quantum mechanics w<emphasis>ithout(</emphasis>macroscopic) decoherence.</para>
+</blockquote>
+<para>Well, yes! Someone walking around with the differential equation for the wavefunction’s evolution, plus a collapse postulate that obeys the Born probabilities and is triggered before superposition reaches macroscopic levels, still lives in a universe where apples fall down rather than up.</para>
+<blockquote>
+  <para>But where does decoherence make a n<emphasis>ew </emphasis>prediction, one that lets us t<emphasis>est </emphasis>it?</para>
+</blockquote>
+<para>A “new” prediction relative to what? To the state of knowledge possessed by the ancient Greeks? If you went back in time and showed them decoherent quantum mechanics, they would be enabled to make many experimental predictions they could not have made before.</para>
+<para>When you say “new prediction,” you mean “new” relative to some other hypothesis that defines the “old prediction.” This gets us into the theory of what I’ve chosen to label <emphasis>testability</emphasis>; and the algorithm inherently considers at least two hypotheses at a time. You cannot call something a “<emphasis>new</emphasis> prediction” by considering only one hypothesis in isolation.</para>
+<para>In Bayesian terms, you are looking for an item of evidence <emphasis>B</emphasis> that will produce evidence for one hypothesis over another, distinguishing between them, and the process of producing this evidence we could call a “test.” You are looking for an experimental result <emphasis>B</emphasis> such that</para>
+<equation>
+  <mathphrase>P(B|A<subscript>d</subscript>)≠P(B|A<subscript>c</subscript>);</mathphrase>
+</equation>
+<para>that is, some outcome <emphasis>B</emphasis> which has a different probability, conditional on the decoherence hypothesis being true, versus its probability if the collapse hypothesis is true. Which in turn implies that the posterior odds for decoherence and collapse will become different from the prior odds:</para>
+<equation>
+  <mathphrase>P(B|A<subscript>d</subscript>)P(B|A<subscript>c</subscript>)≠1 implies</mathphrase>
+</equation>
+<equation>
+  <mathphrase>P(A<subscript>d</subscript>|B)P(A<subscript>c</subscript>|B)=P(B|A<subscript>d</subscript>)P(B|A<subscript>c</subscript>)×P(A<subscript>d</subscript>)P(A<subscript>c</subscript>)</mathphrase>
+</equation>
+<equation>
+  <mathphrase>P(A<subscript>d</subscript>|B)P(A<subscript>c</subscript>|B)≠/fracP(A<subscript>d</subscript>)P(A<subscript>c</subscript>).</mathphrase>
+</equation>
+<para>This equation is symmetrical (assuming no probability is <olink targetdoc="item_coGq3LC5Yn4vZiu6k" targetptr="item_QGkYCwyC7wTDyt3yT">literally equal to 0</olink>). There isn’t one <inlineequation>
+    <mathphrase>A<subscript>j</subscript></mathphrase>
+  </inlineequation>
+ labeled “old hypothesis” and another <inlineequation>
+    <mathphrase>A<subscript>j</subscript></mathphrase>
+  </inlineequation>
+ labeled “new hypothesis.”</para>
+<para>This symmetry is a feature, not a bug, of probability theory! If you are designing an artificial reasoning system that arrives at different beliefs depending on the order in which the evidence is presented, this is labeled “hysteresis” and considered a Bad Thing. I hear that it is also frowned upon in Science.</para>
+<para>From a probability-theoretic standpoint we have various trivial theorems that say it shouldn’t matter whether you update on <emphasis>X</emphasis> first and then <emphasis>Y</emphasis>, or update on <emphasis>Y</emphasis> first and then <emphasis>X</emphasis>. At least they’d be trivial if human beings didn’t violate them so often and so lightly.</para>
+<para>If decoherence is “untestable” relative to collapse, then so too, collapse is “untestable” relative to decoherence. What if the history of physics had transpired differently—what if Hugh Everett and John Wheeler had stood in the place of Bohr and Heisenberg, and vice versa? Would it then be right and proper for the people of that world to look at the collapse interpretation, and snort, and say, “Where are the <emphasis>new</emphasis> predictions?”</para>
+<para>What if someday we meet an alien species that invented decoherence before collapse? Are we each bound to keep the theory we invented first? Will Reason have nothing to say about the issue, leaving no recourse to settle the argument but interstellar war?</para>
+<blockquote>
+  <para>But if we revoke the requirement to yield new predictions, we are left with scientific chaos. You can add arbitrary untestable complications to old theories, and get experimentally equivalent predictions. If we reject what you call “hysteresis,” how can we defend our current theories against every crackpot who proposes that electrons have a new property called “scent,” just like quarks have “flavor”?</para>
+</blockquote>
+<para>Let it first be said that I quite agree that you should reject the one who comes to you and says: “Hey, I’ve got this brilliant new idea! Maybe it’s not the electromagnetic field that’s tugging on charged particles. Maybe there are tiny little angels who actually push on the particles, and the electromagnetic field just tells them how to do it. Look, I have all these successful experimental predictions—the predictions you used to call your own!”</para>
+<para>So yes, I agree that we shouldn’t buy this amazing new theory, but it is not the <emphasis>newness</emphasis> that is the problem.</para>
+<para>Suppose that human history had developed only slightly differently, with the Church being a primary grant agency for Science. And suppose that when the laws of electromagnetism were first being worked out, the phenomenon of magnetism had been taken as proof of the existence of unseen spirits, of angels. James Clerk becomes Saint Maxwell, who described the laws that direct the actions of angels.</para>
+<para>A couple of centuries later, after the Church’s power to burn people at the stake has been restrained, someone comes along and says: “Hey, do we really need the angels?”</para>
+<para>“Yes,” everyone says. “How else would the mere numbers of the electromagnetic field translate into the actual motions of particles?”</para>
+<para>“It might be a fundamental law,” says the newcomer, “or it might be something other than angels, which we will discover later. What I am suggesting is that interpreting the numbers <emphasis>as the action of angels</emphasis> doesn’t really add anything, and we should just keep the numbers and throw out the angel part.”</para>
+<para>And they look one at another, and finally say, “But your theory doesn’t make any new experimental predictions, so why should we adopt it? How do we test your assertions about the absence of angels?”</para>
+<para>From a normative perspective, it seems to me that if we should reject the crackpot angels in the first scenario, <emphasis>even without being able to distinguish the two theories experimentally</emphasis>, then we should also reject the angels of established science in the second scenario, even without being able to distinguish the two theories experimentally.</para>
+<para>It is ordinarily the crackpot who adds on new useless complications, rather than scientists who accidentally build them in at the start. But the problem is not that the complications are new, but that they are useless whether or not they are new.</para>
+<para>A Bayesian would say that the extra complications of the angels in the theory lead to penalties on the prior probability of the theory. If two theories make equivalent predictions, we keep the one that can be described with the shortest message, the smallest program. If you are evaluating the prior probability of each hypothesis by counting bits of code, and then applying Bayesian updating rules on all the evidence available, then it makes no difference which hypothesis you hear about first, or the order in which you apply the evidence.</para>
+<para>It is usually not possible to apply formal probability theory in real life, any more than you can predict the winner of a tennis match using quantum field theory. But if probability theory can serve as a guide to practice, this is what it says: Reject <emphasis>useless</emphasis>complications <emphasis>in general</emphasis>, not just when they are <emphasis>new</emphasis>.</para>
+<blockquote>
+  <para>Yes, and u<emphasis>seless </emphasis>is precisely what the many worlds of decoherence are! There are supposedly all these worlds alongside our own, and they don’t d<emphasis>o </emphasis>anything to our world, but I’m supposed to believe in them anyway?</para>
+</blockquote>
+<para>No, according to decoherence, what you’re supposed to believe are the general laws that govern wavefunctions—and these general laws are very visible and testable.</para>
+<para>I have argued elsewhere that <olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_fhojYBGGiYAFcryHZ">the imprimatur of science should be associated with general laws, rather than particular events</olink>, because it is the general laws that, in principle, anyone can go out and test for themselves. I assure you that I happen to be wearing white socks right now as I type this. So you are probably <emphasis>rationally</emphasis> justified in believing that this is a historical fact. But it is not the specially strong kind of statement that we canonize as a provisional belief of science, because there is no experiment that you can do for yourself to determine the truth of it; you are stuck with my authority. Now, if I were to tell you the mass of an electron in general, you could go out and find your own electron to test, and thereby see for yourself the truth of the general law in that particular case.</para>
+<para>The ability of anyone to go out and verify a general scientific law for themselves, by constructing some particular case, is what makes our belief in the general law specially reliable.</para>
+<para>What decoherentists say they believe in is the differential equation that is observed to govern the evolution of wavefunctions—which you can go out and test yourself any time you like; just look at a hydrogen atom.</para>
+<para>Belief in the existence of separated portions of the universal wavefunction is not <emphasis>additional</emphasis>, and it is not <emphasis>supposed</emphasis> to be explaining the price of gold in London; it is just a deductive consequence of the wavefunction’s evolution. If the evidence of many particular cases gives you cause to believe that <inlineequation>
+    <mathphrase>X→Y</mathphrase>
+  </inlineequation>
+ is a general law, and the evidence of some particular case gives you cause to believe <inlineequation>
+    <mathphrase>X</mathphrase>
+  </inlineequation>
+, then you should have <inlineequation>
+    <mathphrase>P(Y)≥P(X and (X→Y))</mathphrase>
+  </inlineequation>
+.</para>
+<para>Or to look at it another way, if <inlineequation>
+    <mathphrase>P(Y|X)≈1</mathphrase>
+  </inlineequation>
+, then <inlineequation>
+    <mathphrase>P(X and Y)≈P(X)</mathphrase>
+  </inlineequation>
+.</para>
+<para>Which is to say, believing extra details doesn’t cost you extra probability when they are <emphasis>logical implications</emphasis> of general beliefs you already have. Presumably the general beliefs themselves are falsifiable, though, or why bother?</para>
+<para>This is why we don’t believe that <olink targetdoc="item_ah2GqzZSeBpW9QHgb" targetptr="item_3XMwPNMSbaPm2suGz">spaceships blink out of existence when they cross the cosmological horizon</olink> relative to us. True, the spaceship’s continued existence doesn’t have an impact on our world. The spaceship’s continued existence isn’t helping to explain the price of gold in London. But we get the invisible spaceship for free as a consequence of general laws that imply conservation of mass and energy. If the spaceship’s continued existence were <emphasis>not</emphasis> a deductive consequence of the laws of physics as we presently model them, <emphasis>then</emphasis> it would be an additional detail, cost extra probability, and we would have to question why our theory must include this assertion.</para>
+<para>The part of decoherence that is supposed to be testable is not the many worlds per se, but just the general law that governs the wavefunction. The decoherentists note that, applied universally, this law implies the existence of entire superposed worlds. Now there are critiques that can be leveled at this theory, most notably, “But then where do the Born probabilities come from?” But within the internal logic of decoherence, the many worlds are not offered as an explanation for anything, nor are they the substance of the theory that is meant to be tested; they are simply a logical consequence of those general laws that constitute the substance of the theory.</para>
+<para>If <inlineequation>
+    <mathphrase>A⇒B</mathphrase>
+  </inlineequation>
+ then <inlineequation>
+    <mathphrase>¬B⇒¬A</mathphrase>
+  </inlineequation>
+. To deny the existence of superposed worlds is necessarily to deny the universality of the quantum laws formulated to govern hydrogen atoms and every other examinable case; it is this denial that seems to the decoherentists like the extra and untestable detail. You can’t see the other parts of the wavefunction—why postulate <emphasis>additionally</emphasis> that they don’t exist?</para>
+<para>The events surrounding the decoherence controversy may be unique in scientific history, marking the first time that serious scientists have come forward and said that by historical accident humanity has developed a powerful, successful, mathematical physical theory that includes angels. That there is an entire law, the collapse postulate, that can simply be thrown away, leaving the theory <emphasis>strictly</emphasis>simpler.</para>
+<para>To this discussion I wish to contribute the assertion that, in the light of a mathematically solid understanding of probability theory, decoherence is not ruled out by Occam’s Razor, nor is it unfalsifiable, nor is it untestable.</para>
+<para>We may consider e.g. decoherence and the collapse postulate, side by side, and evaluate critiques such as “Doesn’t decoherence definitely predict that quantum probabilities should always be 50/50?” and “Doesn’t collapse violate Special Relativity by implying influence at a distance?” We can consider the relative merits of these theories on grounds of their compatibility with experience and the apparent character of physical law.</para>
+<para>To assert that decoherence is not even in the game—because the many worlds themselves are “extra entities” that violate Occam’s Razor, or because the many worlds themselves are “untestable,” or because decoherence makes no “new predictions”—all this is, I would argue, an outright error of probability theory. The discussion should simply discard those particular arguments and move on.</para>
+
+  
+</section>

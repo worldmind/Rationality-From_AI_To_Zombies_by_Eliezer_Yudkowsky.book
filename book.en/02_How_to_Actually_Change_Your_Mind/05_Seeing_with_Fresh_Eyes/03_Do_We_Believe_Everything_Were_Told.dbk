@@ -1,0 +1,41 @@
+<section xml:id="item_TiDGXt3WrQwtCdDj3"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Do We Believe Everything We're Told?</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/TiDGXt3WrQwtCdDj3/do-we-believe-everything-we-re-told"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-08-06</pubdate>
+  </info>
+  <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
+<indexterm><primary>Cognitive Science</primary></indexterm>
+  <para>Some early experiments on anchoring and adjustment tested whether <emphasis>distracting</emphasis> the subjects—rendering subjects cognitively “busy” by asking them to keep a lookout for “5” in strings of numbers, or some such—would decrease adjustment, and hence increase the influence of anchors. Most of the experiments seemed to bear out the idea that being cognitive busy increased anchoring, and more generally contamination. </para>
+<para>Looking over the accumulating experimental results—more and more findings of contamination, exacerbated by cognitive busyness—Daniel Gilbert saw a truly crazy pattern emerging: Do we believe <emphasis>everything</emphasis> we’re told?</para>
+<para>One might naturally think that on being told a proposition, we would first <emphasis>comprehend</emphasis> what the proposition meant, then <emphasis>consider</emphasis> the proposition, and finally <emphasis>accept</emphasis> or <emphasis>reject</emphasis> it. This obvious-seeming model of cognitive process flow dates back to Descartes. But Descartes’s rival, Spinoza, disagreed; Spinoza suggested that we first <emphasis>passively accept a proposition in the course of comprehending it</emphasis>, and only afterward <emphasis>actively disbelieve</emphasis> propositions which are rejected by consideration.</para>
+<para>Over the last few centuries, philosophers pretty much went along with Descartes, since his view seemed more, y’know, logical and intuitive.<footnote xml:id="fn_bcff752e23180f3c7157195cdee18f48">
+    <para>See <anchor xml:id="cite.0.Hanson.2007c"/>Robin Hanson, “Policy Tug-O-War,” <emphasis>Overcoming Bias</emphasis> (blog), 2007,<link xl:href="http://www.overcomingbias.com/2007/05/policy_tugowar.html">http://www.overcomingbias.com/2007/05/policy_tugowar.html</link>.</para>
+  </footnote>
+<anchor xml:id="x47-48001f1"/> But Gilbert saw a way of testing Descartes’s and Spinoza’s hypotheses experimentally.</para>
+<para>If Descartes is right, then distracting subjects should interfere with both accepting true statements and rejecting false statements. If Spinoza is right, then distracting subjects should cause them to remember false statements as being true, but should not cause them to remember true statements as being false.</para>
+<para>Gilbert, Krull, and Malone bear out this result, showing that, among subjects presented with novel statements labeled true or false, distraction had no effect on identifying true propositions (55% success for uninterrupted presentations, vs. 58% when interrupted); but did affect identifying false propositions (55% success when uninterrupted, vs. 35% when interrupted).<footnote xml:id="fn_e6b298af285e57363eab17929e921d1c">
+    <para><anchor xml:id="cite.0.Gilbert.1990"/>Daniel T. Gilbert, Douglas S. Krull, and Patrick S. Malone, “Unbelieving the Unbelievable: Some Problems in the Rejection of False Information,” <emphasis>Journal of Personality and Social Psychology</emphasis> 59 (4 1990): 601–613.</para>
+  </footnote>
+<anchor xml:id="x47-48002f2"/></para>
+<para>A much more dramatic illustration was produced in followup experiments by <link xl:href="http://www.danielgilbert.com/Gilbert%20et%20al%20EVERYTHING%20YOU%20READ.pdf">Gilbert, Tafarodi, and Malone</link>.<footnoteref linkend="fn_e6b298af285e57363eab17929e921d1c"/> Subjects read aloud crime reports crawling across a video monitor, in which the color of the text indicated whether a particular statement was true or false. Some reports contained false statements that exacerbated the severity of the crime, other reports contained false statements that extenuated (excused) the crime. Some subjects also had to pay attention to strings of digits, looking for a “5,” while reading the crime reports—this being the distraction task to create cognitive busyness. Finally, subjects had to recommend the length of prison terms for each criminal, from 0 to 20 years. </para>
+<para>Subjects in the cognitively busy condition recommended an average of 11.15 years in prison for criminals in the “exacerbating” condition, that is, criminals whose reports contained labeled false statements exacerbating the severity of the crime. Busy subjects recommended an average of 5.83 years in prison for criminals whose reports contained labeled false statements excusing the crime. This nearly twofold difference was, as you might suspect, statistically significant. </para>
+<para>Non-busy participants read exactly the same reports, with the same labels, and the same strings of numbers occasionally crawling past, except that they did not have to search for the number “5.” Thus, they could devote more attention to “unbelieving” statements labeled false. These non-busy participants recommended 7.03 years versus 6.03 years for criminals whose reports falsely exacerbated or falsely excused. </para>
+<para>Gilbert, Tafarodi, and Malone’s paper was entitled “You Can’t Not Believe Everything You Read.” </para>
+<para>This suggests—to say the very least—that we should be more careful when we expose ourselves to unreliable information, especially if we’re doing something else at the time. Be careful when you glance at that newspaper in the supermarket. </para>
+<para>PS: According to an unverified rumor I just made up, people will be less skeptical of this essay because of the distracting color changes.</para>
+<para>See also...<footnote xml:id="fn_b1b859e60d8d3664650aff896bdc4627">
+    <para><anchor xml:id="cite.0.Gilbert.1993"/>Daniel T. Gilbert, Romin W. Tafarodi, and Patrick S. Malone, “You Can’t Not Believe Everything You Read,” <emphasis>Journal of Personality and Social Psychology</emphasis> 65 (2 1993): 221–233.</para>
+  </footnote>
+</para>
+
+  
+</section>

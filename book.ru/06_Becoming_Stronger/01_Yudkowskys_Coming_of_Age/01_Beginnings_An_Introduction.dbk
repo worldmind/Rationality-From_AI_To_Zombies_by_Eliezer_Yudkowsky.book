@@ -1,0 +1,91 @@
+<section xml:id="item_tPWZfmNpstRMCBjFM"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Beginnings: An Introduction</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/tPWZfmNpstRMCBjFM/beginnings-an-introduction"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2020-05-21</pubdate>
+  </info>
+  
+  <para>This, the final book of <emphasis>Rationality: From AI to Zombies</emphasis>, is less a conclusion than a call to action. In keeping with <emphasis>Becoming Stronger</emphasis>’s function as a jumping-off point for further investigation, I’ll conclude by citing resources the reader can use to move beyond these sequences and seek out a fuller understanding of Bayesianism. </para>
+<para>This text’s definition of normative rationality in terms of Bayesian probability theory and decision theory is standard in cognitive science. For an introduction to the heuristics and biases approach, see Baron’s <emphasis>Thinking and Deciding</emphasis>.<footnote xml:id="fn_2b1d97abb18dc6e979ddb3a30e5d875b">
+    <para>Jonathan Baron, <emphasis>Thinking and Deciding</emphasis> (Cambridge University Press, 2007).</para>
+  </footnote>
+ For a general introduction to the field, see the .<footnote xml:id="fn_09e59af41cbd90762391252fdde800f3">
+    <para>Keith J. Holyoak and Robert G. Morrison, <emphasis>The Oxford Handbook of Thinking and Reasoning</emphasis> (Oxford University Press, 2013). </para>
+  </footnote>
+</para>
+<para>The arguments made in these pages about the <emphasis>philosophy </emphasis>of rationality are more controversial. Yudkowsky argues, for example, that a rational agent should one-box in Newcomb’s Problem—a minority position among working decision theorists.<footnote xml:id="fn_dd9d2c245a1a990abab6559b529535ca">
+    <para>Bourget and Chalmers, “What Do Philosophers Believe?” </para>
+  </footnote>
+ (See Holt for a nontechnical description of Newcomb’s Problem.<footnote xml:id="fn_71985d2f40ff88b1b4cc375968549c5a">
+    <para>Holt, “Thinking Inside the Boxes.”</para>
+  </footnote>
+) Gary Drescher’s  independently comes to many of the same conclusions as Yudkowsky on philosophy of science and decision theory.<footnote xml:id="fn_6ecfbb1fa8c1af6e553ee91d39618e21">
+    <para>Gary L. Drescher, <emphasis>Good and Real: Demystifying Paradoxes from Physics to Ethics</emphasis> (Cambridge, MA: MIT Press, 2006). </para>
+  </footnote>
+ As such, it serves as an excellent book-length treatment of the core philosophical content of .</para>
+<para><link xl:href="https://plato.stanford.edu/archives/fall2013/entries/epistemology-bayesian/">Talbott</link> distinguishes several views in Bayesian epistemology, including E. T. Jaynes’s position that not all possible priors are equally reasonable.<footnote xml:id="fn_c56fb8176f454ddc2056886a558cb02f">
+    <para>William Talbott, “Bayesian Epistemology,” in <emphasis>The Stanford Encyclopedia of Philosophy</emphasis>, Fall 2013, ed. Edward N. Zalta. </para>
+  </footnote>
+<footnote xml:id="fn_1a8717bd7576483d622e41bfaf331ea9">
+    <para>Jaynes, <emphasis>Probability Theory</emphasis>. </para>
+  </footnote>
+ Like Jaynes, Yudkowsky is interested in supplementing the Bayesian optimality criterion for belief revision with an optimality criterion for priors. This aligns Yudkowsky with researchers who hope to better understand general-purpose AI via an improved theory of ideal reasoning, such as Marcus Hutter.<footnote xml:id="fn_b65bcf29b410b18164b412ca60637e06">
+    <para>Marcus Hutter, <emphasis>Universal Artificial Intelligence: Sequential Decisions Based On Algorithmic Probability</emphasis> (Berlin: Springer, 2005), doi:<link xl:href="http://dx.doi.org/10.1007/b138233">10.1007/b138233</link>.</para>
+  </footnote>
+ For a broader discussion of philosophical efforts to naturalize theories of knowledge, see Feldman.<footnote xml:id="fn_f67f587dcc1f432105eccfa209288b97">
+    <para>Richard Feldman, “Naturalized Epistemology,” in <emphasis>The Stanford Encyclopedia of Philosophy</emphasis>, Summer 2012, ed. Edward N. Zalta. </para>
+  </footnote>
+</para>
+<para> “Bayesianism” is often contrasted with “frequentism.” Some frequentists criticize Bayesians for treating probabilities as subjective states of belief, rather than as objective frequencies of events. <link xl:href="http://www.indiana.edu/~kruschke/articles/Kruschke2010TiCS.pdf">Kruschke</link> and <link xl:href="https://www.lesswrong.com/posts/9qCN6tRBtksSyXfHu/frequentist-statistics-are-frequently-subjective">Yudkowsky</link> have replied that frequentism is even more “subjective” than Bayesianism, because frequentism’s probability assignments depend on the intentions of the experimenter.<footnote xml:id="fn_4b3dbc8fe001e23bea964c4b04738cd9">
+    <para>John K. Kruschke, “What to Believe: Bayesian Methods for Data Analysis,”<emphasis> Trends in Cognitive Sciences </emphasis>14, no. 7 (2010): 293–300. </para>
+  </footnote>
+</para>
+<para> Importantly, this philosophical disagreement shouldn’t be conflated with the distinction between Bayesian and frequentist data analysis methods, which can both be useful when employed correctly. Bayesian statistical tools have become cheaper to use since the 1980s, and their informativeness, intuitiveness, and generality have come to be more widely appreciated, resulting in “Bayesian revolutions” in many sciences. However, traditional frequentist methods re- main more popular, and in some contexts they are still clearly superior to Bayesian approaches. Kruschke’s <emphasis>Doing Bayesian Data Analysis</emphasis> is a fun and accessible introduction to the topic.<footnote xml:id="fn_a1726c96c298d3623e0285d74d3ddbdf">
+    <para>John K. Kruschke, <emphasis>Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan </emphasis>(Academic Press, 2014). </para>
+  </footnote>
+</para>
+<para> In light of evidence that training in statistics—and some other fields, such as psychology—improves reasoning skills outside the classroom, statistical literacy is directly relevant to the project of overcoming bias. (Classes in formal logic and informal fallacies have not proven similarly useful.)<footnote xml:id="fn_a76afd7a9c8c33ca3369613d9cae1822">
+    <para>Geoffrey T. Fong, David H. Krantz, and Richard E. Nisbett, “The Effects of Statistical Training on Thinking about Everyday Problems,” <emphasis>Cognitive Psychology </emphasis>18, no. 3 (1986): 253–292, doi:<link xl:href="https://doi.org/10.1016/0010-0285(86)90001-0">10.1016/0010- 0285(86)90001- 0</link>. </para>
+  </footnote>
+<footnote xml:id="fn_1b7286891dabd22775ca695e3b9396a4">
+    <para>Paul J. H. Schoemaker, “The Role of Statistical Knowledge in Gambling Decisions: Moment vs. Risk Dimension Approaches,” <emphasis>Organizational Behavior and Human Performance</emphasis> 24, no. 1 (1979): 1–17.</para>
+  </footnote>
+</para>
+<section>
+  <title>An Art in its Infancy</title>
+  <para>We conclude with three sequences on individual and collective self- improvement. “Yudkowsky’s Coming of Age” provides a last in-depth illustration of the dynamics of irrational belief, this time spotlighting the author’s own intellectual history. “Challenging the Difficult” asks what it takes to solve a truly difficult problem—including demands that go beyond epistemic rationality. Finally, “The Craft and the Community” discusses rationality groups and group rationality, raising the questions:</para>
+  <itemizedlist>
+    <listitem>
+      <para>  Can rationality be learned and taught? </para>
+    </listitem>
+    <listitem>
+      <para> If so, how much improvement is possible? </para>
+    </listitem>
+  </itemizedlist>
+  <itemizedlist>
+    <listitem>
+      <para> How can we be confident we’re seeing a real effect in a rationality intervention, and picking out the right cause? </para>
+    </listitem>
+    <listitem>
+      <para> What community norms would make this process of bettering ourselves easier?</para>
+    </listitem>
+    <listitem>
+      <para> Can we effectively collaborate on large-scale problems without sacrificing our freedom of thought and conduct? </para>
+    </listitem>
+  </itemizedlist>
+  <para>Above all: What’s missing? What should be in the next generation of rationality primers—the ones that replace this text, improve on its style, test its prescriptions, supplement its content, and branch out in altogether new directions? </para>
+  <para>Though Yudkowsky was moved to write these essays by his own philosophical mistakes and professional difficulties in AI theory, the resultant material has proven useful to a much wider audience. The original blog posts inspired the growth of <emphasis>Less Wrong</emphasis>, a community of intellectuals and life hackers with shared interests in cognitive science, computer science, and philosophy. Yudkowsky and other writers on <emphasis>Less Wrong </emphasis>have helped seed the effective altruism movement, a vibrant and audacious effort to identify the most high-impact humanitarian charities and causes. These writings also sparked the establishment of the Center for Applied Rationality, a nonprofit organization that attempts to translate results from the science of rationality into useable techniques for self-improvement.</para>
+  <para> I don’t know what’s next—what other unconventional projects or ideas might draw inspiration from these pages. We certainly face no shortage of global challenges, and the art of applied rationality is a new and half-formed thing. There are not many rationalists, and there are many things left undone. </para>
+  <para> But wherever you’re headed next, reader—may you serve your purpose well. </para>
+</section>
+
+  
+</section>

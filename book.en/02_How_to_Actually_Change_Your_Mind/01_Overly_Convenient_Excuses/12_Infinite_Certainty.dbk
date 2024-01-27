@@ -1,0 +1,52 @@
+<section xml:id="item_ooypcn7qFzsMcy53R"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Infinite Certainty</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/ooypcn7qFzsMcy53R/infinite-certainty"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2021-04-02</pubdate>
+  </info>
+  <indexterm><primary>Bayes' Theorem</primary></indexterm>
+<indexterm><primary>Epistemology</primary></indexterm>
+  <para>In “Absolute Authority,” I argued that you don’t <emphasis role="italic">need</emphasis> infinite certainty:</para>
+<blockquote>
+  <para> If you have to choose between two alternatives A and B, and you somehow succeed in establishing knowably certain well-calibrated 100% confidence that A is absolutely and entirely desirable and that B is the sum of everything evil and disgusting, then this is a <emphasis role="italic">sufficient</emphasis> condition for choosing A over B. It is not a <emphasis role="italic">necessary</emphasis> condition . . . You can have uncertain knowledge of relatively better and relatively worse options, and still choose. It should be routine, in fact.</para>
+</blockquote>
+<para>Concerning the proposition that 2 + 2 = 4, we must distinguish between the map and the territory. Given the seeming absolute stability and universality of physical laws, it’s possible that never, in the whole history of the universe, has any particle exceeded the local lightspeed limit. That is, the lightspeed limit may be not just true 99% of the time, or 99.9999% of the time, or (1 - 1/googolplex) of the time, but simply <emphasis role="italic">always and absolutely true</emphasis>.</para>
+<para>But whether we can ever have <emphasis role="italic">absolute confidence</emphasis> in the lightspeed limit is a whole ’nother question. The map is not the territory.</para>
+<para>It may be entirely and wholly true that a student plagiarized their assignment, but whether you have any knowledge of this fact at all—let alone <emphasis role="italic">absolute</emphasis> confidence in the belief—is a separate issue. If you flip a coin and then don’t look at it, it may be completely true that the coin is showing heads, and you may be completely unsure of whether the coin is showing heads or tails. A degree of uncertainty is not the same as a degree of truth or a frequency of occurrence.</para>
+<para>The same holds for mathematical truths. It’s questionable whether the statement “2 + 2 = 4” or “In Peano arithmetic, SS0 + SS0 = SSSS0” can be said to be <emphasis role="italic">true</emphasis> in any purely abstract sense, apart from physical systems that seem to behave in ways similar to the Peano axioms. Having said this, I will charge right ahead and guess that, in whatever sense “2 + 2 = 4” is true at all, it is always and precisely true, not just roughly true (“2 + 2 actually equals 4.0000004”) or true 999,999,999,999 times out of 1,000,000,000,000.</para>
+<para>I’m not totally sure what “true” should mean in this case, but I stand by my guess. The credibility of “2 + 2 = 4 is always true” far exceeds the credibility of any particular philosophical position on what “true,” “always,” or “is” means in the statement above.</para>
+<para>This doesn’t mean, though, that I have <emphasis role="italic">absolute confidence</emphasis> that 2 + 2 = 4. See the previous discussion on how to convince me that 2 + 2 = 3, which could be done using much the same sort of evidence that convinced me that 2 + 2 = 4 in the first place. I could have hallucinated all that previous evidence, or I could be misremembering it. In the annals of neurology there are stranger brain dysfunctions than this.</para>
+<para>So if we attach some probability to the statement “2 + 2 = 4,” then what should the probability be? What you seek to attain in a case like this is good calibration—statements to which you assign “99% probability” come true 99 times out of 100. This is actually a hell of a lot more difficult than you might think. Take a hundred people, and ask each of them to make ten statements of which they are “99% confident.” Of the 1,000 statements, do you think that around 10 will be wrong?</para>
+<para>I am not going to discuss the actual experiments that have been done on calibration—you can find them in my book chapter on cognitive biases and global catastrophic risk<footnote xml:id="fn_3bb2283578f6f4eb183ce89e1351d8e4">
+    <para>Eliezer Yudkowsky, “Cognitive Biases Potentially Affecting Judgment of Global Risks,” in <emphasis role="italic">Global Catastrophic Risks</emphasis>, ed. Nick Bostrom and Milan M. irkovi (New York: Oxford University Press, 2008), 91–119.</para>
+  </footnote>
+—because I’ve seen that when I blurt this out to people without proper preparation, they thereafter use it as a Fully General Counterargument, which somehow leaps to mind whenever they have to discount the confidence of someone whose opinion they dislike, and fails to be available when they consider their own opinions. So I try not to talk about the experiments on calibration except as part of a structured presentation of rationality that includes warnings against motivated skepticism.</para>
+<para>But the observed calibration of human beings who say they are “99% confident” is not 99% accuracy.</para>
+<para>Suppose you say that you’re 99.99% confident that 2 + 2 = 4. Then you have just asserted that you could make 10,000 <emphasis role="italic">independent</emphasis> statements, in which you repose equal confidence, and be wrong, on average, around once. Maybe for 2 + 2 = 4 this extraordinary degree of confidence would be possible: “2 + 2 = 4” is extremely simple, and mathematical as well as empirical, and widely believed socially (not with passionate affirmation but just quietly taken for granted). So maybe you really could get up to 99.99% confidence on this one.</para>
+<para>I don’t think you could get up to 99.99% confidence for assertions like “53 is a prime number.” Yes, it seems likely, but by the time you tried to set up protocols that would let you assert 10,000 <emphasis role="italic">independent</emphasis> statements of this sort—that is, not just a set of statements about prime numbers, but a new protocol each time—you would fail more than once.<footnote xml:id="fn_e41c103d50466b78ac1683fbe62f8d3b">
+    <para>Peter de Blanc has an amusing anecdote on this point: <link xl:href="https://web.archive.org/web/20090203013258/http://www.spaceandgames.com/?p=27">http://www.spaceandgames.com/?p=27</link>. (I told him not to do it again.)</para>
+  </footnote>
+</para>
+<para>Yet the map is not the territory: If I say that I am 99% confident that 2 + 2 = 4, it doesn’t mean that I think “2 + 2 = 4” is true to within 99% precision, or that “2 + 2 = 4” is true 99 times out of 100. The proposition in which I repose my confidence is the proposition that “2 + 2 = 4 is always and exactly true,” not the proposition “2 + 2 = 4 is mostly and usually true.”</para>
+<para>As for the notion that you could get up to 100% confidence in a mathematical proposition—well, really now! If you say 99.9999% confidence, you’re implying that you could make <emphasis role="italic">one million</emphasis> equally fraught statements, one after the other, and be wrong, on average, about once. That’s around a solid year’s worth of talking, if you can make one assertion every 20 seconds and you talk for 16 hours a day.</para>
+<para>Assert 99.9999999999% confidence, and you’re taking it up to a trillion. Now you’re going to talk for a hundred human lifetimes, and not be wrong even once?</para>
+<para>Assert a confidence of (1 - 1/googolplex) and your ego far exceeds that of mental patients who think they’re God.</para>
+<para>And a googolplex is a lot smaller than even relatively small inconceivably huge numbers like 3 ↑↑↑ 3. But even a confidence of (1 - 1/3 ↑↑↑ 3) isn’t all that much closer to <emphasis role="bold">PROBABILITY 1</emphasis> than being 90% sure of something.</para>
+<para>If all else fails, the hypothetical Dark Lords of the Matrix, who are <emphasis role="italic">right now</emphasis> tampering with your brain’s credibility assessment of <emphasis role="italic">this very sentence</emphasis>, will bar the path and defend us from the scourge of infinite certainty.</para>
+<para>Am I absolutely sure of that?</para>
+<para>Why, of course not.</para>
+<para>As Rafal Smigrodski once said:</para>
+<blockquote>
+  <para> I would say you should be able to assign a less than 1 certainty level to the mathematical concepts which are necessary to derive Bayes’s rule itself, and still practically use it. I am not totally sure I have to be always unsure. Maybe I could be legitimately sure about something. But once I assign a probability of 1 to a proposition, I can never undo it. No matter what I see or learn, I have to reject everything that disagrees with the axiom. I don’t like the idea of not being able to change my mind, ever.</para>
+</blockquote>
+
+  
+</section>

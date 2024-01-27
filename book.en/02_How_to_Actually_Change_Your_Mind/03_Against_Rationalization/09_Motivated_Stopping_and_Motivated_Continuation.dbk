@@ -1,0 +1,43 @@
+<section xml:id="item_L32LHWzy9FzSDazEg"
+      xmlns="http://docbook.org/ns/docbook"
+      version="5.0"
+      xml:lang="en"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:xl="http://www.w3.org/1999/xlink">
+  <info>
+    <title>Motivated Stopping and Motivated Continuation</title>
+    <bibliosource class="uri">
+      <link xlink:href="https://www.lesswrong.com/posts/L32LHWzy9FzSDazEg/motivated-stopping-and-motivated-continuation"></link>
+    </bibliosource>
+    <pubdate doc_status="draft">2007-10-29</pubdate>
+  </info>
+  <indexterm><primary>Motivated Reasoning</primary></indexterm>
+  <para>While I disagree with some views of the Fast and Frugal crowd—in my opinion they make a few <emphasis>too</emphasis> many lemons into lemonade—it also seems to me that they tend to develop the most <emphasis>psychologically realistic</emphasis> models of any school of decision theory. Most experiments present the subjects with options, and the subject chooses an option, and that’s the experimental result. The frugalists realized that in real life, you have to <emphasis>generate</emphasis> your options, and they studied how subjects did <emphasis>that.</emphasis></para>
+<para>Likewise, although many experiments present evidence on a silver platter, in real life you have to gather evidence, which may be costly, and at some point decide that you have enough evidence to stop and choose. When you’re buying a house, you don’t get exactly ten houses to choose from, and you aren’t led on a guided tour of all of them before you’re allowed to decide anything. You look at one house, and another, and compare them to each other; you adjust your aspirations—reconsider how much you really need to be close to your workplace and how much you’re really willing to pay; you decide which house to look at next; and at some point you decide that you’ve seen enough houses, and choose.</para>
+<para>Gilovich’s distinction between <emphasis>motivated skepticism</emphasis> and <emphasis>motivated credulity</emphasis> highlights how conclusions a person does not want to believe are held to a higher standard than conclusions a person wants to believe. A motivated skeptic asks if the evidence <emphasis>compels</emphasis> them to accept the conclusion; a motivated credulist asks if the evidence <emphasis>allows</emphasis> them to accept the conclusion.</para>
+<para>I suggest that an analogous bias in psychologically realistic search is <emphasis>motivated stopping</emphasis> and <emphasis>motivated continuation</emphasis>: when we have a <emphasis>hidden</emphasis> motive for choosing the “best” current option, we have a hidden motive to stop, and choose, and reject consideration of any more options. When we have a hidden motive to reject the current best option, we have a hidden motive to suspend judgment pending additional evidence, to generate more options—to find something, anything, to do <emphasis>instead</emphasis> of coming to a conclusion.</para>
+<para>A major historical scandal in statistics was R. A. Fisher, an eminent founder of the field, insisting that no <emphasis>causal</emphasis> link had been established between smoking and lung cancer. “Correlation is not causation,” he testified to Congress. Perhaps smokers had a gene which both predisposed them to smoke and predisposed them to lung cancer.</para>
+<para>Or maybe Fisher’s being employed as a consultant for tobacco firms gave him a hidden motive to decide that the evidence already gathered was insufficient to come to a conclusion, and it was better to keep looking. Fisher was also a smoker himself, and died of colon cancer in 1962.<footnote xml:id="fn_b0230a7e80d391fa7c145f7f3e38ec4e">
+    <para>Ad hominem note: Fisher was a frequentist. Bayesians are more reasonable about inferring probable causality; see Judea Pearl’s <emphasis>Causality: Models, Reasoning, and Inference</emphasis>.</para>
+  </footnote>
+<anchor xml:id="x38-39001f1"/></para>
+<para>Like many other forms of motivated skepticism, motivated continuation can try to disguise itself as virtuous rationality. Who can argue against gathering more evidence?<footnote xml:id="fn_7e4349620e400cb7e769bc3897f6f154">
+    <para>Compare <anchor xml:id="cite.0.Hanson.2007b"/>Robin Hanson, “Cut Medicine In Half,” <emphasis>Overcoming Bias</emphasis> (blog), September 10, 2007,<link xl:href="http://www.overcomingbias.com/2007/09/cut-medicine-in.html">http://www.overcomingbias.com/2007/09/cut-medicine-in.html</link>.</para>
+  </footnote>
+<anchor xml:id="x38-39002f2"/></para>
+<para>I can. Evidence is often costly, and worse, slow, and there is certainly nothing virtuous about refusing to integrate the evidence you already have. You can always change your mind later.<footnote xml:id="fn_fcfea6b993877adbea7ab9e9ab3a029a">
+    <para>Apparent contradiction resolved as follows: Spending <emphasis>one hour</emphasis> discussing the problem, with your mind carefully cleared of all conclusions, is different from waiting ten years on another $20 million study.</para>
+  </footnote>
+<anchor xml:id="x38-39003f3"/></para>
+<para>As for motivated stopping, it appears in every place a third alternative is feared, and wherever you have an argument whose obvious counterargument you would rather not see, and in other places as well. It appears when you pursue a course of action that makes you feel good just for acting, and so you’d rather not investigate how well your plan <emphasis>really</emphasis> worked, for fear of destroying the warm glow of moral satisfaction you paid good money to purchase.<footnote xml:id="fn_3087b635346e831b74fe2024b0e926cb">
+    <para>See “‘Can’t Say No’ Spending.” <link xl:href="https://www.lesswrong.com/posts/LxcJHS2Lt22mHQ4Hm/can-t-say-no-spending">http://lesswrong.com/lw/kb/cant_say_no_spending</link>.</para>
+  </footnote>
+<anchor xml:id="x38-39004f4"/> It appears wherever your beliefs and anticipations get out of sync, so you have a reason to fear any new evidence gathered.<footnote xml:id="fn_439b59e0cc2e8b9d3019d3b72f78afb5">
+    <para>See “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_CqyJzDZWvGhhFJ7dY">Belief in Belief</olink>” in <emphasis>Map and Territory</emphasis>.</para>
+  </footnote>
+<anchor xml:id="x38-39005f5"/></para>
+<para>The moral is that the decision to terminate a search procedure (temporarily or permanently) is, like the search procedure itself, subject to bias and hidden motives. You should suspect motivated stopping when you close off search, after coming to a comfortable conclusion, and yet there’s a lot of fast cheap evidence you haven’t gathered yet—there are websites you could visit, there are counter-counter arguments you could consider, or you haven’t closed your eyes for five minutes by the clock trying to think of a better option. You should suspect motivated continuation when some evidence is leaning in a way you don’t like, but you decide that more evidence is needed—<emphasis>expensive</emphasis> evidence that you know you can’t gather anytime soon, as opposed to something you’re going to look up on Google in thirty minutes—before you’ll have to do anything uncomfortable.</para>
+
+  
+</section>
