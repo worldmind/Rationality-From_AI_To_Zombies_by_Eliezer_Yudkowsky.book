@@ -14,7 +14,7 @@
   </info>
   <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
 <indexterm><primary>Rationality</primary></indexterm>
-  <para>Imagine reaching into an urn that contains seventy white balls and thirty red ones, and plucking out ten mystery balls.</para>
+  <para>Представьте себе урну с 70 белыми и 30 красными шарами; вы вытаскиваете 10 наугад.</para>
 <para>Perhaps three of the ten balls will be red, and you’ll correctly guess how many red balls total were in the urn. Or perhaps you’ll happen to grab four red balls, or some other number. Then you’ll probably get the total number wrong.</para>
 <para>This random error is the cost of incomplete knowledge, and as errors go, it’s not so bad. Your estimates won’t be incorrect <emphasis role="italic">on average</emphasis>, and the more you learn, the smaller your error will tend to be.</para>
 <para>On the other hand, suppose that the white balls are heavier, and sink to the bottom of the urn. Then your sample may be unrepresentative in a consistent direction.</para>
