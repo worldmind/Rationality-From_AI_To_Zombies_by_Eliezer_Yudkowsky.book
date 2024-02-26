@@ -6,7 +6,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xl="http://www.w3.org/1999/xlink">
   <info>
-    <title>What Do We Mean By "Rationality"?</title>
+    <title>Что такое рациональность?</title>
     <bibliosource class="uri">
       <link xlink:href="https://www.lesswrong.com/posts/RcZCwxFiZzE6X7nsv/what-do-we-mean-by-rationality-1"></link>
     </bibliosource>
@@ -16,16 +16,16 @@
 <indexterm><primary>Distinctions</primary></indexterm>
 <indexterm><primary>Rationality</primary></indexterm>
 <indexterm><primary>Definitions</primary></indexterm>
-  <para>I mean two things:</para>
-<para>1. <emphasis role="bold">Epistemic rationality</emphasis>: systematically improving the accuracy of your beliefs.</para>
-<para>2. <emphasis role="bold">Instrumental rationality</emphasis>: systematically achieving your values.</para>
-<para>The first concept is simple enough. When you open your eyes and look at the room around you, you’ll locate your laptop in relation to the table, and you’ll locate a bookcase in relation to the wall. If something goes wrong with your eyes, or your brain, then your mental model might say there’s a bookcase where no bookcase exists, and when you go over to get a book, you’ll be disappointed.</para>
-<para>This is what it’s like to have a false belief, a map of the world that doesn’t correspond to the territory. Epistemic rationality is about building accurate maps instead. This correspondence between belief and reality is commonly called “truth,” and I’m happy to call it that.<footnote xml:id="fn_c6104807f28e0eaff9563fc4d0130a65">
+  <para>Под рациональностью я подразумеваю:</para>
+<para>1. <emphasis role="bold">Эпистемическую рациональность</emphasis>: то есть систематическое улучшение точности своих убеждений.</para>
+<para>2. <emphasis role="bold">Инструментальную рациональность</emphasis>: то есть систематическое достижение желаемых результатов.</para>
+<para>Когда вы открываете глаза и осматриваете комнату, вы замечаете ноутбук на столе и книжный шкаф около стены. Если с вашими глазами или вашим мозгом случится что-нибудь плохое, возможно, у вас в голове окажется мысленная модель, которая скажет, что шкаф стоит там, где его на самом деле нет. В этом случае, когда вы пойдёте за книгой, вам будет обидно.</para>
+<para>Примерно так и выглядят ложные убеждения — карта мира, не соответствующая территории. Эпистемическая рациональность посвящена построению карт, точно отображающих реальность. Точную связь между убеждением и реальностью обычно называют «истиной», и я тоже с радостью пользуюсь этим словом.<footnote xml:id="fn_c6104807f28e0eaff9563fc4d0130a65">
     <para> For a longer discussion of truth, see “<olink targetdoc="item_PYQ2izdfDPTe5uJTG" targetptr="item_X3HpE8tMXz4m4w6Rz">The Simple Truth</olink>” at the very end of this volume.</para>
   </footnote>
 </para>
-<para>Instrumental rationality, on the other hand, is about <emphasis role="italic">steering</emphasis> reality—sending the future where you want it to go. It’s the art of choosing actions that lead to outcomes ranked higher in your preferences. I sometimes call this “winning.”</para>
-<para>So rationality is about forming true beliefs and making decisions that help you win.</para>
+<para>С другой стороны, инструментальная рациональность посвящена <emphasis role="italic">управлению</emphasis> реальностью. Вы делаете будущее таким, каким вам хочется. Инструментальная рациональность — это искусство выбрать действия, которые приведут к последствиям, стоящим выше в вашей шкале предпочтений. Иногда я называю это «выигрыванием».</para>
+<para>Так что рациональность — это искусство формировать истинные убеждения и принимать выигрышные решения.</para>
 <para>(Where truth doesn&apos;t mean “certainty,” since we can do plenty to increase the <emphasis role="italic">probability</emphasis> that our beliefs are accurate even though we&apos;re uncertain; and winning doesn&apos;t mean “winning at others&apos; expense,” since our values include <emphasis role="italic">everything</emphasis> we care about, including other people.)</para>
 <para>When people say “X is rational!” it’s usually just a more strident way of saying “I think X is true” or “I think X is good.” So why have an additional word for “rational” as well as “true” and “good”?</para>
 <para>An analogous argument can be given against using “true.” There is no need to say “it is true that snow is white” when you could just say “snow is white.” What makes the idea of truth useful is that it allows us to talk about the general features of map-territory correspondence. “True models usually produce better experimental predictions than false models” is a useful generalization, and it’s not one you can make without using a concept like “true” or “accurate.”</para>
