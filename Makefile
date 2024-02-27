@@ -25,6 +25,9 @@ PDF_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(PDF_DIR)/%.pdf,$(DBK_FILES))
 CLDB_CHUNKS=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),%.db,$(DBK_FILES))
 HTML_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(HTML_DIR)/%/index.html,$(DBK_FILES))
 
+RU_BOOK_URL=https://lesswrong.ru/book/export/html/285
+RU_BOOK_DIR=lesswrong.ru
+
 #.ONESHELL:
 
 install:
@@ -33,7 +36,7 @@ install:
 	source ${VENV_DIR}/bin/activate; \
 	pip install --upgrade pip; \
 	pip install -r scripts/requirements.txt
-	sudo apt-get install herold docbook-xsl fop libxml2-utils pre-commit
+	sudo apt-get install herold docbook-xsl fop libxml2-utils pre-commit wget
 	pre-commit install
 
 format:
@@ -47,6 +50,11 @@ py:
 get_com:
 	source ${VENV_DIR}/bin/activate; \
 	CONFIG_FILE=$(COMMON_VARS) python scripts/download_from_lesswrong.com.py > $(LOG_FILE) 2>&1
+
+get_ru:
+	@echo "Downloading 'Рациональность: от ИИ до зомби'"; \
+	mkdir --parents --verbose $(RU_BOOK_DIR) \
+	&& wget --show-progress --output-document=$(RU_BOOK_DIR)/Рациональность:_от_ИИ_до_зомби.html $(RU_BOOK_URL)
 
 valid_book: book validate
 
