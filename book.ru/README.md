@@ -90,7 +90,7 @@
 - немного подправленный относительный путь, скопированный ранее, например, из "book.ru/01_Map_and_Territory/01_Predictably_Wrong/04_The_Martial_Art_of_Rationality.dbk" сделайте "01_Map_and_Territory/01_Predictably_Wrong/04_The_Martial_Art_of_Rationality" убрав "book.ru/" и ".dbk"
 - ваш никнейм на `github.com`. Все пробелы в получившейся фразе замените на подчеркивания.
 
-Например, для текста с заголовком `he_Martial_Art_of_Rationality` и никнеймом `superzhuk`, название ветки будет `01_Map_and_Territory/01_Predictably_Wrong/04_The_Martial_Art_of_Rationality_superzhuk`. Впишите название ветки в поле и нажмите enter.
+Например, для текста с заголовком `The_Martial_Art_of_Rationality` и никнеймом `superzhuk`, название ветки будет `01_Map_and_Territory/01_Predictably_Wrong/04_The_Martial_Art_of_Rationality_superzhuk`. Впишите название ветки в поле и нажмите enter.
 
 <p align="center"><img src="readme/branch_name.png" width="50%"></p>
 
