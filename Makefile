@@ -27,6 +27,7 @@ HTML_FILES=$(patsubst $(BOOK_DIR)/%$(BOOK_EXT),$(HTML_DIR)/%/index.html,$(DBK_FI
 
 RU_BOOK_URL=https://lesswrong.ru/book/export/html/285
 RU_BOOK_DIR=lesswrong.ru
+RU_DBK_DIR=book.ru
 
 #.ONESHELL:
 
@@ -36,7 +37,7 @@ install:
 	source ${VENV_DIR}/bin/activate; \
 	pip install --upgrade pip; \
 	pip install -r scripts/requirements.txt
-	sudo apt-get install herold docbook-xsl fop libxml2-utils pre-commit wget
+	sudo apt-get install herold docbook-xsl fop libxml2-utils pre-commit wget sed findutils
 	pre-commit install
 
 format:
@@ -138,6 +139,22 @@ $(HTML_DIR)/index.html:
 html_clean:
 	@echo "Deleting temporary files:"
 	rm $(HTML_DIR)/*.db $(HTML_DIR)/$(CROSSLINKS_DB)
+
+count_translated_text:
+	@echo "Calculating the percentage of translated text:"
+	@all_en=0; all_ru=0; \
+	\
+	for file in $$(find $(RU_DBK_DIR) -name '*$(BOOK_EXT)'); do \
+		cnt_en=$$(cat $$file | tr -d '\n\r' | sed -e 's!<[^>]*>!!g; s!http[s]\?://\S*!!g; s![^a-zA-Z]*!!g' | wc -m); \
+		cnt_ru=$$(cat $$file | tr -d '\n\r' | sed -e 's!<[^>]*>!!g; s!http[s]\?://\S*!!g; s![^а-яА-Я]*!!g' | wc -m); \
+		\
+		printf "%s: %d%% ready\n" $$file $$(( $$cnt_ru * 100/($$cnt_ru + $$cnt_en) )); \
+		\
+		all_en=$$(( $$all_en + $$cnt_en )); \
+		all_ru=$$(( $$all_ru + $$cnt_ru )); \
+	done; \
+	\
+	printf "\nTotal: %d%% ready\n" $$(( $$all_ru * 100/($$all_ru + $$all_en) ))
 
 check_links:
 	source ${VENV_DIR}/bin/activate; \
