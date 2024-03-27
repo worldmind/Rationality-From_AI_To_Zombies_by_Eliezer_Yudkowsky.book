@@ -12,9 +12,9 @@
     </bibliosource>
     <pubdate doc_status="draft">2021-04-01</pubdate>
   </info>
-  <indexterm><primary>Occam's Razor</primary></indexterm>
+  <indexterm><primary>Бритва Оккама</primary></indexterm>
 <indexterm><primary>Principles</primary></indexterm>
-  <para>The more complex an explanation is, the more evidence you need just to find it in belief-space. (In Traditional Rationality this is often phrased misleadingly, as “The more complex a proposition is, the more evidence is required to argue for it.”) How can we measure the complexity of an explanation? How can we determine how much evidence is required?</para>
+  <para>Чем сложнее объяснение, тем больше свидетельств необходимо, чтобы просто определить его в пространстве убеждений (в Традиционной Рациональности это формулируется вводящим в заблуждение образом, скажем, «чем сложнее утверждение, тем больше требуется оснований, чтобы его принять»). Как можно измерить сложность объяснения? Как определить, сколько свидетельств потребуется?</para>
 <para>Occam’s Razor is often phrased as “The simplest explanation that fits the facts.” Robert Heinlein replied that the simplest explanation is “The lady down the street is a witch; she did it.”</para>
 <para>One observes that the length of an English sentence is not a good way to measure “complexity.” And “fitting” the facts by merely <emphasis role="italic">failing to prohibit</emphasis> them is insufficient.</para>
 <para>Why, exactly, is the length of an English sentence a poor measure of complexity? Because when you speak a sentence aloud, you are using <emphasis role="italic">labels</emphasis> for concepts that the listener shares—the receiver has already stored the complexity in them. Suppose we abbreviated Heinlein’s whole sentence as “Tldtsiawsdi!” so that the entire explanation can be conveyed in one word; better yet, we’ll give it a short arbitrary label like “Fnord!” Does this reduce the complexity? No, because you have to tell the listener in advance that “Tldtsiawsdi!” stands for “The lady down the street is a witch; she did it.” “Witch,” itself, is a label for some extraordinary assertions—just because we all know what it means doesn’t mean the concept is simple.</para>
