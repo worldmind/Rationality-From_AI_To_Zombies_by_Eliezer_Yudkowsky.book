@@ -6,7 +6,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xl="http://www.w3.org/1999/xlink">
   <info>
-    <title>Hindsight Devalues Science</title>
+    <title>Знание задним числом обесценивает науку</title>
     <bibliosource class="uri">
       <link xlink:href="https://www.lesswrong.com/posts/WnheMGAka4fL99eae/hindsight-devalues-science"></link>
     </bibliosource>
@@ -15,47 +15,47 @@
   <indexterm><primary>Heuristics &amp; Biases</primary></indexterm>
 <indexterm><primary>Fallacies</primary></indexterm>
 <indexterm><primary>Hindsight Bias</primary></indexterm>
-  <para>This essay is closely based on an <link xl:href="https://web.archive.org/web/20170801042830/http://csml.som.ohio-state.edu:80/Music829C/hindsight.bias.html">excerpt</link> from Meyers’s <emphasis role="italic">Exploring Social Psychology</emphasis>; the excerpt is worth reading in its entirety.</para>
-<para>Cullen Murphy, editor of <emphasis role="italic">The Atlantic</emphasis>, said that the social sciences turn up “no ideas or conclusions that can’t be found in [any] encyclopedia of quotations . . . Day after day social scientists go out into the world. Day after day they discover that people’s behavior is pretty much what you’d expect.”</para>
-<para>Of course, the “expectation” is all <link xl:href="https://www.lesswrong.com/posts/fkM9XsNvXdYH6PPAx/hindsight-bias">hindsight</link>. (Hindsight bias: Subjects who know the actual answer to a question assign much higher probabilities they “would have” guessed for that answer, compared to subjects who must guess without knowing the answer.)</para>
-<para>The historian Arthur Schlesinger, Jr. dismissed scientific studies of World War II soldiers’ experiences as “ponderous demonstrations” of common sense. For example:</para>
+  <para>Этот отрывок(English) <link xl:href="https://web.archive.org/web/20170801042830/http://csml.som.ohio-state.edu:80/Music829C/hindsight.bias.html">из книги</link> Дэвида Майерса <emphasis role="italic">«Изучаем социальную психологию»</emphasis>, стоит того, чтобы прочитать его полностью.</para>
+<para>Каллен Мерфи, издатель журнала <emphasis role="italic">The Atlantic</emphasis>заметил, что социальные науки не открывают ничего, что нельзя было бы «найти в цитатниках заранее… День за днем ученые-социологи выходят в мир. И день за днем они открывают, что поведение людей очень похоже на то, что ты и так мог предсказать и ожидал увидеть».</para>
+<para>Конечно же, всё это «ожидание увидеть» вытекает из <link xl:href="https://www.lesswrong.com/posts/fkM9XsNvXdYH6PPAx/hindsight-bias">эффекта знания задним числом</link>. ((эффект знания задним числом: знающие ответ на вопрос люди считают его более очевидным, чем люди, пытающиеся угадать ответ, не зная его заранее; «разумеется, я додумался бы до этого!»).</para>
+<para>Историк Артур Шлезингер-младший называл социологические исследования американских солдат времен второй мировой войны «нудной демонстрацией» здравого смысла. Например:</para>
 <orderedlist>
   <listitem>
-    <para> Better educated soldiers suffered more adjustment problems than less educated soldiers. (Intellectuals were less prepared for battle stresses than street-smart people.) </para>
+    <para> У солдат с более высоким уровнем образования возникало больше проблем с адаптацией, чем у менее образованных (интеллектуалы были менее готовы к стрессам войны, чем люди, выросшие на улицах). </para>
   </listitem>
   <listitem>
-    <para> Southern soldiers coped better with the hot South Sea Island climate than Northern soldiers. (Southerners are more accustomed to hot weather.) </para>
+    <para> Южане легче, чем северяне, переносили жару островов Южного моря (южане более привычны к жаркому климату). </para>
   </listitem>
   <listitem>
-    <para> White privates were more eager to be promoted to noncommissioned officers than Black privates. (Years of oppression take a toll on achievement motivation.) </para>
+    <para> Белые рядовые сильнее, чем чернокожие, стремились к продвижению по службе (годы угнетения посеяли в чернокожих желание «не высовываться»). </para>
   </listitem>
   <listitem>
-    <para> Southern Blacks preferred Southern to Northern White officers. (Southern officers were more experienced and skilled in interacting with Blacks.) </para>
+    <para> Чернокожие южане предпочитали белых офицеров с Юга офицерам с Севера (так как первые обладали большим опытом общения с чернокожими). </para>
   </listitem>
   <listitem>
-    <para> As long as the fighting continued, soldiers were more eager to return home than after the war ended. (During the fighting, soldiers knew they were in mortal danger.)</para>
+    <para> Когда война окончилась, солдаты скучали по дому не так сильно, как во время боевых действий (во время битвы солдаты знали, что находятся в смертельной опасности и могут больше не увидеть родных).</para>
   </listitem>
 </orderedlist>
-<para>How many of these findings do you think you <emphasis role="italic">could have</emphasis> predicted in advance? Three out of five? Four out of five? Are there any cases where you would have predicted the opposite—where your model takes a hit? Take a moment to think before continuing . . .</para>
+<para>Сколько из этих наблюдений ты <emphasis role="italic">мог бы</emphasis> вывести заранее? 3 из 5? 4 из 5? Есть ли случаи, касательно которых ты предсказал бы противоположное; случаи, наносящие твоей модели мира удар? Прежде чем продолжить чтение, хорошо подумай над этим.</para>
 <para> </para>
 <para> </para>
 <para>. . .</para>
 <para> </para>
 <para> </para>
-<para>In this demonstration (from Paul Lazarsfeld by way of Meyers), all of the findings above are the <emphasis role="italic">opposite</emphasis> of what was actually found.<footnote xml:id="fn_69925c661bfc5d949df5bea5bf8c9c20">
+<para>Все утверждения из этого списка (которые Мейерс взял из книги Пола Лазарсфельда2) прямо <emphasis role="italic">противоположны</emphasis> тому, что было обнаружено в действительности.<footnote xml:id="fn_69925c661bfc5d949df5bea5bf8c9c20">
     <para> Paul F. Lazarsfeld, “The American Solidier—An Expository Review,” <emphasis role="italic">Public Opinion</emphasis><emphasis role="italic">Quarterly</emphasis> 13, no. 3 (1949): 377–404.</para>
   </footnote>
- How many times did you think your model took a hit? How many times did you admit you would have been wrong? That’s how good your model really was. The measure of your strength as a rationalist is your ability to be more confused by fiction than by reality.</para>
-<para>Unless, of course, I reversed the results again. What do you think?</para>
-<para>Do your thought processes at this point, where you <emphasis role="italic">really don’t</emphasis> know the answer, feel different from the thought processes you used to rationalize either side of the “known” answer?</para>
-<para>Daphna Baratz exposed college students to pairs of supposed findings, one true (“In prosperous times people spend a larger portion of their income than during a recession”) and one the truth’s opposite.<footnote xml:id="fn_8380b6e7673db3c8f74e42b6ad34c32e">
+ Сколько раз твоя модель мира была испытана на прочность? Сколько раз ты признал, что ты бы ошибся? Теперь можно сделать вывод о том, насколько хороша твоя модель на самом деле: сила рационалиста состоит в способности удивляться вымыслу больше, чем реальности.</para>
+<para>А ещё я мог перевернуть результаты ещё раз — тогда удары остаются ударами, а удачные предсказания удачными предсказаниями. Что скажешь?</para>
+<para>Теперь ты <emphasis role="italic">действительно не</emphasis> не знаешь ответа. Замечаешь ли ты, что процессы, идущие в твоей голове сейчас, чем-то отличаются от тех процессов, которые происходили там ранее? Чувствуешь ли ты, что поиск ответа ощущается по-другому, не так, как рационализация обеих сторон «известного» ответа?</para>
+<para>Дафна Барац разделила студентов на две группы и сообщала одной результат социологического исследования (например, «Во время подъема экономики люди тра­тят большую часть своего дохода, чем во время спада» или «Люди, регулярно посещающие церковь, стремятся иметь больше детей, чем те, кто редко ходит в церковь»), а другой — перевёрнутый результат того же социологического исследования.<footnote xml:id="fn_8380b6e7673db3c8f74e42b6ad34c32e">
     <para> Daphna Baratz, <emphasis role="italic">How Justified Is the “Obvious” Reaction?</emphasis> (Stanford University, 1983).</para>
   </footnote>
- In both sides of the pair, students rated the supposed finding as what they “would have predicted.” Perfectly standard hindsight bias.</para>
-<para>Which leads people to think they have no need for science, because they “could have predicted” that.</para>
-<para>(Just as you would expect, right?)</para>
-<para>Hindsight will lead us to systematically undervalue the surprisingness of scientific findings, especially the discoveries we <emphasis role="italic">understand</emphasis>—the ones that seem real to us, the ones we can retrofit into our models of the world. If you understand neurology or physics and read news in that topic, then you probably underestimate the surprisingness of findings in those fields too. This unfairly devalues the contribution of the researchers; and worse, will prevent you from noticing when you are seeing evidence that doesn’t fit what you <emphasis role="italic">really</emphasis> would have expected.</para>
-<para>We need to make a conscious effort to be shocked <emphasis role="italic">enough</emphasis>.</para>
+ Обе группы утверждали, что данный им результат они смогли бы предсказать заранее. Отличный пример эффекта знания задним числом.</para>
+<para>Что приводит людей к мысли, что им не нужна наука, ведь всё «и так ясно».</para>
+<para>(Довольно очевидный вывод, не так ли?)</para>
+<para>Знание задним числом заставляет нас систематически недооценивать неожиданность научных открытий, особенно тех открытий, которые мы можем <emphasis role="italic">понять</emphasis>; тех открытий, которые нам близки, и которые мы можем постфактум уместить в свою модель мира. Регулярно читающий новости человек, разбирающийся в неврологии или физике, скорее всего тоже недооценивает неожиданность открытий в этих дисциплинах. Этот эффект несправедливо обесценивает вклад исследователей, Этот эффект несправедливо обесценивает вклад исследователей, отличаются от того, что бы ты предсказал на самом деле.</para>
+<para>Без сознательного усилия невозможно почувствовать <emphasis role="italic">должный</emphasis> уровень шока.</para>
 
   
 </section>
