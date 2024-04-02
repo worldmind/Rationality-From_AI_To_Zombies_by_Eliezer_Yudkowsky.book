@@ -6,7 +6,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xl="http://www.w3.org/1999/xlink">
   <info>
-    <title>Illusion of Transparency:  Why No One Understands You</title>
+    <title>Иллюзия прозрачности: почему вас не понимают</title>
     <bibliosource class="uri">
       <link xlink:href="https://www.lesswrong.com/posts/sSqoEw9eRP2kPKLCz/illusion-of-transparency-why-no-one-understands-you"></link>
     </bibliosource>
@@ -16,38 +16,38 @@
 <indexterm><primary>Inferential Distance</primary></indexterm>
 <indexterm><primary>Conversation (topic)</primary></indexterm>
 <indexterm><primary>Illusion of Transparency</primary></indexterm>
-  <para>In hindsight bias, people who know the outcome of a situation believe the outcome should have been easy to predict in advance. Knowing the outcome, we reinterpret the situation in light of that outcome. Even when warned, we can’t de-interpret to empathize with someone who doesn’t know what we know.</para>
-<para>Closely related is the <emphasis role="italic">illusion of transparency</emphasis>: We always know what <emphasis role="italic">we</emphasis> mean by our words, and so we expect others to know it too. Reading our own writing, the intended interpretation falls easily into place, guided by our knowledge of what we really meant. It’s hard to empathize with someone who must interpret blindly, guided only by the words.</para>
-<para>June recommends a restaurant to Mark; Mark dines there and discovers (a) unimpressive food and mediocre service or (b) delicious food and impeccable service. Then Mark leaves the following message on June’s answering machine: “June, I just finished dinner at the restaurant you recommended, and I must say, it was marvelous, just marvelous.” Keysar (1994) presented a group of subjects with scenario (a), and 59% thought that Mark’s message was sarcastic <emphasis role="italic">and that Jane would perceive the sarcasm</emphasis>.<footnote xml:id="fn_622fdcc72d68f12007b764a5c50f3535">
+  <para>Существует когнитивное искажение «знание задним числом». Оно проявляется так: люди, знающие, чем закончилась ситуация, верят, что исход можно было легко предсказать заранее. Когда мы знаем результат, мы переосмысливаем ситуацию с учетом этого результата. Даже если мы знаем об этом искажении, мы не можем воспринимать ситуацию так, как её воспринимает человек, который не знает того, что знаем мы.</para>
+<para>С этим тесно связана <emphasis role="italic">иллюзия прозрачности</emphasis>: мы всегда знаем, что означают наши слова, и ожидаем, что остальные тоже это знают. Мы правильно понимаем смысл, читая написанное нами, обладая знаниями о том, что мы действительно имели в виду. Этим смыслом сложно поделиться с кем-то, кто будет руководствоваться лишь словами.</para>
+<para>Джун порекомендовала ресторан Марку; Марк обедает там и обнаруживает, что там (а) посредственные еда и сервис или (б) вкусная еда и безупречный сервис. Затем Марк оставляет сообщение на автоответчик Джун: «Джун, я только что пообедал в ресторане, который ты мне порекомендовала, и я должен сказать, что это было изумительно, просто изумительно». Кейсар рассказал сценарий (а) группе людей, и 59% решило, что сообщение Марка было саркастическим <emphasis role="italic">и что Джун распознает сарказм</emphasis>.<footnote xml:id="fn_622fdcc72d68f12007b764a5c50f3535">
     <para> Boaz Keysar, “The Illusory Transparency of Intention: Linguistic Perspective Taking in Text,” <emphasis role="italic">Cognitive Psychology</emphasis> 26 (2 1994): 165–208.</para>
   </footnote>
- Among other subjects, told scenario (b), only 3% thought that Jane would perceive Mark’s message as sarcastic. Keysar and Barr (2002) seem to indicate that an actual voice message was played back to the subjects.<footnote xml:id="fn_2411c705737c123111d4e6ac3eb0fb76">
+ Среди тех, кому рассказали сценарий (б), только 3% решили, что Джун должна подумать о сообщении Марка как о саркастическом. Кейсар и Барр, по видимому, указывают, что испытуемые слышали голосовое сообщение.<footnote xml:id="fn_2411c705737c123111d4e6ac3eb0fb76">
     <para> Boaz Keysar and Dale J. Barr, “Self-Anchoring in Conversation: Why Language Users Do Not Do What They ‘Should,’” in <emphasis role="italic">Heuristics and Biases: The Psychology of Intuitive Judgment</emphasis>, ed. Griffin Gilovich and Daniel Kahneman (New York: Cambridge University Press, 2002), 150–166.</para>
   </footnote>
- Keysar (1998) showed that if subjects were told that the restaurant was horrible , they believed June would not perceive sarcasm in the (same) message:<footnote xml:id="fn_eb9c3dcf24fb9e408fa8ded3b42bd980">
+ Кейсар показал, что если испытуемым сказали, что ресторан ужасен, но что Марк хотел скрыть свою реакцию, то они верили, что Джун не распознает сарказм в подобном сообщении. <footnote xml:id="fn_eb9c3dcf24fb9e408fa8ded3b42bd980">
     <para> Boaz Keysar, “Language Users as Problem Solvers: Just What Ambiguity Problem Do They Solve?,” in <emphasis role="italic">Social and Cognitive Approaches to Interpersonal Communication</emphasis>, ed. Susan R. Fussell and Roger J. Kreuz (Mahwah, NJ: Lawrence Erlbaum Associates, 1998), 175–200.</para>
   </footnote>
 </para>
 <blockquote>
-  <para> They were just as likely to predict that she would perceive sarcasm when he attempted to conceal his negative experience as when he had a positive experience and was truly sincere. So participants took Mark’s <emphasis role="italic">communicative intention</emphasis> as transparent. It was as if they assumed that June would perceive whatever intention Mark wanted her to perceive.<footnote xml:id="fn_b249795a303340efc2a09814c6a55774">
+  <para> Они предсказывали, что Джун должна распознать сарказм, когда Марк пытался скрыть негативную реакцию, так же легко, как когда он искренне хвалил ресторан. Так что они восприняли сообщение Марка прозрачным. Как будто они ожидали, что Джун поймет всё, что Марк захочет ей сказать.<footnote xml:id="fn_b249795a303340efc2a09814c6a55774">
       <para> The wording here is from Keysar and Barr.</para>
     </footnote>
 </para>
 </blockquote>
-<para>“The goose hangs high” is an archaic English idiom that has passed out of use in modern language. Keysar and Bly (1995) told one group of subjects that “the goose hangs high” meant that the future looks good; another group of subjects learned that “the goose hangs high” meant the future looks gloomy.<footnote xml:id="fn_ddd33564b262a4c87248a529f38996c6">
+<para>«The goose hangs high» («Дело на мази») - старая английская идиома, которая не используется в современном языке. Кейсар и Блай сказали группе испытуемых, что «the goose hangs high» означает, что будущее выглядит многообещающим; другой группе сказали, что она означает, что будущее кажется мрачным.<footnote xml:id="fn_ddd33564b262a4c87248a529f38996c6">
     <para> Boaz Keysar and Bridget Bly, “Intuitions of the Transparency of Idioms: Can One Keep a Secret by Spilling the Beans?,” <emphasis role="italic">Journal of Memory and Language</emphasis> 34 (1 1995): 89–109.</para>
   </footnote>
- Subjects were then asked which of these two meanings an  listener would be more likely to attribute to the idiom. Each group thought that listeners would perceive the meaning presented as “standard.”<footnote xml:id="fn_95c104579e6bf01c0afff98d761b78b8">
-    <para> Other idioms tested included “come the uncle over someone,” “to go by the board,” and “to lay out in lavender.” Ah, English, such a lovely language.</para>
+ Затем испытуемых спросили, какое значение из этих двух кажется более подходящим для идиомы. Каждая группа решила, что именно услышанный ими смысл будет восприниматься как значение идиомы.<footnote xml:id="fn_95c104579e6bf01c0afff98d761b78b8">
+    <para> Также тестировались другие идиомы: “come the uncle over someone”, “to go by the board” и “to lay out in lavender”. Ах, английский, прелестный язык.</para>
   </footnote>
 </para>
-<para>Keysar and Henly (2002) tested the calibration of speakers: Would speakers underestimate, overestimate, or correctly estimate how often listeners understood them?<footnote xml:id="fn_45dc1263d3daada508ecba7a2d3830cc">
+<para>Кейсар и Хенли тестировали калибровку ораторов. Будут ли они недооценивать, переоценивать, или оценивать верно, как часто слушатели понимают их?<footnote xml:id="fn_45dc1263d3daada508ecba7a2d3830cc">
     <para> Boaz Keysar and Anne S. Henly, “Speakers’ Overestimation of Their Effectiveness,” <emphasis role="italic">Psychological Science</emphasis> 13 (3 2002): 207–212.</para>
   </footnote>
- Speakers were given ambiguous sentences (“The man is chasing a woman on a bicycle.”) and disambiguating pictures (a man running after a cycling woman). Speakers were then asked to utter the words in front of addressees, and asked to estimate how many addressees understood the intended meaning. Speakers thought that they were understood in 72% of cases and were actually understood in 61% of cases. When addressees did not understand, speakers thought they did in 46% of cases; when addressees did understand, speakers thought they did not in only 12% of cases.</para>
-<para>Additional subjects who <emphasis role="italic">overheard</emphasis> the explanation showed no such bias, expecting listeners to understand in only 56% of cases.</para>
-<para>As Keysar and Barr note, two days before Germany’s attack on Poland, Chamberlain sent a letter intended to make it clear that Britain would fight if any invasion occurred. The letter, phrased in polite diplomatese, was heard by Hitler as conciliatory—and the tanks rolled.</para>
-<para>Be not too quick to blame those who misunderstand your perfectly clear sentences, spoken or written. Chances are, your words are more ambiguous than you think.</para>
+ Ораторам были предоставлены неоднозначные выражения («Мужчина преследует женщину на велосипеде») и снимающие неоднозначность изображения (мужчина бежит за женщиной, которая едет на велосипеде). Ораторов попросили произнести выражения перед аудиторией и оценить, как много слушателей поняли вложенный смысл. Ораторы думали, что были поняты в 72% случаев, тогда как настоящая цифра - 61%. Когда слушатели не понимали, ораторы оценивали понимание в 46%. Когда слушатели понимали, ораторы оценивали непонимание в 12%.</para>
+<para>Другие субъекты, <emphasis role="italic">подслушавшие</emphasis> объяснение, показали отсутствие таких ошибок: они оценивали понимание в 56%.</para>
+<para>Как заметили Кейсар и Барр, за два дня до атаки Германии на Польшу, Чемберлен послал письмо, вложив туда намерение показать, что Британия вступит в бой, если вторжение состоится. Письмо, составленное из дипломатичных выражений, было воспринято Гитлером как примирительное - и танки поехали.</para>
+<para>Так что не стоит винить тех, кто не понял твои очевидные слова, в разговоре или письменно. Есть шанс, что твои слова более туманны, чем кажутся.</para>
 
   
 </section>
