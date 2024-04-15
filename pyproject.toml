@@ -17,4 +17,6 @@ ignore = [
     "S603", # `subprocess` call: check for execution of untrusted input
     "S607", # Starting a process with a partial executable path
     "E402", # Module level import not at top of file
+    "S320", # Using `lxml` to parse untrusted data is known to be vulnerable to XML attacks
+    "RUF001", # String contains ambiguous `а` (CYRILLIC SMALL LETTER A). Did you mean `a` (LATIN SMALL LETTER A)
 ]

@@ -3,3 +3,6 @@ black
 ruff
 pathlib
 urllib3
+lxml
+bigtree
+termcolor

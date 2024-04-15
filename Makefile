@@ -156,6 +156,10 @@ count_translated_text:
 	\
 	printf "\nTotal: %d%% ready\n" $$(( $$all_ru * 100/($$all_ru + $$all_en) ))
 
+report:
+	@source ${VENV_DIR}/bin/activate; \
+	CONFIG_FILE=$(COMMON_VARS) python scripts/translation_report.py 2>>$(LOG_FILE)
+
 check_links:
 	source ${VENV_DIR}/bin/activate; \
 	python -u scripts/utils/check_links.py > broken_links.txt 2>$(LOG_FILE)
