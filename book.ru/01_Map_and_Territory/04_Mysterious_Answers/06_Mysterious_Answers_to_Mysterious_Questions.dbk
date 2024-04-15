@@ -6,7 +6,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xl="http://www.w3.org/1999/xlink">
   <info>
-    <title>Mysterious Answers to Mysterious Questions</title>
+    <title>Таинственные ответы на таинственные вопросы</title>
     <bibliosource class="uri">
       <link xlink:href="https://www.lesswrong.com/posts/6i3zToomS86oj9bS6/mysterious-answers-to-mysterious-questions"></link>
     </bibliosource>
@@ -17,7 +17,8 @@
 <indexterm><primary>Reductionism</primary></indexterm>
 <indexterm><primary>Map and Territory</primary></indexterm>
 <indexterm><primary>Semantic Stopsign</primary></indexterm>
-  <para>Imagine looking at your hand, and knowing nothing of cells, nothing of biochemistry, nothing of DNA. You’ve learned some anatomy from dissection, so you know your hand contains muscles; but you don’t know why muscles move instead of lying there like clay. Your hand is just . . . stuff . . . and for some reason it moves under your direction. Is this not magic?</para>
+  <para>  <para>Представь, что ты глядишь на свою руку, ничего не зная ни о клетках, ни о биохимии, ни о ДНК. У тебя есть некоторые познания в анатомии, полученные путём препарирования, поэтому тебе ясно, что в ладони есть мышцы. Однако, ты не знаешь, почему они движутся, вместо того, чтобы неподвижно лежать, как кусок глины. Твоя рука — просто кусок… эмм… вещества, и почему-то этот предмет исполняет твои мысленные приказы. Разве это не волшебство?</para>
+</para>
 <blockquote>
   <para> It seemed to me then, and it still seems to me, most probable that the animal body does not act as a thermodynamic engine . . . The influence of animal or vegetable life on matter is infinitely beyond the range of any scientific inquiry hitherto entered on. Its power of directing the motions of moving particles, in the demonstrated daily miracle of our human free-will, and in the growth of generation after generation of plants from a single seed, are infinitely different from any possible result of the fortuitous concourse of atoms[.]<footnote xml:id="fn_2fb6b0a58f312cbbfd74b0163fc01f97">
       <para>Lord Kelvin, “On the Dissipation of Energy: Geology and General Physics,” in <emphasis role="italic">Popular</emphasis><emphasis role="italic">Lectures and Addresses, vol. ii</emphasis> (London: Macmillan, 1894).</para>
@@ -33,9 +34,9 @@
 </para>
   <para>—Lord Kelvin</para>
 </blockquote>
-<para>This was the theory of <emphasis role="italic">vitalism</emphasis> ; that the mysterious difference between living matter and non-living matter was explained by an <emphasis role="italic">Élan vital</emphasis> or <emphasis role="italic">vis vitalis</emphasis>. <emphasis role="italic">Élan vital</emphasis> infused living matter and caused it to move as consciously directed. <emphasis role="italic">Élan vital</emphasis> participated in chemical transformations which no mere non-living particles could undergo—Wöhler’s later synthesis of urea, a component of urine, was a major blow to the vitalistic theory because it showed that mere <emphasis role="italic">chemistry</emphasis> could duplicate a product of biology.</para>
+<para>В этом состоит теория <emphasis role="italic">витализма</emphasis>: загадочные различия между живой и неживой материей могут быть объяснены посредством <emphasis role="italic">«жизненной силы»</emphasis> («elan vital» или «vis vitalis»). <emphasis role="italic">«Жизненная сила»</emphasis> внедряется в живую материю и подчиняет её приказам сознания. <emphasis role="italic">Жизненная сила</emphasis> участвует в химических реакциях, из-за чего неживая материя не может проявлять часть свойств живой материи. В частности, без помощи жизненной силы невозможно получить живую материю из неживой; поэтому проведённый Фридрихом Вёлером химический синтез мочевины нанёс сильный удар по теории витализма, показав, что обыкновенной <emphasis role="italic">химии</emphasis> по силам получить биологический продукт.</para>
 <para>Calling “Élan vital” an explanation, even a fake explanation like phlogiston, is probably giving it too much credit. It functioned primarily as a curiosity-stopper. You said “Why?” and the answer was “Élan vital!”</para>
-<para>When you say “Élan vital!” it <emphasis role="italic">feels</emphasis> like you know why your hand moves. You have a little causal diagram in your head that says:</para>
+<para>Когда ты говоришь «жизненная сила!», тебе <emphasis role="italic">кажется</emphasis> , будто ты знаешь, почему двигается твоя рука. В твоей голове есть маленькая причинно-следственная диаграмма, которая говорит: [«жизненная сила!»] -> [рука двигается]. </para>
 <informalfigure>
   <mediaobject>
     <imageobject role="html">
@@ -46,28 +47,28 @@
     </imageobject>
   </mediaobject>
 </informalfigure>
-<para>But actually you know nothing you didn’t know before. You don’t know, say, whether your hand will generate heat or absorb heat, unless you have observed the fact already; if not, you won’t be able to predict it in advance. Your curiosity feels sated, but it hasn’t been fed. Since you can say “Why? Élan vital!” to any possible observation, it is equally good at explaining all outcomes, a disguised hypothesis of maximum entropy, et cetera.</para>
-<para>But the greater lesson lies in the vitalists’ reverence for the <emphasis role="italic">Élan vital</emphasis>, their eagerness to pronounce it a mystery beyond all science. Meeting the great dragon Unknown, the vitalists did not draw their swords to do battle, but bowed their necks in submission. They took pride in their ignorance, made biology into a <emphasis role="italic">sacred</emphasis> mystery, and thereby became loath to <olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_7ZqGiPHTpiDMwqMN2">relinquish their ignorance</olink> when evidence came knocking.</para>
-<para>The Secret of Life was <emphasis role="italic">infinitely beyond the reach of science!</emphasis> Not just a <emphasis role="italic">little</emphasis> beyond, mind you, but <emphasis role="italic">infinitely</emphasis> beyond! Lord Kelvin sure did get a tremendous emotional kick out of <emphasis role="italic">not knowing something.</emphasis></para>
-<para>But ignorance exists in the map, not in the territory. If I am ignorant about a phenomenon, that is a fact about my own state of mind, not a fact about the phenomenon itself. A phenomenon can <emphasis role="italic">seem</emphasis> mysterious to some particular person. There are no phenomena which are mysterious of themselves. To worship a phenomenon because it seems so wonderfully mysterious is to worship your own ignorance.</para>
-<para>Vitalism shared with phlogiston the error of <emphasis role="italic">encapsulating the mystery as a substance.</emphasis> Fire was mysterious, and the phlogiston theory encapsulated the mystery in a mysterious substance called “phlogiston.” Life was a sacred mystery, and vitalism encapsulated the sacred mystery in a mysterious substance called “Élan vital.” Neither answer helped concentrate the model’s probability density—helped make some outcomes easier to explain than others. The “explanation” just wrapped up the question as a small, hard, opaque black ball.</para>
-<para>In a comedy written by Molière, a physician explains the power of a soporific by saying that it contains a “dormitive potency.” Same principle. It is a failure of human psychology that, faced with a mysterious phenomenon, we more readily postulate mysterious inherent substances than complex underlying processes.</para>
-<para>But the deeper failure is supposing that an <emphasis role="italic">answer</emphasis> can be mysterious. If a phenomenon feels mysterious, that is a fact about our state of knowledge, not a fact about the phenomenon itself. The vitalists saw a mysterious gap in their knowledge, and postulated a mysterious stuff that plugged the gap. In doing so, they mixed up the map with the territory. All confusion and bewilderment exist in the mind, not in encapsulated substances.</para>
-<para>This is the ultimate and fully general explanation for why, again and again in humanity’s history, people are shocked to discover that an incredibly mysterious question has a non-mysterious answer. Mystery is a property of questions, not answers.</para>
-<para>Therefore I call theories such as vitalism <emphasis role="italic">mysterious answers to mysterious questions</emphasis>.</para>
-<para>These are the signs of mysterious answers to mysterious questions:</para>
+<para>Однако на самом деле ты не знаешь ничего, что не знал раньше. Например, ты не сможешь сказать, будут ли твои руки отдавать или поглощать тепло, пока не пронаблюдаешь это в действительности. Ты не сможешь предсказать этого заранее. Твоё любопытство удовлетворено, но оно удовлетворено пустышкой. Раз любому наблюдению ты можешь сказать «Почему? Жизненная сила!», то витализм одинаково хорошо объясняет все исходы, не способен противоречить вообще хоть каким-нибудь фактам, является замаскированной гипотезой максимальной энтропии, и так далее.</para>
+<para>Но главный урок нужно извлечь из благоговения виталистов пред <emphasis role="italic">жизненной силой</emphasis>, из их старания провозгласить её тайной, стоящей выше всей науки. Встретив великого дракона по имени Неизвестность, виталисты не обнажили клинков, чтобы попытаться пронзить его сердце, но мирно склонили головы в знак подчинения. Они превратили биологию в <emphasis role="italic">священную</emphasis> тайну и гордились своим невежеством, потому и не желая <olink targetdoc="item_T3CjiQq6bBgFuzvp6" targetptr="item_7ZqGiPHTpiDMwqMN2"> отказаться от незнания</olink>, когда на сцене появились свидетельства.</para>
+<para>Великий Секрет Живого был <emphasis role="italic">бесконечно далёк от науки</emphasis>! Не просто <emphasis role="italic">слегка вдали</emphasis>, заметьте, но <emphasis role="italic">бесконечно далёк</emphasis>! Лорд Кельвин явно получал колоссальное наслаждение от <emphasis role="italic">незнания</emphasis>.</para>
+<para>Но невежество — это то, что рисуется на карте, а не то, что можно обнаружить, гуляя по местности. Если я не имею ни малейшего представления о неком явлении, то это факт о состоянии моего разума, а не о самом явлении. Явление может быть таинственным <emphasis role="italic">в глазах</emphasis> некого определённого человека. Не существует явлений, таинственных самих по себе. Поклоняться явлению, потому что оно выглядит столь потрясающе таинственно, — означает поклоняться собственному невежеству.</para>
+<para>Витализм, как и флогистон, <emphasis role="italic">заключил загадку в отдельную субстанцию</emphasis>. Огонь был загадкой, и теория флогистона заключила загадку в таинственную субстанцию под названием «флогистон». Жизнь была священной тайной, и витализм заключил священную тайну в таинственную субстанцию под названием «жизненная сила». Ни один из ответов не попытался сконцентрировать плотность вероятности модели, сделать какие-то результаты более ожидаемыми, чем другие. Эти «объяснения» просто закутали вопрос в твёрдый непрозрачный чёрный шарик.</para>
+<para>В одной из комедий Мольера доктор объясняет действие снотворного тем, что в нём содержится «фактор усыпления». Тот же самый принцип. Это универсальный недочёт человеческой психики: столкнувшись с таинственным явлением, нам легче объяснить его через таинственную субстанцию с внутренне присущими ей свойствами, чем через лежащие в основе сложные процессы.</para>
+<para>Но ещё более страшная ошибка — допущение того, что <emphasis role="italic">ответ</emphasis>может быть таинственным. Если явление кажется таинственным, то это факт о наших знаниях, а не факт о самом явлении. Виталисты увидели таинственный пробел в своих знаниях и постулировали таинственную штуку, заполняющую этот пробел. Тем самым они перемешали карту и местность. Всё недоумение и замешательство находятся в карте, а не внутри отдельных субстанций.</para>
+<para>Именно поэтому раз за разом на протяжении всей человеческой истории люди поражаются тому, что невероятно таинственный вопрос имеет приземлённый не-таинственный ответ. Окутанными тайной могут быть только вопросы, но не ответы.</para>
+<para>Поэтому я называю теории вроде витализма <emphasis role="italic">«таинственными ответами на таинственные вопросы»</emphasis>.</para>
+<para>Признаки таинственных ответов на таинственные вопросы:</para>
 <itemizedlist>
   <listitem>
-    <para> First, the explanation acts as a curiosity-stopper rather than an anticipation-controller.</para>
+    <para>Во-первых, объяснение работает не контроллером ожиданий, а затычкой для любопытства.</para>
   </listitem>
   <listitem>
-    <para> Second, the hypothesis has no moving parts—the model is not a specific complex mechanism, but a blankly solid substance or force. The mysterious substance or mysterious force may be said to be here or there, to cause this or that; but the reason why the mysterious force behaves thus is wrapped in a blank unity.</para>
+    <para>Во-вторых, в гипотезе нет движущихся частей: модель является не определённым сложным механизмом, а, скорее, просто сплошной субстанцией или силой. В гипотезе говорится, что таинственная субстанция или таинственная сила находятся вот здесь и вызывают вот это, но причина, по которой таинственная сила ведёт себя именно таким образом, инкапсулирована в пустую тавтологию.</para>
   </listitem>
   <listitem>
-    <para> Third, those who proffer the explanation cherish their ignorance; they speak proudly of how the phenomenon defeats ordinary science or is unlike merely mundane phenomena.</para>
+    <para>В-третьих, люди, предлагающие это объяснение, дорожат собственным незнанием. Они с гордостью говорят о том, что обычная наука терпит поражение от этого явления, и о том, как это явление непохоже на все остальные обыденные явления.</para>
   </listitem>
   <listitem>
-    <para> Fourth, <emphasis role="italic">even after the answer is given, the phenomenon is still a mystery </emphasis>and possesses the same quality of wonderful inexplicability that it had at the start.</para>
+    <para>В-четвёртых, несмотря на этот ответ, <emphasis role="italic">явление по-прежнему остаётся тайной</emphasis>, сохранив ту же степень завораживающей необъяснимости, что и вначале.</para>
   </listitem>
 </itemizedlist>
 
