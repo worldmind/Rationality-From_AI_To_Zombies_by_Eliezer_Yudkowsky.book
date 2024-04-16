@@ -90,10 +90,7 @@ def print_report_line(
         suffix += colored("EN", "red", attrs=["bold"])
 
     # align right
-    num_spaces = terminal_width - len(line) - len(suffix)
-    num_spaces = max(1, num_spaces)
-
-    line = line + " " * num_spaces + suffix
+    line += " " + suffix.rjust(terminal_width - len(line.strip("\n")) - 1)
 
     print(line)
 
@@ -123,8 +120,7 @@ def print_report(report: dict) -> None:
 
     total_translated = all_ru / (all_ru + all_en)
 
-    print()
-    print_report_line("Total:", total_translated)
+    print_report_line("\nTotal:", total_translated)
 
 
 def main() -> None:
