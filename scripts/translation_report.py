@@ -59,50 +59,68 @@ def get_text(
     return url_re.sub("", content)
 
 
-def count_translated(
+def count_chars(
     txt: str,
     cyrillic_re: Pattern[str] = re.compile(r"[а-яА-ЯЁё]+"),
     latin_re: Pattern[str] = re.compile(r"[a-zA-Z]+"),
-) -> float:
+) -> dict:
     cnt_ru = len("".join(cyrillic_re.findall(txt)))
     cnt_en = len("".join(latin_re.findall(txt)))
 
-    if (cnt_ru + cnt_en) == 0:
-        return 1
+    return {"ru": cnt_ru, "en": cnt_en}
 
-    return cnt_ru / (cnt_ru + cnt_en)
+
+def print_report_line(
+    line: str,
+    translated: float,
+    terminal_width: int = os.get_terminal_size().columns,
+    almost_done: float = 0.9,
+) -> None:
+    if translated is None:
+        print(line)
+        return
+
+    # translated
+    suffix = f"ru={translated * 100:.2f}% "
+
+    # language
+    if translated >= almost_done:
+        suffix += colored("RU", "green", attrs=["bold"])
+    else:
+        suffix += colored("EN", "red", attrs=["bold"])
+
+    # align right
+    line += " " + suffix.rjust(terminal_width - len(line.strip("\n")) - 1)
+
+    print(line)
 
 
 def print_report(report: dict) -> None:
-    terminal_width = os.get_terminal_size().columns
     ftree_style = {
         "style": "custom",
         "custom_style": ("│     ", "├── ¤ ", "└── ¤ "),
     }
-    almost_done = 0.9
+    all_ru = 0
+    all_en = 0
 
     ftree = dict_to_tree(report)
 
     for branch, stem, node in yield_tree(ftree, **ftree_style):
-        ftree_line = f"{branch}{stem}{node.node_name}"
+        translated = None
 
         if node.is_leaf:
-            # translated
-            attrs = f"ru={node.translated * 100:.2f}% "
-
-            # language
-            if node.translated >= almost_done:
-                attrs += colored("RU", "green", attrs=["bold"])
+            if (node.ru + node.en) == 0:
+                translated = 1
             else:
-                attrs += colored("EN", "red", attrs=["bold"])
+                all_ru += node.ru
+                all_en += node.en
+                translated = node.ru / (node.ru + node.en)
 
-            # align right
-            num_spaces = terminal_width - len(ftree_line) - len(attrs)
-            num_spaces = max(1, num_spaces)
+        print_report_line(f"{branch}{stem}{node.node_name}", translated)
 
-            ftree_line = ftree_line + " " * num_spaces + attrs
+    total_translated = all_ru / (all_ru + all_en)
 
-        print(ftree_line)
+    print_report_line("\nTotal:", total_translated)
 
 
 def main() -> None:
@@ -115,7 +133,7 @@ def main() -> None:
         log.debug("Process file: %s", file)
 
         txt = get_text(file)
-        report[str(file)] = {"translated": count_translated(txt)}
+        report[str(file)] = count_chars(txt)
 
     print_report(report)
 
