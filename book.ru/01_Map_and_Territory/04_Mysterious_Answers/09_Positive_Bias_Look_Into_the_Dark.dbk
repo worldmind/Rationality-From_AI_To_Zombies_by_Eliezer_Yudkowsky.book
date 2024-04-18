@@ -6,7 +6,7 @@
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xl="http://www.w3.org/1999/xlink">
   <info>
-    <title>Positive Bias: Look Into the Dark</title>
+    <title>Подтверждающее искажение: взгляд во тьму</title>
     <bibliosource class="uri">
       <link xlink:href="https://www.lesswrong.com/posts/rmAbiEKQDpDnZzcRf/positive-bias-look-into-the-dark"></link>
     </bibliosource>
@@ -14,8 +14,8 @@
   </info>
   <indexterm><primary>Confirmation Bias</primary></indexterm>
 <indexterm><primary>Games (posts describing)</primary></indexterm>
-  <para>I am teaching a class, and I write upon the blackboard three numbers: 2-4-6. “I am thinking of a rule,” I say, “which governs sequences of three numbers. The sequence 2-4-6, as it so happens, obeys this rule. Each of you will find, on your desk, a pile of index cards. Write down a sequence of three numbers on a card, and I’ll mark it ‘Yes’ for fits the rule, or ‘No’ for not fitting the rule. Then you can write down another set of three numbers and ask whether it fits again, and so on. When you’re confident that you know the rule, write down the rule on a card. You can test as many triplets as you like.”</para>
-<para>Here’s the record of one student’s guesses:</para>
+  <para>Однажды, проводя занятие у студентов, я выписал на доске три числа: 2-4-6. «Я загадал правило, — сказал я, — которому подчиняются последовательности трех чисел. Данная последовательность подходит под это правило. Каждый из вас найдет у себя на парте листы бумаги. Выпишите последовательность трех чисел на карточке, а я в зависимости от того, подходит ли последовательность под правило, напишу на листе «да» или «нет». Это можно повторять до тех пор, пока вы не будете уверены, что угадали правило. После этого вы должны записать правило внизу листа».</para>
+<para>Вот последовательность предположений одного из студентов:</para>
 <para> </para>
 <informaltable frame="none">
   <tgroup cols="2">
@@ -24,34 +24,34 @@
     <tbody>
       <row>
         <entry><para>4-6-2</para></entry>
-        <entry><para>No</para></entry>
+        <entry><para>нет</para></entry>
       </row>
       <row>
         <entry><para>4-6-8</para></entry>
-        <entry><para>Yes</para></entry>
+        <entry><para>да</para></entry>
       </row>
       <row>
         <entry><para>10-12-14</para></entry>
-        <entry><para>Yes</para></entry>
+        <entry><para>да</para></entry>
       </row>
     </tbody>
   </tgroup>
 </informaltable>
 <para> </para>
-<para>At this point the student wrote down their guess at the rule. What do <emphasis role="italic">you</emphasis> think the rule is? Would you have wanted to test another triplet, and if so, what would it be? Take a moment to think before continuing.</para>
-<para>The challenge above is based on a classic experiment due to Peter Wason, the 2-4-6 task. Although subjects given this task typically expressed high confidence in their guesses, only 21% of the subjects successfully guessed the experimenter’s real rule, and replications since then have continued to show success rates of around 20%.</para>
-<para>The study was called “On the failure to eliminate hypotheses in a conceptual task.” Subjects who attempt the 2-4-6 task usually try to generate <emphasis role="italic">positive</emphasis> examples, rather than <emphasis role="italic">negative</emphasis> examples—they apply the hypothetical rule to generate a representative instance, and see if it is labeled “Yes.”</para>
-<para>Thus, someone who forms the hypothesis “numbers increasing by two” will test the triplet 8-10-12, hear that it fits, and confidently announce the rule. Someone who forms the hypothesis X-2X-3X will test the triplet 3-6-9, discover that it fits, and then announce that rule.</para>
-<para>In every case the actual rule is the same: the three numbers must be in ascending order.</para>
-<para>But to discover this, you would have to generate triplets that <emphasis role="italic">shouldn’t</emphasis> fit, such as 20-23-26, and see if they are labeled “No.” Which people tend not to do, in this experiment. In some cases, subjects devise, “test,” and announce rules far more complicated than the actual answer.</para>
-<para>This cognitive phenomenon is usually lumped in with “confirmation bias.” However, it seems to me that the phenomenon of trying to test <emphasis role="italic">positive</emphasis> rather than <emphasis role="italic">negative</emphasis> examples, ought to be distinguished from the phenomenon of trying to preserve the belief you started with. “Positive bias” is sometimes used as a synonym for “confirmation bias,” and fits this particular flaw much better.</para>
-<para>It once seemed that phlogiston theory could explain a flame going out in an enclosed box (the air became saturated with phlogiston and no more could be released). But phlogiston theory could just as well have explained the flame <emphasis role="italic">not</emphasis> going out. To notice this, you have to search for negative examples instead of positive examples, look into zero instead of one; which goes against the grain of what experiment has shown to be human instinct.</para>
-<para>For by instinct, we human beings only live in half the world.</para>
-<para>One may be lectured on positive bias for days, and yet overlook it in-the-moment. Positive bias is not something we do as a matter of logic, or even as a matter of emotional attachment. The 2-4-6 task is “cold,” logical, not affectively “hot.” And yet the mistake is sub-verbal, on the level of imagery, of instinctive reactions. Because the problem doesn’t arise from following a deliberate rule that says “Only think about positive examples,” it can’t be solved just by knowing verbally that “We ought to think about both positive and negative examples.” Which example automatically pops into your head? You have to learn, wordlessly, to zag instead of zig. You have to learn to flinch toward the zero, instead of away from it.</para>
-<para>I have been writing for quite some time now on the notion that the strength of a hypothesis is what it <emphasis role="italic">can’t</emphasis> explain, not what it <emphasis role="italic">can</emphasis>—if you are equally good at explaining any outcome, you have zero knowledge. So to spot an explanation that isn’t helpful, it’s not enough to think of what it does explain very well—you also have to search for results it <emphasis role="italic">couldn’t</emphasis> explain, and this is the true strength of the theory.</para>
-<para>So I said all this, and then I challenged the usefulness of “emergence” as a concept. One commenter cited superconductivity and ferromagnetism as examples of emergence. I replied that non-superconductivity and non-ferromagnetism were also examples of emergence, which was the problem. But be it far from me to criticize the commenter! Despite having read extensively on “confirmation bias,” I didn’t spot the “gotcha” in the 2-4-6 task the first time I read about it. It’s a subverbal blink-reaction that has to be retrained. I’m still working on it myself.</para>
-<para>So much of a rationalist’s skill is below the level of words. It makes for challenging work in trying to convey the Art through words. People will agree with you, but then, in the next sentence, do something subdeliberative that goes in the opposite direction. Not that I’m complaining! A major reason I’m writing this is to observe what my words <emphasis role="italic">haven’t</emphasis> conveyed.</para>
-<para>Are you searching for positive examples of positive bias right now, or sparing a fraction of your search on what positive bias should lead you to <emphasis role="italic">not</emphasis> see? Did you look toward light or darkness?</para>
+<para>После этого студент записал свою версию правила. Как <emphasis role="italic">вы</emphasis> думаете, что он написал? А вы бы тоже остановились здесь или хотели бы протестировать еще триплет чисел? Если да, то какой? Остановитесь здесь и немного подумайте, прежде чем продолжить чтение.</para>
+<para>Вышеприведенное упражнение основано на классическом эксперименте Питера Уэйсона, задаче «2-4-6». Несмотря на то, что испытуемые, которым дают эту задачу, выражают большую уверенность в своих предположениях, только 21% из них успешно угадывают задуманное экспериментатором правило, и все повторные опыты продолжали показывать тот же уровень успехов в районе 20%.</para>
+<para>Исследование называлось «On the failure to eliminate hypotheses in a conceptual task» (Еженедельник экспериментальной психологии 12: 129-140, 1960). Испытуемые, которым предлагалась задача «2-4-6», обычно пытались придумать <emphasis role="italic">положительные</emphasis> примеры, а не <emphasis role="italic">негативные</emphasis> — они применяли гипотетическое правило для создания триплета, а потом смотрели, будет ли он отмечен как «да».</para>
+<para>Таким образом, кто-то, кто формирует гипотезу «числа, каждое из которых больше предыдущего на два», тестирует триплет 8-10-12, видит, что подходит и уверенно объявляет свое правило. Кто-то, кто формирует гипотезу Х-2Х-3Х, тестирует триплет 3-6-9, обнаруживает, что триплет подходит, и тоже объявит правило.</para>
+<para>В каждом из этих случаев настоящее правило одно и то же: три любых числа в порядке возрастания.</para>
+<para>Однако, чтобы додуматься до этого, вы должны придумывать триплеты, которые <emphasis role="italic">не должны быть</emphasis> правильными, такие как 20-23-26 и проверять, будут ли они отмечены как «нет». Что люди обычно не склонны делать в этом эксперименте. В некоторых случаях испытуемые изобретают, «тестируют» и объявляют правила куда более сложные, чем настоящий ответ.</para>
+<para>Данное когнитивное явление часто валят в одну кучу с предвзятостью подтверждения. Однако, на мой взгляд, явление склонности тестирования <emphasis role="italic">положительных</emphasis> примеров, а не <emphasis role="italic">отрицательных</emphasis>, следует отделять от явления стремления защитить изначальное убеждение. «Положительное искажение» иногда используется как синоним для предвзятости подтверждения и может описывать данный недостаток куда лучше.</para>
+<para>Раньше казалось, что теория флогистона может объяснить прекращение огня в закрытой коробке (воздух переполнился флогистоном и больше не может вместить), но теория флогистона точно так же могла бы объяснить и тот вариант, если бы огонь продолжал гореть. Чтобы заметить это, вы должны искать негативные примеры вместо положительных, смотреть на ноль, а не на единицу; что, как показал эксперимент, идет вразрез с человеческим инстинктом.</para>
+<para>Следуя инстинкту, мы живем в половинчатом мире.</para>
+<para>Можно днями читать про положительное искажение и всё еще не увидеть его в момент срабатывания. Положительное искажение работает не на уровне логики или даже эмоциональной привязанности. Задача 2-4-6 «холодная», логичная, не эмоционально «горячая». Ошибка находится ниже уровня слов, на уровне образов, инстинктивных реакций. Поскольку проблема появляется не из-за следования осознанному правилу, которое говорит «Думай только о положительных примерах», ее нельзя решить, сказав вслух «Мы должны думать как о положительных, так и о негативных примерах». Какие примеры автоматически всплывают в вашей голове? Вы должны уметь еще до вербального формулирования думать о негативном примере, а не о положительном. Вы должны научиться поворачиваться лицом к нулю, а не убегать от него.</para>
+<para>Некоторое время назад я писал, что сила гипотезы определяется тем, что она <emphasis role="italic">не может</emphasis>объяснить, а не тем что <emphasis role="italic">может</emphasis>— если вы одинаково легко объясняете любой исход, то у вас ноль знаний. Так, чтобы указать на то, что объяснение не является полезным, недостаточно задуматься над тем, что оно может объяснить хорошо — вам нужно также искать результаты, которые <emphasis role="italic">нельзя</emphasis> объяснить, это и будет истинной силой теории.</para>
+<para>Теперь, после всего сказанного напомню, что вчера я бросил вызов «сложности» как понятию. Один комментатор привел сверхпроводимость и ферромагнетизм как примеры сложности. Я ответил, что несверхпроводимость и неферромагнетизм тоже примеры сложности, в чём и состоит проблема. Но я не имел в виду критиковать комментатора! Несмотря на то, что я много читал про предвзятость подтверждения, я не воскликнул «Эврика!», когда в первый раз прочитал про задачу «2-4-6». Это невербальная реакция, работающая очень быстро, и которую надо тренировать заново. Сам я всё еще работаю над этим.</para>
+<para>Так что большая часть навыка рационалиста находится за пределами уровня слов. Это делает трудной работу по попыткам передать Искусство через посты в блоге. Люди согласятся с вами, а уже в следующем предложении сделают нечто, ведущее совершенно в другом направлении. Не подумайте, что я жалуюсь! Основная причина, по которой я пишу здесь — наблюдать, какие из моих слов <emphasis role="italic">не</emphasis> передаются.</para>
+<para>Прямо сейчас вы ищете положительные примеры положительного искажения или ищете, что вы могли <emphasis role="italic">не</emphasis> увидеть из-за положительного искажения? Вы смотрите во свет или во тьму?</para>
 
   
 </section>
